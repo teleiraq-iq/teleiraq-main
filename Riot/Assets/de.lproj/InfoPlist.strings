@@ -1,0 +1,9 @@
+// Permissions usage explanations
+"NSCameraUsageDescription" = "Die Kamera wird verwendet, um Videoanrufe zu führen oder Fotos und Videos aufzunehmen und hochzuladen.";
+"NSPhotoLibraryUsageDescription" = "Erlaube den Zugriff auf Fotos, um Fotos und Videos aus deiner Bibliothek hochzuladen.";
+"NSMicrophoneUsageDescription" = "Element benötigt Zugriff auf das Mikrofon, um Anrufe zu tätigen und entgegenzunehmen, Videos aufzunehmen und Sprachnachrichten zu erstellen.";
+"NSContactsUsageDescription" = "Diese werden mit deinem Identitätsserver geteilt, um dir beim Finden deiner Kontakte auf Matrix zu helfen.";
+"NSCalendarsUsageDescription" = "Zeige deine geplanten Termine in der App an.";
+"NSFaceIDUsageDescription" = "Face ID wird für den Zugriff auf deine App verwendet.";
+"NSLocationWhenInUseUsageDescription" = "Wenn du deinen Standort mit anderen teilst, benötigt Element Zugriff, um eine Karte anzuzeigen.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Wenn du deinen Standort mit anderen teilst, benötigt Element Zugriff, um eine Karte anzuzeigen.";
