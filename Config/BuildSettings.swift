@@ -216,7 +216,7 @@ final class BuildSettings: NSObject {
     // Jitsi server used outside integrations to create conference calls from the call button in the timeline.
     // Setting this to nil effectively disables Jitsi conference calls (given that there is no wellknown override).
     // Note: this will not remove the conference call button, use roomScreenAllowVoIPForNonDirectRoom setting.
-    static let jitsiServerUrl: URL? = URL(string: "https://jitsi.riot.im")
+    static let jitsiServerUrl: URL? = URL(string: "https://jitsi.teleiraq.com")
 
     
     // MARK: - Features
@@ -240,7 +240,7 @@ final class BuildSettings: NSObject {
     
     // MARK: - Side Menu
     static let enableSideMenu: Bool = true && !newAppLayoutEnabled
-    static let sideMenuShowInviteFriends: Bool = true
+    static let sideMenuShowInviteFriends: Bool = false
 
     /// Whether to read the `io.element.functional_members` state event and exclude any service members when computing a room's name and avatar.
     static let supportFunctionalMembers: Bool = true

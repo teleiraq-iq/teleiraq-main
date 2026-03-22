@@ -44,7 +44,6 @@ typedef NS_ENUM(NSUInteger, SECTION_TAG)
     SECTION_TAG_LINKS,
     SECTION_TAG_SECURITY,
     SECTION_TAG_NOTIFICATIONS,
-    SECTION_TAG_CALLS,
     SECTION_TAG_DISCOVERY,
     SECTION_TAG_IDENTITY_SERVER,
     SECTION_TAG_LOCAL_CONTACTS,
@@ -448,29 +447,29 @@ SSOAuthenticationPresenterDelegate>
     
     if (BuildSettings.allowVoIPUsage && BuildSettings.stunServerFallbackUrlString && RiotSettings.shared.settingsScreenShowEnableStunServerFallback)
     {
-        Section *sectionCalls = [Section sectionWithTag:SECTION_TAG_CALLS];
-        sectionCalls.headerTitle = [VectorL10n settingsCallsSettings];
+//        Section *sectionCalls = [Section sectionWithTag:SECTION_TAG_CALLS];
+//        sectionCalls.headerTitle = [VectorL10n settingsCallsSettings];
         
         // Remove "stun:"
         NSString* stunFallbackHost = [BuildSettings.stunServerFallbackUrlString componentsSeparatedByString:@":"].lastObject;
-        sectionCalls.footerTitle = [VectorL10n settingsCallsStunServerFallbackDescription:stunFallbackHost];
-
-        [sectionCalls addRowWithTag:CALLS_ENABLE_STUN_SERVER_FALLBACK_INDEX];
-        [tmpSections addObject:sectionCalls];
+//        sectionCalls.footerTitle = [VectorL10n settingsCallsStunServerFallbackDescription:stunFallbackHost];
+//
+//        [sectionCalls addRowWithTag:CALLS_ENABLE_STUN_SERVER_FALLBACK_INDEX];
+//        [tmpSections addObject:sectionCalls];
     }
     
-    if (BuildSettings.settingsScreenShowDiscoverySettings)
-    {
-        Section *sectionDiscovery = [Section sectionWithTag:SECTION_TAG_DISCOVERY];
-        NSInteger count = self.settingsDiscoveryTableViewSection.numberOfRows;
-        for (NSInteger index = 0; index < count; index++)
-        {
-            [sectionDiscovery addRowWithTag:index];
-        }
-        sectionDiscovery.headerTitle = [VectorL10n settingsDiscoverySettings];
-        sectionDiscovery.attributedFooterTitle = self.settingsDiscoveryTableViewSection.attributedFooterTitle;
-        [tmpSections addObject:sectionDiscovery];
-    }
+//    if (BuildSettings.settingsScreenShowDiscoverySettings)
+//    {
+//        Section *sectionDiscovery = [Section sectionWithTag:SECTION_TAG_DISCOVERY];
+//        NSInteger count = self.settingsDiscoveryTableViewSection.numberOfRows;
+//        for (NSInteger index = 0; index < count; index++)
+//        {
+//            [sectionDiscovery addRowWithTag:index];
+//        }
+//        sectionDiscovery.headerTitle = [VectorL10n settingsDiscoverySettings];
+//        sectionDiscovery.attributedFooterTitle = self.settingsDiscoveryTableViewSection.attributedFooterTitle;
+//        [tmpSections addObject:sectionDiscovery];
+//    }
     
     if (BuildSettings.settingsScreenAllowIdentityServerConfig)
     {
@@ -2137,20 +2136,20 @@ SSOAuthenticationPresenterDelegate>
             [cell vc_setAccessoryDisclosureIndicatorWithCurrentTheme];
         }
     }
-    else if (section == SECTION_TAG_CALLS)
-    {
-        if (row == CALLS_ENABLE_STUN_SERVER_FALLBACK_INDEX)
-        {
-            MXKTableViewCellWithLabelAndSwitch* labelAndSwitchCell = [self getLabelAndSwitchCell:tableView forIndexPath:indexPath];
-            labelAndSwitchCell.mxkLabel.text = [VectorL10n settingsCallsStunServerFallbackButton];
-            labelAndSwitchCell.mxkSwitch.on = RiotSettings.shared.allowStunServerFallback;
-            labelAndSwitchCell.mxkSwitch.onTintColor = ThemeService.shared.theme.tintColor;
-            labelAndSwitchCell.mxkSwitch.enabled = YES;
-            [labelAndSwitchCell.mxkSwitch addTarget:self action:@selector(toggleStunServerFallback:) forControlEvents:UIControlEventTouchUpInside];
-
-            cell = labelAndSwitchCell;
-        }
-    }
+//    else if (section == SECTION_TAG_CALLS)
+//    {
+//        if (row == CALLS_ENABLE_STUN_SERVER_FALLBACK_INDEX)
+//        {
+//            MXKTableViewCellWithLabelAndSwitch* labelAndSwitchCell = [self getLabelAndSwitchCell:tableView forIndexPath:indexPath];
+//            labelAndSwitchCell.mxkLabel.text = [VectorL10n settingsCallsStunServerFallbackButton];
+//            labelAndSwitchCell.mxkSwitch.on = RiotSettings.shared.allowStunServerFallback;
+//            labelAndSwitchCell.mxkSwitch.onTintColor = ThemeService.shared.theme.tintColor;
+//            labelAndSwitchCell.mxkSwitch.enabled = YES;
+//            [labelAndSwitchCell.mxkSwitch addTarget:self action:@selector(toggleStunServerFallback:) forControlEvents:UIControlEventTouchUpInside];
+//
+//            cell = labelAndSwitchCell;
+//        }
+//    }
     else if (section == SECTION_TAG_DISCOVERY)
     {
         cell = [self.settingsDiscoveryTableViewSection cellForRowAtRow:row];
@@ -2487,16 +2486,16 @@ SSOAuthenticationPresenterDelegate>
             
             cell = privacyPolicyCell;
         }
-        else if (row == ABOUT_THIRD_PARTY_INDEX)
-        {
-            MXKTableViewCell *thirdPartyCell = [self getDefaultTableViewCell:tableView];
-            
-            thirdPartyCell.textLabel.text = [VectorL10n settingsThirdPartyNotices];
-            
-            [thirdPartyCell vc_setAccessoryDisclosureIndicatorWithCurrentTheme];
-            
-            cell = thirdPartyCell;
-        }
+//        else if (row == ABOUT_THIRD_PARTY_INDEX)
+//        {
+//            MXKTableViewCell *thirdPartyCell = [self getDefaultTableViewCell:tableView];
+//            
+//            thirdPartyCell.textLabel.text = [VectorL10n settingsThirdPartyNotices];
+//            
+//            [thirdPartyCell vc_setAccessoryDisclosureIndicatorWithCurrentTheme];
+//            
+//            cell = thirdPartyCell;
+//        }
     }
     else if (section == SECTION_TAG_LABS)
     {

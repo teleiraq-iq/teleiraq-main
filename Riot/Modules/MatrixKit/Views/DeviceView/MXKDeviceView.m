@@ -156,16 +156,6 @@ static NSAttributedString *verticalWhitespace = nil;
             [deviceInformationString appendAttributedString:[MXKDeviceView verticalWhitespace]];
             
             [deviceInformationString appendAttributedString:[[NSMutableAttributedString alloc]
-                                                             initWithString:[VectorL10n deviceDetailsIdentifier]
-                                                             attributes:@{NSForegroundColorAttributeName : _defaultTextColor,
-                                                                          NSFontAttributeName: [UIFont boldSystemFontOfSize:14]}]];
-            [deviceInformationString appendAttributedString:[[NSMutableAttributedString alloc]
-                                                             initWithString:device.deviceId
-                                                             attributes:@{NSForegroundColorAttributeName : _defaultTextColor,
-                                                                          NSFontAttributeName: [UIFont systemFontOfSize:14]}]];
-            [deviceInformationString appendAttributedString:[MXKDeviceView verticalWhitespace]];
-            
-            [deviceInformationString appendAttributedString:[[NSMutableAttributedString alloc]
                                                       initWithString:[VectorL10n deviceDetailsLastSeen]
                                                       attributes:@{NSForegroundColorAttributeName : _defaultTextColor,
                                                                    NSFontAttributeName: [UIFont boldSystemFontOfSize:14]}]];
@@ -244,12 +234,10 @@ static NSAttributedString *verticalWhitespace = nil;
 {
     if (!self.delegate)
     {
-        // Ignore
         MXLogDebug(@"[MXKDeviceView] Rename device failed, delegate is missing");
         return;
     }
     
-    // Prompt the user to enter a device name.
     [currentAlert dismissViewControllerAnimated:NO completion:nil];
     __weak typeof(self) weakSelf = self;
     
@@ -310,7 +298,6 @@ static NSAttributedString *verticalWhitespace = nil;
                                                                {
                                                                    typeof(self) self = weakSelf;
                                                                    
-                                                                   // Notify MatrixKit user
                                                                    NSString *myUserId = self->mxSession.myUser.userId;
                                                                    [[NSNotificationCenter defaultCenter] postNotificationName:kMXKErrorNotification object:error userInfo:myUserId ? @{kMXKErrorUserIdKey: myUserId} : nil];
                                                                    
@@ -335,19 +322,16 @@ static NSAttributedString *verticalWhitespace = nil;
 {
     if (!self.delegate)
     {
-        // Ignore
         MXLogDebug(@"[MXKDeviceView] Delete device failed, delegate is missing");
         return;
     }
     
-    // Get an authentication session to prepare device deletion
     [self.activityIndicator startAnimating];
     
     mxCurrentOperation = [mxSession.matrixRestClient getSessionToDeleteDeviceByDeviceId:mxDevice.deviceId success:^(MXAuthenticationSession *authSession) {
         
         self->mxCurrentOperation = nil;
 
-        // Check whether the password based type is supported
         BOOL isPasswordBasedTypeSupported = NO;
         for (MXLoginFlow *loginFlow in authSession.flows)
         {
@@ -360,14 +344,11 @@ static NSAttributedString *verticalWhitespace = nil;
         
         if (isPasswordBasedTypeSupported && authSession.session)
         {
-            // Prompt for a password
             [self->currentAlert dismissViewControllerAnimated:NO completion:nil];
             
             __weak typeof(self) weakSelf = self;
             
-            // Prompt the user before deleting the device.
             self->currentAlert = [UIAlertController alertControllerWithTitle:[VectorL10n deviceDetailsDeletePromptTitle] message:[VectorL10n deviceDetailsDeletePromptMessage] preferredStyle:UIAlertControllerStyleAlert];
-            
             
             [self->currentAlert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
                 
@@ -402,14 +383,12 @@ static NSAttributedString *verticalWhitespace = nil;
                                                                    NSString *userId = self->mxSession.myUser.userId;
                                                                    NSDictionary *authParams;
                                                                    
-                                                                   // Sanity check
                                                                    if (userId)
                                                                    {
                                                                        authParams = @{@"session":authSession.session,
                                                                                       @"user": userId,
                                                                                       @"password": textField.text,
                                                                                       @"type": kMXLoginFlowTypePassword};
-                                                                       
                                                                    }
                                                                    
                                                                    self->mxCurrentOperation = [self->mxSession.matrixRestClient deleteDeviceByDeviceId:self->mxDevice.deviceId authParams:authParams success:^{
@@ -430,7 +409,6 @@ static NSAttributedString *verticalWhitespace = nil;
                                                                        {
                                                                            typeof(self) self = weakSelf;
                                                                            
-                                                                           // Notify MatrixKit user
                                                                            NSString *myUserId = self->mxSession.myUser.userId;
                                                                            [[NSNotificationCenter defaultCenter] postNotificationName:kMXKErrorNotification object:error userInfo:myUserId ? @{kMXKErrorUserIdKey: myUserId} : nil];
                                                                            
@@ -463,7 +441,6 @@ static NSAttributedString *verticalWhitespace = nil;
         MXLogDebug(@"[MXKDeviceView] Delete device (%@) failed, unable to get auth session", self->mxDevice.deviceId);
         [self.activityIndicator stopAnimating];
         
-        // Notify MatrixKit user
         NSString *myUserId = self->mxSession.myUser.userId;
         [[NSNotificationCenter defaultCenter] postNotificationName:kMXKErrorNotification object:error userInfo:myUserId ? @{kMXKErrorUserIdKey: myUserId} : nil];
     }];

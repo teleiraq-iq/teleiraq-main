@@ -97,13 +97,14 @@ Please see LICENSE in the repository root for full details.
     }
 
     // Prepare its data source
-    ContactsDataSource *dataSource = [[ContactsDataSource alloc] initWithMatrixSession:self.mainSession]; // TO TEST
+    ContactsDataSource *dataSource = [[ContactsDataSource alloc] initWithMatrixSession:self.mainSession];
     dataSource.areSectionsShrinkable = YES;
-    dataSource.displaySearchInputInContactsList = YES;
+    dataSource.displaySearchInputInContactsList = NO;
+//    dataSource.hideNonMatrixEnabledContacts = YES;
     dataSource.forceMatrixIdInDisplayName = YES;
-    // Add a plus icon to the contact cell when a search session is in progress,
-    // in order to make it more understandable for the end user.
     dataSource.contactCellAccessoryImage = [AssetImages.plusIcon.image vc_tintedImageUsingColor:ThemeService.shared.theme.textPrimaryColor];
+    dataSource.showLocalContacts = NO;
+
 
     [self displayList:dataSource];
 
@@ -115,7 +116,7 @@ Please see LICENSE in the repository root for full details.
     
     _searchBarView.placeholder = [VectorL10n roomCreationInviteAnotherUser];
     _searchBarView.returnKeyType = UIReturnKeyDone;
-    _searchBarView.autocapitalizationType = UITextAutocapitalizationTypeNone;    
+    _searchBarView.autocapitalizationType = UITextAutocapitalizationTypeNone;
     [self refreshSearchBarItemsColor:_searchBarView];
     
     [self.contactsTableView registerClass:ContactTableViewCell.class forCellReuseIdentifier:@"ParticipantTableViewCellId"];
@@ -123,7 +124,7 @@ Please see LICENSE in the repository root for full details.
     // Redirect table data source
     self.contactsTableView.dataSource = self;
     
-    [self setupInviteFriendsHeaderView];
+    // [self setupInviteFriendsHeaderView];
 }
 
 - (void)setupInviteFriendsHeaderView
@@ -422,7 +423,6 @@ Please see LICENSE in the repository root for full details.
                                    animated:YES];
 }
 
-
 #pragma mark - UITableView data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -430,7 +430,7 @@ Please see LICENSE in the repository root for full details.
     NSInteger count = 0;
     
     // Do not show invite friends action when a participant is selected
-    [self showInviteFriendsHeaderView:!participants.count];
+    [self showInviteFriendsHeaderView:NO];
     
     if (_isAddParticipantSearchBarEditing)
     {
@@ -816,8 +816,6 @@ Please see LICENSE in the repository root for full details.
     leftImageView.tintColor = ThemeService.shared.theme.textSecondaryColor;
     
     // Use the theme's grey color.
-    // The effect views are needed due to minimal style.
-    // With default style there is a border above the search bar.
     searchBarTextField.backgroundColor = ThemeService.shared.theme.textQuinaryColor;
     UIView *effectBackgroundTop = [searchBarTextField valueForKey:@"_effectBackgroundTop"];
     UIView *effectBackgroundBottom = [searchBarTextField valueForKey:@"_effectBackgroundBottom"];
@@ -834,7 +832,6 @@ Please see LICENSE in the repository root for full details.
         if ([MXTools isMatrixUserIdentifier:searchText])
         {
             contact = [[MXKContact alloc] initMatrixContactWithDisplayName:searchText andMatrixID:searchText];
-
         }
         else if ([MXTools isEmailAddress:searchText])
         {
@@ -924,7 +921,6 @@ Please see LICENSE in the repository root for full details.
 #pragma mark - InviteFriendsHeaderViewDelegate
 
 - (void)inviteFriendsHeaderView:(InviteFriendsHeaderView *)headerView didTapButton:(UIButton *)button
-
 {
     [self showInviteFriendsFromSourceView:button];
 }

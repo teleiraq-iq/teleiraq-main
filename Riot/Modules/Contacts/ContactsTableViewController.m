@@ -179,7 +179,7 @@ Please see LICENSE in the repository root for full details.
     [self refreshContactsTable];
     
     // Show the contacts access footer if necessary.
-    [self updateFooterViewVisibility];
+//    [self updateFooterViewVisibility];
     [self.screenTracker trackScreen];
 }
 
@@ -228,33 +228,33 @@ Please see LICENSE in the repository root for full details.
  in the table, hiding the find your contacts footer if so. Otherwise the footer is shown
  so long as it hasn't been disabled.
  */
-- (void)updateFooterViewVisibility
-{
-    if (!BuildSettings.allowLocalContactsAccess || self.disableFindYourContactsFooter)
-    {
-        self.contactsTableView.tableFooterView = [[UIView alloc] init];
-        return;
-    }
-    
-    // With contacts access granted, contact sync enabled and an identity server, the footer can be hidden.
-    if ([CNContactStore authorizationStatusForEntityType:CNEntityTypeContacts] == CNAuthorizationStatusAuthorized
-        && MXKAppSettings.standardAppSettings.syncLocalContacts
-        && contactsDataSource.mxSession.identityService.areAllTermsAgreed)
-    {
-        self.contactsTableView.tableFooterView = [[UIView alloc] init];
-        return;
-    }
-    
-    // If the footer is to be shown, hide it when there's an active search.
-    if (self.contactsAreFilteredWithSearch)
-    {
-        self.contactsTableView.tableFooterView = [[UIView alloc] init];
-        return;
-    }
-    
-    self.contactsTableView.tableFooterView = self.findYourContactsFooterView ?: [self makeFooterView];
-    [self updateFooterViewHeight];
-}
+//- (void)updateFooterViewVisibility
+//{
+//    if (!BuildSettings.allowLocalContactsAccess || self.disableFindYourContactsFooter)
+//    {
+//        self.contactsTableView.tableFooterView = [[UIView alloc] init];
+//        return;
+//    }
+//    
+//    // With contacts access granted, contact sync enabled and an identity server, the footer can be hidden.
+//    if ([CNContactStore authorizationStatusForEntityType:CNEntityTypeContacts] == CNAuthorizationStatusAuthorized
+//        && MXKAppSettings.standardAppSettings.syncLocalContacts
+//        && contactsDataSource.mxSession.identityService.areAllTermsAgreed)
+//    {
+//        self.contactsTableView.tableFooterView = [[UIView alloc] init];
+//        return;
+//    }
+//    
+//    // If the footer is to be shown, hide it when there's an active search.
+//    if (self.contactsAreFilteredWithSearch)
+//    {
+//        self.contactsTableView.tableFooterView = [[UIView alloc] init];
+//        return;
+//    }
+//    
+//    self.contactsTableView.tableFooterView = self.findYourContactsFooterView ?: [self makeFooterView];
+//    [self updateFooterViewHeight];
+//}
 
 /**
  Updates the height of the find your contacts footer to fill all available space.
@@ -378,7 +378,7 @@ Please see LICENSE in the repository root for full details.
     if (_contactsAreFilteredWithSearch != contactsAreFilteredWithSearch)
     {
         _contactsAreFilteredWithSearch = contactsAreFilteredWithSearch;
-        [self updateFooterViewVisibility];
+//        [self updateFooterViewVisibility];
     }
 }
 
@@ -603,7 +603,7 @@ Please see LICENSE in the repository root for full details.
     [self refreshLocalContacts];
     
     // Hide the find your contacts footer.
-    [self updateFooterViewVisibility];
+//    [self updateFooterViewVisibility];
 }
 
 #pragma mark - Identity server service terms
