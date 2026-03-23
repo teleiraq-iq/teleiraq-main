@@ -1,8 +1,17 @@
+//
+// Copyright 2021-2024 New Vector Ltd.
+//
+// SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
+// Please see LICENSE files in the repository root for full details.
+//
+
 import Foundation
 
 // MARK: View model
 
 enum AuthenticationLoginViewModelResult: CustomStringConvertible {
+    /// The user would like to select another server.
+    case selectServer
     /// Parse the username and update the homeserver if included.
     case parseUsername(String)
     /// The user would like to reset their password.
@@ -19,6 +28,8 @@ enum AuthenticationLoginViewModelResult: CustomStringConvertible {
     /// A string representation of the result, ignoring any associated values that could leak PII.
     var description: String {
         switch self {
+        case .selectServer:
+            return "selectServer"
         case .parseUsername:
             return "parseUsername"
         case .forgotPassword:
@@ -71,6 +82,8 @@ struct AuthenticationLoginBindings {
 }
 
 enum AuthenticationLoginViewAction {
+    /// The user would like to select another server.
+    case selectServer
     /// Parse the username to detect if a homeserver is included.
     case parseUsername
     /// The user would like to reset their password.
@@ -93,3 +106,5 @@ enum AuthenticationLoginErrorType: Hashable {
     /// The response from the homeserver was unexpected.
     case unknown
 }
+
+

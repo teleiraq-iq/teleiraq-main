@@ -29,6 +29,8 @@ class AuthenticationLoginViewModel: AuthenticationLoginViewModelType, Authentica
 
     override func process(viewAction: AuthenticationLoginViewAction) {
         switch viewAction {
+        case .selectServer:
+            Task { await callback?(.selectServer) }
         case .parseUsername:
             Task { await callback?(.parseUsername(state.bindings.username)) }
         case .forgotPassword:
@@ -68,4 +70,6 @@ class AuthenticationLoginViewModel: AuthenticationLoginViewModelType, Authentica
         }
     }
 }
+
+
 

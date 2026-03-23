@@ -109,6 +109,8 @@ final class AuthenticationLoginCoordinator: Coordinator, Presentable {
             MXLog.debug("[AuthenticationLoginCoordinator] AuthenticationLoginViewModel did callback with result: \(result).")
             
             switch result {
+            case .selectServer:
+                self.presentServerSelectionScreen()
             case .parseUsername(let username):
                 self.parseUsername(username)
             case .forgotPassword:
@@ -210,6 +212,38 @@ final class AuthenticationLoginCoordinator: Coordinator, Presentable {
             }
         }
     }
+    
+    /// Presents the server selection screen as a modal.
+    @MainActor private func presentServerSelectionScreen() {
+        MXLog.debug("[AuthenticationLoginCoordinator] presentServerSelectionScreen")
+        let parameters = AuthenticationServerSelectionCoordinatorParameters(authenticationService: authenticationService,
+                                                                            flow: .login,
+                                                                            hasModalPresentation: true)
+        let coordinator = AuthenticationServerSelectionCoordinator(parameters: parameters)
+        coordinator.callback = { [weak self, weak coordinator] result in
+            guard let self = self, let coordinator = coordinator else { return }
+            self.serverSelectionCoordinator(coordinator, didCompleteWith: result)
+        }
+        
+        coordinator.start()
+        add(childCoordinator: coordinator)
+        
+        let modalRouter = NavigationRouter()
+        modalRouter.setRootModule(coordinator)
+        
+        navigationRouter.present(modalRouter, animated: true)
+    }
+    
+    /// Handles the result from the server selection modal, dismissing it after updating the view.
+    @MainActor private func serverSelectionCoordinator(_ coordinator: AuthenticationServerSelectionCoordinator,
+                                                       didCompleteWith result: AuthenticationServerSelectionCoordinatorResult) {
+        navigationRouter.dismissModule(animated: true) { [weak self] in
+            if result == .updated {
+                self?.updateViewModel()
+            }
+            self?.remove(childCoordinator: coordinator)
+        }
+    }
 
     /// Shows the forgot password screen.
     @MainActor private func showForgotPasswordScreen() {
@@ -283,3 +317,4 @@ final class AuthenticationLoginCoordinator: Coordinator, Presentable {
         }
     }
 }
+

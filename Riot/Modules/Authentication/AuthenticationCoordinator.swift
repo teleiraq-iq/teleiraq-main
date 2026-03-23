@@ -125,19 +125,28 @@ final class AuthenticationCoordinator: NSObject, AuthenticationCoordinatorProtoc
             }
 
             await showSoftLogoutScreen(softLogoutCredentials)
+
             return
         }
 
         let flow: AuthenticationFlow = initialScreen == .login ? .login : .register
 
+        // Check if the user must select a server
+        if BuildSettings.forceHomeserverSelection, authenticationService.provisioningLink?.homeserverUrl == nil {
+            showServerSelectionScreen(for: flow)
+            return
+        }
+        
         var showReplacementAppBanner = false
         do {
+            // Start the flow (if homeserverAddress is nil, the default server will be used).
             try await authenticationService.startFlow(flow)
         } catch RegistrationError.delegatedOIDCRequiresReplacementApp where BuildSettings.replacementApp != nil {
+            // The flow can continue, allowing the Registration Screen to display the banner.
             showReplacementAppBanner = true
         } catch {
-            MXLog.error("[AuthenticationCoordinator] start: Failed to start.")
-            displayError(message: error.localizedDescription)
+            MXLog.error("[AuthenticationCoordinator] start: Failed to start, showing server selection.")
+            showServerSelectionScreen(for: flow)
             return
         }
 
@@ -154,6 +163,42 @@ final class AuthenticationCoordinator: NSObject, AuthenticationCoordinatorProtoc
             } else {
                 showLoginScreen()
             }
+        }
+    }
+    
+    /// Pushes the server selection screen into the flow (other screens may also present it modally later).
+    @MainActor private func showServerSelectionScreen(for flow: AuthenticationFlow) {
+        MXLog.debug("[AuthenticationCoordinator] showServerSelectionScreen")
+        let parameters = AuthenticationServerSelectionCoordinatorParameters(authenticationService: authenticationService,
+                                                                            flow: flow,
+                                                                            hasModalPresentation: false)
+        let coordinator = AuthenticationServerSelectionCoordinator(parameters: parameters)
+        coordinator.callback = { [weak self, weak coordinator] result in
+            guard let self = self, let coordinator = coordinator else { return }
+            self.serverSelectionCoordinator(coordinator, didCompleteWith: result, for: flow)
+        }
+        
+        coordinator.start()
+        add(childCoordinator: coordinator)
+        
+        navigationRouter.push(coordinator, animated: true) { [weak self] in
+            self?.remove(childCoordinator: coordinator)
+        }
+    }
+    
+    /// Shows the next screen in the flow after the server selection screen.
+    @MainActor private func serverSelectionCoordinator(_ coordinator: AuthenticationServerSelectionCoordinator,
+                                                       didCompleteWith result: AuthenticationServerSelectionCoordinatorResult,
+                                                       for flow: AuthenticationFlow) {
+        switch result {
+        case .updated:
+            if flow == .register {
+                showRegistrationScreen()
+            } else {
+                showLoginScreen()
+            }
+        case .dismiss:
+            MXLog.failure("[AuthenticationCoordinator] AuthenticationServerSelectionScreen is requesting dismiss when part of a stack.")
         }
     }
     
@@ -204,6 +249,7 @@ final class AuthenticationCoordinator: NSObject, AuthenticationCoordinatorProtoc
                 continuation.resume(with: .success(true))
             })
             
+            // The alert will be encountered on the current stack or when server selection is being presented.
             let presentingViewController = toPresentable().presentedViewController ?? toPresentable()
             presentingViewController.present(alert, animated: true, completion: nil)
         }
@@ -256,6 +302,7 @@ final class AuthenticationCoordinator: NSObject, AuthenticationCoordinatorProtoc
         let store = MXFileStore(credentials: credentials)
         let userDisplayName = await store.displayName(ofUserWithId: userId) ?? ""
 
+        // The backup is now handled by Rust
         let keyBackupNeeded = false
 
         let softLogoutCredentials = SoftLogoutCredentials(userId: userId,
@@ -290,7 +337,7 @@ final class AuthenticationCoordinator: NSObject, AuthenticationCoordinatorProtoc
         navigationRouter.setRootModule(coordinator, popCompletion: nil)
     }
     
-    /// Displays the next view in the flow based on the result from the login screen.
+    /// Displays the next view in the flow based on the result from the registration screen.
     @MainActor private func loginCoordinator(_ coordinator: AuthenticationLoginCoordinator,
                                              didCallbackWith result: AuthenticationLoginCoordinatorResult) {
         switch result {
@@ -313,6 +360,7 @@ final class AuthenticationCoordinator: NSObject, AuthenticationCoordinatorProtoc
     /// Shows the registration screen.
     @MainActor private func showRegistrationScreen(showReplacementAppBanner: Bool = false) {
         MXLog.debug("[AuthenticationCoordinator] showRegistrationScreen")
+        let homeserver = authenticationService.state.homeserver
         let parameters = AuthenticationRegistrationCoordinatorParameters(navigationRouter: navigationRouter,
                                                                          authenticationService: authenticationService,
                                                                          showReplacementAppBanner: showReplacementAppBanner)
@@ -414,7 +462,7 @@ final class AuthenticationCoordinator: NSObject, AuthenticationCoordinatorProtoc
         }
     }
     
-    /// Shows the verify MSISDN screen.
+    /// Shows the verify email screen.
     @MainActor private func showVerifyMSISDNScreen(registrationWizard: RegistrationWizard) {
         MXLog.debug("[AuthenticationCoordinator] showVerifyMSISDNScreen")
 
@@ -531,6 +579,7 @@ final class AuthenticationCoordinator: NSObject, AuthenticationCoordinatorProtoc
         var url = authenticationService.fallbackURL(for: flow)
 
         if let deviceId = deviceId {
+            //  add deviceId as `device_id` into the url
             guard var urlComponents = URLComponents(string: url.absoluteString) else {
                 MXLog.error("[AuthenticationCoordinator] showFallback: could not create url components")
                 return
@@ -563,7 +612,7 @@ final class AuthenticationCoordinator: NSObject, AuthenticationCoordinatorProtoc
 
     @objc
     private func dismissFallback() {
-        MXLog.debug("[AuthenticationCoordinator] dismissFallback")
+        MXLog.debug("[AuthenticationCoorrdinator] dismissFallback")
 
         guard let fallbackNavigationVC = navigationRouter.toPresentable().presentedViewController as? RiotNavigationController else {
             return
@@ -576,6 +625,9 @@ final class AuthenticationCoordinator: NSObject, AuthenticationCoordinatorProtoc
     private func showLoadingAnimation() {
         let loadingViewController = LaunchLoadingViewController(startupProgress: session?.startupProgress)
         loadingViewController.modalPresentationStyle = .fullScreen
+        
+        // Replace the navigation stack with the loading animation
+        // as there is nothing to navigate back to.
         navigationRouter.setRootModule(loadingViewController)
     }
     
@@ -731,9 +783,12 @@ extension AuthenticationCoordinator: KeyVerificationCoordinatorDelegate {
 // MARK: - UIAdaptivePresentationControllerDelegate
 extension AuthenticationCoordinator: UIAdaptivePresentationControllerDelegate {
     func presentationControllerShouldDismiss(_ presentationController: UIPresentationController) -> Bool {
+        // Prevent Key Verification from using swipe to dismiss
         return false
     }
 }
+
+
 
 // MARK: - Unused conformances
 extension AuthenticationCoordinator {

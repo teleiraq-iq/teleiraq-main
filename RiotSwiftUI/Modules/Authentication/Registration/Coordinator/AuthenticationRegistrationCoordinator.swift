@@ -105,6 +105,8 @@ final class AuthenticationRegistrationCoordinator: Coordinator, Presentable {
             MXLog.debug("[AuthenticationRegistrationCoordinator] AuthenticationRegistrationViewModel did complete with result: \(result).")
             
             switch result {
+            case .selectServer:
+                self.presentServerSelectionScreen()
             case .validateUsername(let username):
                 self.validateUsername(username)
             case .createAccount(let username, let password):
@@ -138,12 +140,10 @@ final class AuthenticationRegistrationCoordinator: Coordinator, Presentable {
     /// Updates the homeserver if a full MXID is entered, then requests whether the username is valid and available.
     @MainActor private func validateUsername(_ username: String) {
         guard MXTools.isMatrixUserIdentifier(username) else {
-            // Continue with availability check for a normal username.
             confirmAvailability(of: username)
             return
         }
         
-        // Otherwise split out the domain and username and update the homeserver first.
         let components = username.dropFirst().components(separatedBy: ":")
         let domain = components[1]
         let username = components[0]
@@ -232,7 +232,7 @@ final class AuthenticationRegistrationCoordinator: Coordinator, Presentable {
             case .loginFlowNotCalled:
                 #warning("Reset the flow")
             case .missingMXRestClient:
-                #warning("Forget the soft logout season")
+                #warning("Forget the soft logout session")
             }
             return
         }
@@ -252,6 +252,39 @@ final class AuthenticationRegistrationCoordinator: Coordinator, Presentable {
         authenticationRegistrationViewModel.displayError(.unknown)
     }
 
+    /// Presents the server selection screen as a modal.
+    @MainActor private func presentServerSelectionScreen() {
+        MXLog.debug("[AuthenticationRegistrationCoordinator] presentServerSelectionScreen")
+        let parameters = AuthenticationServerSelectionCoordinatorParameters(authenticationService: authenticationService,
+                                                                            flow: .register,
+                                                                            hasModalPresentation: true)
+        let coordinator = AuthenticationServerSelectionCoordinator(parameters: parameters)
+        coordinator.callback = { [weak self, weak coordinator] result in
+            guard let self = self, let coordinator = coordinator else { return }
+            self.serverSelectionCoordinator(coordinator, didCompleteWith: result)
+        }
+        
+        coordinator.start()
+        add(childCoordinator: coordinator)
+        
+        let modalRouter = NavigationRouter()
+        modalRouter.setRootModule(coordinator)
+        
+        navigationRouter.present(modalRouter, animated: true)
+    }
+    
+    /// Handles the result from the server selection modal, dismissing it after updating the view.
+    @MainActor private func serverSelectionCoordinator(_ coordinator: AuthenticationServerSelectionCoordinator,
+                                                       didCompleteWith result: AuthenticationServerSelectionCoordinatorResult) {
+        if result == .updated {
+            updateViewModelHomeserver()
+        }
+        
+        navigationRouter.dismissModule(animated: true) { [weak self] in
+            self?.remove(childCoordinator: coordinator)
+        }
+    }
+
     @MainActor private func updateViewModelHomeserver() {
         let homeserver = authenticationService.state.homeserver
         authenticationRegistrationViewModel.update(homeserver: homeserver.viewData)
@@ -269,3 +302,4 @@ final class AuthenticationRegistrationCoordinator: Coordinator, Presentable {
         }
     }
 }
+

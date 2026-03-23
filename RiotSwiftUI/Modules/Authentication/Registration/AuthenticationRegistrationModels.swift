@@ -10,6 +10,8 @@ import Foundation
 // MARK: View model
 
 enum AuthenticationRegistrationViewModelResult: CustomStringConvertible {
+    /// The user would like to select another server.
+    case selectServer
     /// Validate the supplied username with the homeserver.
     case validateUsername(String)
     /// Create an account using the supplied credentials.
@@ -24,6 +26,8 @@ enum AuthenticationRegistrationViewModelResult: CustomStringConvertible {
     /// A string representation of the result, ignoring any associated values that could leak PII.
     var description: String {
         switch self {
+        case .selectServer:
+            return "selectServer"
         case .validateUsername:
             return "validateUsername"
         case .createAccount:
@@ -124,6 +128,8 @@ struct AuthenticationRegistrationBindings {
 }
 
 enum AuthenticationRegistrationViewAction {
+    /// The user would like to select another server.
+    case selectServer
     /// Validate the supplied username with the homeserver.
     case validateUsername
     /// Allows password validation to take place (sent after editing the password for the first time).
@@ -156,3 +162,4 @@ enum AuthenticationRegistrationErrorType: Hashable {
     /// An unknown error occurred.
     case unknown
 }
+

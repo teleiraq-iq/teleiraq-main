@@ -30,6 +30,8 @@ class AuthenticationRegistrationViewModel: AuthenticationRegistrationViewModelTy
 
     override func process(viewAction: AuthenticationRegistrationViewAction) {
         switch viewAction {
+        case .selectServer:
+            Task { await callback?(.selectServer) }
         case .validateUsername:
             Task { await validateUsername() }
         case .enablePasswordValidation:
@@ -54,9 +56,6 @@ class AuthenticationRegistrationViewModel: AuthenticationRegistrationViewModelTy
     
     @MainActor func update(homeserver: AuthenticationHomeserverViewData) {
         state.homeserver = homeserver
-        
-        // Only the initial homeserver will ever need this, it isn't possible to update the
-        // server to another one that requires the replacement app as the selection will fail.
         state.showReplacementAppBanner = false
     }
     
@@ -102,7 +101,6 @@ class AuthenticationRegistrationViewModel: AuthenticationRegistrationViewModelTy
         if !state.hasEditedUsername {
             state.hasEditedUsername = true
         }
-        
         callback?(.validateUsername(state.bindings.username))
     }
     
