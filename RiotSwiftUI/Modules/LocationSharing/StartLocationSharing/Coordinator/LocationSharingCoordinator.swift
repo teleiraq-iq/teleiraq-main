@@ -114,7 +114,18 @@ final class LocationSharingCoordinator: Coordinator, Presentable {
     // MARK: - Private
     
     private func presentShareLocationActivity(with location: CLLocationCoordinate2D) {
-        locationSharingHostingController.present(Self.shareLocationActivityController(location), animated: true)
+        let activityController = Self.shareLocationActivityController(location)
+        
+        if let popover = activityController.popoverPresentationController {
+            popover.sourceView = locationSharingHostingController.view
+            popover.sourceRect = CGRect(x: locationSharingHostingController.view.bounds.midX,
+                                        y: locationSharingHostingController.view.bounds.midY,
+                                        width: 0,
+                                        height: 0)
+            popover.permittedArrowDirections = []
+        }
+        
+        locationSharingHostingController.present(activityController, animated: true)
     }
     
     private func shareStaticLocation(latitude: Double, longitude: Double, coordinateType: LocationSharingCoordinateType) {
@@ -181,9 +192,6 @@ final class LocationSharingCoordinator: Coordinator, Presentable {
     }
     
     private func showLabFlagPromotion(completion: @escaping ((Bool) -> Void)) {
-        // TODO: Use a NavigationRouter instead of using NavigationView inside LocationSharingView
-        // In order to use `NavigationRouter.present`
-        
         let coordinator = LiveLocationLabPromotionCoordinator()
         coordinator.start()
         
@@ -196,7 +204,19 @@ final class LocationSharingCoordinator: Coordinator, Presentable {
             }
         }
         
-        locationSharingHostingController.present(coordinator.toPresentable(), animated: true)
+        let presentable = coordinator.toPresentable()
+        
+        // Fix for iPad
+        if let popover = presentable.popoverPresentationController {
+            popover.sourceView = locationSharingHostingController.view
+            popover.sourceRect = CGRect(x: locationSharingHostingController.view.bounds.midX,
+                                        y: locationSharingHostingController.view.bounds.midY,
+                                        width: 0,
+                                        height: 0)
+            popover.permittedArrowDirections = []
+        }
+        
+        locationSharingHostingController.present(presentable, animated: true)
         
         add(childCoordinator: coordinator)
     }

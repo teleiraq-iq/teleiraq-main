@@ -112,10 +112,10 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
     - MatrixSDKCrypto
     - Sentry
   trunk:
-    - AFNetworking
     - BlueCryptor
     - BlueECC
     - BlueRSA
@@ -195,6 +195,6 @@ SPEC CHECKSUMS:
   zxcvbn-ios: fef98b7c80f1512ff0eec47ac1fa399fc00f7e3c
   ZXingObjC: 8898711ab495761b2dbbdec76d90164a6d7e14c5
 
-PODFILE CHECKSUM: 60f4fe3695f2304b9bba734acf38d59c79678ac1
+PODFILE CHECKSUM: 59e0530b404db6eab09ef7d8c9fd5a128328134d
 
 COCOAPODS: 1.16.2

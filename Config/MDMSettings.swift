@@ -11,9 +11,9 @@ enum MDMSettings {
     private static let appleManagedConfigurationKey = "com.apple.configuration.managed"
     
     private enum Key: String {
-        case serverConfigDefaultHomeserverUrlString = "im.vector.app.serverConfigDefaultHomeserverUrlString"
-        case serverConfigSygnalAPIUrlString = "im.vector.app.serverConfigSygnalAPIUrlString"
-        case clientPermalinkBaseUrl = "im.vector.app.clientPermalinkBaseUrl"
+        case serverConfigDefaultHomeserverUrlString = "iq.teleiraq.app.serverConfigDefaultHomeserverUrlString"
+        case serverConfigSygnalAPIUrlString = "iq.teleiraq.app.serverConfigSygnalAPIUrlString"
+        case clientPermalinkBaseUrl = "iq.teleiraq.app.clientPermalinkBaseUrl"
     }
     
     static var serverConfigDefaultHomeserverUrlString: String? {

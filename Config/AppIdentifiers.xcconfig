@@ -17,9 +17,9 @@
 
 // App identity
 BUNDLE_DISPLAY_NAME = Element Classic
-BASE_BUNDLE_IDENTIFIER = im.vector.app
-APPLICATION_GROUP_IDENTIFIER = group.im.vector
-APPLICATION_SCHEME = element
+BASE_BUNDLE_IDENTIFIER = iq.teleiraq.app
+APPLICATION_GROUP_IDENTIFIER = group.iq.teleiraq.riot
+APPLICATION_SCHEME = teleiraq
 
 // Team
 DEVELOPMENT_TEAM = 7J4U792NQT

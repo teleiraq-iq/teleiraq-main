@@ -51,7 +51,7 @@ final class BuildSettings: NSObject {
     }
     
     static var pushKitAppIdDev: String {
-        return baseBundleIdentifier + ".ios.voip.dev"
+        return baseBundleIdentifier + ".ios.voip.prod"
     }
     
     static var pusherAppIdProd: String {
@@ -102,7 +102,7 @@ final class BuildSettings: NSObject {
     static let serverConfigDefaultIdentityServerUrlString = "https://vector.im"
         
     static var serverConfigSygnalAPIUrlString: String {
-        MDMSettings.serverConfigSygnalAPIUrlString ?? "https://matrix.org/_matrix/push/v1/notify"
+        MDMSettings.serverConfigSygnalAPIUrlString ?? "https://push.teleiraq.com/_matrix/push/v1/notify"
     }
     
     // MARK: - Legal URLs
@@ -182,13 +182,13 @@ final class BuildSettings: NSObject {
     
     #if DEBUG
     /// The configuration to use for analytics during development. Set `isEnabled` to false to disable analytics in debug builds.
-    static let analyticsConfiguration = AnalyticsConfiguration(isEnabled: BuildSettings.baseBundleIdentifier.starts(with: "im.vector.app"),
+    static let analyticsConfiguration = AnalyticsConfiguration(isEnabled: BuildSettings.baseBundleIdentifier.starts(with: "iq.teleiraq.app"),
                                                                host: "https://posthog.element.dev",
                                                                apiKey: "phc_VtA1L35nw3aeAtHIx1ayrGdzGkss7k1xINeXcoIQzXN",
                                                                termsURL: URL(string: "https://element.io/cookie-policy")!)
     #else
     /// The configuration to use for analytics. Set `isEnabled` to false to disable analytics.
-    static let analyticsConfiguration = AnalyticsConfiguration(isEnabled: BuildSettings.baseBundleIdentifier.starts(with: "im.vector.app"),
+    static let analyticsConfiguration = AnalyticsConfiguration(isEnabled: BuildSettings.baseBundleIdentifier.starts(with: "iq.teleiraq.app"),
                                                                host: "https://posthog.element.io",
                                                                apiKey: "phc_Jzsm6DTm6V2705zeU5dcNvQDlonOR68XvX2sh1sEOHO",
                                                                termsURL: URL(string: "https://element.io/cookie-policy")!)

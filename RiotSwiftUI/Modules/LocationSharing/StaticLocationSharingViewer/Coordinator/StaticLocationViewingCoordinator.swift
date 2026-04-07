@@ -30,7 +30,6 @@ final class StaticLocationViewingCoordinator: Coordinator, Presentable {
     private let shareLocationActivityControllerBuilder = ShareLocationActivityControllerBuilder()
     
     // MARK: Public
-
     // Must be used only internally
     var childCoordinators: [Coordinator] = []
     var completion: (() -> Void)?
@@ -39,7 +38,6 @@ final class StaticLocationViewingCoordinator: Coordinator, Presentable {
     
     init(parameters: StaticLocationViewingCoordinatorParameters) {
         self.parameters = parameters
-
         let viewModel = StaticLocationViewingViewModel(
             mapStyleURL: parameters.session.vc_homeserverConfiguration().tileServer.mapStyleURL,
             avatarData: parameters.avatarData,
@@ -49,13 +47,12 @@ final class StaticLocationViewingCoordinator: Coordinator, Presentable {
         )
         let view = StaticLocationView(viewModel: viewModel.context)
             .environmentObject(AvatarViewModel(avatarService: AvatarService(mediaManager: parameters.mediaManager)))
-
         staticLocationViewingViewModel = viewModel
         staticLocationViewingHostingController = VectorHostingController(rootView: view)
     }
     
     // MARK: - Public
-
+    
     func start() {
         MXLog.debug("[StaticLocationSharingViewerCoordinator] did start.")
         staticLocationViewingViewModel.completion = { [weak self] result in
@@ -76,6 +73,16 @@ final class StaticLocationViewingCoordinator: Coordinator, Presentable {
     
     func presentLocationActivityController(with coordinate: CLLocationCoordinate2D) {
         let shareActivityController = shareLocationActivityControllerBuilder.build(with: coordinate)
+        
+        // Fix for iPad - UIActivityViewController requires a sourceView on iPad
+        if let popover = shareActivityController.popoverPresentationController {
+            popover.sourceView = staticLocationViewingHostingController.view
+            popover.sourceRect = CGRect(x: staticLocationViewingHostingController.view.bounds.midX,
+                                        y: staticLocationViewingHostingController.view.bounds.midY,
+                                        width: 0,
+                                        height: 0)
+            popover.permittedArrowDirections = []
+        }
         
         staticLocationViewingHostingController.present(shareActivityController, animated: true)
     }
