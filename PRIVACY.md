@@ -21,6 +21,6 @@ This build disables analytics collection and Sentry startup. Manual crash/log up
 
 ## Server policies and questions
 
-This notice does not claim server retention periods, server locations, legal bases or deletion guarantees: those are controlled by the operators of your chosen services. Obtain their policies before using those services for sensitive information. Repository questions can be raised at https://github.com/moahmmadjaber/teleiraq-main/issues without including passwords, recovery keys or private messages. For vulnerabilities or private data concerns, follow SECURITY.md and request a private channel before sharing details.
+This notice does not claim server retention periods, server locations, legal bases or deletion guarantees: those are controlled by the operators of your chosen services. Obtain their policies before using those services for sensitive information. Repository questions can be raised at https://github.com/teleiraq-iq/teleiraq-main/issues without including passwords, recovery keys or private messages. For vulnerabilities or private data concerns, follow SECURITY.md and request a private channel before sharing details.
 
 Any distributor or service operator must provide its own accurate operator identity, contact information and applicable server-side privacy disclosures before a production release. This client notice is not a substitute for those disclosures.

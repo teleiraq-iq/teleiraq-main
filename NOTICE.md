@@ -13,7 +13,7 @@ This fork elects the free GNU Affero General Public License version 3 (AGPL-3.0-
 
 TeleIraq modifications include app identity and server configuration, translations, media compression and location-sharing changes. Public-repository preparation on 2026-10-23 adds source/license disclosure, disables inherited analytics collection, removes upstream signing defaults, and restricts inherited privileged automation. Follow-up changes on the same date bundle MapLibre notices, replace inherited logos, add a client privacy notice and disable diagnostic uploads. Git history records changes and their dates; retain existing copyright and license headers when modifying files.
 
-Corresponding source: https://github.com/moahmmadjaber/teleiraq-main
+Corresponding source: https://github.com/teleiraq-iq/teleiraq-main
 
 For each distributed binary, publish its exact source revision, dependency lockfiles, modifications and build/install scripts. Keep that revision available and link it from the binary's release page. Settings → About → Third-party notices includes this source location and the AGPL text. If users interact remotely with a modified version in a way covered by AGPL section 13, provide the required prominent source offer as well.
 

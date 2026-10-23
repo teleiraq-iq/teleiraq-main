@@ -108,11 +108,11 @@ final class BuildSettings: NSObject {
     // MARK: - Legal URLs
     
     // Note: Set empty strings to hide the related entry in application settings
-    static let applicationCopyrightUrlString = "https://github.com/moahmmadjaber/teleiraq-main/blob/main/NOTICE.md"
-    static let applicationPrivacyPolicyUrlString = "https://github.com/moahmmadjaber/teleiraq-main/blob/main/PRIVACY.md"
+    static let applicationCopyrightUrlString = "https://github.com/teleiraq-iq/teleiraq-main/blob/main/NOTICE.md"
+    static let applicationPrivacyPolicyUrlString = "https://github.com/teleiraq-iq/teleiraq-main/blob/main/PRIVACY.md"
     static let applicationAcceptableUsePolicyUrlString = ""
     static let applicationHelpUrlString =
-    "https://github.com/moahmmadjaber/teleiraq-main/issues"
+    "https://github.com/teleiraq-iq/teleiraq-main/issues"
     
     
     // MARK: - Permalinks
