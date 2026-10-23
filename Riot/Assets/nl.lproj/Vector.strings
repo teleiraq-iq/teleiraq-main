@@ -62,7 +62,7 @@
 "auth_optional_phone_placeholder" = "Telefoonnummer (optioneel)";
 "auth_phone_placeholder" = "Telefoonnummer";
 "auth_repeat_password_placeholder" = "Wachtwoord herhalen";
-"auth_repeat_new_password_placeholder" = "Bevestig je nieuwe Matrix account wachtwoord";
+"auth_repeat_new_password_placeholder" = "Bevestig je nieuwe Teleiraq account wachtwoord";
 "auth_invalid_login_param" = "Onjuiste inlognaam en/of wachtwoord";
 "auth_invalid_user_name" = "Inlognamen mogen alleen letters, cijfers, punten, koppeltekens en onderstrepingstekens bevatten";
 "auth_invalid_password" = "Het wachtwoord is te kort (min 6)";
@@ -78,21 +78,21 @@
 "auth_missing_email_or_phone" = "E-mailadres of telefoonnummer ontbreekt";
 "auth_password_dont_match" = "De wachtwoorden komen niet overeen";
 "auth_username_in_use" = "Inlognaam al in gebruik";
-"auth_forgot_password" = "Matrix account wachtwoord vergeten?";
+"auth_forgot_password" = "Teleiraq account wachtwoord vergeten?";
 "auth_use_server_options" = "Aangepaste serverinstellingen gebruiken (geavanceerd)";
 "auth_email_validation_message" = "Bekijk je e-mail om verder te gaan met de registratie";
 "auth_msisdn_validation_title" = "Verificatie in afwachting";
 "auth_msisdn_validation_message" = "We hebben een sms met een activatiecode gestuurd. Voer deze code hieronder in.";
 "auth_msisdn_validation_error" = "Kan het telefoonnummer niet verifiëren.";
 "auth_recaptcha_message" = "Deze server wil er graag zeker van zijn dat je geen robot bent";
-"auth_reset_password_message" = "Voer het e-mailadres dat met je account verbonden is in om je Matrix account wachtwoord opnieuw in te stellen:";
+"auth_reset_password_message" = "Voer het e-mailadres dat met je account verbonden is in om je Teleiraq account wachtwoord opnieuw in te stellen:";
 "auth_reset_password_missing_email" = "Het e-mailadres dat met je account verbonden is moet ingevoerd worden.";
 "auth_reset_password_missing_password" = "Er moet een nieuw wachtwoord ingevoerd worden.";
 "auth_reset_password_email_validation_message" = "Er is een e-mail naar %@ gestuurd. Klik hieronder zodra je de koppeling erin hebt gevolgd.";
 "auth_reset_password_next_step_button" = "Ik heb mijn e-mailadres geverifieerd";
 "auth_reset_password_error_unauthorized" = "Verifiëren van e-mailadres is mislukt: wees er zeker van dat je op de koppeling in de e-mail hebt getikt";
 "auth_reset_password_error_not_found" = "Het ziet er niet naar uit dat je e-mailadres met een Matrix-ID is verbonden op deze server.";
-"auth_reset_password_success_message" = "Jouw Matrix account wachtwoord is opnieuw ingesteld.\n\nJe bent op alle apparaten afgemeld en je zal geen pushmeldingen meer ontvangen. Om meldingen weer in te schakelen, meldt je jezelf op elk apparaat opnieuw aan.";
+"auth_reset_password_success_message" = "Jouw Teleiraq account wachtwoord is opnieuw ingesteld.\n\nJe bent op alle apparaten afgemeld en je zal geen pushmeldingen meer ontvangen. Om meldingen weer in te schakelen, meldt je jezelf op elk apparaat opnieuw aan.";
 "auth_add_email_and_phone_warning" = "Registratie met e-mailadres en telefoonnummer tegelijkertijd wordt, totdat de API bestaat, nog niet ondersteund. Alleen het telefoonnummer zal worden gebruikt. Je kan je e-mailadres later aan je profiel in de instellingen toevoegen.";
 // Chat creation
 "room_creation_title" = "Nieuwe chat";
@@ -312,8 +312,8 @@
 "settings_old_password" = "Oud wachtwoord";
 "settings_new_password" = "Nieuw wachtwoord";
 "settings_confirm_password" = "Wachtwoord bevestigen";
-"settings_fail_to_update_password" = "Bijwerken van Matrix account wachtwoord is mislukt";
-"settings_password_updated" = "Jouw Matrix account wachtwoord is bijgewerkt";
+"settings_fail_to_update_password" = "Bijwerken van Teleiraq account wachtwoord is mislukt";
+"settings_password_updated" = "Jouw Teleiraq account wachtwoord is bijgewerkt";
 "settings_crypto_device_name" = "Apparaatnaam: ";
 "settings_crypto_device_id" = "\nApparaats-ID: ";
 "settings_crypto_device_key" = "\nApparaatssleutel:\n";
@@ -385,7 +385,7 @@
 "directory_server_all_rooms" = "Alle kamers op server %@";
 "directory_server_all_native_rooms" = "Alle lokale Matrix-kamers";
 "directory_server_type_homeserver" = "Voer een server in om de publieke kamers ervan weer te geven";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "teleiraq.com";
 // Others
 "or" = "of";
 "you" = "Jij";
@@ -432,7 +432,7 @@
 // Events formatter
 "event_formatter_member_updates" = "%tu lidmaatschapsaanpassingen";
 "bug_report_send" = "Versturen";
-"auth_home_server_placeholder" = "URL (bv. https://matrix.org)";
+"auth_home_server_placeholder" = "URL (bv. https://teleiraq.com)";
 "auth_identity_server_placeholder" = "URL (bv. https://vector.im)";
 "room_ongoing_conference_call_with_close" = "Er is een vergadergesprek gaande. Neem deel met %@ of %@. %@ het.";
 "room_ongoing_conference_call_close" = "Sluiten";
@@ -549,19 +549,19 @@
 "deactivate_account_informations_part2_emphasize" = "Deze actie is onomkeerbaar.";
 "deactivate_account_informations_part3" = "\n\nHet deactiveren van je account ";
 "deactivate_account_informations_part4_emphasize" = "zal er standaard niet voor zorgen dat de berichten die je hebt verzonden worden vergeten. ";
-"deactivate_account_informations_part5" = "Als je wil dat wij de berichten vergeten, vink je het vakje hieronder aan.\n\nDe zichtbaarheid van berichten in Matrix is gelijkaardig aan e-mails. Het vergeten van je berichten betekent dat berichten die je hebt verstuurd niet meer gedeeld worden met nieuwe of ongeregistreerde gebruikers, maar geregistreerde personen die al toegang hebben tot deze berichten zullen alsnog toegang hebben tot hun eigen kopie ervan.";
+"deactivate_account_informations_part5" = "Als je wil dat wij de berichten vergeten, vink je het vakje hieronder aan.\n\nDe zichtbaarheid van berichten in Teleiraq is gelijkaardig aan e-mails. Het vergeten van je berichten betekent dat berichten die je hebt verstuurd niet meer gedeeld worden met nieuwe of ongeregistreerde gebruikers, maar geregistreerde personen die al toegang hebben tot deze berichten zullen alsnog toegang hebben tot hun eigen kopie ervan.";
 "deactivate_account_forget_messages_information_part1" = "Vergeet alle berichten die ik heb verstuurd wanneer mijn account gedeactiveerd is (";
 "deactivate_account_forget_messages_information_part3" = ": dit zal er voor zorgen dat toekomstige personen een onvolledig beeld krijgen van gesprekken)";
 "deactivate_account_validate_action" = "Account deactiveren";
 "deactivate_account_password_alert_title" = "Account deactiveren";
-"deactivate_account_password_alert_message" = "Voer je Matrix account wachtwoord in om verder te gaan";
+"deactivate_account_password_alert_message" = "Voer je Teleiraq account wachtwoord in om verder te gaan";
 "room_event_action_view_decrypted_source" = "Ontsleutelde bron weergeven";
 "room_message_reply_to_placeholder" = "Stuur een antwoord (onversleuteld)…";
 "encrypted_room_message_reply_to_placeholder" = "Stuur een versleuteld antwoord…";
 "room_message_reply_to_short_placeholder" = "Stuur een antwoord…";
 // String for App Store
 "store_short_description" = "Veilig en gedecentraliseerd chatten en bellen";
-"store_full_description" = "Element is een nieuw type messenger en samenwerkings app die:\n\n1. Jou de controle geeft om je privacy te behouden\n2. Jou laat communiceren met iedereen in het Matrix-netwerk, en zelfs daarbuiten door integratie met apps zoals Slack\n3. Jou beschermt tegen reclame, datamining, achterdeurtjes en ommuurde netwerken\n4. Jou beveiligt door eind-tot-eind versleuteling, met kruislings ondertekenen om anderen te verifiëren\n\nElement is compleet anders dan andere messengers en samenwerkings-apps, omdat het gedecentraliseerd en open source is.\n\nMet Element kan je zelf hosten - of een host kiezen - zodat je privacy, eigendom en controle hebt over je gegevens en gesprekken. Het geeft je toegang tot een open netwerk; je zit dus niet vast aan het praten met alleen andere Element-personen. En het is zeer veilig.\n\nElement is hiertoe in staat omdat het werkt op basis van Matrix - de standaard voor open, gedecentraliseerde communicatie. \n\nElement geeft je de controle door je te laten kiezen wie jouw gesprekken host. Vanuit de Element app kan je kiezen om op verschillende manieren te hosten:\n\n1. Neem een gratis account op de publieke server matrix.org\n2. Host het zelf, jouw account door draait op je eigen server\n3. Laat ons het hosten, meld je aan voor een account op een aangepaste server bij het Element Matrix Services hosting platform\n\nWaarom kies je voor Element?\n\nEIGENAAR VAN JE GEGEVENS: Jij bepaalt waar je gegevens en berichten worden bewaard. Jij bent de eigenaar en hebt de controle, niet een of andere MEGACORP die je gegevens mijnt of toegang geeft aan derden.\n\nOPEN MESSAGING EN SAMENWERKING: Jij kunt met iedereen in het Matrix-netwerk chatten, of ze nu Element of een andere Matrix-app gebruiken, en zelfs als ze een ander messaging-systeem gebruiken zoals Slack, IRC of XMPP.\n\nSUPER-VEILIG: Echte eind-tot-eind versleuteling (alleen degenen in de conversatie kunnen berichten ontsleutelen), en kruislings ondertekenen om de apparaten van gespreksdeelnemers te verifiëren.\n\nCOMPLETE COMMUNICATIE: Berichten, spraak- en videogesprekken, bestandsdeling, schermdeling en een heleboel integraties, bots en widgets. Bouw kamers, Spaces, blijf in contact en krijg het gedaan.\n\nOVERAL WAAR U BENT: Blijf in contact waar je ook bent met volledig gesynchroniseerde berichtgeschiedenis op al je apparaten en op het web op https://element.io/app.";
+"store_full_description" = "Element is een nieuw type messenger en samenwerkings app die:\n\n1. Jou de controle geeft om je privacy te behouden\n2. Jou laat communiceren met iedereen in het Matrix-netwerk, en zelfs daarbuiten door integratie met apps zoals Slack\n3. Jou beschermt tegen reclame, datamining, achterdeurtjes en ommuurde netwerken\n4. Jou beveiligt door eind-tot-eind versleuteling, met kruislings ondertekenen om anderen te verifiëren\n\nElement is compleet anders dan andere messengers en samenwerkings-apps, omdat het gedecentraliseerd en open source is.\n\nMet Element kan je zelf hosten - of een host kiezen - zodat je privacy, eigendom en controle hebt over je gegevens en gesprekken. Het geeft je toegang tot een open netwerk; je zit dus niet vast aan het praten met alleen andere Element-personen. En het is zeer veilig.\n\nElement is hiertoe in staat omdat het werkt op basis van Teleiraq - de standaard voor open, gedecentraliseerde communicatie. \n\nElement geeft je de controle door je te laten kiezen wie jouw gesprekken host. Vanuit de Element app kan je kiezen om op verschillende manieren te hosten:\n\n1. Neem een gratis account op de publieke server teleiraq.com\n2. Host het zelf, jouw account door draait op je eigen server\n3. Laat ons het hosten, meld je aan voor een account op een aangepaste server bij het Element Teleiraq Services hosting platform\n\nWaarom kies je voor Element?\n\nEIGENAAR VAN JE GEGEVENS: Jij bepaalt waar je gegevens en berichten worden bewaard. Jij bent de eigenaar en hebt de controle, niet een of andere MEGACORP die je gegevens mijnt of toegang geeft aan derden.\n\nOPEN MESSAGING EN SAMENWERKING: Jij kunt met iedereen in het Matrix-netwerk chatten, of ze nu Element of een andere Matrix-app gebruiken, en zelfs als ze een ander messaging-systeem gebruiken zoals Slack, IRC of XMPP.\n\nSUPER-VEILIG: Echte eind-tot-eind versleuteling (alleen degenen in de conversatie kunnen berichten ontsleutelen), en kruislings ondertekenen om de apparaten van gespreksdeelnemers te verifiëren.\n\nCOMPLETE COMMUNICATIE: Berichten, spraak- en videogesprekken, bestandsdeling, schermdeling en een heleboel integraties, bots en widgets. Bouw kamers, Spaces, blijf in contact en krijg het gedaan.\n\nOVERAL WAAR U BENT: Blijf in contact waar je ook bent met volledig gesynchroniseerde berichtgeschiedenis op al je apparaten en op het web op https://element.io/app.";
 "auth_login_single_sign_on" = "Aanmelden met enkele aanmelding";
 "auth_accept_policies" = "Lees het beleid van deze homeserver en kies om te aanvaarden:";
 "auth_autodiscover_invalid_response" = "Ongeldig server-ontdekkings-antwoord";
@@ -619,7 +619,7 @@
 "key_backup_setup_intro_manual_export_info" = "(Geavanceerd)";
 "key_backup_setup_intro_manual_export_action" = "Sleutels handmatig exporteren";
 "key_backup_setup_passphrase_title" = "Beveilig je back-up met een veiligheidswachtwoord";
-"key_backup_setup_passphrase_info" = "We bewaren een versleutelde kopie van je sleutels op onze server. Bescherm je back-up met een veiligheidswachtwoord om deze veilig te houden.\n\nVoor maximale beveiliging zou dit moeten verschillen van je Matrix account wachtwoord.";
+"key_backup_setup_passphrase_info" = "We bewaren een versleutelde kopie van je sleutels op onze server. Bescherm je back-up met een veiligheidswachtwoord om deze veilig te houden.\n\nVoor maximale beveiliging zou dit moeten verschillen van je Teleiraq account wachtwoord.";
 "key_backup_setup_passphrase_passphrase_title" = "Invoeren";
 "key_backup_setup_passphrase_passphrase_placeholder" = "Wachtwoord invoeren";
 "key_backup_setup_passphrase_passphrase_valid" = "Top!";
@@ -817,7 +817,7 @@
 "emoji_picker_flags_category" = "Vlaggen";
 // MARK: Reaction history
 "reaction_history_title" = "Reacties";
-"auth_forgot_password_error_no_configured_identity_server" = "Er is geen identiteitsserver geconfigureerd: voeg er een toe om je Matrix account wachtwoord opnieuw in te stellen.";
+"auth_forgot_password_error_no_configured_identity_server" = "Er is geen identiteitsserver geconfigureerd: voeg er een toe om je Teleiraq account wachtwoord opnieuw in te stellen.";
 "room_creation_error_invite_user_by_email_without_identity_server" = "Er is geen identiteitsserver geconfigureerd, dus je kan geen deelnemers toevoegen via e-mail.";
 "room_participants_start_new_chat_error_using_user_email_without_identity_server" = "Er is geen identiteitsserver geconfigureerd, dus je kan geen gesprek beginnen met een contact via e-mail.";
 // Service terms
@@ -849,9 +849,9 @@
 "auth_add_email_message_2" = "Stel een e-mailadres in voor accountherstel en om later optioneel vindbaar te zijn voor mensen die u kennen.";
 "auth_add_phone_message_2" = "Stel een telefoon in om later optioneel vindbaar te zijn voor mensen die jou kennen.";
 "auth_add_email_phone_message_2" = "Stel een e-mailadres in voor accountherstel. Gebruik later e-mail of telefoon om optioneel vindbaar te zijn voor mensen die jou kennen.";
-"auth_email_is_required" = "Er is geen identiteitsserver geconfigureerd, dus je kan geen e-mailadres toevoegen om je Matrix account wachtwoord in de toekomst opnieuw in te stellen.";
-"auth_phone_is_required" = "Er is geen identiteitsserver geconfigureerd, dus je kan geen telefoonnummer toevoegen om je Matrix account wachtwoord in de toekomst opnieuw in te stellen.";
-"auth_reset_password_error_is_required" = "Geen identiteitsserver ingesteld: voeg er één toe bij server opties om je Matrix account wachtwoord te wijzigen.";
+"auth_email_is_required" = "Er is geen identiteitsserver geconfigureerd, dus je kan geen e-mailadres toevoegen om je Teleiraq account wachtwoord in de toekomst opnieuw in te stellen.";
+"auth_phone_is_required" = "Er is geen identiteitsserver geconfigureerd, dus je kan geen telefoonnummer toevoegen om je Teleiraq account wachtwoord in de toekomst opnieuw in te stellen.";
+"auth_reset_password_error_is_required" = "Geen identiteitsserver ingesteld: voeg er één toe bij server opties om je Teleiraq account wachtwoord te wijzigen.";
 
 // MARK: - Secrets set up
 
@@ -922,7 +922,7 @@
 
 "room_info_list_one_member" = "1 persoon";
 "room_info_list_several_members" = "%@ personen";
-"create_room_placeholder_address" = "#testkamer:matrix.org";
+"create_room_placeholder_address" = "#testkamer:teleiraq.com";
 "create_room_section_header_address" = "ADRES";
 "create_room_show_in_directory" = "Kamer weergeven in gids";
 "create_room_section_footer_type" = "Personen kunnen alleen met een uitnodiging deelnemen aan een privékamer.";
@@ -1002,7 +1002,7 @@
 // Banner
 
 "cross_signing_setup_banner_title" = "Versleuteling instellen";
-"secrets_reset_authentication_message" = "Geef het Matrix account wachtwoord in om te bevestigen";
+"secrets_reset_authentication_message" = "Geef het Teleiraq account wachtwoord in om te bevestigen";
 "secrets_reset_reset_action" = "Opnieuw instellen";
 "secrets_reset_warning_message" = "Je zal opnieuw starten zonder geschiedenis, berichten, vertrouwde apparaten en vertrouwde personen.";
 "secrets_reset_warning_title" = "Als je alles terugzet";
@@ -1014,7 +1014,7 @@
 "secrets_setup_recovery_passphrase_confirm_passphrase_placeholder" = "Wachtwoord bevestigen";
 "secrets_setup_recovery_passphrase_confirm_passphrase_title" = "Bevestigen";
 "secrets_setup_recovery_passphrase_validate_action" = "Klaar";
-"secrets_setup_recovery_passphrase_additional_information" = "Gebruik niet het Matrix account wachtwoord.";
+"secrets_setup_recovery_passphrase_additional_information" = "Gebruik niet het Teleiraq account wachtwoord.";
 "secrets_setup_recovery_key_storage_alert_title" = "Bewaar hem op een veilige plaats";
 "secrets_setup_recovery_key_done_action" = "Klaar";
 "secrets_setup_recovery_key_export_action" = "Opslaan";
@@ -1318,7 +1318,7 @@
 
 // Manage session
 "manage_session_title" = "Beheer sessie";
-"security_settings_user_password_description" = "Bevestig je identiteit door je Matrix account wachtwoord in te voeren";
+"security_settings_user_password_description" = "Bevestig je identiteit door je Teleiraq account wachtwoord in te voeren";
 "security_settings_coming_soon" = "Sorry. Deze actie is nog niet beschikbaar in %@ iOS. Gebruik een andere Matrix-app om het in te stellen. %@ iOS zal het dan wel gebruiken.";
 "security_settings_complete_security_alert_message" = "Je moet de beveiliging van je huidige sessie nog afronden.";
 "security_settings_complete_security_alert_title" = "Beveiliging afronden";
@@ -1341,7 +1341,7 @@
 "security_settings_secure_backup_setup" = "Instellen";
 "security_settings_secure_backup_description" = "Maak een back-up van je versleutelingssleutel bij je account data voor het geval je toegang verliest tot je sessies. Jouw sleutels zullen worden beveiligd met een unieke veiligheidssleutel.";
 "security_settings_secure_backup" = "VEILIGE BACK-UP";
-"security_settings_crypto_sessions_description_2" = "Als je deze inlog niet herkent, verander je Matrix account wachtwoord en reset je Veilige Back-up.";
+"security_settings_crypto_sessions_description_2" = "Als je deze inlog niet herkent, verander je Teleiraq account wachtwoord en reset je Veilige Back-up.";
 "security_settings_crypto_sessions_loading" = "Sessies laden…";
 "security_settings_crypto_sessions" = "MIJN SESSIES";
 
@@ -1367,7 +1367,7 @@
 "settings_discovery_no_identity_server" = "Je gebruikt momenteel geen identiteitsserver. Om door de jou bekende contacten vindbaar te zijn, voeg er een toe.";
 "settings_devices_description" = "De publieke naam van een sessie is zichtbaar voor de personen waarmee je communiceert";
 "settings_add_3pid_invalid_password_message" = "Ongeldig wachtwoord";
-"settings_add_3pid_password_message" = "Geef je Matrix account wachtwoord om verder te gaan";
+"settings_add_3pid_password_message" = "Geef je Teleiraq account wachtwoord om verder te gaan";
 "settings_add_3pid_password_title_msidsn" = "Telefoonnummer toevoegen";
 "settings_add_3pid_password_title_email" = "E-mailadres toevoegen";
 "settings_integrations_allow_button" = "Beheer integraties";
@@ -1702,7 +1702,7 @@
 "onboarding_splash_page_4_title_no_pun" = "Berichten voor jouw team.";
 "onboarding_splash_page_3_message" = "End-to-end versleuteld en geen telefoonnummer vereist. Geen advertenties of datamining.";
 "onboarding_splash_page_3_title" = "Veilig berichtenverkeer.";
-"onboarding_splash_page_2_message" = "Kies waar je gesprekken worden gehouden, zodat je controle en onafhankelijkheid hebt. Verbonden via Matrix.";
+"onboarding_splash_page_2_message" = "Kies waar je gesprekken worden gehouden, zodat je controle en onafhankelijkheid hebt. Verbonden via Teleiraq.";
 "onboarding_splash_page_2_title" = "Jij hebt de controle.";
 "onboarding_splash_page_1_message" = "Veilige en onafhankelijke communicatie die je dezelfde mate van privacy geeft als een persoonlijk gesprek in je eigen huis.";
 "onboarding_splash_page_1_title" = "Word eigenaar van jouw gesprekken.";
@@ -1774,19 +1774,19 @@
 /*      iOS specific       */
 /* *********************** */
 
-"matrix" = "Matrix";
+"matrix" = "Teleiraq";
 // Login Screen
 "login_create_account" = "Account aanmaken:";
-"login_server_url_placeholder" = "URL (bv. https://matrix.org)";
+"login_server_url_placeholder" = "URL (bv. https://teleiraq.com)";
 "login_home_server_title" = "Server-URL:";
 "login_home_server_info" = "Je server slaat al je gespreks- en accountgegevens op";
 "login_identity_server_title" = "Identiteitsserver-URL:";
-"login_identity_server_info" = "Matrix verstrekt identiteitsservers om te achterhalen welke e-mailadressen enz. bij welke Matrix-ID’s horen. Tot nu toe bestaat alleen https://matrix.org.";
-"login_user_id_placeholder" = "Matrix-ID (bv. @jan:matrix.org of jan)";
+"login_identity_server_info" = "Teleiraq verstrekt identiteitsservers om te achterhalen welke e-mailadressen enz. bij welke Matrix-ID’s horen. Tot nu toe bestaat alleen https://teleiraq.com.";
+"login_user_id_placeholder" = "Matrix-ID (bv. @jan:teleiraq.com of jan)";
 "login_password_placeholder" = "Wachtwoord";
 "login_optional_field" = "optioneel";
 "login_display_name_placeholder" = "Weergavenaam (bv. Jan Janssens)";
-"login_email_info" = "Door een e-mailadres in te voeren kunnen andere personen je eenvoudiger op Matrix vinden, verder geeft het je een manier om je wachtwoord in de toekomst te wijzigen.";
+"login_email_info" = "Door een e-mailadres in te voeren kunnen andere personen je eenvoudiger op Teleiraq vinden, verder geeft het je een manier om je wachtwoord in de toekomst te wijzigen.";
 "login_email_placeholder" = "E-mailadres";
 "login_prompt_email_token" = "Voer je e-mailadres-validatiebewijs in:";
 "login_error_title" = "Aanmelden Mislukt";
@@ -1969,7 +1969,7 @@
 "attachment_e2e_keys_file_prompt" = "Dit bestand bevat versleutelingssleutels die uit een Matrix-client geëxporteerd zijn.\nWil je de bestandsinhoud bekijken of de sleutels die het bevat importeren?";
 "attachment_e2e_keys_import" = "Bezig met importeren…";
 // Contacts
-"contact_mx_users" = "Matrix personen";
+"contact_mx_users" = "Teleiraq personen";
 "contact_local_contacts" = "Lokale contacten";
 // Search
 "search_no_results" = "Geen resultaten";
@@ -2008,7 +2008,7 @@
 "microphone_access_not_granted_for_call" = "Oproepen vereisen toegang tot de camera, maar %@ heeft hier geen toestemming voor";
 "local_contacts_access_not_granted" = "Personen zoeken op basis van je lokale contacten vereist toegang tot die contacten, maar %@ heeft hier geen toestemming voor";
 "local_contacts_access_discovery_warning_title" = "Personen zoeken";
-"local_contacts_access_discovery_warning" = "Om contacten te vinden die Matrix al gebruiken, kan %@ de e-mailadressen en telefoonnummers in je adresboek naar je gekozen Matrix-identiteitsserver sturen. Waar ondersteund worden de persoonlijke gegevens gehasht vóór het versturen - bekijk het privacybeleid van je identiteitsserver voor meer informatie.";
+"local_contacts_access_discovery_warning" = "Om contacten te vinden die Teleiraq al gebruiken, kan %@ de e-mailadressen en telefoonnummers in je adresboek naar je gekozen Matrix-identiteitsserver sturen. Waar ondersteund worden de persoonlijke gegevens gehasht vóór het versturen - bekijk het privacybeleid van je identiteitsserver voor meer informatie.";
 // Country picker
 "country_picker_title" = "Kies een land";
 /* -*- 
@@ -2099,7 +2099,7 @@
 
 // room details dialog screen
 // contacts list screen 
-"invitation_message" = "Ik wil graag praten via Matrix. Bezoek de website https://matrix.org voor meer informatie.";
+"invitation_message" = "Ik wil graag praten via Teleiraq. Bezoek de website https://teleiraq.com voor meer informatie.";
 // Settings screen 
 "settings_title_config" = "Configuratie";
 "settings_title_notifications" = "Meldingen";

@@ -600,10 +600,6 @@ SSOAuthenticationPresenterDelegate>
         [sectionLabs addRowWithTag:LABS_ENABLE_RINGING_FOR_GROUP_CALLS_INDEX];
         [sectionLabs addRowWithTag:LABS_ENABLE_THREADS_INDEX];
         [sectionLabs addRowWithTag:LABS_ENABLE_AUTO_REPORT_DECRYPTION_ERRORS];
-        if (BuildSettings.locationSharingEnabled)
-        {
-            [sectionLabs addRowWithTag:LABS_ENABLE_LIVE_LOCATION_SHARING];
-        }
         [sectionLabs addRowWithTag:LABS_ENABLE_NEW_SESSION_MANAGER];
         [sectionLabs addRowWithTag:LABS_ENABLE_NEW_CLIENT_INFO_FEATURE];
         if (@available(iOS 15.0, *))

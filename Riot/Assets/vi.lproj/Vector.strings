@@ -48,8 +48,8 @@
 "auth_optional_phone_placeholder" = "Số điện thoại (không bắt buộc)";
 "auth_phone_placeholder" = "Số điện thoại";
 "auth_repeat_password_placeholder" = "Nhật lại mật khẩu";
-"auth_repeat_new_password_placeholder" = "Xác nhận mật khẩu mới cho danh khoản Matrix";
-"auth_home_server_placeholder" = "URL (ví dụ: https://matrix.org)";
+"auth_repeat_new_password_placeholder" = "Xác nhận mật khẩu mới cho danh khoản Teleiraq";
+"auth_home_server_placeholder" = "URL (ví dụ: https://teleiraq.com)";
 "auth_identity_server_placeholder" = "URL (vd. https://vector.im)";
 "auth_invalid_login_param" = "Tên đăng nhập hoặc mật khẩu không đúng";
 "warning" = "Cảnh báo";
@@ -70,7 +70,7 @@
 "auth_untrusted_id_server" = "Máy chủ xác thực không được tin cậy";
 "auth_password_dont_match" = "Mật khẩu không trùng khớp";
 "auth_username_in_use" = "Tên đăng nhập đang được sử dụng";
-"auth_forgot_password" = "Quên mật khẩu danh khoản Matrix?";
+"auth_forgot_password" = "Quên mật khẩu danh khoản Teleiraq?";
 "auth_email_not_found" = "Gửi thư thất bại: Địa chỉ thư điện tử này không thể tìm thấy";
 "auth_use_server_options" = "Sử dụng tùy chọn máy chủ tuỳ chỉnh (nâng cao)";
 "auth_email_validation_message" = "Vui lòng kiểm tra hòm thư của bẹn để tiếp tục đăng ký";
@@ -141,7 +141,7 @@
 "directory_search_fail" = "Không thể tìm nạp dữ liệu";
 // Contacts
 "contacts_address_book_section" = "DANH BẠ NỘI BỘ";
-"contacts_address_book_matrix_users_toggle" = "Chỉ người dùng của matrix";
+"contacts_address_book_matrix_users_toggle" = "Chỉ người dùng của Teleiraq";
 "contacts_address_book_no_contact" = "Không có danh bạ nội bộ";
 "contacts_address_book_permission_required" = "Quyền được yêu cầu để truy cập danh bạ nội bộ";
 "contacts_user_directory_section" = "DANH MỤC NGƯỜI DÙNG";
@@ -161,7 +161,7 @@
 "room_participants_filter_room_members" = "Lọc thành viên trong phòng";
 "room_participants_invite_another_user" = "Tìm / mời bằng ID Người dùng, Tên hoặc Email";
 "room_participants_invite_malformed_id_title" = "Lỗi mời";
-"room_participants_invite_malformed_id" = "ID không hợp lệ. Nên là một địa chỉ email hoặc một Matrix ID như '@localpart:domain'";
+"room_participants_invite_malformed_id" = "ID không hợp lệ. Nên là một địa chỉ email hoặc một Teleiraq ID như '@localpart:domain'";
 "room_participants_invited_section" = "ĐÃ MỜI";
 "room_participants_online" = "Trực tuyến";
 "room_participants_offline" = "Ngoại tuyến";
@@ -392,9 +392,9 @@
 "directory_title" = "Danh mục";
 "directory_server_picker_title" = "Chọn một danh mục";
 "directory_server_all_rooms" = "Tất cả phòng trong máy chủ %@";
-"directory_server_all_native_rooms" = "Tất cả phòng thuần Matrix";
+"directory_server_all_native_rooms" = "Tất cả phòng thuần Teleiraq";
 "directory_server_type_homeserver" = "Gõ một máy chủ nhà để liệt kê danh sách phòng";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "teleiraq.com";
 // Events formatter
 "event_formatter_member_updates" = "%tu thành viên thay đổi";
 "event_formatter_widget_added" = "%@ widget tạo bởi %@";
@@ -577,7 +577,7 @@
 // MARK: - Room Info
 
 "room_info_list_one_member" = "1 thành viên";
-"create_room_placeholder_address" = "#testroom:matrix.org";
+"create_room_placeholder_address" = "#testroom:teleiraq.com";
 "create_room_section_header_address" = "Địa chỉ phòng";
 "create_room_show_in_directory" = "Hiển thị phòng trong thư mục";
 "create_room_section_footer_type" = "Mọi người chỉ tham gia vào phòng riêng bằng lời mời";
@@ -904,7 +904,7 @@
 "device_verification_self_verify_wait_recover_secrets_additional_information" = "Nếu bạn không thể truy cập vào các thiệt bị hiện có";
 "device_verification_self_verify_wait_recover_secrets_with_passphrase" = "Sử dụng Chuỗi hoặc Khóa Bảo mật";
 "device_verification_self_verify_wait_recover_secrets_without_passphrase" = "Sử dụng Khóa Bảo mật";
-"device_verification_self_verify_wait_additional_information" = "Điều này hoạt động với %@ và các thiết bị Matrix đầu cuối khác có khả năng xác thực chéo";
+"device_verification_self_verify_wait_additional_information" = "Điều này hoạt động với %@ và các thiết bị Teleiraq đầu cuối khác có khả năng xác thực chéo";
 "device_verification_self_verify_wait_information" = "Xác minh thiết bị này từ một trong các thiết bị của bạn, cấp cho nó quyền truy cập vào các tin nhắn mã hóa.\n\nSử dụng cái %@ mới nhất trên các thiết bị của bạn:";
 "device_verification_self_verify_wait_new_sign_in_title" = "Xác minh đăng nhập này";
 
@@ -1083,7 +1083,7 @@
 "deactivate_account_forget_messages_information_part3" = ": điều này sẽ làm cho các người dùng trong tương lai thấy một khung cảnh không đầy đủ của các cuộc hội thoại)";
 "deactivate_account_forget_messages_information_part2_emphasize" = "Cảnh báo";
 "deactivate_account_forget_messages_information_part1" = "Vui lòng quên tất cả tin nhắn tôi vừa gửi khi tài khoản của tôi bị hủy kích hoạt (";
-"deactivate_account_informations_part5" = "Nếu bạn muốn chúng tôi quên các tin nhắn của bạn, vui lòng đánh dấu vào ô bên dưới\n\nKhả năng hiển thị tin nhắn trong Matrix là tương tự như email. Việc quên các tin nhắn của bạn  nghĩa là các tin nhắn bạn vừa gửi sẽ không được chia sẻ với các người dùng mới hoặc chưa được đăng ký, nhưng các người dùng đã đăng ký, người đã có quyền truy cập vào các tin nhắn này, vẫn sẽ truy cập được vào bản sao của họ.";
+"deactivate_account_informations_part5" = "Nếu bạn muốn chúng tôi quên các tin nhắn của bạn, vui lòng đánh dấu vào ô bên dưới\n\nKhả năng hiển thị tin nhắn trong Teleiraq là tương tự như email. Việc quên các tin nhắn của bạn  nghĩa là các tin nhắn bạn vừa gửi sẽ không được chia sẻ với các người dùng mới hoặc chưa được đăng ký, nhưng các người dùng đã đăng ký, người đã có quyền truy cập vào các tin nhắn này, vẫn sẽ truy cập được vào bản sao của họ.";
 "deactivate_account_informations_part4_emphasize" = "Không phải do mặc định làm cho chúng tôi quên các tin nhắn bạn vừa gửi. ";
 "deactivate_account_informations_part3" = "\n\nĐang hủy kích hoạt tài khoản của bạn. ";
 "deactivate_account_informations_part2_emphasize" = "Hành động này là không thể đảo ngược";
@@ -1205,7 +1205,7 @@
 // Group rooms
 "group_rooms_filter_rooms" = "Lọc các phòng cộng đồng";
 "group_participants_invited_section" = "ĐÃ MỜI";
-"group_participants_invite_malformed_id" = "ID lạ. Nên là Matrix ID giống như '@localpart:domain'";
+"group_participants_invite_malformed_id" = "ID lạ. Nên là Teleiraq ID giống như '@localpart:domain'";
 "group_participants_invite_malformed_id_title" = "Lỗi mời";
 "group_participants_invite_another_user" = "Tìm / mời bằng ID người dùng hoặc tên";
 "group_participants_filter_members" = "Lọc thành viên cộng đồng";
@@ -1327,7 +1327,7 @@
 // Manage session
 "manage_session_title" = "Quản lý thiết bị";
 "security_settings_user_password_description" = "Xác nhận danh tính của bạn bằng cách nhập mật khẩu tài khoản của bạn";
-"security_settings_coming_soon" = "Xin lỗi. Hành động này vẫn chưa có trên %@ iOS. Vui lòng sử dụng client Matrix khác để thiết lập nó. %@ iOS sẽ sử dụng nó.";
+"security_settings_coming_soon" = "Xin lỗi. Hành động này vẫn chưa có trên %@ iOS. Vui lòng sử dụng client Teleiraq khác để thiết lập nó. %@ iOS sẽ sử dụng nó.";
 "security_settings_complete_security_alert_message" = "Bạn nên hoàn thành bảo mật trên thiết bị hiện tại của bạn trước.";
 "security_settings_complete_security_alert_title" = "Hoàn thành bảo mật";
 "security_settings_blacklist_unverified_devices_description" = "Xác nhận tất cả các phiên của người dùng để đánh dấu chúng là tin cậy và gửi tin nhắn đến chúng.";
@@ -1620,7 +1620,7 @@
 "skip" = "Bỏ qua";
 "close" = "Đóng";
 "store_promotional_text" = "Ứng dụng trò chuyện và cộng tác bảo vệ quyền riêng tư, trên mạng mở. Phi tập trung để đưa bạn vào tầm kiểm soát. Không có datamining, không có backdoors và không có quyền truy cập của bên thứ ba.";
-"store_full_description" = "Element là một loại ứng dụng cộng tác và nhắn tin mới:\n\n1. Đặt bạn kiểm soát để giữ quyền riêng tư của bạn\n2. Cho phép bạn giao tiếp với bất kỳ ai trong mạng Matrix, và thậm chí hơn thế nữa bằng cách tích hợp với các ứng dụng như Slack\n3. Bảo vệ bạn khỏi quảng cáo, datamining, cửa hậu và khu vườn có tường bao quanh\n4. Bảo mật bạn thông qua mã hóa đầu cuối, với việc ký chéo để xác minh người khác\n\nElement hoàn toàn khác với các ứng dụng nhắn tin và cộng tác khác vì nó được phân cấp và nguồn mở.\n\nElement cho phép bạn tự lưu trữ - hoặc chọn máy chủ - để bạn có quyền riêng tư, quyền sở hữu và kiểm soát dữ liệu và cuộc trò chuyện của mình. Nó cho phép bạn truy cập vào một mạng mở; vì vậy, bạn không chỉ bị mắc kẹt khi nói chuyện với những người dùng Element khác. Và nó rất an toàn.\n\nElement có thể làm tất cả điều này bởi vì nó hoạt động trên Matrix - tiêu chuẩn cho giao tiếp mở, phi tập trung. \n\nElement giúp bạn kiểm soát bằng cách cho phép bạn chọn người tổ chức các cuộc trò chuyện của bạn. Từ ứng dụng Element, bạn có thể chọn lưu trữ theo nhiều cách khác nhau:\n\n1. Nhận tài khoản miễn phí trên máy chủ công cộng matrix.org\n2. Tự lưu trữ tài khoản của bạn bằng cách chạy máy chủ trên phần cứng của riêng bạn\n3. Đăng ký tài khoản trên máy chủ tùy chỉnh bằng cách đăng ký vào nền tảng lưu trữ Dịch vụ Element Matrix\n\nTại sao chọn Element?\n\nSở hữu dữ liệu của bạn: Bạn quyết định nơi để giữ dữ liệu và tin nhắn của bạn. Bạn sở hữu nó và kiểm soát nó, không phải một số MEGACORP khai thác dữ liệu của bạn hoặc cho phép truy cập vào bên thứ ba.\n\nTIN NHẮN MỞ VÀ CỘNG TÁC: Bạn có thể trò chuyện với bất kỳ ai khác trong mạng Matrix, cho dù họ đang sử dụng Element hay ứng dụng Matrix khác và ngay cả khi họ đang sử dụng một hệ thống nhắn tin khác như Slack, IRC hoặc XMPP.\n\nSUPER-SECURE: Mã hóa đầu cuối thực sự (chỉ những người trong cuộc trò chuyện mới có thể giải mã tin nhắn) và ký chéo để xác minh các thiết bị của người tham gia hội thoại.\n\nGIAO TIẾP ĐẦY ĐỦ: Nhắn tin, cuộc gọi thoại và video, chia sẻ tệp, chia sẻ màn hình và một loạt các tích hợp, bot và tiện ích. Xây dựng phòng, cộng đồng, giữ liên lạc và hoàn thành công việc.\n\nỞ mọi nơi bạn đang có: Giữ liên lạc bất cứ nơi nào bạn đang có với lịch sử tin nhắn được đồng bộ hóa hoàn toàn trên tất cả các thiết bị của bạn và trên web tại https://element.io/app.";
+"store_full_description" = "Element là một loại ứng dụng cộng tác và nhắn tin mới:\n\n1. Đặt bạn kiểm soát để giữ quyền riêng tư của bạn\n2. Cho phép bạn giao tiếp với bất kỳ ai trong mạng Teleiraq, và thậm chí hơn thế nữa bằng cách tích hợp với các ứng dụng như Slack\n3. Bảo vệ bạn khỏi quảng cáo, datamining, cửa hậu và khu vườn có tường bao quanh\n4. Bảo mật bạn thông qua mã hóa đầu cuối, với việc ký chéo để xác minh người khác\n\nElement hoàn toàn khác với các ứng dụng nhắn tin và cộng tác khác vì nó được phân cấp và nguồn mở.\n\nElement cho phép bạn tự lưu trữ - hoặc chọn máy chủ - để bạn có quyền riêng tư, quyền sở hữu và kiểm soát dữ liệu và cuộc trò chuyện của mình. Nó cho phép bạn truy cập vào một mạng mở; vì vậy, bạn không chỉ bị mắc kẹt khi nói chuyện với những người dùng Element khác. Và nó rất an toàn.\n\nElement có thể làm tất cả điều này bởi vì nó hoạt động trên Teleiraq - tiêu chuẩn cho giao tiếp mở, phi tập trung. \n\nElement giúp bạn kiểm soát bằng cách cho phép bạn chọn người tổ chức các cuộc trò chuyện của bạn. Từ ứng dụng Element, bạn có thể chọn lưu trữ theo nhiều cách khác nhau:\n\n1. Nhận tài khoản miễn phí trên máy chủ công cộng teleiraq.com\n2. Tự lưu trữ tài khoản của bạn bằng cách chạy máy chủ trên phần cứng của riêng bạn\n3. Đăng ký tài khoản trên máy chủ tùy chỉnh bằng cách đăng ký vào nền tảng lưu trữ Dịch vụ Element Teleiraq\n\nTại sao chọn Element?\n\nSở hữu dữ liệu của bạn: Bạn quyết định nơi để giữ dữ liệu và tin nhắn của bạn. Bạn sở hữu nó và kiểm soát nó, không phải một số MEGACORP khai thác dữ liệu của bạn hoặc cho phép truy cập vào bên thứ ba.\n\nTIN NHẮN MỞ VÀ CỘNG TÁC: Bạn có thể trò chuyện với bất kỳ ai khác trong mạng Teleiraq, cho dù họ đang sử dụng Element hay ứng dụng Teleiraq khác và ngay cả khi họ đang sử dụng một hệ thống nhắn tin khác như Slack, IRC hoặc XMPP.\n\nSUPER-SECURE: Mã hóa đầu cuối thực sự (chỉ những người trong cuộc trò chuyện mới có thể giải mã tin nhắn) và ký chéo để xác minh các thiết bị của người tham gia hội thoại.\n\nGIAO TIẾP ĐẦY ĐỦ: Nhắn tin, cuộc gọi thoại và video, chia sẻ tệp, chia sẻ màn hình và một loạt các tích hợp, bot và tiện ích. Xây dựng phòng, cộng đồng, giữ liên lạc và hoàn thành công việc.\n\nỞ mọi nơi bạn đang có: Giữ liên lạc bất cứ nơi nào bạn đang có với lịch sử tin nhắn được đồng bộ hóa hoàn toàn trên tất cả các thiết bị của bạn và trên web tại https://element.io/app.";
 // String for App Store
 "store_short_description" = "Chat/VoIP bảo mật phi tập trung";
 
@@ -1628,19 +1628,19 @@
 // MARK: - MatrixKit
 
 
-"matrix" = "Matrix";
+"matrix" = "Teleiraq";
 // Login Screen
 "login_create_account" = "Tạo tài khoản:";
-"login_server_url_placeholder" = "URL (e.g. https://matrix.org)";
+"login_server_url_placeholder" = "URL (e.g. https://teleiraq.com)";
 "login_home_server_title" = "Máy chủ nhà:";
 "login_home_server_info" = "Máy chủ nhà của bạn lưu trữ tất cả dữ liệu cần giữ gìn và tài khoản";
 "login_identity_server_title" = "Máy chủ xác thực:";
-"login_identity_server_info" = "Matrix cung cấp máy chủ xác thực để theo dõi email nào thuộc về Matrix IDs nào. Chỉ https://matrix.org hiện đang tồn tại.";
-"login_user_id_placeholder" = "Matrix ID (ví dụ: @bob:matrix.org hoặc bob)";
+"login_identity_server_info" = "Teleiraq cung cấp máy chủ xác thực để theo dõi email nào thuộc về Teleiraq IDs nào. Chỉ https://teleiraq.com hiện đang tồn tại.";
+"login_user_id_placeholder" = "Teleiraq ID (ví dụ: @bob:teleiraq.com hoặc bob)";
 "login_password_placeholder" = "Mật khẩu";
 "login_optional_field" = "không bắt buộc";
 "login_display_name_placeholder" = "Tên hiển thị (ví dụ: Bob Obson)";
-"login_email_info" = "Định nghĩa địa chỉ email cho phép người dùng khác tìm thấy bạn trên Matrix dễ dàng hơn và giúp bạn đặt lại mật khẩu của bạn sau này.";
+"login_email_info" = "Định nghĩa địa chỉ email cho phép người dùng khác tìm thấy bạn trên Teleiraq dễ dàng hơn và giúp bạn đặt lại mật khẩu của bạn sau này.";
 "login_email_placeholder" = "Địa chỉ email";
 "login_prompt_email_token" = "Vui lòng nhập mã xác nhận hợp lệ email của bạn:";
 "login_error_title" = "Đăng nhập thất bại";
@@ -1681,7 +1681,7 @@
 "select_account" = "Chọn một tài khoản";
 "attach_media" = "Đính kèm Media từ thư viện";
 "capture_media" = "Chụp ảnh/quay video";
-"invite_user" = "Mời người dùng Matrix";
+"invite_user" = "Mời người dùng Teleiraq";
 "reset_to_default" = "Thiết lập lại về mặc định";
 "resend_message" = "Gửi lại tin nhắn";
 "select_all" = "Chọn tất cả";
@@ -1782,7 +1782,7 @@
 "account_msisdn_validation_error" = "Không thể xác thực số điện thoại.";
 "account_error_display_name_change_failed" = "Thay đổi tên hiển thị thất bại";
 "account_error_picture_change_failed" = "Thay đổi hình ảnh thất bại";
-"account_error_matrix_session_is_not_opened" = "Phiên làm việc matrix chưa được mở";
+"account_error_matrix_session_is_not_opened" = "Phiên làm việc Teleiraq chưa được mở";
 "account_error_email_wrong_title" = "Địa chỉ email không hợp lệ";
 "account_error_email_wrong_description" = "Nó có vẻ không phải là một địa chỉ email hợp lệ";
 "account_error_msisdn_wrong_title" = "Số điện thoại không hợp lệ";
@@ -1820,10 +1820,10 @@
 "attachment_cancel_upload" = "Huỷ bỏ tải lên?";
 "attachment_multiselection_size_prompt" = "Bạn có muốn gửi hình ảnh dưới dạng:";
 "attachment_multiselection_original" = "Kích thước thực sự";
-"attachment_e2e_keys_file_prompt" = "Tập tin này chứa các khoá mã hoá được xuất từ một máy khách Matrix.\nBạn có muốn xem nội dung tập tin hoặc nhập khẩu các khóa nó chứa?";
+"attachment_e2e_keys_file_prompt" = "Tập tin này chứa các khoá mã hoá được xuất từ một máy khách Teleiraq.\nBạn có muốn xem nội dung tập tin hoặc nhập khẩu các khóa nó chứa?";
 "attachment_e2e_keys_import" = "Nhập...";
 // Contacts
-"contact_mx_users" = "Người dùng của Matrix";
+"contact_mx_users" = "Người dùng của Teleiraq";
 "contact_local_contacts" = "Danh bạ";
 // Search
 "search_no_results" = "Không có kết quả";
@@ -1835,12 +1835,12 @@
 "format_time_d" = "ngày";
 // E2E import
 "e2e_import_room_keys" = "Nhập khóa phòng";
-"e2e_import_prompt" = "Quá trình này cho phép bạn nhập các khoá mã hoá mà trước đây bạn đã xuất từ một máy khách Matrix khác. Sau đó, bạn sẽ có thể giải mã bất kỳ thư nào mà khách hàng khác có thể giải mã.\nTệp xuất được bảo vệ bằng cụm mật khẩu. Bạn nên nhập cụm từ mật khẩu ở đây, để giải mã tệp.";
+"e2e_import_prompt" = "Quá trình này cho phép bạn nhập các khoá mã hoá mà trước đây bạn đã xuất từ một máy khách Teleiraq khác. Sau đó, bạn sẽ có thể giải mã bất kỳ thư nào mà khách hàng khác có thể giải mã.\nTệp xuất được bảo vệ bằng cụm mật khẩu. Bạn nên nhập cụm từ mật khẩu ở đây, để giải mã tệp.";
 "e2e_import" = "Nhập";
 "e2e_passphrase_enter" = "Nhập cụm mật khẩu";
 // E2E export
 "e2e_export_room_keys" = "Xuất các khoá của phòng";
-"e2e_export_prompt" = "Quá trình này cho phép bạn xuất khẩu các khoá cho tin nhắn bạn đã nhận được trong các phòng được mã hoá tới một tập tin cục bộ. Sau đó, bạn sẽ có thể nhập tập tin vào máy khách Matrix khác trong tương lai, để khách hàng cũng có thể giải mã các thư này.\nTập tin được xuất sẽ cho phép bất kỳ ai có thể đọc nó để giải mã bất kỳ tin nhắn nào được mã hóa mà bạn có thể thấy, do đó bạn nên cẩn thận để giữ an toàn.";
+"e2e_export_prompt" = "Quá trình này cho phép bạn xuất khẩu các khoá cho tin nhắn bạn đã nhận được trong các phòng được mã hoá tới một tập tin cục bộ. Sau đó, bạn sẽ có thể nhập tập tin vào máy khách Teleiraq khác trong tương lai, để khách hàng cũng có thể giải mã các thư này.\nTập tin được xuất sẽ cho phép bất kỳ ai có thể đọc nó để giải mã bất kỳ tin nhắn nào được mã hóa mà bạn có thể thấy, do đó bạn nên cẩn thận để giữ an toàn.";
 "e2e_export" = "Xuất";
 "e2e_passphrase_confirm" = "Xác nhận cụm mật khẩu";
 "e2e_passphrase_empty" = "Cụm mật khẩu không được để trống";
@@ -1921,7 +1921,7 @@
 "login_error_must_start_http" = "URL phải bắt đầu với http[s]://";
 // room details dialog screen
 // contacts list screen 
-"invitation_message" = "Tôi muốn trò chuyện với bạn với matrix. Vui lòng truy cập trang web http://matrix.org để biết thêm thông tin.";
+"invitation_message" = "Tôi muốn trò chuyện với bạn với Teleiraq. Vui lòng truy cập trang web https://teleiraq.com để biết thêm thông tin.";
 // Settings screen 
 "settings_title_config" = "Cấu hình";
 "settings_title_notifications" = "Thông báo";
@@ -1985,7 +1985,7 @@
 "onboarding_splash_page_3_message" = "Được mật mã hoá nối đầu và không yêu cầu số điện thoại. Không quảng cáo hay thu thập dữ liệu.";
 "onboarding_splash_page_1_message" = "Giao tiếp an ninh và độc lập, cho bạn cùng mức độ riêng tư như khi nói chuyện đối diện tại nhà mình.";
 "onboarding_splash_page_3_title" = "Nhắn tin an ninh.";
-"onboarding_splash_page_2_message" = "Lựa chọn nơi mà các cuộc nói chuyện của bạn được lưu trữ, cho bạn quyền kiểm soát và sự độc lập. Kết nối thông qua Matrix.";
+"onboarding_splash_page_2_message" = "Lựa chọn nơi mà các cuộc nói chuyện của bạn được lưu trữ, cho bạn quyền kiểm soát và sự độc lập. Kết nối thông qua Teleiraq.";
 "onboarding_splash_page_2_title" = "Bạn nắm kiểm soát.";
 "onboarding_splash_page_1_title" = "Làm chủ các cuộc nói chuyện của bạn.";
 "onboarding_splash_login_button_title" = "Tôi đã có danh khoản";

@@ -1,4 +1,4 @@
-// 
+//
 // Copyright 2021-2024 New Vector Ltd.
 //
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
@@ -9,16 +9,9 @@ import Foundation
 
 /// A collection of helpful functions for media compression.
 class MediaCompressionHelper: NSObject {
-    /// The default compression mode taking into account the `roomInputToolbarCompressionMode` build setting
-    /// and the `showMediaCompressionPrompt` Riot setting.
+    /// Always prompt the user to confirm the size when sending images and videos.
     @objc static var defaultCompressionMode: MXKRoomInputToolbarCompressionMode {
-        // When the compression mode build setting hasn't been customised, use the media compression prompt setting to determine what to do.
-        if BuildSettings.roomInputToolbarCompressionMode == .prompt {
-            return RiotSettings.shared.showMediaCompressionPrompt ? MXKRoomInputToolbarCompressionModePrompt : MXKRoomInputToolbarCompressionModeNone
-        } else {
-            // Otherwise use the compression mode defined in the build settings.
-            return BuildSettings.roomInputToolbarCompressionMode.mxkCompressionMode
-        }
+        return MXKRoomInputToolbarCompressionModePrompt
     }
 }
 

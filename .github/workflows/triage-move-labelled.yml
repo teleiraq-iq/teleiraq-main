@@ -8,17 +8,9 @@ jobs:
   apply_Z-Labs_label:
     name: Add Z-Labs label for features behind labs flags
     runs-on: ubuntu-latest
-    if: >
-      contains(github.event.issue.labels.*.name, 'A-Maths') || 
-      contains(github.event.issue.labels.*.name, 'A-Message-Pinning') ||
-      contains(github.event.issue.labels.*.name, 'A-Polls') ||
-      contains(github.event.issue.labels.*.name, 'A-Location-Sharing') ||
-      contains(github.event.issue.labels.*.name, 'A-Message-Bubbles') ||
-      contains(github.event.issue.labels.*.name, 'Z-IA') ||
-      contains(github.event.issue.labels.*.name, 'A-Themes-Custom') ||
-      contains(github.event.issue.labels.*.name, 'A-E2EE-Dehydration') ||
-      contains(github.event.issue.labels.*.name, 'A-Tags') ||
-      contains(github.event.issue.labels.*.name, 'A-Rich-Text-Editor')
+    # Upstream automation requires Element organization access.
+    if: >-
+      github.repository == 'element-hq/element-ios' && (contains(github.event.issue.labels.*.name, 'A-Maths') || contains(github.event.issue.labels.*.name, 'A-Message-Pinning') || contains(github.event.issue.labels.*.name, 'A-Polls') || contains(github.event.issue.labels.*.name, 'A-Location-Sharing') || contains(github.event.issue.labels.*.name, 'A-Message-Bubbles') || contains(github.event.issue.labels.*.name, 'Z-IA') || contains(github.event.issue.labels.*.name, 'A-Themes-Custom') || contains(github.event.issue.labels.*.name, 'A-E2EE-Dehydration') || contains(github.event.issue.labels.*.name, 'A-Tags') || contains(github.event.issue.labels.*.name, 'A-Rich-Text-Editor'))
     steps:
       - uses: actions/github-script@v5
         with:
@@ -33,14 +25,9 @@ jobs:
   add_priority_design_issues_to_project:
     name: P1 X-Needs-Design to Design project board
     runs-on: ubuntu-latest
-    if: >
-      contains(github.event.issue.labels.*.name, 'X-Needs-Design') &&
-      (contains(github.event.issue.labels.*.name, 'S-Critical') &&
-       (contains(github.event.issue.labels.*.name, 'O-Frequent') ||
-        contains(github.event.issue.labels.*.name, 'O-Occasional')) ||
-       (contains(github.event.issue.labels.*.name, 'S-Major') &&
-       contains(github.event.issue.labels.*.name, 'O-Frequent')) ||
-       contains(github.event.issue.labels.*.name, 'A11y'))
+    # Upstream automation requires Element organization access.
+    if: >-
+      github.repository == 'element-hq/element-ios' && (contains(github.event.issue.labels.*.name, 'X-Needs-Design') && (contains(github.event.issue.labels.*.name, 'S-Critical') && (contains(github.event.issue.labels.*.name, 'O-Frequent') || contains(github.event.issue.labels.*.name, 'O-Occasional')) || (contains(github.event.issue.labels.*.name, 'S-Major') && contains(github.event.issue.labels.*.name, 'O-Frequent')) || contains(github.event.issue.labels.*.name, 'A11y')))
     steps:
       - uses: actions/add-to-project@main
         with:
@@ -50,8 +37,9 @@ jobs:
   add_product_issues_to_project:
     name: X-Needs-Product to Design project board
     runs-on: ubuntu-latest
-    if: >
-      contains(github.event.issue.labels.*.name, 'X-Needs-Product')
+    # Upstream automation requires Element organization access.
+    if: >-
+      github.repository == 'element-hq/element-ios' && (contains(github.event.issue.labels.*.name, 'X-Needs-Product'))
     steps:
       - uses: actions/add-to-project@main
         with:

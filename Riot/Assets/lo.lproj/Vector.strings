@@ -61,7 +61,7 @@
 "room_participants_online" = "ອອນລາຍ";
 "room_participants_start_new_chat_error_using_user_email_without_identity_server" = "ບໍ່ມີການຕັ້ງຄ່າເຊີບເວີຖືກ ດັ່ງນັ້ນທ່ານບໍ່ສາມາດເລີ່ມການສົນທະນາກັບຜູ້ຕິດຕໍ່ໂດຍໃຊ້ອີເມວໄດ້.";
 "room_participants_invited_section" = "ເຊີນແລ້ວ";
-"room_participants_invite_malformed_id" = "ID ບໍ່ຖືກຕ້ອງ. ຄວນເປັນທີ່ຢູ່ອີເມວ ຫຼື Matrix ID ເຊັ່ນ '@localpart:domain'";
+"room_participants_invite_malformed_id" = "ID ບໍ່ຖືກຕ້ອງ. ຄວນເປັນທີ່ຢູ່ອີເມວ ຫຼື Teleiraq ID ເຊັ່ນ '@localpart:domain'";
 "room_participants_invite_malformed_id_title" = "ການເຊີນຜິດພາດ";
 "room_participants_invite_another_user" = "ຄົ້ນຫາ / ເຊີນໂດຍ ID ຜູ້ໃຊ້, ຊື່ຫຼືອີເມລ໌";
 "room_participants_filter_room_members_for_dm" = "ການກັ່ນຕອງສະມາຊິກ";
@@ -96,7 +96,7 @@
 "contacts_address_book_permission_denied" = "ທ່ານບໍ່ໄດ້ອະນຸຍາດໃຫ້ %@ ເຂົ້າເຖິງລາຍຊື່ຜູ້ຕິດຕໍ່ໃນເຄື່ອງຂອງທ່ານ";
 "contacts_address_book_permission_required" = "ຕ້ອງໄດ້ຮັບການອະນຸຍາດເພື່ອເຂົ້າເຖິງຜູ້ຕິດຕໍ່";
 "contacts_address_book_no_identity_server" = "ບໍ່ມີການກຳນົດຄ່າເຊີບເວີ";
-"contacts_address_book_matrix_users_toggle" = "ຜູ້ໃຊ້ Matrix ເທົ່ານັ້ນ";
+"contacts_address_book_matrix_users_toggle" = "ຜູ້ໃຊ້ Teleiraq ເທົ່ານັ້ນ";
 "directory_search_fail" = "ດຶງຂໍ້ມູນບໍ່ສຳເລັດ";
 "directory_searching_title" = "ກຳລັງຊອກຫາລາຍການ…";
 "directory_search_results_more_than" = ">%1$tu ພົບເຫັນຜົນຮັບສຳລັບ %2$@";
@@ -195,14 +195,14 @@
 "auth_autodiscover_invalid_response" = "ການຕອບໂຕ້ການຄົ້ນພົບຂອງ homeserver ບໍ່ຖືກຕ້ອງ";
 "auth_accept_policies" = "ກະລຸນາກວດເບິ່ງ ແລະ ຍອມຮັບນະໂຍບາຍຂອງ homeserver ນີ້:";
 "auth_add_email_and_phone_warning" = "ການລົງທະບຽນດ້ວຍອີເມລ໌ ແລະ ເບີໂທລະສັບໃນເວລາດຽວກັນຍັງບໍ່ຖືກຮອງຮັບຈົນກ່ວາຈະມີ api . ພຽງແຕ່ເບີໂທລະສັບເທົ່ານັ້ນຈະຖືກພິຈາລະນາ. ທ່ານອາດຈະເພີ່ມອີເມວຂອງທ່ານໃສ່ໂປຣໄຟລ໌ຂອງທ່ານໃນການຕັ້ງຄ່າ.";
-"auth_reset_password_error_is_required" = "ບໍ່ມີການກຳນົດຄ່າເຊີບເວີ: ເພີ່ມລາຍການໜຶ່ງໃນຕົວເລືອກເຊີບເວີເພື່ອກູ້ຄືນລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານ.";
-"auth_reset_password_error_not_found" = "ເບີ່ງຄືວ່າອີເມວຂອງທ່ານປະກົດວ່າບໍ່ກ່ຽວຂ້ອງກັບ Matrix ID ໃນ homeserver ນີ້.";
+"auth_reset_password_error_is_required" = "ບໍ່ມີການກຳນົດຄ່າເຊີບເວີ: ເພີ່ມລາຍການໜຶ່ງໃນຕົວເລືອກເຊີບເວີເພື່ອກູ້ຄືນລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານ.";
+"auth_reset_password_error_not_found" = "ເບີ່ງຄືວ່າອີເມວຂອງທ່ານປະກົດວ່າບໍ່ກ່ຽວຂ້ອງກັບ Teleiraq ID ໃນ homeserver ນີ້.";
 "auth_reset_password_error_unauthorized" = "ການກວດສອບທີ່ຢູ່ອີເມວບໍ່ສຳເລັດ: ໃຫ້ແນ່ໃຈວ່າທ່ານໄດ້ຄລິກໃສ່ການເຊື່ອມຕໍ່ໃນອີເມວ";
 "auth_reset_password_next_step_button" = "ຂ້ອຍໄດ້ຢືນຢັນທີ່ຢູ່ອີເມວຂອງຂ້ອຍແລ້ວ";
 "auth_reset_password_email_validation_message" = "ອີເມວຖືກສົ່ງໄປຫາ %@ ແລ້ວ. ເມື່ອທ່ານຕິດຕາມການເຊື່ອມຕໍ່ແລ້ວ, ໃຫ້ກົດໃສ່ຂ້າງລຸ່ມນີ້.";
 "auth_reset_password_missing_password" = "ຕ້ອງໃສ່ລະຫັດຜ່ານໃໝ່.";
 "auth_reset_password_missing_email" = "ຕ້ອງໃສ່ອີເມວທີ່ເຊື່ອມຕໍ່ກັບບັນຊີຂອງທ່ານ.";
-"auth_reset_password_message" = "ເພື່ອກູ້ຄືນລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານ, ກະລຸນາໃສ່ທີ່ຢູ່ອີເມວທີ່ເຊື່ອມຕໍ່ກັບບັນຊີຂອງທ່ານ:";
+"auth_reset_password_message" = "ເພື່ອກູ້ຄືນລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານ, ກະລຸນາໃສ່ທີ່ຢູ່ອີເມວທີ່ເຊື່ອມຕໍ່ກັບບັນຊີຂອງທ່ານ:";
 "auth_recaptcha_message" = "homeserver ນີ້ຕ້ອງການໃຫ້ແນ່ໃຈວ່າທ່ານບໍ່ແມ່ນຫຸ່ນຍົນ";
 "auth_msisdn_validation_error" = "ບໍ່ສາມາດຢັ້ງຢືນເບີໂທລະສັບໄດ້.";
 "auth_msisdn_validation_message" = "ພວກເຮົາໄດ້ສົ່ງ SMS ພ້ອມລະຫັດເປີດໃຊ້ງານ. ກະລຸນາໃສ່ລະຫັດຂ້າງລຸ່ມນີ້.";
@@ -210,13 +210,13 @@
 "auth_email_validation_message" = "ກະລຸນາກວດເບິ່ງອີເມວຂອງທ່ານເພື່ອສືບຕໍ່ການລົງທະບຽນ";
 "auth_use_server_options" = "ໃຊ້ຕົວເລືອກເຊີບເວີແບບກຳນົດເອງ (ຂັ້ນສູງ)";
 "auth_email_not_found" = "ການສົ່ງອີເມວບໍ່ໍ່ສຳເລັດ: ບໍ່ພົບທີ່ຢູ່ອີເມວນີ້";
-"auth_forgot_password_error_no_configured_identity_server" = "ບໍ່ມີການກຳນົດຄ່າເຊີບເວີ: ເພີ່ມໜຶ່ງລາຍການເພື່ອກູ້ຄືນລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານ.";
-"auth_forgot_password" = "ລືມລະຫັດຜ່ານບັນຊີ Matrix?";
+"auth_forgot_password_error_no_configured_identity_server" = "ບໍ່ມີການກຳນົດຄ່າເຊີບເວີ: ເພີ່ມໜຶ່ງລາຍການເພື່ອກູ້ຄືນລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານ.";
+"auth_forgot_password" = "ລືມລະຫັດຜ່ານບັນຊີ Teleiraq?";
 "auth_username_in_use" = "ຊື່ຜູ້ໃຊ້ທີ່ໃຊ້ຢູ່";
 "auth_password_dont_match" = "ລະຫັດຜ່ານບໍ່ກົງກັນ";
 "auth_untrusted_id_server" = "ເຊີບເວີບໍ່ໜ້າເຊື່ອຖື";
-"auth_phone_is_required" = "ບໍ່ມີການກຳນົດຄ່າດເຊີບເວີດັ່ງນັ້ນທ່ານບໍ່ສາມາດເພີ່ມເບີໂທລະສັບເພື່ອກູ້ຄຶນລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານໃນອະນາຄົດ.";
-"auth_email_is_required" = "ບໍ່ມີການກຳນົດຄ່າເຊີບເວີ ດັ່ງນັ້ນທ່ານບໍ່ສາມາດເພີ່ມທີ່ຢູ່ອີເມວເພື່ອກູ້ຄືນລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານໃນອະນາຄົດ.";
+"auth_phone_is_required" = "ບໍ່ມີການກຳນົດຄ່າດເຊີບເວີດັ່ງນັ້ນທ່ານບໍ່ສາມາດເພີ່ມເບີໂທລະສັບເພື່ອກູ້ຄຶນລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານໃນອະນາຄົດ.";
+"auth_email_is_required" = "ບໍ່ມີການກຳນົດຄ່າເຊີບເວີ ດັ່ງນັ້ນທ່ານບໍ່ສາມາດເພີ່ມທີ່ຢູ່ອີເມວເພື່ອກູ້ຄືນລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານໃນອະນາຄົດ.";
 "auth_phone_in_use" = "ເບີໂທລະສັບນີ້ຖືກໃຊ້ແລ້ວ";
 "auth_email_in_use" = "ທີ່ຢູ່ອີເມວນີ້ຖືກໃຊ້ແລ້ວ";
 "auth_missing_email_or_phone" = "ບໍ່ມີທີ່ຢູ່ອີເມວ ຫຼື ເບີໂທລະສັບ";
@@ -232,8 +232,8 @@
 "auth_invalid_user_name" = "ຊື່ຜູ້ໃຊ້ຕ້ອງປະກອບມີຕົວອັກສອນ, ຕົວເລກ, ຈຸດ, ຂີດຕໍ່ ແລະຂີດກ້ອງເທົ່ານັ້ນ";
 "auth_invalid_login_param" = "ຊື່ຜູ້ໃຊ້ ແລະ /ຫຼືລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ";
 "auth_identity_server_placeholder" = "URL (e.g. https://vector.im)";
-"auth_home_server_placeholder" = "URL (e.g. https://matrix.org)";
-"auth_repeat_new_password_placeholder" = "ຢືນຢັນລະຫັດຜ່ານບັນຊີ Matrix ໃໝ່ຂອງທ່ານ";
+"auth_home_server_placeholder" = "URL (e.g. https://teleiraq.com)";
+"auth_repeat_new_password_placeholder" = "ຢືນຢັນລະຫັດຜ່ານບັນຊີ Teleiraq ໃໝ່ຂອງທ່ານ";
 "auth_repeat_password_placeholder" = "ຊ້ຳລະຫັດຜ່ານ";
 "auth_phone_placeholder" = "ເບີໂທລະສັບ";
 "auth_optional_phone_placeholder" = "ເບີໂທລະສັບ (ຕົວເລືອກ)";
@@ -284,7 +284,7 @@
 "onboarding_splash_page_4_title_no_pun" = "ຂໍ້ຄວາມສໍາລັບທີມງານຂອງທ່ານ.";
 "onboarding_splash_page_3_message" = "ເຂົ້າລະຫັດແຕ່ຕົ້ນທາງຮອດປາຍທາງ ແລະ ບໍ່ຕ້ອງການເບີໂທລະສັບ. ບໍ່ມີການໂຄສະນາ ຫຼື ການຂຸດຄົ້ນຂໍ້ມູນ.";
 "onboarding_splash_page_3_title" = "ການສົ່ງຂໍ້ຄວາມທີ່ປອດໄພ.";
-"onboarding_splash_page_2_message" = "ເລືອກບ່ອນທີ່ຈະເກັບການສົນທະນາຂອງທ່ານ, ໃຫ້ທ່ານຄວບຄຸມ ແລະ ເປັນເອກະລາດ. ເຊື່ອມຕໍ່ຜ່ານ Matrix.";
+"onboarding_splash_page_2_message" = "ເລືອກບ່ອນທີ່ຈະເກັບການສົນທະນາຂອງທ່ານ, ໃຫ້ທ່ານຄວບຄຸມ ແລະ ເປັນເອກະລາດ. ເຊື່ອມຕໍ່ຜ່ານ Teleiraq.";
 "onboarding_splash_page_2_title" = "ທ່ານຢູ່ໃນການຄວບຄຸມ.";
 "onboarding_splash_page_1_message" = "ການສື່ສານທີ່ປອດໄພ ແລະ ເປັນເອກະລາດທີ່ເຮັດໃຫ້ທ່ານມີຄວາມເປັນສ່ວນຕົວໃນລະດັບດຽວກັນກັບການສົນທະນາແບບເຫັນໜ້າຢູ່ໃນເຮືອນຂອງທ່ານເອງ.";
 "onboarding_splash_page_1_title" = "ເປັນເຈົ້າຂອງການສົນທະນາຂອງທ່ານ.";
@@ -344,9 +344,9 @@
 
 // Events formatter
 "event_formatter_member_updates" = "ການປ່ຽນແປງການເປັນສະມາຊິກ %tu";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "teleiraq.com";
 "directory_server_type_homeserver" = "ພິມ homeserver ເພື່ອລາຍຊື່ຫ້ອງສາທາລະນະຈາກ";
-"directory_server_all_native_rooms" = "ຫ້ອງ Matrix ເດີມທັງໝົດ";
+"directory_server_all_native_rooms" = "ຫ້ອງ Teleiraq ເດີມທັງໝົດ";
 "directory_server_all_rooms" = "ຫ້ອງທັງໝົດຢູ່ໃນເຊີບເວີ %@";
 "directory_server_picker_title" = "ເລືອກລາຍການ";
 
@@ -369,7 +369,7 @@
 // Group rooms
 "group_rooms_filter_rooms" = "ກັ່ນຕອງຫ້ອງຊຸມຊົນ";
 "group_participants_invited_section" = "ເຊີນແລ້ວ";
-"group_participants_invite_malformed_id" = "ID ບໍ່ຖືກຕ້ອງ. ຄວນເປັນ Matrix ID ເຊັ່ນ '@localpart:domain'";
+"group_participants_invite_malformed_id" = "ID ບໍ່ຖືກຕ້ອງ. ຄວນເປັນ Teleiraq ID ເຊັ່ນ '@localpart:domain'";
 "group_participants_invite_malformed_id_title" = "ການເຊີນຜິດພາດ";
 "group_participants_invite_another_user" = "ຄົ້ນຫາ / ເຊີນໂດຍ ID ຜູ້ໃຊ້ຫຼືຊື່";
 "group_participants_filter_members" = "ກັ່ນຕອງສະມາຊິກຊຸມຊົນ";
@@ -501,7 +501,7 @@
 "room_details_topic" = "ຫົວຂໍ້";
 "security_settings_crosssigning_info_trusted" = "ການ Cross-signing ຖືກເປີດໃຊ້ງານ. ທ່ານສາມາດເຊື່ອຖືຜູ້ໃຊ້ ແລະ ລະບົບອື່ນໆຂອງທ່ານໄດ້ໂດຍອີງໃສ່ການCross-signing ແຕ່ທ່ານບໍ່ສາມາດ Cross-signing ຈາກລະບົບນີ້ໄດ້ເພາະມັນບໍ່ມີກະແຈສ່ວນຕົວທີ່ມີການ Cross-signing. ການຮັກສາຄວາມປອດໄພສົມບູນຂອງລະບົບນີ້.";
 "settings_discovery_no_identity_server" = "ໃນປັດຈຸບັນທ່ານບໍ່ໄດ້ໃຊ້ເຊີບເວີ. ເພື່ອໃຫ້ສາມາດຄົ້ນພົບໄດ້ໂດຍຜູ້ຕິດຕໍ່ທີ່ມີຢູ່ແລ້ວ, ເພີ່ມຫນຶ່ງລາຍການ.";
-"store_full_description" = "ອົງປະກອບແມ່ນປະເພດໃຫມ່ຂອງ messenger ແລະ app ຮ່ວມມື:\n\n1. ເຮັດໃຫ້ທ່ານຄວບຄຸມເພື່ອຮັກສາຄວາມເປັນສ່ວນຕົວຂອງທ່ານ\n2. ເຮັດໃຫ້ທ່ານຕິດຕໍ່ສື່ສານກັບໃຜກໍໄດ້ໃນເຄືອຂ່າຍ Matrix, ແລະ ນອກຈາກນັ້ນໂດຍການລວມເຂົ້າກັບແອັບຯເຊັ່ນ Slack.\n3. ປົກປ້ອງທ່ານຈາກການໂຄສະນາ, ການຂຸດຄົ້ນຂໍ້ມູນ, backdoors ແລະ ສິ່ງກີດກັ້ນ\n4. ຮັບປະກັນໃຫ້ທ່ານຜ່ານການເຂົ້າລະຫັດແຕ່ຕົ້ນທາງເຖິງປາຍທາງ, ດ້ວຍການ cross-signing ເພື່ອຢັ້ງຢືນຜູ້ອື່ນ\n\nອົງປະກອບແມ່ນແຕກຕ່າງກັນຢ່າງສິ້ນເຊີງຈາກແອັບຯສົ່ງຂໍ້ຄວາມ ແລະ ການຮ່ວມມືອື່ນໆເພາະວ່າມັນຖືກແບ່ງອອກເປັນສູນກາງ ແລະ ແຫຼ່ງເປີດ.\n\nອົງປະກອບໃຫ້ທ່ານເປັນ host ດ້ວຍຕົນເອງ - ຫຼືເລືອກ host - ເພື່ອໃຫ້ທ່ານມີຄວາມເປັນສ່ວນຕົວ, ຄວາມເປັນເຈົ້າຂອງ ແລະ ການຄວບຄຸມຂໍ້ມູນ ແລະ ການສົນທະນາຂອງທ່ານ. ເຮັດໃຫ້ທ່ານເຂົ້າເຖິງເຄືອຂ່າຍເປີດ; ສະນັ້ນທ່ານບໍ່ພຽງແຕ່ເວົ້າກັບຜູ້ໃຊ້ Element ອື່ນໆເທົ່ານັ້ນ. ແລະ ຍັງມີຄວາມປອດໄພຫຼາຍ.\n\nອົງປະກອບສາມາດເຮັດສິ່ງທັງຫມົດນີ້ໄດ້ເພາະວ່າດໍາເນີນການຢູ່ໃນ Matrix - ມາດຕະຖານສໍາລັບການສື່ສານແບບເປີດເຜີຍ, ແບ່ງຂັ້ນຄຸ້ມຄອງ.\n\nອົງປະກອບເຮັດໃຫ້ທ່ານຄວບຄຸມໂດຍການໃຫ້ທ່ານເລືອກວ່າໃຜເປັນ host ການສົນທະນາຂອງທ່ານ. ຈາກແອັບ Element, ທ່ານສາມາດເລືອກເປັນ host ໃນວິທີຕ່າງໆ:\n\n1. ເອົາບັນຊີຟຣີຢູ່ໃນເຊີບເວີສາທາລະນະ matrix.org\n2. ຕົນເອງເປັນ host ບັນຊີຂອງທ່ານໂດຍການດຳເນິນເຊີບເວີໃນຮາດແວຂອງທ່ານເອງ\n3. ລົງທະບຽນສໍາລັບບັນຊີຢູ່ໃນເຊີບເວີທີ່ກໍາຫນົດເອງໂດຍພຽງແຕ່ສະຫມັກກັບ Element Matrix Services hosting platform\n\nເປັນຫຍັງຕ້ອງເລືອກອົງປະກອບ?\n\nເປັນເຈົ້າຂອງຂໍ້ມູນຂອງທ່ານ: ທ່ານຕັດສິນໃຈວ່າຈະເກັບຂໍ້ມູນ ແລະ ຂໍ້ຄວາມຂອງທ່ານຢູ່ໃສ. ທ່ານເປັນຜູ້ ຄວບຄຸມມັນ, ບໍ່ມີ MEGACORP ທີ່ຂຸດຄົ້ນຂໍ້ມູນຂອງທ່ານ ຫຼື ໃຫ້ການເຂົ້າເຖິງພາກສ່ວນທີສາມ.\n\nເປີດການສົ່ງຂໍ້ຄວາມ ແລະ ການຮ່ວມມື: ທ່ານສາມາດສົນທະນາກັບຜູ້ອື່ນໃນເຄືອຂ່າຍ Matrix, ບໍ່ວ່າພວກເຂົາກໍາລັງໃຊ້ Element ຫຼືແ ອັບຯ Matrix ອື່ນ, ແລະເຖິ ງແມ່ນວ່າພວກເຂົາກໍາລັງໃຊ້ລະບົບການສົ່ງຂໍ້ຄວາມທີ່ແຕກຕ່າງກັນທີ່ມັກຂອງ Slack, IRC ຫຼື XMPP.\n\nSUPER-SECURE: ການເຂົ້າລະຫັດຕົວຈິງແຕ່ຕົ້ນທາງເຖິງປາຍທາງ (ມີພຽງແຕ່ຜູ້ຢູ່ໃນການສົນທະນາສາມາດຖອດລະຫັດຂໍ້ຄວາມ), ແລະ ການ cross-signing ເພື່ອກວດສອບອຸປະກອນຂອງຜູ້ເຂົ້າຮ່ວມການສົນທະນາໄດ້.\n\nສຳເລັດການສື່ສານ: ການສົ່ງຂໍ້ຄວາມ, ໂທສຽງ ແລະ ວິດີໂອ, ການແບ່ງປັນໄຟລ໌, ການແບ່ງປັນໜ້າຈໍ ແລະ ການເຊື່ອມໂຍງທັງໝົດ, ບັອດ ແລະ ວິດເຈັດ. ການສ້າງຫ້ອງ, ຊຸມຊົນ, ຕິດຕໍ່ພົວພັນ ແລະ ເຮັດສິ່ງຕ່າງໆ.\n\nທຸກບ່ອນທີ່ທ່ານຢູ່: ຕິດຕໍ່ພົວພັນໄດ້ທຸກບ່ອນທີ່ທ່ານຢູ່ດ້ວຍປະຫວັດຂໍ້ຄວາມທີ່ synchronized ຢ່າງເຕັມສ່ວນໃນທົ່ວທຸກອຸປະກອນຂອງທ່ານ ແລະໃນເວັບທີ່ https://element.io/app.";
+"store_full_description" = "ອົງປະກອບແມ່ນປະເພດໃຫມ່ຂອງ messenger ແລະ app ຮ່ວມມື:\n\n1. ເຮັດໃຫ້ທ່ານຄວບຄຸມເພື່ອຮັກສາຄວາມເປັນສ່ວນຕົວຂອງທ່ານ\n2. ເຮັດໃຫ້ທ່ານຕິດຕໍ່ສື່ສານກັບໃຜກໍໄດ້ໃນເຄືອຂ່າຍ Teleiraq, ແລະ ນອກຈາກນັ້ນໂດຍການລວມເຂົ້າກັບແອັບຯເຊັ່ນ Slack.\n3. ປົກປ້ອງທ່ານຈາກການໂຄສະນາ, ການຂຸດຄົ້ນຂໍ້ມູນ, backdoors ແລະ ສິ່ງກີດກັ້ນ\n4. ຮັບປະກັນໃຫ້ທ່ານຜ່ານການເຂົ້າລະຫັດແຕ່ຕົ້ນທາງເຖິງປາຍທາງ, ດ້ວຍການ cross-signing ເພື່ອຢັ້ງຢືນຜູ້ອື່ນ\n\nອົງປະກອບແມ່ນແຕກຕ່າງກັນຢ່າງສິ້ນເຊີງຈາກແອັບຯສົ່ງຂໍ້ຄວາມ ແລະ ການຮ່ວມມືອື່ນໆເພາະວ່າມັນຖືກແບ່ງອອກເປັນສູນກາງ ແລະ ແຫຼ່ງເປີດ.\n\nອົງປະກອບໃຫ້ທ່ານເປັນ host ດ້ວຍຕົນເອງ - ຫຼືເລືອກ host - ເພື່ອໃຫ້ທ່ານມີຄວາມເປັນສ່ວນຕົວ, ຄວາມເປັນເຈົ້າຂອງ ແລະ ການຄວບຄຸມຂໍ້ມູນ ແລະ ການສົນທະນາຂອງທ່ານ. ເຮັດໃຫ້ທ່ານເຂົ້າເຖິງເຄືອຂ່າຍເປີດ; ສະນັ້ນທ່ານບໍ່ພຽງແຕ່ເວົ້າກັບຜູ້ໃຊ້ Element ອື່ນໆເທົ່ານັ້ນ. ແລະ ຍັງມີຄວາມປອດໄພຫຼາຍ.\n\nອົງປະກອບສາມາດເຮັດສິ່ງທັງຫມົດນີ້ໄດ້ເພາະວ່າດໍາເນີນການຢູ່ໃນ Teleiraq - ມາດຕະຖານສໍາລັບການສື່ສານແບບເປີດເຜີຍ, ແບ່ງຂັ້ນຄຸ້ມຄອງ.\n\nອົງປະກອບເຮັດໃຫ້ທ່ານຄວບຄຸມໂດຍການໃຫ້ທ່ານເລືອກວ່າໃຜເປັນ host ການສົນທະນາຂອງທ່ານ. ຈາກແອັບ Element, ທ່ານສາມາດເລືອກເປັນ host ໃນວິທີຕ່າງໆ:\n\n1. ເອົາບັນຊີຟຣີຢູ່ໃນເຊີບເວີສາທາລະນະ teleiraq.com\n2. ຕົນເອງເປັນ host ບັນຊີຂອງທ່ານໂດຍການດຳເນິນເຊີບເວີໃນຮາດແວຂອງທ່ານເອງ\n3. ລົງທະບຽນສໍາລັບບັນຊີຢູ່ໃນເຊີບເວີທີ່ກໍາຫນົດເອງໂດຍພຽງແຕ່ສະຫມັກກັບ Element Teleiraq Services hosting platform\n\nເປັນຫຍັງຕ້ອງເລືອກອົງປະກອບ?\n\nເປັນເຈົ້າຂອງຂໍ້ມູນຂອງທ່ານ: ທ່ານຕັດສິນໃຈວ່າຈະເກັບຂໍ້ມູນ ແລະ ຂໍ້ຄວາມຂອງທ່ານຢູ່ໃສ. ທ່ານເປັນຜູ້ ຄວບຄຸມມັນ, ບໍ່ມີ MEGACORP ທີ່ຂຸດຄົ້ນຂໍ້ມູນຂອງທ່ານ ຫຼື ໃຫ້ການເຂົ້າເຖິງພາກສ່ວນທີສາມ.\n\nເປີດການສົ່ງຂໍ້ຄວາມ ແລະ ການຮ່ວມມື: ທ່ານສາມາດສົນທະນາກັບຜູ້ອື່ນໃນເຄືອຂ່າຍ Teleiraq, ບໍ່ວ່າພວກເຂົາກໍາລັງໃຊ້ Element ຫຼືແ ອັບຯ Teleiraq ອື່ນ, ແລະເຖິ ງແມ່ນວ່າພວກເຂົາກໍາລັງໃຊ້ລະບົບການສົ່ງຂໍ້ຄວາມທີ່ແຕກຕ່າງກັນທີ່ມັກຂອງ Slack, IRC ຫຼື XMPP.\n\nSUPER-SECURE: ການເຂົ້າລະຫັດຕົວຈິງແຕ່ຕົ້ນທາງເຖິງປາຍທາງ (ມີພຽງແຕ່ຜູ້ຢູ່ໃນການສົນທະນາສາມາດຖອດລະຫັດຂໍ້ຄວາມ), ແລະ ການ cross-signing ເພື່ອກວດສອບອຸປະກອນຂອງຜູ້ເຂົ້າຮ່ວມການສົນທະນາໄດ້.\n\nສຳເລັດການສື່ສານ: ການສົ່ງຂໍ້ຄວາມ, ໂທສຽງ ແລະ ວິດີໂອ, ການແບ່ງປັນໄຟລ໌, ການແບ່ງປັນໜ້າຈໍ ແລະ ການເຊື່ອມໂຍງທັງໝົດ, ບັອດ ແລະ ວິດເຈັດ. ການສ້າງຫ້ອງ, ຊຸມຊົນ, ຕິດຕໍ່ພົວພັນ ແລະ ເຮັດສິ່ງຕ່າງໆ.\n\nທຸກບ່ອນທີ່ທ່ານຢູ່: ຕິດຕໍ່ພົວພັນໄດ້ທຸກບ່ອນທີ່ທ່ານຢູ່ດ້ວຍປະຫວັດຂໍ້ຄວາມທີ່ synchronized ຢ່າງເຕັມສ່ວນໃນທົ່ວທຸກອຸປະກອນຂອງທ່ານ ແລະໃນເວັບທີ່ https://element.io/app.";
 "room_details_room_name_for_dm" = "ຊື່";
 "room_details_room_name" = "ຊື່ຫ້ອງ";
 "room_details_photo_for_dm" = "ຮູບ";
@@ -548,8 +548,8 @@
 
 // Manage session
 "manage_session_title" = "ການຈັດການລະບົບ";
-"security_settings_user_password_description" = "ຢືນຢັນຕົວຕົນຂອງທ່ານໂດຍການໃສ່ລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານ";
-"security_settings_coming_soon" = "ຂໍໂທດ. ຄຳສັ່ງນີ້ຍັງບໍ່ສາມາດໃຊ້ໄດ້ໃນ %@ iOS ເທື່ອ. ກະລຸນາໃຊ້ໂປຣແກຣມ Matrix ອື່ນເພື່ອຕັ້ງຄ່າມັນ. %@ iOS ຈະໃຊ້ມັນ.";
+"security_settings_user_password_description" = "ຢືນຢັນຕົວຕົນຂອງທ່ານໂດຍການໃສ່ລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານ";
+"security_settings_coming_soon" = "ຂໍໂທດ. ຄຳສັ່ງນີ້ຍັງບໍ່ສາມາດໃຊ້ໄດ້ໃນ %@ iOS ເທື່ອ. ກະລຸນາໃຊ້ໂປຣແກຣມ Teleiraq ອື່ນເພື່ອຕັ້ງຄ່າມັນ. %@ iOS ຈະໃຊ້ມັນ.";
 "security_settings_complete_security_alert_message" = "ທ່ານຄວນເຮັດສໍາເລັດຄວາມປອດໄພໃນລະບົບປັດຈຸບັນຂອງທ່ານກ່ອນ.";
 "security_settings_complete_security_alert_title" = "ຄວາມປອດໄພຄົບຖ້ວນສົມບູນ";
 "security_settings_blacklist_unverified_devices_description" = "ກວດສອບການໃຊ້ງານທັງຫມົດຂອງຜູ້ໃຊ້ເພື່ອຫມາຍໃຫ້ເຂົາເຈົ້າເປັນທີ່ເຊື່ອຖືໄດ້ ແລະ ສົ່ງຂໍ້ຄວາມໃຫ້ເຂົາເຈົ້າ.";
@@ -573,7 +573,7 @@
 "security_settings_secure_backup_info_checking" = "ກຳລັງກວດສອບ…";
 "security_settings_secure_backup_description" = "ສຳຮອງຂໍ້ມູນລະຫັດການເຂົ້າລະຫັດຂອງທ່ານດ້ວຍຂໍ້ມູນບັນຊີຂອງທ່ານໃນກໍລະນີທີ່ທ່ານສູນເສຍການເຂົ້າເຖິງລະບົບຂອງທ່ານ. ກະແຈຂອງທ່ານຈະຖືກຮັກສາໄວ້ດ້ວຍກະແຈຄວາມປອດໄພທີ່ເປັນເອກະລັກ.";
 "security_settings_secure_backup" = "ການສຳຮອງຂໍ້ມູນທີ່ປອດໄພ";
-"security_settings_crypto_sessions_description_2" = "ຖ້າທ່ານບໍ່ຮັບຮູ້ການເຂົ້າສູ່ລະບົບ, ໃຫ້ປ່ຽນລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານແລະຕັ້ງການສໍາຮອງຂໍ້ມູນທີ່ປອດໄພຄືນໃໝ່.";
+"security_settings_crypto_sessions_description_2" = "ຖ້າທ່ານບໍ່ຮັບຮູ້ການເຂົ້າສູ່ລະບົບ, ໃຫ້ປ່ຽນລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານແລະຕັ້ງການສໍາຮອງຂໍ້ມູນທີ່ປອດໄພຄືນໃໝ່.";
 "security_settings_crypto_sessions_loading" = "ກຳລັງໂຫລດລະບົບ…";
 "security_settings_crypto_sessions" = "ລະບົບຂອງຂ້ອຍ";
 
@@ -631,11 +631,11 @@
 "settings_crypto_device_id" = "\nID ລະບົບ: ";
 "settings_crypto_device_name" = "ຊື່ລະບົບ: ";
 "settings_add_3pid_invalid_password_message" = "ຂໍ້ມູນປະຈຳຕົວບໍ່ຖືກຕ້ອງ";
-"settings_add_3pid_password_message" = "ເພື່ອສືບຕໍ່, ກະລຸນາໃສ່ລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານ";
+"settings_add_3pid_password_message" = "ເພື່ອສືບຕໍ່, ກະລຸນາໃສ່ລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານ";
 "settings_add_3pid_password_title_msidsn" = "ເພີ່ມເບີໂທລະສັບ";
 "settings_add_3pid_password_title_email" = "ເພີ່ມທີ່ຢູ່ອີເມວ";
-"settings_password_updated" = "ລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານໄດ້ຖືກອັບເດດແລ້ວ";
-"settings_fail_to_update_password" = "ອັບເດດລະຫັດຜ່ານບັນຊີ Matrix ບໍ່ສຳເລັດ";
+"settings_password_updated" = "ລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານໄດ້ຖືກອັບເດດແລ້ວ";
+"settings_fail_to_update_password" = "ອັບເດດລະຫັດຜ່ານບັນຊີ Teleiraq ບໍ່ສຳເລັດ";
 "settings_confirm_password" = "ຢືນຢັນລະຫັດ";
 "settings_new_password" = "ລະຫັດຜ່ານໃຫມ່";
 "settings_old_password" = "ລະຫັດຜ່ານເກົ່າ";
@@ -712,7 +712,7 @@
 "settings_three_pids_management_information_part1" = "ຈັດການທີ່ຢູ່ອີເມວ ຫຼື ເບີໂທລະສັບໃດທີ່ທ່ານສາມາດໃຊ້ເພື່ອເຂົ້າສູ່ລະບົບ ຫຼື ກູ້ຄືນບັນຊີຂອງທ່ານໄດ້ທີ່ນີ້. ຄວບຄຸມວ່າໃຜສາມາດຊອກຫາທ່ານຢູ່ໃນ ";
 "settings_fail_to_update_profile" = "ອັບເດດໂປຣໄຟລ໌ບໍ່ສຳເລັດ";
 "settings_night_mode" = "ໂໝດກາງຄືນ";
-"settings_change_password" = "ປ່ຽນລະຫັດຜ່ານບັນຊີ Matrix";
+"settings_change_password" = "ປ່ຽນລະຫັດຜ່ານບັນຊີ Teleiraq";
 "settings_add_phone_number" = "ເພີ່ມເບີໂທລະສັບ";
 "settings_phone_number" = "ໂທລະສັບ";
 "settings_add_email_address" = "ເພີ່ມທີ່ຢູ່ອີເມວ";
@@ -800,7 +800,7 @@
 "threads_beta_information" = "ຮັກສາການສົນທະນາທີ່ມີການຈັດລະບຽບ.\n\nກະທູ້ຊ່ວຍໃຫ້ການສົນທະນາຂອງທ່ານຢູ່ໃນຫົວຂໍ້ແລະງ່າຍຕໍ່ການຕິດຕາມ. ";
 "threads_beta_title" = "ກະທູ້";
 "threads_notice_done" = "ໄດ້ແລ້ວ";
-"threads_notice_information" = "ກະທູ້ທັງໝົດທີ່ສ້າງຂຶ້ນໃນລະຫວ່າງໄລຍະທົດລອງຕອນນີ້ຈະຖືກ <b>ສະແດງເປັນການຕອບແບບປົກກະຕິ</b>.<br/><br/>ນີ້ຈະເປັນການປ່ຽນເທື່ອລະອັນ, ເນື່ອງຈາກຕອນນີ້ກະທູ້ເປັນສ່ວນໜຶ່ງຂອງຂໍ້ມູນສະເພາະຂອງ Matrix.";
+"threads_notice_information" = "ກະທູ້ທັງໝົດທີ່ສ້າງຂຶ້ນໃນລະຫວ່າງໄລຍະທົດລອງຕອນນີ້ຈະຖືກ <b>ສະແດງເປັນການຕອບແບບປົກກະຕິ</b>.<br/><br/>ນີ້ຈະເປັນການປ່ຽນເທື່ອລະອັນ, ເນື່ອງຈາກຕອນນີ້ກະທູ້ເປັນສ່ວນໜຶ່ງຂອງຂໍ້ມູນສະເພາະຂອງ Teleiraq.";
 "threads_notice_title" = "ກະທູ້ບໍ່ໄດ້ທົດລອງແລ້ວ 🎉";
 "message_from_a_thread" = "ຈາກກະທູ້";
 "threads_empty_show_all_threads" = "ສະແດງຫົວຂໍ້ທັງໝົດ";
@@ -929,7 +929,7 @@
 
 // Contacts
 "contacts_address_book_section" = "ຕິດຕໍ່ໃນເຄື່ອງ";
-"auth_reset_password_success_message" = "ລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານໄດ້ຖືກຕັ້ງຄືນໃຫມ່.\n\nທ່ານໄດ້ອອກຈາກລະບົບນທັງໝົດ ແລະ ຈະບໍ່ໄດ້ຮັບການແຈ້ງເຕືອນ push ອີກຕໍ່ໄປ. ເພື່ອເປີດໃຊ້ການແຈ້ງເຕືອນຄືນໃໝ່, ເຂົ້າສູ່ລະບົບຄືນໃໝ່ໃນແຕ່ລະອຸປະກອນ.";
+"auth_reset_password_success_message" = "ລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານໄດ້ຖືກຕັ້ງຄືນໃຫມ່.\n\nທ່ານໄດ້ອອກຈາກລະບົບນທັງໝົດ ແລະ ຈະບໍ່ໄດ້ຮັບການແຈ້ງເຕືອນ push ອີກຕໍ່ໄປ. ເພື່ອເປີດໃຊ້ການແຈ້ງເຕືອນຄືນໃໝ່, ເຂົ້າສູ່ລະບົບຄືນໃໝ່ໃນແຕ່ລະອຸປະກອນ.";
 "version_check_banner_title_deprecated" = "ພວກເຮົາບໍ່ຮອງຮັບ iOS %@ ອີກຕໍ່ໄປ";
 "version_check_banner_subtitle_supported" = "ພວກເຮົາຈະຢຸດການຮອງຮັບ %@ ໃນ iOS %@ ໃນໄວໆນີ້. ຫາກຕ້ອງການໃຊ້ %@ ໃຫ້ເຕັມປະສິດທິພາບ, ພວກເຮົາແນະນຳໃຫ້ທ່ານອັບເກຣດ iOS ເວີຊັນຂອງທ່ານ.";
 
@@ -1133,7 +1133,7 @@
 "create_room_processing" = "ການສ້າງຫ້ອງ";
 "create_room_suggest_room_footer" = "ຫ້ອງທີ່ແນະນໍາແມ່ນໄດ້ຮັບການສົ່ງເສີມໃຫ້ສະມາຊິກພາຍນອກເຂົ້າຮ່ວມໄດ້.";
 "create_room_suggest_room" = "ແນະນໍາໃຫ້ສະມາຊິກພາຍນອກ";
-"create_room_placeholder_address" = "#testroom: matrix.org";
+"create_room_placeholder_address" = "#testroom: teleiraq.com";
 "create_room_section_header_address" = "ທີ່ຢູ່";
 "create_room_show_in_directory_footer" = "ນີ້ຈະຊ່ວຍໃຫ້ຄົນຊອກຫາແລະເຂົ້າຮ່ວມ.";
 "create_room_show_in_directory" = "ສະແດງຢູ່ໃນລາຍຊື່ຫ້ອງ";
@@ -1219,7 +1219,7 @@
 // Banner
 
 "cross_signing_setup_banner_title" = "ຕັ້ງຄ່າການເຂົ້າລະຫັດ";
-"secrets_reset_authentication_message" = "ໃສ່ລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານເພື່ອຢືນຢັນ";
+"secrets_reset_authentication_message" = "ໃສ່ລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານເພື່ອຢືນຢັນ";
 "secrets_reset_reset_action" = "ຕັ້ງຄ່າຄືນໃໝ່";
 "secrets_reset_warning_message" = "ທ່ານຈະປິດເປີດໃໝ່ໂດຍບໍ່ມີປະຫວັດ, ບໍ່ມີຂໍ້ຄວາມ, ອຸປະກອນທີ່ເຊື່ອຖືໄດ້ ຫຼື ຜູ້ໃຊ້ທີ່ເຊື່ອຖືໄດ້.";
 "secrets_reset_warning_title" = "ຖ້າຫາກວ່າທ່ານກູ້ຄືນທຸກສິ່ງທຸກຢ່າງ";
@@ -1236,7 +1236,7 @@
 "secrets_setup_recovery_passphrase_confirm_passphrase_title" = "ຢືນຢັນ";
 "secrets_setup_recovery_passphrase_confirm_information" = "ກະລຸນາໃສ່ປະໂຫຍກຄວາມປອດໄພຂອງທ່ານອີກຄັ້ງເພື່ອຢືນຢັນ.";
 "secrets_setup_recovery_passphrase_validate_action" = "ສຳເລັດແລ້ວ";
-"secrets_setup_recovery_passphrase_additional_information" = "ຢ່າໃຊ້ລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານ.";
+"secrets_setup_recovery_passphrase_additional_information" = "ຢ່າໃຊ້ລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານ.";
 "secrets_setup_recovery_passphrase_information" = "ກະລຸນາໃສ່ປະໂຫຍກຄວາມປອດໄພພຽງແຕ່ທ່ານຮູ້, ໃຊ້ເພື່ອຮັບປະກັນຄວາມລັບຢູ່ໃນເຊີບເວີຂອງທ່ານ.";
 
 // Recovery passphrase
@@ -1501,7 +1501,7 @@
 "device_verification_self_verify_wait_recover_secrets_additional_information" = "ຖ້າທ່ານບໍ່ສາມາດເຂົ້າເຖິງລະບົບທີ່ມີຢູ່ແລ້ວ";
 "device_verification_self_verify_wait_recover_secrets_with_passphrase" = "ໃຊ້ປະໂຫຍກຄວາມປອດໄພ ຫຼື ກະແຈ";
 "device_verification_self_verify_wait_recover_secrets_without_passphrase" = "ໃຊ້ກະແຈຄວາມປອດໄພ";
-"device_verification_self_verify_wait_additional_information" = "ອັນນີ້ໃຊ້ໄດ້ກັບ %@ ແລະ ລູກຄ້າ Matrix ທີ່ມີຄວາມສາມາດໃນການ cross-signing ອື່ນໆ.";
+"device_verification_self_verify_wait_additional_information" = "ອັນນີ້ໃຊ້ໄດ້ກັບ %@ ແລະ ລູກຄ້າ Teleiraq ທີ່ມີຄວາມສາມາດໃນການ cross-signing ອື່ນໆ.";
 "device_verification_self_verify_wait_information" = "ຢືນຢັນລະບົບນີ້ຈາກໜຶ່ງໃນລະບົບອື່ນຂອງທ່ານ, ໃຫ້ເຂົ້າເຖິງຂໍ້ຄວາມທີ່ເຂົ້າລະຫັດໄວ້.\n\nໃຊ້ %@ ຫຼ້າສຸດໃນອຸປະກອນອື່ນຂອງທ່ານ:";
 "device_verification_self_verify_wait_new_sign_in_title" = "ຢືນຢັນການເຂົ້າສູ່ລະບົບນີ້";
 
@@ -1679,7 +1679,7 @@
 
 // Re-request confirmation dialog
 "rerequest_keys_alert_title" = "ສົ່ງຄຳຮ້ອງຂໍແລ້ວ";
-"deactivate_account_password_alert_message" = "ເພື່ອສືບຕໍ່, ກະລຸນາໃສ່ລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານ";
+"deactivate_account_password_alert_message" = "ເພື່ອສືບຕໍ່, ກະລຸນາໃສ່ລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານ";
 "deactivate_account_password_alert_title" = "ປິດການນຳໃຊ້ບັນຊີ";
 "deactivate_account_validate_action" = "ປິດການນຳໃຊ້ບັນຊີ";
 "deactivate_account_forget_messages_information_part3" = ": ນີ້ຈະເຮັດໃຫ້ຜູ້ໃຊ້ໃນອະນາຄົດເຫັນການສົນທະນາທີ່ບໍ່ຄົບຖ້ວນ)";
@@ -1939,7 +1939,7 @@
 // room details dialog screen
 
 // contacts list screen
-"invitation_message" = "ຂ້ອຍຢາກສົນທະນາກັບທ່ານດ້ວຍ matrix. ກະລຸນາເຂົ້າເບິ່ງເວັບໄຊທ໌ http://matrix.org ເພື່ອເບິ່ງຂໍ້ມູນເພີ່ມເຕີມ.";
+"invitation_message" = "ຂ້ອຍຢາກສົນທະນາກັບທ່ານດ້ວຍ Teleiraq. ກະລຸນາເຂົ້າເບິ່ງເວັບໄຊທ໌ https://teleiraq.com ເພື່ອເບິ່ງຂໍ້ມູນເພີ່ມເຕີມ.";
 "login_error_must_start_http" = "URL ຕ້ອງເລີ່ມຕົ້ນດ້ວຍ http[s]://";
 
 // Login Screen
@@ -2030,7 +2030,7 @@
 "e2e_export_room_keys" = "ສົ່ງອອກກະແຈຫ້ອງ";
 "e2e_passphrase_enter" = "ໃສ່ປະໂຫຍກລະຫັດຜ່ານ";
 "e2e_import" = "ນໍາເຂົ້າ";
-"e2e_import_prompt" = "ຂະບວນການນີ້ອະນຸຍາດໃຫ້ທ່ານນໍາເຂົ້າລະຫັດທີ່ທ່ານໄດ້ສົ່ງອອກຜ່ານມາຈາກລູກຄ້າ Matrix ອື່ນ. ຈາກນັ້ນທ່ານຈະສາມາດຖອດລະຫັດຂໍ້ຄວາມໃດໆທີ່ລູກຄ້າອື່ນສາມາດຖອດລະຫັດໄດ້.\nໄຟລ໌ສົ່ງອອກຖືກປ້ອງກັນດ້ວຍປະໂຫຍກລະຫັດຜ່ານ. ທ່ານຄວນໃສ່ລະຫັດຜ່ານທີ່ນີ້, ເພື່ອຖອດລະຫັດໄຟລ໌.";
+"e2e_import_prompt" = "ຂະບວນການນີ້ອະນຸຍາດໃຫ້ທ່ານນໍາເຂົ້າລະຫັດທີ່ທ່ານໄດ້ສົ່ງອອກຜ່ານມາຈາກລູກຄ້າ Teleiraq ອື່ນ. ຈາກນັ້ນທ່ານຈະສາມາດຖອດລະຫັດຂໍ້ຄວາມໃດໆທີ່ລູກຄ້າອື່ນສາມາດຖອດລະຫັດໄດ້.\nໄຟລ໌ສົ່ງອອກຖືກປ້ອງກັນດ້ວຍປະໂຫຍກລະຫັດຜ່ານ. ທ່ານຄວນໃສ່ລະຫັດຜ່ານທີ່ນີ້, ເພື່ອຖອດລະຫັດໄຟລ໌.";
 
 // Attachment
 "attachment_size_prompt" = "ທ່ານຕ້ອງການສົ່ງເປັນ:";
@@ -2086,7 +2086,7 @@
 // Country picker
 "country_picker_title" = "ເລືອກປະເທດ";
 "microphone_access_not_granted_for_voice_message" = "ຂໍ້ຄວາມສຽງຈຳເປັນຕ້ອງເຂົ້າເຖິງໄມໂຄຣໂຟນ ແຕ່ %@ ບໍ່ມີການອະນຸຍາດໃຫ້ໃຊ້ມັນ";
-"local_contacts_access_discovery_warning" = "ເພື່ອຄົ້ນຫາຜູ້ຕິດຕໍ່ທີ່ໃຊ້ Matrix ແລ້ວ, %@ ສາມາດສົ່ງທີ່ຢູ່ອີເມວ ແລະເບີໂທລະສັບໃນບັນທຶກທີ່ຢູ່ຂອງທ່ານໄປຫາເຊີບເວີ Matrix ທີ່ທ່ານເລືອກ. ບ່ອນທີ່ສະຫນັບສະຫນູນ, ຂໍ້ມູນສ່ວນຕົວຈະຖືກ hash ກ່ອນທີ່ຈະສົ່ງ - ກະລຸນາກວດເບິ່ງນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງເຊີບເວີຂອງທ່ານສໍາລັບລາຍລະອຽດເພີ່ມເຕີມ.";
+"local_contacts_access_discovery_warning" = "ເພື່ອຄົ້ນຫາຜູ້ຕິດຕໍ່ທີ່ໃຊ້ Teleiraq ແລ້ວ, %@ ສາມາດສົ່ງທີ່ຢູ່ອີເມວ ແລະເບີໂທລະສັບໃນບັນທຶກທີ່ຢູ່ຂອງທ່ານໄປຫາເຊີບເວີ Teleiraq ທີ່ທ່ານເລືອກ. ບ່ອນທີ່ສະຫນັບສະຫນູນ, ຂໍ້ມູນສ່ວນຕົວຈະຖືກ hash ກ່ອນທີ່ຈະສົ່ງ - ກະລຸນາກວດເບິ່ງນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງເຊີບເວີຂອງທ່ານສໍາລັບລາຍລະອຽດເພີ່ມເຕີມ.";
 "local_contacts_access_discovery_warning_title" = "ການຄົ້ນພົບຜູ້ໃຊ້";
 "local_contacts_access_not_granted" = "ການຄົ້ນຫາຜູ້ໃຊ້ຈາກຜູ້ຕິດຕໍ່ໃນຕົວເຄື່ອງຈຳເປັນຕ້ອງເຂົ້າເຖິງຜູ້ຕິດຕໍ່ຂອງທ່ານ ແຕ່ %@ ບໍ່ມີການອະນຸຍາດໃຫ້ໃຊ້ມັນ";
 "microphone_access_not_granted_for_call" = "ການໂທຕ້ອງເຂົ້າເຖິງໄມໂຄຣໂຟນ ແຕ່ %@ ບໍ່ມີການອະນຸຍາດໃຫ້ໃຊ້ມັນ";
@@ -2111,7 +2111,7 @@
 "e2e_passphrase_empty" = "ປະໂຫຍກລະຫັດຜ່ານຈະຕ້ອງບໍ່ຫວ່າງເປົ່າ";
 "e2e_passphrase_confirm" = "ຢືນຢັນລະຫັດຜ່ານ";
 "e2e_export" = "ສົ່ງອອກ";
-"e2e_export_prompt" = "ຂະບວນການນີ້ຊ່ວຍໃຫ້ທ່ານສາມາດສົ່ງອອກລະຫັດຂໍ້ຄວາມທີ່ທ່ານໄດ້ຮັບໃນຫ້ອງທີ່ຖືກເຂົ້າລະຫັດໄປຫາໄຟລ໌ໃນເຄື່ອງ. ຫຼັງຈາກນັ້ນທ່ານຈະສາມາດນໍາເຂົ້າໄຟລ໌ເຂົ້າໄປໃນລູກຄ້າ Matrix ອື່ນໃນອະນາຄົດ, ດັ່ງນັ້ນລູກຄ້ານັ້ນຈະສາມາດຖອດລະຫັດຂໍ້ຄວາມເຫຼົ່ານີ້ໄດ້.\nໄຟລ໌ທີ່ສົ່ງອອກຈະຊ່ວຍໃຫ້ທຸກຄົນທີ່ສາມາດອ່ານມັນຖອດລະຫັດຂໍ້ຄວາມທີ່ຖືກເຂົ້າລະຫັດໃດໆທີ່ທ່ານສາມາດເຫັນໄດ້, ດັ່ງນັ້ນທ່ານຄວນລະມັດລະວັງເພື່ອຮັກສາມັນໃຫ້ປອດໄພ.";
+"e2e_export_prompt" = "ຂະບວນການນີ້ຊ່ວຍໃຫ້ທ່ານສາມາດສົ່ງອອກລະຫັດຂໍ້ຄວາມທີ່ທ່ານໄດ້ຮັບໃນຫ້ອງທີ່ຖືກເຂົ້າລະຫັດໄປຫາໄຟລ໌ໃນເຄື່ອງ. ຫຼັງຈາກນັ້ນທ່ານຈະສາມາດນໍາເຂົ້າໄຟລ໌ເຂົ້າໄປໃນລູກຄ້າ Teleiraq ອື່ນໃນອະນາຄົດ, ດັ່ງນັ້ນລູກຄ້ານັ້ນຈະສາມາດຖອດລະຫັດຂໍ້ຄວາມເຫຼົ່ານີ້ໄດ້.\nໄຟລ໌ທີ່ສົ່ງອອກຈະຊ່ວຍໃຫ້ທຸກຄົນທີ່ສາມາດອ່ານມັນຖອດລະຫັດຂໍ້ຄວາມທີ່ຖືກເຂົ້າລະຫັດໃດໆທີ່ທ່ານສາມາດເຫັນໄດ້, ດັ່ງນັ້ນທ່ານຄວນລະມັດລະວັງເພື່ອຮັກສາມັນໃຫ້ປອດໄພ.";
 "room_participants_idle" = "ຊັກຊ້າ";
 
 // E2E import
@@ -2131,11 +2131,11 @@
 "contact_local_contacts" = "ຕິດຕໍ່ພົວພັນຕົວເຄື່ອງ";
 
 // Contacts
-"contact_mx_users" = "ຜູ້ໃຊ້ Matrix";
+"contact_mx_users" = "ຜູ້ໃຊ້ Teleiraq";
 "attachment_unsupported_preview_message" = "ບໍ່ຮອງຮັບໄຟລ໌ປະເພດນີ້.";
 "attachment_unsupported_preview_title" = "ບໍ່ສາມາດເບິ່ງຕົວຢ່າງໄດ້";
 "attachment_e2e_keys_import" = "ນຳເຂົ້າ...";
-"attachment_e2e_keys_file_prompt" = "ໄຟລ໌ນີ້ມີລະຫັດການເຂົ້າລະຫັດທີ່ສົ່ງອອກມາຈາກລູກຄ້າ Matrix.\nທ່ານຕ້ອງການເບິ່ງເນື້ອຫາຂອງໄຟລ໌ຫຼືນໍາເຂົ້າກະແຈທີ່ມັນປະກອບດ້ວຍ?";
+"attachment_e2e_keys_file_prompt" = "ໄຟລ໌ນີ້ມີລະຫັດການເຂົ້າລະຫັດທີ່ສົ່ງອອກມາຈາກລູກຄ້າ Teleiraq.\nທ່ານຕ້ອງການເບິ່ງເນື້ອຫາຂອງໄຟລ໌ຫຼືນໍາເຂົ້າກະແຈທີ່ມັນປະກອບດ້ວຍ?";
 "attachment_multiselection_original" = "ຂະໜາດຕົວຈິງ";
 "attachment_multiselection_size_prompt" = "ທ່ານຕ້ອງການທີ່ຈະສົ່ງຮູບພາບເປັນ:";
 "attachment_cancel_upload" = "ຍົກເລີກການອັບໂຫລດບໍ?";
@@ -2211,7 +2211,7 @@
 "account_error_msisdn_wrong_title" = "ເບີໂທລະສັບບໍ່ຖືກຕ້ອງ";
 "account_error_email_wrong_description" = "ອັນນີ້ເບິ່ງຄືວ່າບໍ່ແມ່ນທີ່ຢູ່ອີເມວທີ່ຖືກຕ້ອງ";
 "account_error_email_wrong_title" = "ທີ່ຢູ່ອີເມວບໍ່ຖືກຕ້ອງ";
-"account_error_matrix_session_is_not_opened" = "ບໍ່ໄດ້ເປີດລະບົບ Matrix";
+"account_error_matrix_session_is_not_opened" = "ບໍ່ໄດ້ເປີດລະບົບ Teleiraq";
 "account_error_picture_change_failed" = "ການປ່ຽນແປງຮູບບໍ່ສໍາເລັດ";
 "account_error_display_name_change_failed" = "ການປ່ຽນຊື່ສະແດງບໍ່ສຳເລັດ";
 "account_msisdn_validation_error" = "ບໍ່ສາມາດຢັ້ງຢືນເບີໂທລະສັບໄດ້.";
@@ -2348,7 +2348,7 @@
 "select_all" = "ເລືອກທັງຫມົດ";
 "resend_message" = "ສົ່ງຂໍ້ຄວາມຄືນໃໝ່";
 "reset_to_default" = "ປັບເປັນຄ່າເລີ່ມຕົ້ນ";
-"invite_user" = "ເຊີນຜູ້ໃຊ້ matrix";
+"invite_user" = "ເຊີນຜູ້ໃຊ້ Teleiraq";
 "capture_media" = "ຖ່າຍຮູບ/ວິດີໂອ";
 "attach_media" = "ຄັດຕິດສື່ຈາກຫ້ອງສະໝຸດ";
 "select_account" = "ເລືອກບັນຊີ";
@@ -2396,16 +2396,16 @@
 "login_error_title" = "ເຂົ້າສູ່ລະບົບບໍ່ສໍາເລັດ";
 "login_prompt_email_token" = "ກະລຸນາໃສ່ໂທເຄັນການເພື່ອກວດສອບອີເມລ໌ຂອງທ່ານ:";
 "login_email_placeholder" = "ທີ່ຢູ່ອີເມວ";
-"login_email_info" = "ການລະບຸທີ່ຢູ່ອີເມວເຮັດໃຫ້ຜູ້ໃຊ້ອື່ນສາມາດຊອກຫາທ່ານຢູ່ໃນ Matrix ໄດ້ງ່າຍຂຶ້ນ, ແລະຈະໃຫ້ວິທີການຕັ້ງລະຫັດຜ່ານຂອງທ່ານໃໝ່ໃນອະນາຄົດ.";
+"login_email_info" = "ການລະບຸທີ່ຢູ່ອີເມວເຮັດໃຫ້ຜູ້ໃຊ້ອື່ນສາມາດຊອກຫາທ່ານຢູ່ໃນ Teleiraq ໄດ້ງ່າຍຂຶ້ນ, ແລະຈະໃຫ້ວິທີການຕັ້ງລະຫັດຜ່ານຂອງທ່ານໃໝ່ໃນອະນາຄົດ.";
 "login_display_name_placeholder" = "ຊື່ສະແດງ (ເຊັ່ນ: Bob Obson)";
 "login_optional_field" = "ທາງເລືອກ";
 "login_password_placeholder" = "ລະຫັດຜ່ານ";
-"login_user_id_placeholder" = "Matrix ID (ເຊັ່ນ: @bob:matrix.org ຫຼື bob)";
-"login_identity_server_info" = "Matrix ໃຫ້ເຊີບເວີເພື່ອຕິດຕາມວ່າອີເມລ໌ໃດເປັນຂອງ Matrix IDs ໃດ. ມີພຽງແຕ່ https://matrix.org ໃນປັດຈຸບັນເທົ່ານັ້ນ.";
+"login_user_id_placeholder" = "Teleiraq ID (ເຊັ່ນ: @bob:teleiraq.com ຫຼື bob)";
+"login_identity_server_info" = "Teleiraq ໃຫ້ເຊີບເວີເພື່ອຕິດຕາມວ່າອີເມລ໌ໃດເປັນຂອງ Teleiraq IDs ໃດ. ມີພຽງແຕ່ https://teleiraq.com ໃນປັດຈຸບັນເທົ່ານັ້ນ.";
 "login_identity_server_title" = "URL ເຊີບເວີ:";
 "login_home_server_info" = "homeserver ຂອງທ່ານທີ່ເກັບຮັກສາການສົນທະນາແລະຂໍ້ມູນບັນຊີຂອງທ່ານທັງຫມົດ";
 "login_home_server_title" = "URLຂອງ Homeserver :";
-"login_server_url_placeholder" = "URL (ເຊັ່ນ: https://matrix.org)";
+"login_server_url_placeholder" = "URL (ເຊັ່ນ: https://teleiraq.com)";
 
 // Login Screen
 "login_create_account" = "ສ້າງບັນຊີ:";
@@ -2503,14 +2503,14 @@
 "space_participants_action_remove" = "ລຶບອອກຈາກພື້ນທີ່ນີ້";
 "spaces_coming_soon_detail" = "ຄຸນນະສົມບັດນີ້ຍັງບໍ່ໄດ້ຮັບການປະຕິບັດຢູ່ທີ່ນີ້, ແຕ່ວ່າຢູ່ໃນການດຳເນີນການ. ສໍາລັບຕອນນີ້, ທ່ານສາມາດເຮັດສິ່ງນັ້ນກັບ %@ ໃນຄອມພິວເຕີຂອງທ່ານ.";
 "secure_key_backup_setup_cancel_alert_message" = "ຖ້າທ່ານຍົກເລີກດຽວນີ້, ທ່ານອາດຈະສູນເສຍຂໍ້ຄວາມ & ຂໍ້ມູນທີ່ເຂົ້າລະຫັດຖ້າທ່ານສູນເສຍການເຂົ້າເຖິງການເຂົ້າສູ່ລະບົບຂອງທ່ານ.\n\nນອກນັ້ນທ່ານຍັງສາມາດຕັ້ງຄ່າການສໍາຮອງຂໍ້ມູນທີ່ປອດໄພ & ຈັດການກະແຈຂອງທ່ານໃນການຕັ້ງຄ່າ.";
-"deactivate_account_informations_part5" = "ຖ້າທ່ານຕ້ອງການໃຫ້ພວກເຮົາລືມຂໍ້ຄວາມຂອງທ່ານ, ກະລຸນາຫມາຍໃສ່ໃນປ່ອງຂ້າງລຸ່ມນີ້\n\nການເບິ່ງເຫັນຂໍ້ຄວາມໃນ Matrix ແມ່ນຄ້າຍຄືກັນກັບອີເມວ. ການລືມຂໍ້ຄວາມຂອງພວກເຮົາຫມາຍຄວາມວ່າຂໍ້ຄວາມທີ່ທ່ານໄດ້ສົ່ງໄປຈະບໍ່ຖືກແບ່ງປັນກັບຜູ້ໃຊ້ໃຫມ່ ຫຼື ບໍ່ໄດ້ລົງທະບຽນ, ແຕ່ຜູ້ໃຊ້ທີ່ລົງທະບຽນແລ້ວທີ່ມີການເຂົ້າເຖິງຂໍ້ຄວາມເຫຼົ່ານີ້ຈະຍັງຄົງມີການເຂົ້າເຖິງສໍາເນົາຂອງພວກເຂົາ.";
+"deactivate_account_informations_part5" = "ຖ້າທ່ານຕ້ອງການໃຫ້ພວກເຮົາລືມຂໍ້ຄວາມຂອງທ່ານ, ກະລຸນາຫມາຍໃສ່ໃນປ່ອງຂ້າງລຸ່ມນີ້\n\nການເບິ່ງເຫັນຂໍ້ຄວາມໃນ Teleiraq ແມ່ນຄ້າຍຄືກັນກັບອີເມວ. ການລືມຂໍ້ຄວາມຂອງພວກເຮົາຫມາຍຄວາມວ່າຂໍ້ຄວາມທີ່ທ່ານໄດ້ສົ່ງໄປຈະບໍ່ຖືກແບ່ງປັນກັບຜູ້ໃຊ້ໃຫມ່ ຫຼື ບໍ່ໄດ້ລົງທະບຽນ, ແຕ່ຜູ້ໃຊ້ທີ່ລົງທະບຽນແລ້ວທີ່ມີການເຂົ້າເຖິງຂໍ້ຄວາມເຫຼົ່ານີ້ຈະຍັງຄົງມີການເຂົ້າເຖິງສໍາເນົາຂອງພວກເຂົາ.";
 "deactivate_account_informations_part1" = "ອັນນີ້ຈະເຮັດໃຫ້ບັນຊີຂອງທ່ານບໍ່ສາມາດນຳໃຊ້ໄດ້ຢ່າງຖາວອນ. ທ່ານຈະບໍ່ສາມາດເຂົ້າສູ່ລະບົບໄດ້, ແລະບໍ່ມີໃຜຈະສາມາດລົງທະບຽນ ID ຜູ້ໃຊ້ດຽວກັນໄດ້. ນີ້ຈະເຮັດໃຫ້ບັນຊີຂອງທ່ານອອກຈາກຫ້ອງທັງຫມົດທີ່ເຂົ້າຮ່ວມ, ແລະ ມັນຈະເອົາລາຍລະອຽດບັນຊີຂອງທ່ານອອກຈາກເຊີບເວີຂອງທ່ານ. ";
 "e2e_need_log_in_again" = "ທ່ານຕ້ອງເຂົ້າສູ່ລະບົບຄືນໃໝ່ເພື່ອສ້າງການເຂົ້າລະຫັດແຕ່ຕົ້ນທາງເຖິງປາຍທາງສຳລັບລະບົບນີ້ ແລະ ສົ່ງລະຫັດສາທາລະນະໃຫ້ກັບ homeserver ຂອງທ່ານ.\nນີ້ແມ່ນຄັ້ງດຽວ; ຂໍອະໄພໃນຄວາມບໍ່ສະດວກ.";
 "version_check_modal_subtitle_supported" = "ພວກເຮົາໄດ້ເຮັດການປັບປຸງ %@ ເພື່ອໃຫ້ໄວຂຶ້ນ ແລະ ງາມຫຼາຍຂຶ້ນ. ຂໍອະໄພ, iOS ເວີຊັນປັດຈຸບັນຂອງທ່ານບໍ່ເຂົ້າກັນໄດ້ກັບບາງການແກ້ໄຂເຫຼົ່ານັ້ນ ແລະຈະບໍ່ຖືກຮອງຮັບອີກຕໍ່ໄປ.\nພວກເຮົາແນະນຳໃຫ້ທ່ານຍົກລະບົບປະຕິບັດການຂອງທ່ານເພື່ອໃຊ້ %@ ຢ່າງເຕັມທີ່.";
 
 // Success from passphrase
 "key_backup_setup_success_from_passphrase_info" = "ກະແຈຂອງທ່ານກຳລັງຖືກສຳຮອງໄວ້.\n\nກະແຈຄວາມປອດໄພຂອງທ່ານເປັນຕາໜ່າງຄວາມປອດໄພ - ທ່ານສາມາດໃຊ້ມັນເພື່ອກູ້ຄືນການເຂົ້າເຖິງຂໍ້ຄວາມທີ່ເຂົ້າລະຫັດໄວ້ຂອງທ່ານໄດ້ ຖ້າທ່ານລືມປະໂຫຍກລະຫັດຜ່ານຂອງທ່ານ.\n\nຮັກສາກະແຈຄວາມປອດໄພຂອງທ່ານໄວ້ບ່ອນໃດບ່ອນໜຶ່ງທີ່ປອດໄພຫຼາຍ ເຊັ່ນ: ຕົວຈັດການລະຫັດຜ່ານ (ຫຼືບ່ອນປອດໄພ).";
-"key_backup_setup_passphrase_info" = "ພວກເຮົາຈະເກັບຮັກສາລະຫັດລັບຂອງທ່ານໄວ້ໃນເຊີບເວີຂອງພວກເຮົາ. ປົກປ້ອງການສໍາຮອງຂໍ້ມູນຂອງທ່ານດ້ວຍປະໂຫຍກຄວາມປອດໄພເພື່ອຮັກສາມັນໃຫ້ປອດໄພ.\n\nເພື່ອຄວາມປອດໄພສູງສຸດ, ອັນນີ້ຄວນຈະແຕກຕ່າງຈາກລະຫັດຜ່ານບັນຊີ Matrix ຂອງທ່ານ.";
+"key_backup_setup_passphrase_info" = "ພວກເຮົາຈະເກັບຮັກສາລະຫັດລັບຂອງທ່ານໄວ້ໃນເຊີບເວີຂອງພວກເຮົາ. ປົກປ້ອງການສໍາຮອງຂໍ້ມູນຂອງທ່ານດ້ວຍປະໂຫຍກຄວາມປອດໄພເພື່ອຮັກສາມັນໃຫ້ປອດໄພ.\n\nເພື່ອຄວາມປອດໄພສູງສຸດ, ອັນນີ້ຄວນຈະແຕກຕ່າງຈາກລະຫັດຜ່ານບັນຊີ Teleiraq ຂອງທ່ານ.";
 "key_backup_setup_intro_info" = "ຂໍ້ຄວາມຢູ່ໃນຫ້ອງທີ່ເຂົ້າລະຫັດໄວ້ແມ່ນປອດໄພດ້ວຍການເຂົ້າລະຫັດແຕ່ຕົ້ນທາງເຖິງປາຍ. ພຽງແຕ່ທ່ານ ແລະ ຜູ້ຮັບເທົ່ານັ້ນທີ່ມີກະແຈເພື່ອອ່ານຂໍ້ຄວາມເຫຼົ່ານີ້.\n\nສຳຮອງຂໍ້ມູນກະແຈຂອງທ່ານຢ່າງປອດໄພເພື່ອຫຼີກເວັ້ນການສູນເສຍພວກມັນ.";
 "analytics_prompt_message_new_user" = "ຊ່ວຍພວກເຮົາລະບຸບັນຫາ ແລະປັບປຸງ %@ ໂດຍການແບ່ງປັນຂໍ້ມູນການນຳໃຊ້ທີ່ບໍ່ເປີດເຜີຍຊື່. ເພື່ອເຂົ້າໃຈວິທີທີ່ຄົນໃຊ້ຫຼາຍອຸປະກອນ, ພວກເຮົາຈະສ້າງຕົວລະບຸແບບສຸ່ມ, ແບ່ງປັນໂດຍອຸປະກອນຂອງທ່ານ.";
 "notice_room_third_party_revoked_invite_by_you" = "ທ່ານໄດ້ຖອນຄຳເຊີນສຳລັບ %@ ເຂົ້າຮ່ວມຫ້ອງແລ້ວ";

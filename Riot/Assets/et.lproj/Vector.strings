@@ -53,8 +53,8 @@
 "auth_optional_phone_placeholder" = "Telefoninumber (kui soovid)";
 "auth_phone_placeholder" = "Telefoninumber";
 "auth_repeat_password_placeholder" = "Korda salasõna";
-"auth_repeat_new_password_placeholder" = "Korda uut Matrix'i konto salasõna";
-"auth_home_server_placeholder" = "URL (näiteks https://matrix.org)";
+"auth_repeat_new_password_placeholder" = "Korda uut Teleiraq'i konto salasõna";
+"auth_home_server_placeholder" = "URL (näiteks https://teleiraq.com)";
 "auth_identity_server_placeholder" = "URL (näiteks https://vector.im)";
 "auth_invalid_login_param" = "Vigane kasutajanimi ja/või salasõna";
 "auth_invalid_user_name" = "Kasutajanimi võib sisaldada vaid tähti, numbreid, punkte, sidekriipse ja alakriipse";
@@ -70,13 +70,13 @@
 "auth_missing_email_or_phone" = "E-posti aadress või telefoninumber on puudu";
 "auth_email_in_use" = "See e-posti aadress on juba kasutusel";
 "auth_phone_in_use" = "See telefoninumber on juba kasutusel";
-"auth_email_is_required" = "Ühtegi isikutuvastusserverit pole seadistatud ning sul ei ole võimalik lisada oma e-posti aadressi hilisemaks võimalikuks Matrix'i konto salasõna muutmiseks.";
-"auth_phone_is_required" = "Ühtegi isikutuvastusserverit pole seadistatud ning sul ei ole võimalik lisada oma telefoninumbrit hilisemaks võimalikuks Matrix'i konto salasõna muutmiseks.";
+"auth_email_is_required" = "Ühtegi isikutuvastusserverit pole seadistatud ning sul ei ole võimalik lisada oma e-posti aadressi hilisemaks võimalikuks Teleiraq'i konto salasõna muutmiseks.";
+"auth_phone_is_required" = "Ühtegi isikutuvastusserverit pole seadistatud ning sul ei ole võimalik lisada oma telefoninumbrit hilisemaks võimalikuks Teleiraq'i konto salasõna muutmiseks.";
 "auth_untrusted_id_server" = "See isikutuvastusserver pole usaldusväärne";
 "auth_password_dont_match" = "Salasõnad ei klapi omavahel";
 "auth_username_in_use" = "Selline kasutajanimi on juba olemas";
-"auth_forgot_password" = "Kas unustasid oma Matrix'i konto salasõna?";
-"auth_forgot_password_error_no_configured_identity_server" = "Ühtegi isikutuvastusserverit pole seadistatud: Matrix'i konto salasõna taastamiseks määra see.";
+"auth_forgot_password" = "Kas unustasid oma Teleiraq'i konto salasõna?";
+"auth_forgot_password_error_no_configured_identity_server" = "Ühtegi isikutuvastusserverit pole seadistatud: Teleiraq'i konto salasõna taastamiseks määra see.";
 "auth_email_not_found" = "E-kirja saatmine ei õnnestunud: sellist e-posti aadressi ei leidu";
 "auth_use_server_options" = "Kohandatud serveriseadistused";
 "auth_email_validation_message" = "Registreerimise jätkamiseks palun vaata oma e-posti";
@@ -84,15 +84,15 @@
 "auth_msisdn_validation_message" = "Me oleme SMS'iga saatnud aktiveerimiskoodi. Palun sisesta see kood siia.";
 "auth_msisdn_validation_error" = "Telefoninumbri verifitseerimine ei õnnestunud.";
 "auth_recaptcha_message" = "See server soovib kindlaks teha, et sa ei ole robot";
-"auth_reset_password_message" = "Matrix'i konto salasõna taastamiseks sisesta sinu kontoga seotud e-posti aadress:";
+"auth_reset_password_message" = "Teleiraq'i konto salasõna taastamiseks sisesta sinu kontoga seotud e-posti aadress:";
 "auth_reset_password_missing_email" = "Sa pead sisestama oma kontoga seotud e-posti aadressi.";
 "auth_reset_password_missing_password" = "Palun sisesta uus salasõna.";
 "auth_reset_password_email_validation_message" = "Saatsime e-kirja %@ aadressile. Kui oled avanud selles kirjas leidunud lingi, siis palun vajuta järgnevat nuppu.";
 "auth_reset_password_next_step_button" = "Ma olen teinud läbi oma e-posti aadressi kontrolli";
 "auth_reset_password_error_unauthorized" = "E-posti aadressi kontrollimine ei õnnestunud: palun vaata, et sa kindlasti klõpsisid saabunud kirjas olnud viidet";
 "auth_reset_password_error_not_found" = "Sinu e-posti aadress ei tundu olema selles koduserveris seotud Matrixi kasutajatunnusega.";
-"auth_reset_password_error_is_required" = "Ühtegi isikutuvastusserverit pole seadistatud: Matrix'i konto salasõna taastamiseks määra see serveri sätetes.";
-"auth_reset_password_success_message" = "Sinu Matrix'i konto salasõna on vahetatud. \n \nSa oled välja logitud kõikidest oma seni kasutusel olnud sessioonidest ega saa enam teateid ega sõnumeid. Nende uuesti lugemiseks palun logi igas seadmes tagasi Matrix'i võrku.";
+"auth_reset_password_error_is_required" = "Ühtegi isikutuvastusserverit pole seadistatud: Teleiraq'i konto salasõna taastamiseks määra see serveri sätetes.";
+"auth_reset_password_success_message" = "Sinu Teleiraq'i konto salasõna on vahetatud. \n \nSa oled välja logitud kõikidest oma seni kasutusel olnud sessioonidest ega saa enam teateid ega sõnumeid. Nende uuesti lugemiseks palun logi igas seadmes tagasi Teleiraq'i võrku.";
 "auth_add_email_and_phone_warning" = "Registreerimine kasutades korraga nii e-posti aadressi kui ka telefoninumbrit ei ole senise API versiooni puhul veel võimalik. Hetkel läheb arvesse vaid telefoninumber. Sa võid hiljem lisada e-posti aadressi oma kasutajaprofiili seadetest.";
 "auth_accept_policies" = "Palun vaata üle kõik selle koduserveri kasutustingimused ja nõustu nendega:";
 "auth_autodiscover_invalid_response" = "Vigane koduserveri tuvastamise päringu vastus";
@@ -209,7 +209,7 @@
 "deactivate_account_forget_messages_information_part2_emphasize" = "Hoiatus";
 "deactivate_account_validate_action" = "Kas eemaldame selle konto kasutusest";
 "deactivate_account_password_alert_title" = "Eemalda konto";
-"deactivate_account_password_alert_message" = "Jätkamiseks palun sisesta oma Matrix'i konto salasõna";
+"deactivate_account_password_alert_message" = "Jätkamiseks palun sisesta oma Teleiraq'i konto salasõna";
 "auth_login_single_sign_on" = "Logi sisse";
 // Room recents
 "room_recents_directory_section" = "JUTUTUBADE LOEND";
@@ -218,7 +218,7 @@
 "room_recents_conversations_section" = "JUTUTOAD";
 "room_recents_no_conversation" = "Jututube ei leidu";
 "contacts_address_book_permission_denied" = "Sa pole %@'ile andnud ligipääsu kohalikele kontaktidele";
-"security_settings_coming_soon" = "Vabandust. See tegevus pole veel kasutatav %@ iOS rakenduses. Palun kasuta seadistamiseks mõnda muud Matrix'i klienti ning %@ iOS oskab seda kasutada.";
+"security_settings_coming_soon" = "Vabandust. See tegevus pole veel kasutatav %@ iOS rakenduses. Palun kasuta seadistamiseks mõnda muud Teleiraq'i klienti ning %@ iOS oskab seda kasutada.";
 "major_update_title" = "Riot'i uus nimi on %@";
 "security_settings_secure_backup_synchronise" = "Sünkroniseeri";
 "security_settings_secure_backup_delete" = "Kustuta varukoopia";
@@ -403,11 +403,11 @@
 "group_participants_filter_members" = "Filtreeri kogukonna liikmeid";
 "group_participants_invite_another_user" = "Otsi või kutsu uut kasutajat tema kasutajatunnuse või nime alusel";
 "group_participants_invite_malformed_id_title" = "Viga kutse saatmisel";
-"group_participants_invite_malformed_id" = "Vigane kasutajatunnus. Õige Matrix'i kasutajatunnus on vormingus '@toreinimene:domeen.ee'";
+"group_participants_invite_malformed_id" = "Vigane kasutajatunnus. Õige Teleiraq'i kasutajatunnus on vormingus '@toreinimene:domeen.ee'";
 "group_participants_invited_section" = "KUTSUTUD";
 // Group rooms
 "group_rooms_filter_rooms" = "Filtreeri kogukonna jututubasid";
-"contacts_address_book_matrix_users_toggle" = "Vaid Matrix'i kasutajad";
+"contacts_address_book_matrix_users_toggle" = "Vaid Teleiraq'i kasutajad";
 "contacts_address_book_no_identity_server" = "Isikutuvastusserver ei ole seadistatud";
 "contacts_address_book_no_contact" = "Kohalikke kasutajaid ei leidu";
 "contacts_address_book_permission_required" = "Kohalikele kasutajatele ligipääsuks on luba vaja";
@@ -428,7 +428,7 @@
 "room_participants_filter_room_members" = "Filtreeri jututoa liikmeid";
 "room_participants_invite_another_user" = "Otsi või kutsu uut kasutajat tema kasutajatunnuse, nime või e-posti aadressi alusel";
 "room_participants_invite_malformed_id_title" = "Viga kutse saatmisel";
-"room_participants_invite_malformed_id" = "Vigane kasutajatunnus. Peaksid kasutama kas e-posti aadressi või õiget Matrix'i kasutajatunnust vormingus '@toreinimene:domeen.ee'";
+"room_participants_invite_malformed_id" = "Vigane kasutajatunnus. Peaksid kasutama kas e-posti aadressi või õiget Teleiraq'i kasutajatunnust vormingus '@toreinimene:domeen.ee'";
 "room_participants_invited_section" = "KUTSUTUD";
 "room_participants_start_new_chat_error_using_user_email_without_identity_server" = "Ühtegi isikutuvastusserverit pole seadistatud ning sul ei ole võimalik alustada vestlust teise osapoole e-posti aadressi alusel.";
 "room_participants_online" = "Võrgus";
@@ -524,11 +524,11 @@
 "settings_old_password" = "Vana salasõna";
 "settings_new_password" = "Uus salasõna";
 "settings_confirm_password" = "Korda uut salasõna";
-"settings_fail_to_update_password" = "Matrix'i konto salasõna uuendamine ei õnnestunud";
-"settings_password_updated" = "Sinu Matrix'i konto salasõna on muudetud";
+"settings_fail_to_update_password" = "Teleiraq'i konto salasõna uuendamine ei õnnestunud";
+"settings_password_updated" = "Sinu Teleiraq'i konto salasõna on muudetud";
 "settings_add_3pid_password_title_email" = "Lisa e-posti aadress";
 "settings_add_3pid_password_title_msidsn" = "Lisa telefoninumber";
-"settings_add_3pid_password_message" = "Jätkamiseks palun sisesta oma Matrix'i konto salasõna";
+"settings_add_3pid_password_message" = "Jätkamiseks palun sisesta oma Teleiraq'i konto salasõna";
 "settings_add_3pid_invalid_password_message" = "Vigane kasutajanimi või salasõna";
 "settings_crypto_device_name" = "Sessiooni nimi: ";
 "settings_crypto_device_id" = "\nSessiooni tunnus: ";
@@ -537,7 +537,7 @@
 "settings_crypto_blacklist_unverified_devices" = "Kasuta krüptimist vaid verifitseeritud sessioonides";
 "settings_deactivate_my_account" = "Eemalda konto lõplikult kasutusest";
 "security_settings_crypto_sessions_loading" = "Laadin sessioone…";
-"security_settings_user_password_description" = "Tuvasta oma isik sisestades Matrix'i konto salasõna";
+"security_settings_user_password_description" = "Tuvasta oma isik sisestades Teleiraq'i konto salasõna";
 // Manage session
 "manage_session_title" = "Halda sessiooni";
 "manage_session_info" = "SESSIOONI TEAVE";
@@ -552,7 +552,7 @@
 "identity_server_settings_place_holder" = "Sisesta isikutuvastusserver";
 "identity_server_settings_add" = "Lisa";
 "identity_server_settings_change" = "Muuda";
-"identity_server_settings_disconnect_info" = "Isikutuvastusserveri kasutamise lõpetamine tähendab, et sa ei ole leitav nende kasutajate poolt, kes tahavad sulle telefoninumbri või e-posti aadressi alusel kutset saata. Küll aga saab alati kutset saata Matrix'i kasutajatunnuse alusel.";
+"identity_server_settings_disconnect_info" = "Isikutuvastusserveri kasutamise lõpetamine tähendab, et sa ei ole leitav nende kasutajate poolt, kes tahavad sulle telefoninumbri või e-posti aadressi alusel kutset saata. Küll aga saab alati kutset saata Teleiraq'i kasutajatunnuse alusel.";
 "room_details_history_section_prompt_msg" = "Kui muudad seda, kes saavad selle jututoa ajalugu lugeda, siis kehtib see vaid tulevaste sõnumite kohta. Senise ajaloo nähtavus sellega ei muutu.";
 // Read Receipts
 "read_receipts_list" = "Lugemisteatiste loend";
@@ -561,9 +561,9 @@
 "media_picker_title" = "Meediateek";
 "media_picker_library" = "Failid";
 "media_picker_select" = "Vali";
-"directory_server_all_native_rooms" = "Kõik Matrix'i jututoad";
+"directory_server_all_native_rooms" = "Kõik Teleiraq'i jututoad";
 "directory_server_type_homeserver" = "Sisesta koduserveri nimi, mille avalike jututubade loendit soovid näha";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "teleiraq.com";
 // Events formatter
 "event_formatter_member_updates" = "%tu liikmelisuse muudatused";
 "event_formatter_widget_added" = "%@ vidin on lisatud %@ poolt";
@@ -666,7 +666,7 @@
 "key_verification_self_verify_current_session_alert_title" = "Verifitseeri see sessioon";
 "key_verification_self_verify_current_session_alert_message" = "Teised kasutajad ei pruugi seda usaldada.";
 "key_verification_self_verify_current_session_alert_validate_action" = "Verifitseeri";
-"key_verification_self_verify_unverified_sessions_alert_title" = "Vaata üle, kust sa oled Matrix'i võrku loginud";
+"key_verification_self_verify_unverified_sessions_alert_title" = "Vaata üle, kust sa oled Teleiraq'i võrku loginud";
 "key_verification_self_verify_unverified_sessions_alert_message" = "Selleks et sinu konto ja sõnumid oleks turvatud, verifitseeri kõik oma sessioonid.";
 "key_verification_self_verify_unverified_sessions_alert_validate_action" = "Vaata üle";
 "key_verification_tile_request_incoming_approval_accept" = "Võta vastu";
@@ -764,7 +764,7 @@
 // Security settings
 "security_settings_title" = "Turvalisus";
 "security_settings_crypto_sessions" = "MINU SESSIOONID";
-"security_settings_crypto_sessions_description_2" = "Kui sa ei tunne ära mõnda oma sisselogimissessiooni, siis muuda ära oma Matrix'i konto salasõna ja tee võtmetest uus turvaline varukoopia.";
+"security_settings_crypto_sessions_description_2" = "Kui sa ei tunne ära mõnda oma sisselogimissessiooni, siis muuda ära oma Teleiraq'i konto salasõna ja tee võtmetest uus turvaline varukoopia.";
 "security_settings_secure_backup" = "TURVALINE VARUNDUS";
 "security_settings_secure_backup_description" = "Selleks puhuks, kui sa kaotad ligipääsu kõikidele oma sessioonidele, tee varukoopia oma krüptovõtmetest ja kasutajakonto seadistustest. Unikaalse turvavõtmega tagad selle, et sinu varukoopia on kaitstud.";
 "security_settings_secure_backup_setup" = "Võta kasutusele";
@@ -790,7 +790,7 @@
 "key_backup_setup_intro_manual_export_info" = "(Lisaseadistused)";
 "key_backup_setup_intro_manual_export_action" = "Ekspordi võtmed käsitsi";
 "key_backup_setup_passphrase_title" = "Krüpti oma varukoopia turvafraasiga";
-"key_backup_setup_passphrase_info" = "Me salvestame krüptitud varukoopia sinu krüptovõtmetest meie serveris. Tagamaks, et keegi ei saa seda kasutada, krüpti varukoopia paroolifraasiga.\n\n Parima turvalisuse jaoks peaks paroolifraas olema erinev sinu Matrix'i konto salasõnast.";
+"key_backup_setup_passphrase_info" = "Me salvestame krüptitud varukoopia sinu krüptovõtmetest meie serveris. Tagamaks, et keegi ei saa seda kasutada, krüpti varukoopia paroolifraasiga.\n\n Parima turvalisuse jaoks peaks paroolifraas olema erinev sinu Teleiraq'i konto salasõnast.";
 "key_backup_setup_passphrase_passphrase_title" = "Sisesta";
 "key_backup_setup_passphrase_passphrase_placeholder" = "Sisesta paroolifraas";
 "key_backup_setup_passphrase_passphrase_valid" = "Tore!";
@@ -873,7 +873,7 @@
 "pin_protection_confirm_pin" = "Korda PIN-koodi";
 "pin_protection_confirm_pin_to_disable" = "PIN-koodi kasutuselt eemaldamiseks korda PIN-koodi";
 "pin_protection_enter_pin" = "Sisesta oma PIN-kood";
-"store_full_description" = "Element on uut tüüpi sõnumi- ja koostöörakendus, mis:\n\n1. Privaatsuse säilitamise nimel jätab kontrolli sinu kätte\n2. Võimaldab sul suhelda kõikide Matrix’i võrgu kasutajatega ning kasutades lõiminguid ka teiste võrkude ja rakenduste kasutajatega (näiteks Slack)\n3. Hoiab sinu info ja suhtluse eemal reklaamimisest, andmekaevandamisest, tagaustest ja „müüritagustest iluaedadest“\n4. Kasutades läbivat krüptimist turvab sinu andmed ning võimaldab teiste kasutajate tuvastamiseks risttunnustamist\n\nErinevalt teistest sõnumi- ja koostöörakendustest põhineb Element vabal tarkvaral ja kasutab hajutatud võrku.\n\nElement võimaldab sinul kasutada nii oma serverit kui teenusepakkuja serverit selliselt, et sinu privaatsus on tagatud ning sa omad ja kontrollid oma andmeid ja sõnumeid. Sa saad ligipääsu avatud võrgule, mis ei ole piiratud vaid teiste Element’i kasutajatega. Lisaks on Element väga turvaline.\n\nKuna Element kasutab avatud standardil põhinevat hajusvõrku Matrix, saab ta seda kõike ka tagada.\n\nElement võimaldab sinul otsustada seda, kus hoitakse sinu vestlusi. Seda rakendust kasutades sad sa valida kolme andmemajutusviisi vahel:\n\n1. Tasuta kasutajakonto avalikus matrix.org serveris\n2. Kasutajakonto sinu enda või sinu organisatsiooni hallatavas serveris\n3. Kasutajakonto mõne tasulise teenusepakkuja serveris (näiteks Element Matrix Services)\n\nMiks peaks Element olema sinu eelistus?\n\nSINA OMISTAD OMA ANDMEID: Sina otsustad, kus sa hoiad oma andmeid ja sõnumeid. Vaid sina omad neid ja kontrollid nende kasutust ning hoiad eemale mõne HIIDSUURFIRMA, mis kasutaks sinu teavet andmekaevanduseka või kolmandatele osapooltele jagamiseks.\n\nAVATUD SUHTLUS JA KOOSTÖÖ: Sõltumata sellest, kas teine osapool kasutab Element’i või muud Matrix’i klienti, saad sa suhelda kõigiga Matrix’i võrgus. Lisaks saad sa suhelda teiste sõnumilahenduste kasutajatega – näiteks Slack, IRC või XMPP.\n\nÜLITURVALINE: Me kasutame tegelikku läbivat krüptimist (vaid vestluse osapooled saavad lugeda sõnumeid) ning teiste kasutajate ja nende seadmete tuvastamist risttunnustamise abil.\n\nTÄISVALIK SUHTLUSVAHENDEID: Sõnumid, hääl- ja videokõned, failide edastamine ekraanijagamine ning terve pinu lõiminguid, roboteid ja vidinaid. Loo jututubasid, asuta kogukondi, suhtle paljude osapooltega ning saavuta oma eesmärgid.\n\nKUS IGANES SA OLED: Kasutades kõikides sinu seadmetes või veebirakendustes täielikult sünkroniseeritud vestluste ajalugu, hoia kätt pulsil, kus iganes sa oled.";
+"store_full_description" = "Element on uut tüüpi sõnumi- ja koostöörakendus, mis:\n\n1. Privaatsuse säilitamise nimel jätab kontrolli sinu kätte\n2. Võimaldab sul suhelda kõikide Teleiraq’i võrgu kasutajatega ning kasutades lõiminguid ka teiste võrkude ja rakenduste kasutajatega (näiteks Slack)\n3. Hoiab sinu info ja suhtluse eemal reklaamimisest, andmekaevandamisest, tagaustest ja „müüritagustest iluaedadest“\n4. Kasutades läbivat krüptimist turvab sinu andmed ning võimaldab teiste kasutajate tuvastamiseks risttunnustamist\n\nErinevalt teistest sõnumi- ja koostöörakendustest põhineb Element vabal tarkvaral ja kasutab hajutatud võrku.\n\nElement võimaldab sinul kasutada nii oma serverit kui teenusepakkuja serverit selliselt, et sinu privaatsus on tagatud ning sa omad ja kontrollid oma andmeid ja sõnumeid. Sa saad ligipääsu avatud võrgule, mis ei ole piiratud vaid teiste Element’i kasutajatega. Lisaks on Element väga turvaline.\n\nKuna Element kasutab avatud standardil põhinevat hajusvõrku Teleiraq, saab ta seda kõike ka tagada.\n\nElement võimaldab sinul otsustada seda, kus hoitakse sinu vestlusi. Seda rakendust kasutades sad sa valida kolme andmemajutusviisi vahel:\n\n1. Tasuta kasutajakonto avalikus teleiraq.com serveris\n2. Kasutajakonto sinu enda või sinu organisatsiooni hallatavas serveris\n3. Kasutajakonto mõne tasulise teenusepakkuja serveris (näiteks Element Teleiraq Services)\n\nMiks peaks Element olema sinu eelistus?\n\nSINA OMISTAD OMA ANDMEID: Sina otsustad, kus sa hoiad oma andmeid ja sõnumeid. Vaid sina omad neid ja kontrollid nende kasutust ning hoiad eemale mõne HIIDSUURFIRMA, mis kasutaks sinu teavet andmekaevanduseka või kolmandatele osapooltele jagamiseks.\n\nAVATUD SUHTLUS JA KOOSTÖÖ: Sõltumata sellest, kas teine osapool kasutab Element’i või muud Teleiraq’i klienti, saad sa suhelda kõigiga Teleiraq’i võrgus. Lisaks saad sa suhelda teiste sõnumilahenduste kasutajatega – näiteks Slack, IRC või XMPP.\n\nÜLITURVALINE: Me kasutame tegelikku läbivat krüptimist (vaid vestluse osapooled saavad lugeda sõnumeid) ning teiste kasutajate ja nende seadmete tuvastamist risttunnustamise abil.\n\nTÄISVALIK SUHTLUSVAHENDEID: Sõnumid, hääl- ja videokõned, failide edastamine ekraanijagamine ning terve pinu lõiminguid, roboteid ja vidinaid. Loo jututubasid, asuta kogukondi, suhtle paljude osapooltega ning saavuta oma eesmärgid.\n\nKUS IGANES SA OLED: Kasutades kõikides sinu seadmetes või veebirakendustes täielikult sünkroniseeritud vestluste ajalugu, hoia kätt pulsil, kus iganes sa oled.";
 "store_promotional_text" = "Avatud võrgul põhinev privaatsuskeskne vestlus- ja koostöörakendus. Põhineb hajutatud võrgul ja jätab otsustusõiguse sinu kätte. Pole andmekaevandust ega tagauksi ning puudub kolmandate osapoolte ligipääs.";
 "on" = "Sisse lülitatud";
 "off" = "Välja lülitatud";
@@ -896,7 +896,7 @@
 "key_backup_recover_from_passphrase_passphrase_title" = "Sisesta";
 "device_verification_self_verify_wait_title" = "Vormista turvaseadistused lõpuni";
 "device_verification_self_verify_wait_information" = "Verifitseeri see sessioon oma mõnest muust sessioonist ning anna sellega ka ligipääs oma krüptitud sõnumitele.\n\nKasuta viimast %@'i versiooni oma muudes seadmetes:";
-"device_verification_self_verify_wait_additional_information" = "See toimib %@'is või mõnes teises Matrix'i kliendis, mis oskab risttunnustamist.";
+"device_verification_self_verify_wait_additional_information" = "See toimib %@'is või mõnes teises Teleiraq'i kliendis, mis oskab risttunnustamist.";
 "device_verification_self_verify_wait_recover_secrets_without_passphrase" = "Kasuta turvavõtit";
 "device_verification_self_verify_wait_recover_secrets_with_passphrase" = "Kasuta turvafraasi või turvavõtit";
 "key_verification_verify_sas_title_emoji" = "Võrdle emoji'sid";
@@ -1052,7 +1052,7 @@
 "secrets_setup_recovery_key_storage_alert_message" = "✓ Trüki välja ja hoia turvalises kohas\n✓ Salvesta ta mälupulgale või välisele kõvakattale\n✓ Kopeeri ta sinu isiklikku salvestusruumi mõnes andmepilves";
 "secrets_setup_recovery_passphrase_title" = "Määra turvafraas";
 "secrets_setup_recovery_passphrase_information" = "Andmete kaitsmiseks sinu koduserveris sisesta turvafraas, mida vaid sina tead.";
-"secrets_setup_recovery_passphrase_additional_information" = "Palun ära kasuta selleks oma Matrix'i konto salasõna.";
+"secrets_setup_recovery_passphrase_additional_information" = "Palun ära kasuta selleks oma Teleiraq'i konto salasõna.";
 "secrets_setup_recovery_passphrase_validate_action" = "Valmis";
 "secrets_setup_recovery_passphrase_confirm_information" = "Kinnituseks sisesta turvafraas uuesti.";
 "secrets_setup_recovery_passphrase_confirm_passphrase_title" = "Kinnita";
@@ -1139,7 +1139,7 @@
 "pin_protection_explanatory" = "PIN-koodi seadistamine aitab tagada, et vaid sina ise pääsed ligi oma profiilile, sõnumitele ja kontaktidele, kui sisestad PIN-koodi rakenduse käivitamisel.";
 "searchable_directory_create_new_room" = "Loo uus jututuba";
 "searchable_directory_x_network" = "%@ võrk";
-"searchable_directory_search_placeholder" = "Nimi või Matrix'i tunnus";
+"searchable_directory_search_placeholder" = "Nimi või Teleiraq'i tunnus";
 "create_room_title" = "Uus jututuba";
 "create_room_section_header_name" = "NIMI";
 "create_room_placeholder_name" = "Nimi";
@@ -1176,7 +1176,7 @@
 "room_details_advanced_e2e_encryption_enabled_for_dm" = "Krüptimine on selles jututoas kasutusel";
 "room_details_advanced_e2e_encryption_disabled_for_dm" = "Krüptimine ei ole selles jututoas kasutusel.";
 "pin_protection_kick_user_alert_message" = "Liiga palju vigu PIN-koodi sisestamisel ning sa oled nüüd välja logitud";
-"secrets_reset_authentication_message" = "Kinnitamaks seda muudatust, sisesta oma Matrix'i konto salasõna";
+"secrets_reset_authentication_message" = "Kinnitamaks seda muudatust, sisesta oma Teleiraq'i konto salasõna";
 "secrets_reset_reset_action" = "Taasta algolek";
 "secrets_reset_warning_message" = "Siis alustad nii, et kadunud on ajalugu, sõnumid ning usaldatud seadmed ja kasutajad.";
 "secrets_reset_warning_title" = "Kui sa alustad kõigega algusest";
@@ -1441,7 +1441,7 @@
 "settings_phone_contacts" = "KONTAKTID NUTISEADMES";
 "settings_contacts_enable_sync" = "Otsi kontakte";
 "service_terms_modal_information_description_integration_manager" = "Lõiminguhalduri alusel saad lisada ja kasutada kolmandate osapoolte loodud lisavõimalusi.";
-"service_terms_modal_information_description_identity_server" = "Isikutuvastusserver võimaldab sul telefoninumbri või e-posti aadressi alusel leida Matrix'i kasutajaid.";
+"service_terms_modal_information_description_identity_server" = "Isikutuvastusserver võimaldab sul telefoninumbri või e-posti aadressi alusel leida Teleiraq'i kasutajaid.";
 "service_terms_modal_information_title_integration_manager" = "Lõiminguhaldur";
 
 // Alert explaining what an identity server / integration manager is.
@@ -1539,7 +1539,7 @@
 "onboarding_splash_page_4_title_no_pun" = "Sõnumisuhtlus sinu tiimi või kogukonna jaoks.";
 "onboarding_splash_page_3_message" = "Tagatud on andmete läbiv krüptimine ning oma telefoninumbrit ei pea sa jagama. Pole reklaame ega sinu andmete kogumist.";
 "onboarding_splash_page_3_title" = "Turvaline sõnumisuhtlus.";
-"onboarding_splash_page_2_message" = "Sa ise valid serveri, kus sinu vestlusi hoitakse ning sellega tagadki kontrolli oma andmete üle. Lahendus põhineb Matrix'i võrgul.";
+"onboarding_splash_page_2_message" = "Sa ise valid serveri, kus sinu vestlusi hoitakse ning sellega tagadki kontrolli oma andmete üle. Lahendus põhineb Teleiraq'i võrgul.";
 "onboarding_splash_page_2_title" = "Sul on kontroll oma andmete üle.";
 "onboarding_splash_page_1_message" = "Turvaline ja sõltumatu suhtluslahendus, mis tagab sama privaatsuse, kui omavaheline vestlus sinu kodus.";
 "onboarding_splash_page_1_title" = "Vestlused, mida sa tegelikult ka omad.";
@@ -1596,17 +1596,17 @@
 "onboarding_use_case_community_messaging" = "Kogukonnad";
 "onboarding_use_case_work_messaging" = "Töökaaslased";
 "onboarding_use_case_personal_messaging" = "Perekond ja sõbrad";
-"onboarding_use_case_message" = "Me aitame sind Matrix'i võrgu kasutamisel";
+"onboarding_use_case_message" = "Me aitame sind Teleiraq'i võrgu kasutamisel";
 "onboarding_use_case_title" = "Kellega sa kõige rohkem vestled?";
 
 
 // MARK: - MatrixKit
 
 
-"matrix" = "Matrix";
+"matrix" = "Teleiraq";
 // Login Screen
 "login_create_account" = "Loo kasutajakonto:";
-"login_server_url_placeholder" = "URL (näiteks https://matrix.org)";
+"login_server_url_placeholder" = "URL (näiteks https://teleiraq.com)";
 "login_home_server_title" = "Koduserveri aadress:";
 "login_home_server_info" = "Sinu koduserver salvestab kõik vestlused ning kogu sinu kontoteabe";
 "login_identity_server_title" = "Isikutuvastusserveri aadress:";
@@ -1646,10 +1646,10 @@
 "attachment_cancel_upload" = "Kas katkestame üleslaadimise?";
 "attachment_multiselection_size_prompt" = "Kas sa soovid pilte saata:";
 "attachment_multiselection_original" = "Tegelikus suuruses";
-"attachment_e2e_keys_file_prompt" = "Selles failis leiduvad ühest Matrix'i kliendist eksporditud krüptovõtmed.\nKas sa soovid vaadata faili sisu või importida seal leiduvad võtmeid?";
+"attachment_e2e_keys_file_prompt" = "Selles failis leiduvad ühest Teleiraq'i kliendist eksporditud krüptovõtmed.\nKas sa soovid vaadata faili sisu või importida seal leiduvad võtmeid?";
 "attachment_e2e_keys_import" = "Impordi...";
 // Contacts
-"contact_mx_users" = "Matrix'i kasutajad";
+"contact_mx_users" = "Teleiraq'i kasutajad";
 "contact_local_contacts" = "Kohalikud kasutajad";
 // Groups
 // Search
@@ -1687,7 +1687,7 @@
 "notification_settings_disable_all" = "Lülita kõik teavitused välja";
 "notification_settings_enable_notifications" = "Võta teavitused kasutusele";
 "notification_settings_enable_notifications_warning" = "Kõik teavituste liigid on hetkel kõikidel seadmetel välja lülitatud.";
-"login_identity_server_info" = "Matrix'i spetsifikatsioon näeb ette isikutuvastusserverite kasutamist selleks, et tuvastada mis e-posti aadress kuulub mis Matrix'i kasutajale. Hetkel pakub sellist teenust vaid https://matrix.org .";
+"login_identity_server_info" = "Teleiraq'i spetsifikatsioon näeb ette isikutuvastusserverite kasutamist selleks, et tuvastada mis e-posti aadress kuulub mis Teleiraq'i kasutajale. Hetkel pakub sellist teenust vaid https://teleiraq.com .";
 "login_user_id_placeholder" = "Matrixi kasutajatunnus (näiteks @kadri:toredomeen.ee või kadri)";
 "login_error_title" = "Sisselogimine ei õnnestunud";
 "login_error_no_login_flow" = "Autentimisteabe laadimine sellest koduserverist ei õnnestunud";
@@ -1731,7 +1731,7 @@
 "select_account" = "Vali kasutajakonto";
 "attach_media" = "Manusta meediafail galeriist";
 "capture_media" = "Tee foto või video";
-"invite_user" = "Saada kutse Matrix'i kasutajale";
+"invite_user" = "Saada kutse Teleiraq'i kasutajale";
 "reset_to_default" = "Lähtesta vaikeseadeteks";
 "resend_message" = "Saada sõnum uuesti";
 "select_all" = "Vali kõik";
@@ -1810,7 +1810,7 @@
 // Account
 "account_save_changes" = "Salvesta muutused";
 "account_error_picture_change_failed" = "Pildi muutmine ei õnnestunud";
-"account_error_matrix_session_is_not_opened" = "Matrix'i sessioon pole avatud";
+"account_error_matrix_session_is_not_opened" = "Teleiraq'i sessioon pole avatud";
 "room_creation_name_placeholder" = "(näiteks HeadLõunasöögikohad)";
 "room_creation_alias_title" = "Jututoa alias:";
 "room_creation_alias_placeholder" = "(e.g. #midagi:domeen.ee)";
@@ -1838,7 +1838,7 @@
 "e2e_passphrase_enter" = "Sisesta paroolifraas";
 // E2E export
 "e2e_export_room_keys" = "Ekspordi jututoa võtmed";
-"e2e_export_prompt" = "Selle toiminguga on sul võimalik saabunud krüptitud sõnumite võtmed eksportida sinu kontrollitavasse kohalikku faili. Seetõttu on sul tulevikus võimalik importida need võtmed mõnda teise Matrix'i klienti ning seeläbi muuta saabunud krüptitud sõnumid ka seal loetavaks.\nKes iganes saab kätte selle võtmefaili, saab ka dekrüptida kõiki sinu krüptitud sõnumeid, seega palun hoia teda turvaliselt.";
+"e2e_export_prompt" = "Selle toiminguga on sul võimalik saabunud krüptitud sõnumite võtmed eksportida sinu kontrollitavasse kohalikku faili. Seetõttu on sul tulevikus võimalik importida need võtmed mõnda teise Teleiraq'i klienti ning seeläbi muuta saabunud krüptitud sõnumid ka seal loetavaks.\nKes iganes saab kätte selle võtmefaili, saab ka dekrüptida kõiki sinu krüptitud sõnumeid, seega palun hoia teda turvaliselt.";
 "e2e_export" = "Ekspordi";
 "e2e_passphrase_confirm" = "Sisesta paroolifraas veel üks kord";
 "e2e_passphrase_empty" = "Paroolifraas ei tohi olla tühi";
@@ -1933,7 +1933,7 @@
 // Login Screen 
 "login_error_already_logged_in" = "Sa oled juba sisse loginud";
 // contacts list screen 
-"invitation_message" = "Ma soovin sinuga vestelda Matrix'i võrgu vahendusel. Lisateavet leiad veebisaidist https://matrix.org/ .";
+"invitation_message" = "Ma soovin sinuga vestelda Teleiraq'i võrgu vahendusel. Lisateavet leiad veebisaidist https://teleiraq.com/ .";
 // Settings screen 
 "settings_title_config" = "Seadistused";
 "notification_settings_always_notify" = "Teavita alati";
@@ -1969,7 +1969,7 @@
 "ssl_logout_account" = "Logi välja";
 "ssl_remain_offline" = "Eira";
 "ssl_fingerprint_hash" = "Sõrmejälg (%@):";
-"login_email_info" = "Lisades oma e-posti aadressi saad võimaldada teistel Matrix'i kasutajatel sind lihtsamini leida ning annad endale lisavõimaluse salasõna muutmiseks, kui seda tulevikus vaja peaks olema.";
+"login_email_info" = "Lisades oma e-posti aadressi saad võimaldada teistel Teleiraq'i kasutajatel sind lihtsamini leida ning annad endale lisavõimaluse salasõna muutmiseks, kui seda tulevikus vaja peaks olema.";
 "login_prompt_email_token" = "Palun sisesta oma e-posti aadressi registeerimiskirjas näidatud tunnusluba:";
 "login_error_unknown_token" = "Sisestatud tunnusluba ei ole õige";
 "login_error_login_email_not_yet" = "E-posti teel saadetud linki pole veel klõpsitud";
@@ -1987,7 +1987,7 @@
 "room_error_name_edition_not_authorized" = "Sinul pole õigusi selle jututoa nime muutmiseks";
 "room_error_topic_edition_not_authorized" = "Sinul pole õigusi selle jututoa teema muutmiseks";
 "room_error_cannot_load_timeline" = "Ajajoone laadimine ei õnnestunud";
-"e2e_import_prompt" = "Selle toiminguga saad importida krüptimisvõtmed, mis sa viimati olid teisest Matrix'i kliendist eksportinud. Seejärel on võimalik dekrüptida ka siin kõik need samad sõnumid, mida see teine klient suutis dekrüptida.\nSee ekspordifail on krüptitud paroolifraasiga. Faili dekrüptimiseks sisesta siia paroolifraas.";
+"e2e_import_prompt" = "Selle toiminguga saad importida krüptimisvõtmed, mis sa viimati olid teisest Teleiraq'i kliendist eksportinud. Seejärel on võimalik dekrüptida ka siin kõik need samad sõnumid, mida see teine klient suutis dekrüptida.\nSee ekspordifail on krüptitud paroolifraasiga. Faili dekrüptimiseks sisesta siia paroolifraas.";
 "local_contacts_access_discovery_warning" = "Selleks, et leida Matrixi võrgu kasutajaid, võib %@ saata sinu aadressiraamatus leiduvad e-posti aadressid ja telefoninumbrid sinu valitud Matrixi isikutuvastusserverile. Kui server seda toetab, siis andmed muudetakse enne saatmist räsideks - täpsema teabe leiad oma isikutuvastusserveri privaatsuspoliitikast.";
 "membership_ban" = "Suhtluskeeld";
 "notification_settings_per_word_notifications" = "Sõnadega seotud teavitused";
@@ -2184,7 +2184,7 @@
 "room_access_settings_screen_nav_title" = "Ligipääs jututuppa";
 "room_details_promote_room_suggest_title" = "Soovita kogukonna liikmetele";
 "room_details_promote_room_title" = "Reklaami jututuba";
-"threads_notice_information" = "Kõik testperioodil loodud jutulõngad kuvatakse <b>tavaliste vastustena</b>.<br/><br/>Kuna jutulõngad on nüüd osa Matrix'i spetsifikatsioonist, siis see on ühekordne muudatus.";
+"threads_notice_information" = "Kõik testperioodil loodud jutulõngad kuvatakse <b>tavaliste vastustena</b>.<br/><br/>Kuna jutulõngad on nüüd osa Teleiraq'i spetsifikatsioonist, siis see on ühekordne muudatus.";
 "room_details_access_row_title" = "Ligipääs";
 "settings_labs_enable_auto_report_decryption_errors" = "Automaatselt teata dekrüptimise vigadest";
 "room_preview_decline_invitation_options" = "Kas sa soovid keelduda kutsest või eirata kasutajat?";
@@ -2487,7 +2487,7 @@
 "authentication_qr_login_scan_title" = "Skaneeri QR-koodi";
 "authentication_qr_login_display_step2" = "Vali „Logi võrku QR-koodi abil“";
 "authentication_qr_login_display_step1" = "Ava Element oma teises seadmes";
-"authentication_qr_login_display_subtitle" = "Loe QR-koodi seadmega, kus sa oled Matrix'i võrgust välja loginud.";
+"authentication_qr_login_display_subtitle" = "Loe QR-koodi seadmega, kus sa oled Teleiraq'i võrgust välja loginud.";
 "authentication_qr_login_display_title" = "Seo teise seadmega";
 "authentication_qr_login_start_display_qr" = "Näita selles seadmes QR-koodi";
 "authentication_qr_login_start_need_alternative" = "Kas soovid kasutada mõnda muud lahendust?";
@@ -2572,7 +2572,7 @@
 "authentication_qr_login_failure_request_denied" = "Teine seade lükkas päringu tagasi.";
 "authentication_qr_login_failure_invalid_qr" = "QR-kood on vigane.";
 "authentication_qr_login_failure_title" = "Seose loomine ei õnenstunud";
-"authentication_qr_login_loading_signed_in" = "Sa oled oma teises seadmes sisse loginud Matrix'i võrku.";
+"authentication_qr_login_loading_signed_in" = "Sa oled oma teises seadmes sisse loginud Teleiraq'i võrku.";
 "authentication_qr_login_loading_waiting_signin" = "Ootame, et teine seade logiks võrku.";
 "authentication_qr_login_loading_connecting_device" = "Loon ühendust seadmega";
 "authentication_qr_login_confirm_alert" = "Palun vaata, et sa kindlasti tead, kust see QR-kood kuvatakse. Sellisel viisil seadmete sidumisel sa annad oma kasutajakontole täiemahulise ligipääsu.";
@@ -2592,7 +2592,7 @@
 "user_session_inactive_session_description" = "Mitteaktiivsed sessioonid on sellised, mida sa pole mõnda aega kasutanud, aga nad saavad jätkuvalt pärida sinu krüptovõtmeid.\n\nSelliste sessioonide eemaldamine parandab jõudlust ja turvalisust ning sul on lihtsam märgata, kui loendisse tekib midagi kahtlast.";
 "user_session_inactive_session_title" = "Mitteaktiivsed sessioonid";
 "user_session_unverified_session_title" = "Verifitseerimata sessioon";
-"user_session_verified_session_description" = "Verifitseeritud sessioonideks loetakse Element'is või mõnes muus Matrix'i rakenduses selliseid sessioone, kus sa kas oled sisestanud oma salafraasi või tuvastanud end mõne teise oma verifitseeritud sessiooni abil.\n\nSee tähendab, et selles sessioonis on ka kõik vajalikud võtmed krüptitud sõnumite lugemiseks ja teistele kasutajatele kinnitamiseks, et sa usaldad seda sessiooni.";
+"user_session_verified_session_description" = "Verifitseeritud sessioonideks loetakse Element'is või mõnes muus Teleiraq'i rakenduses selliseid sessioone, kus sa kas oled sisestanud oma salafraasi või tuvastanud end mõne teise oma verifitseeritud sessiooni abil.\n\nSee tähendab, et selles sessioonis on ka kõik vajalikud võtmed krüptitud sõnumite lugemiseks ja teistele kasutajatele kinnitamiseks, et sa usaldad seda sessiooni.";
 "user_session_verified_session_title" = "Verifitseeritud sessioonid";
 "user_session_got_it" = "Selge lugu";
 "key_verification_alert_body" = "Tagamaks, et su konto on sinu kontrolli all, vaata andmed üle.";
@@ -2610,7 +2610,7 @@
 
 // MARK: Password policy errors
 "password_policy_too_short_pwd_error" = "Liiga lühike salasõna";
-"user_session_permanently_unverified_session_description" = "Seda sessiooni ei saa verifitseerida, sest seal puudub krüptimise tugi.\n\nSelle sessiooniga ei saa sa osaleda krüptitud jututubades.\n\nParima turvalisuse ja privaatsuse nimel palun kasuta selliseid Matrix'i kliente, mis toetavad krüptimist.";
+"user_session_permanently_unverified_session_description" = "Seda sessiooni ei saa verifitseerida, sest seal puudub krüptimise tugi.\n\nSelle sessiooniga ei saa sa osaleda krüptitud jututubades.\n\nParima turvalisuse ja privaatsuse nimel palun kasuta selliseid Teleiraq'i kliente, mis toetavad krüptimist.";
 "wysiwyg_composer_format_action_link" = "Muuda lingi vormingut";
 
 // Links
@@ -2711,8 +2711,8 @@
 "poll_timeline_loading" = "Laadin...";
 "room_creation_user_not_found_prompt_title" = "Kinnitus";
 "room_creation_user_not_found_prompt_invite_action" = "Ikkagi alusta vestlust";
-"room_creation_user_not_found_prompt_message" = "Sellele Matrix'i kasutajatunnuse profiili ei leidu. Kas sa ikkagi tahaksid temaga vestlust alustada?";
-"room_participants_invite_unknown_participant_prompt_to_msg" = "Sellele Matrix'i kasutajatunnuse profiili ei leidu. Kas sa ikkagi tahaksid saata kutset kasutajale %@ jututuppa %@?";
+"room_creation_user_not_found_prompt_message" = "Sellele Teleiraq'i kasutajatunnuse profiili ei leidu. Kas sa ikkagi tahaksid temaga vestlust alustada?";
+"room_participants_invite_unknown_participant_prompt_to_msg" = "Sellele Teleiraq'i kasutajatunnuse profiili ei leidu. Kas sa ikkagi tahaksid saata kutset kasutajale %@ jututuppa %@?";
 "room_participants_invite_anyway" = "Kutsu siiski";
 "settings_manage_account_title" = "Kasutajakonto";
 "settings_manage_account_action" = "Halda kasutajakontot";

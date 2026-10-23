@@ -48,3 +48,21 @@ fastlane/Preview.html
 fastlane/metadata/
 
 provisioning_profiles/
+
+# Local credentials and signing material (public defaults remain tracked)
+.env
+.env.*
+!.env.example
+!.env.default
+**/LocalSigning.xcconfig
+*.p8
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+*.xcarchive/
+*.dSYM/

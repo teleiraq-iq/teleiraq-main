@@ -50,7 +50,7 @@
 "settings_callkit_info" = "Receba chamadas entrantes em sua tela de bloqueio. Veja suas chamadas %@ no histórico de chamadas do sistema. Se iCloud está habilitado, este histórico de chamadas vai ser compartilhado com Apple.";
 "submit_code" = "Submeter código";
 "submit" = "Submeter";
-"store_full_description" = "O Element é um novo tipo de aplicação de mensagens e colaboração que:\n\n1. Põe-no em controlo para preservar a sua privacidade\n2. Permite-lhe comunicar com qualquer pessoa na rede Matrix e vai mais além através da integração com apps como o Slack\n3. Protege-o de anúncios, exploração de dados, backdoors e jardins murados\n4. Mantém-no seguro através de encriptação ponta-a-ponta, com assinaturas cruzadas para verificar os outros.\n\nO Element é completamente diferente das outras aplicações de mensagens e colaboração porque é descentralizado e de código aberto.\n\nO Element permita que o aloje por si próprio - ou escolha um anfitrião - para que tenha privacidade, posse e controlo dos seus dados e das suas conversas. Confere-lhe acesso a uma rede aberta; para que não fique preso apenas aos outros utilizadores do Element, para além de ser muito seguro.\n\nO Element é capaz de fazer tudo isto porque opera no Matrix - o padrão para comunicação aberta e descentralizada.\n\nO Element põe-no no controlo, permitindo-lhe escolher quem aloja as suas conversas. Através da aplicação do Element, pode escolher o alojamento de diferentes formas:\n\n1. Registe uma conta gratuita no servidor público matrix.org\n2. Aloje você mesmo a sua própria conta, correndo um servidor no seu próprio hardware\n3. Registe uma conta num servidor personalizado, bastando-lhe apenas subscrever a plataforma de alojamento Element Matrix Services\n\nPorquê escolher o Element?\n\nSEJA DONO DOS SEUS DADOS: Você decide onde quer manter os seus dados e as suas mensagens. Você é o dono e é quem está no controlo, por oposição a uma MEGACORPORAÇÃO que explora ou permite que terceiros tenham acesso aos seus dados.\n\nMENSAGENS E COLABORAÇÃO ABERTAS: Pode conversar com qualquer pessoa na rede Matrix, quer estejam a usar o Element ou outra app Matrix, e mesmo se estiverem a usar outro sistema de mensagens como o Slack, IRC ou XMPP.\n\nSUPERSEGURO: Encriptação ponta-a-ponta real (apenas os envolvidos na conversa conseguem desencriptar mensagens) e encriptação cruzada para verificar os dispositivos dos participantes na conversa.\n\nCOMUNICAÇÃO COMPLETA: Mensagens, chamadas de voz e vídeo, partilha de ficheiros, partilha de ecrã e mais um data de integrações, bots e widgets. Crie salas e comunidades, mantenha o contacto e realize as suas tarefas.\n\nONDE QUER QUE ESTEJA: Mantenha o contacto onde quer que esteja com a sincronização do histórico de mensagens através de todos os seus dispositivos e na web em https://element.io/app.";
+"store_full_description" = "O Element é um novo tipo de aplicação de mensagens e colaboração que:\n\n1. Põe-no em controlo para preservar a sua privacidade\n2. Permite-lhe comunicar com qualquer pessoa na rede Teleiraq e vai mais além através da integração com apps como o Slack\n3. Protege-o de anúncios, exploração de dados, backdoors e jardins murados\n4. Mantém-no seguro através de encriptação ponta-a-ponta, com assinaturas cruzadas para verificar os outros.\n\nO Element é completamente diferente das outras aplicações de mensagens e colaboração porque é descentralizado e de código aberto.\n\nO Element permita que o aloje por si próprio - ou escolha um anfitrião - para que tenha privacidade, posse e controlo dos seus dados e das suas conversas. Confere-lhe acesso a uma rede aberta; para que não fique preso apenas aos outros utilizadores do Element, para além de ser muito seguro.\n\nO Element é capaz de fazer tudo isto porque opera no Teleiraq - o padrão para comunicação aberta e descentralizada.\n\nO Element põe-no no controlo, permitindo-lhe escolher quem aloja as suas conversas. Através da aplicação do Element, pode escolher o alojamento de diferentes formas:\n\n1. Registe uma conta gratuita no servidor público teleiraq.com\n2. Aloje você mesmo a sua própria conta, correndo um servidor no seu próprio hardware\n3. Registe uma conta num servidor personalizado, bastando-lhe apenas subscrever a plataforma de alojamento Element Teleiraq Services\n\nPorquê escolher o Element?\n\nSEJA DONO DOS SEUS DADOS: Você decide onde quer manter os seus dados e as suas mensagens. Você é o dono e é quem está no controlo, por oposição a uma MEGACORPORAÇÃO que explora ou permite que terceiros tenham acesso aos seus dados.\n\nMENSAGENS E COLABORAÇÃO ABERTAS: Pode conversar com qualquer pessoa na rede Teleiraq, quer estejam a usar o Element ou outra app Teleiraq, e mesmo se estiverem a usar outro sistema de mensagens como o Slack, IRC ou XMPP.\n\nSUPERSEGURO: Encriptação ponta-a-ponta real (apenas os envolvidos na conversa conseguem desencriptar mensagens) e encriptação cruzada para verificar os dispositivos dos participantes na conversa.\n\nCOMUNICAÇÃO COMPLETA: Mensagens, chamadas de voz e vídeo, partilha de ficheiros, partilha de ecrã e mais um data de integrações, bots e widgets. Crie salas e comunidades, mantenha o contacto e realize as suas tarefas.\n\nONDE QUER QUE ESTEJA: Mantenha o contacto onde quer que esteja com a sincronização do histórico de mensagens através de todos os seus dispositivos e na web em https://element.io/app.";
 // String for App Store
 "store_short_description" = "Chat/VoIP descentralizado seguro";
 "joined" = "Abrir";
@@ -220,7 +220,7 @@
 // MARK: - Room Info
 
 "room_info_list_one_member" = "1 membro";
-"create_room_placeholder_address" = "#salateste:matrix.org";
+"create_room_placeholder_address" = "#salateste:teleiraq.com";
 "create_room_section_header_address" = "Endereço de sala";
 "create_room_show_in_directory" = "Mostrar a sala no diretório";
 "create_room_type_public" = "Sala Pública";
@@ -661,9 +661,9 @@
 
 // Events formatter
 "event_formatter_member_updates" = "%tu mudanças de filiação";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "teleiraq.com";
 "directory_server_type_homeserver" = "Digite um servidor para de onde listar salas públicas";
-"directory_server_all_native_rooms" = "Todas as salas Matrix nativas";
+"directory_server_all_native_rooms" = "Todas as salas Teleiraq nativas";
 "directory_server_all_rooms" = "Todas as salas em servidor %@";
 "directory_server_picker_title" = "Selecionar um diretório";
 
@@ -686,7 +686,7 @@
 // Group rooms
 "group_rooms_filter_rooms" = "Filtrar salas de comunidade";
 "group_participants_invited_section" = "CONVIDADAS(OS)";
-"group_participants_invite_malformed_id" = "ID malformada. Deveria ser uma ID Matrix como '@partlocal:dominio'";
+"group_participants_invite_malformed_id" = "ID malformada. Deveria ser uma ID Teleiraq como '@partlocal:dominio'";
 "group_participants_invite_malformed_id_title" = "Erro de Convidar";
 "group_participants_invite_another_user" = "Pesquisar / convidar por ID de Usuária(o) ou Nome";
 "group_participants_filter_members" = "Filtrar membros de comunidade";
@@ -835,7 +835,7 @@
 // Manage session
 "manage_session_title" = "Gerir sessão";
 "security_settings_user_password_description" = "Confirme sua identidade ao entrar a senha de sua conta";
-"security_settings_coming_soon" = "Desculpe. Esta ação não está disponível em %@ iOS ainda. Por favor use um outro cliente Matrix para configurá-la. %@ iOS vai usá-la.";
+"security_settings_coming_soon" = "Desculpe. Esta ação não está disponível em %@ iOS ainda. Por favor use um outro cliente Teleiraq para configurá-la. %@ iOS vai usá-la.";
 "security_settings_complete_security_alert_message" = "Você deveria completar segurança em sua sessão atual primeiro.";
 "security_settings_complete_security_alert_title" = "Completar segurança";
 "secrets_setup_recovery_passphrase_summary_information" = "Lembre-se de sua Frase de Segurança. Ela pode ser usada para destrancar suas mensagens & dados encriptados.";
@@ -1391,7 +1391,7 @@
 "room_participants_online" = "Online";
 "room_participants_start_new_chat_error_using_user_email_without_identity_server" = "Nenhum servidor de identidade está configurado então você não pode começar um chat com um contato usando um email.";
 "room_participants_invited_section" = "CONVIDADAS(OS)";
-"room_participants_invite_malformed_id" = "ID malformada. Deveria ser um endereço de email ou uma ID Matrix como '@partlocal:dominio'";
+"room_participants_invite_malformed_id" = "ID malformada. Deveria ser um endereço de email ou uma ID Teleiraq como '@partlocal:dominio'";
 "room_participants_invite_malformed_id_title" = "Erro de Convidar";
 "room_participants_invite_another_user" = "Pesquisar / convidar por ID de Usuária(o), Nome ou email";
 "room_participants_filter_room_members_for_dm" = "Filtrar membros";
@@ -1424,7 +1424,7 @@
 "contacts_address_book_permission_required" = "Permissão requerida para acessar contatos locais";
 "contacts_address_book_no_contact" = "Nenhum contato local";
 "contacts_address_book_no_identity_server" = "Nenhum servidor de identidade configurado";
-"contacts_address_book_matrix_users_toggle" = "Usuários Matrix somente";
+"contacts_address_book_matrix_users_toggle" = "Usuários Teleiraq somente";
 
 // Contacts
 "contacts_address_book_section" = "CONTATOS LOCAIS";
@@ -1527,7 +1527,7 @@
 "auth_add_email_and_phone_warning" = "O registo com email e número de telefone ao mesmo tempo não é suportado. Apenas vai ser utilizado o número de telefone. Você pode adicionar o seu email no seu perfil em Configurações.";
 "auth_reset_password_success_message" = "Sua senha foi alterada.\n\nTodas as suas sessões foram terminadas e não vai mais receber notificações push. Para re-habilitar notificações, faça novamente login em cada dispositivo.";
 "auth_reset_password_error_is_required" = "Nenhum servidor de identidade está configurado: adicione um em opções de servidor para redefinir a sua senha.";
-"auth_reset_password_error_not_found" = "Seu endereço de email não parece estar associado com um ID Matrix neste servidor.";
+"auth_reset_password_error_not_found" = "Seu endereço de email não parece estar associado com um ID Teleiraq neste servidor.";
 "auth_reset_password_error_unauthorized" = "Falha ao verificar endereço de email: assegure que você clicou no link no email";
 "auth_reset_password_next_step_button" = "Já verifiquei o meu endereço de email";
 "auth_reset_password_email_validation_message" = "Foi enviado um email para %@. Após seguir a ligação enviada, clique abaixo.";
@@ -1563,7 +1563,7 @@
 "auth_invalid_user_name" = "Os nomes de utilizador devem conter apenas letras, números, pontos, hifens e underscores";
 "auth_invalid_login_param" = "Email / Nome de utilizador desconhecido ou senha incorreta";
 "auth_identity_server_placeholder" = "URL (e.g. https://vector.im)";
-"auth_home_server_placeholder" = "URL (e.g. https://matrix.org)";
+"auth_home_server_placeholder" = "URL (e.g. https://teleiraq.com)";
 "auth_repeat_new_password_placeholder" = "Confirmar sua nova senha";
 "auth_repeat_password_placeholder" = "Repetir senha";
 "auth_phone_placeholder" = "Número de telefone";

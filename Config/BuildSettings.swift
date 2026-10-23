@@ -108,11 +108,11 @@ final class BuildSettings: NSObject {
     // MARK: - Legal URLs
     
     // Note: Set empty strings to hide the related entry in application settings
-    static let applicationCopyrightUrlString = "https://element.io/copyright"
-    static let applicationPrivacyPolicyUrlString = "https://element.io/privacy"
-    static let applicationAcceptableUsePolicyUrlString = "https://element.io/acceptable-use-policy-terms"
+    static let applicationCopyrightUrlString = "https://github.com/moahmmadjaber/teleiraq-main/blob/main/NOTICE.md"
+    static let applicationPrivacyPolicyUrlString = "https://github.com/moahmmadjaber/teleiraq-main/blob/main/PRIVACY.md"
+    static let applicationAcceptableUsePolicyUrlString = ""
     static let applicationHelpUrlString =
-    "https://element.io/help"
+    "https://github.com/moahmmadjaber/teleiraq-main/issues"
     
     
     // MARK: - Permalinks
@@ -155,10 +155,7 @@ final class BuildSettings: NSObject {
     
     // MARK: -  Public rooms Directory
     // List of homeservers for the public rooms directory
-    static let publicRoomsDirectoryServers = [
-        "matrix.org",
-        "gitter.im"
-    ]
+    static let publicRoomsDirectoryServers: [String] = []
     
     // MARK: -  Rooms Screen
     static let roomsAllowToJoinPublicRooms: Bool = true
@@ -182,24 +179,26 @@ final class BuildSettings: NSObject {
     
     #if DEBUG
     /// The configuration to use for analytics during development. Set `isEnabled` to false to disable analytics in debug builds.
-    static let analyticsConfiguration = AnalyticsConfiguration(isEnabled: BuildSettings.baseBundleIdentifier.starts(with: "iq.teleiraq.app"),
+    static let analyticsConfiguration = AnalyticsConfiguration(isEnabled: false,
                                                                host: "https://posthog.element.dev",
-                                                               apiKey: "phc_VtA1L35nw3aeAtHIx1ayrGdzGkss7k1xINeXcoIQzXN",
+                                                               apiKey: "",
                                                                termsURL: URL(string: "https://element.io/cookie-policy")!)
     #else
     /// The configuration to use for analytics. Set `isEnabled` to false to disable analytics.
-    static let analyticsConfiguration = AnalyticsConfiguration(isEnabled: BuildSettings.baseBundleIdentifier.starts(with: "iq.teleiraq.app"),
+    static let analyticsConfiguration = AnalyticsConfiguration(isEnabled: false,
                                                                host: "https://posthog.element.io",
-                                                               apiKey: "phc_Jzsm6DTm6V2705zeU5dcNvQDlonOR68XvX2sh1sEOHO",
+                                                               apiKey: "",
                                                                termsURL: URL(string: "https://element.io/cookie-policy")!)
     #endif
     
     
     // MARK: - Bug report
-    static let bugReportEndpointUrlString = "https://rageshakes.element.io/api"
+    /// Reporting remains disabled until an owned endpoint and disclosures are configured.
+    static let bugReportingEnabled = false
+    static let bugReportEndpointUrlString = "https://reports.invalid/api"
     // Use the name allocated by the bug report server
-    static let bugReportApplicationId = "riot-ios"
-    static let bugReportUISIId = "element-auto-uisi"
+    static let bugReportApplicationId = "teleiraq-ios"
+    static let bugReportUISIId = "teleiraq-auto-uisi"
     
     
     // MARK: - Integrations
@@ -279,12 +278,12 @@ final class BuildSettings: NSObject {
     static let settingsScreenShowThreepidExplanatory: Bool = true
     static let settingsScreenShowDiscoverySettings: Bool = true
     static let settingsScreenAllowIdentityServerConfig: Bool = true
-    static let settingsScreenShowConfirmMediaSize: Bool = true
+    static let settingsScreenShowConfirmMediaSize: Bool = false
     static let settingsScreenShowAdvancedSettings: Bool = true
     static let settingsScreenShowLabSettings: Bool = true
-    static let settingsScreenAllowChangingRageshakeSettings: Bool = true
-    static let settingsScreenAllowChangingCrashUsageDataSettings: Bool = true
-    static let settingsScreenAllowBugReportingManually: Bool = true
+    static let settingsScreenAllowChangingRageshakeSettings: Bool = bugReportingEnabled
+    static let settingsScreenAllowChangingCrashUsageDataSettings: Bool = bugReportingEnabled
+    static let settingsScreenAllowBugReportingManually: Bool = bugReportingEnabled
     static let settingsScreenAllowDeactivatingAccount: Bool = true
     static let settingsScreenShowChangePassword:Bool = true
     static let settingsScreenShowEnableStunServerFallback: Bool = true
@@ -461,5 +460,5 @@ final class BuildSettings: NSObject {
     /// The presence of this setting acts as a feature flag to show marketing banners for the app
     /// when it is detected that the homeserver is running Matrix 2.0. Set this to `nil` until you
     /// are ready to migrate your users.
-    static let replacementApp: ReplacementApp? = .init()
+    static let replacementApp: ReplacementApp? = nil
 }

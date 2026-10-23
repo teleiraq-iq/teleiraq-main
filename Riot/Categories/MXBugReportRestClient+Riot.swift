@@ -34,6 +34,11 @@ extension MXBugReportRestClient {
         success: ((String?) -> Void)? = nil,
         failure: ((Error?) -> Void)? = nil
     ) {
+        guard BuildSettings.bugReportingEnabled else {
+            failure?(NSError(domain: "TeleIraq.Diagnostics", code: 1,
+                             userInfo: [NSLocalizedDescriptionKey: "Diagnostic uploads are disabled in this build."]))
+            return
+        }
         // User info (TODO: handle multi-account and find a way to expose them in rageshake API)
         var userInfo = [String: String]()
         let mainAccount = MXKAccountManager.shared().accounts.first

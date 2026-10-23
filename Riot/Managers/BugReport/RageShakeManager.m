@@ -55,7 +55,7 @@ static RageShakeManager* sharedInstance = nil;
 
 - (void)promptCrashReportInViewController:(UIViewController*)viewController
 {
-    if ([MXLogger crashLog])
+    if (BuildSettings.bugReportingEnabled && [MXLogger crashLog])
     {
         confirmationAlert = [UIAlertController alertControllerWithTitle:[VectorL10n bugReportPrompt]  message:nil preferredStyle:UIAlertControllerStyleAlert];
         
@@ -101,7 +101,8 @@ static RageShakeManager* sharedInstance = nil;
     
     // Start only if the application is in foreground
     // And if the rageshake user setting is enabled
-    if ([AppDelegate theDelegate].isAppForeground
+    if (BuildSettings.bugReportingEnabled
+        && [AppDelegate theDelegate].isAppForeground
         && RiotSettings.shared.enableRageShake
         && !confirmationAlert)
     {

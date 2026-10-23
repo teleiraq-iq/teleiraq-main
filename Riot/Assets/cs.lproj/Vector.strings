@@ -50,8 +50,8 @@
 "auth_optional_phone_placeholder" = "Číslo mobilního telefonu (nepovinné)";
 "auth_phone_placeholder" = "Telefonní číslo";
 "auth_repeat_password_placeholder" = "Zopakovat heslo";
-"auth_repeat_new_password_placeholder" = "Potvrďte své nové heslo k účtu Matrix";
-"auth_home_server_placeholder" = "URL (např. https://matrix.org)";
+"auth_repeat_new_password_placeholder" = "Potvrďte své nové heslo k účtu Teleiraq";
+"auth_home_server_placeholder" = "URL (např. https://teleiraq.com)";
 "auth_identity_server_placeholder" = "URL (např. https://vector.im)";
 "auth_invalid_login_param" = "Nesprávné uživatelské jméno nebo heslo";
 "auth_invalid_user_name" = "Uživatelské jméno může obsahovat pouze písmena, číslice, tečky, pomlčky a podtržítka";
@@ -69,19 +69,19 @@
 "auth_untrusted_id_server" = "Server identit není důvěryhodný";
 "auth_password_dont_match" = "Hesla se neshodují";
 "auth_username_in_use" = "Uživatelské jméno je použito";
-"auth_forgot_password" = "Zapomenuté heslo k účtu Matrix?";
+"auth_forgot_password" = "Zapomenuté heslo k účtu Teleiraq?";
 "auth_email_not_found" = "Chyba odeslání emailu: Tato emailová adresa nebyla nalezena";
 "auth_use_server_options" = "Použít vlastní možnosti serveru (pokročilé)";
 "auth_email_validation_message" = "Prosím zkontrolujte své emaily, abyste mohli pokračovat v registraci";
 "auth_msisdn_validation_title" = "Čeká na ověření";
 "auth_recaptcha_message" = "Tento domovský server by se rád přesvědčil, že nejste robot";
-"auth_reset_password_message" = "K resetování hesla Matrix účtu vložte e-mailovou adresu spojenou s vaším účtem:";
+"auth_reset_password_message" = "K resetování hesla Teleiraq účtu vložte e-mailovou adresu spojenou s vaším účtem:";
 "auth_reset_password_missing_email" = "Musíte zadat emailovou adresu spojenou s vaším účtem.";
 "auth_reset_password_missing_password" = "Musíte zadat nové heslo.";
 "auth_reset_password_email_validation_message" = "Na adresu %@ byla odeslána zpráva. Potom, co přejdete na odkaz z této zprávy, klikněte níže.";
 "auth_reset_password_next_step_button" = "Ověřil/a jsem svoji e-mailovou adresu";
 "auth_reset_password_error_unauthorized" = "E-mailovou adresu se nepodařilo ověřit. Přesvědčte se, že jste kliknul/a na zaslaný odkaz";
-"auth_reset_password_error_not_found" = "Vaše e-mailová adresa zřejmě nepatří k žádnému Matrix ID na tomto domovském serveru.";
+"auth_reset_password_error_not_found" = "Vaše e-mailová adresa zřejmě nepatří k žádnému Teleiraq ID na tomto domovském serveru.";
 // Chat creation
 "room_creation_title" = "Nový chat";
 "room_creation_account" = "Účet";
@@ -137,7 +137,7 @@
 "directory_search_fail" = "Chyba získání dat";
 // Contacts
 "contacts_address_book_section" = "LOKÁLNÍ KONTAKTY";
-"contacts_address_book_matrix_users_toggle" = "Pouze Matrix uživatelé";
+"contacts_address_book_matrix_users_toggle" = "Pouze Teleiraq uživatelé";
 "contacts_address_book_no_contact" = "Žádné lokální kontakty";
 "contacts_user_directory_section" = "UŽIVATELSKÝ ADRESÁŘ";
 "contacts_user_directory_offline_section" = "UŽIVATELSKÝ ADRESÁŘ (offline)";
@@ -235,8 +235,8 @@
 "settings_config_user_id" = "Přihlášen/a jako %@";
 "auth_msisdn_validation_message" = "Odeslali jsme vám SMS aktivační kod. Prosím, zadejte jej níže.";
 "auth_msisdn_validation_error" = "Nelze ověřit telefonní číslo.";
-"auth_reset_password_success_message" = "Vaše heslo Matrix účtu bylo úspěšně resetováno.\n\nByl jste právě odhlášen na všech vašich relací a nebudou vám nadále zasílána oznámení. Pro opětovné zasílání oznámení se znovu přihlaste na každém zařízení.";
-"store_full_description" = "Element je novým typem komunikátoru a propojovací aplikace která:\n\n1. Dává vám kontrolu nad vaším soukromím\n2. Vás nechá komunikovat s kýmkoli v Matrix síti a dokonce mimo ni, díky integrace s aplikacemi jako je například Slack\n3. Vás chrání před reklamou, těžbou Vašich dat, nechráněnými přístupy nebo nezdokumentovanými fukncemi\n4. Zabezpečuje Vaši komunikaci pomocí koncového šifrování s distribuovaným ověřením ostatních\n\nElement se liší od ostatních komunikačních řešeních především tím, že je decentralizovaný a open-source\n\nElement vám umožňuje provozovat vlastní server anebo si vybrat nějakyý z veřejných, takže máte controlu nad vašimi konverzacemi a soukromím. Dává vám přístup do otevřené sítě, takže nejste odkázání jen ke komunikaci s ostatními uživateli Elementu. A je vysoce bezpečný.\n\nElement je toho všeho schopen díky svému operačnímu protokolu - Matrix, otevřeného standartu pro decentralizovanou komunikaci.\n\nElement vás nechává vybrat, kdo bude hostovat vaše konverzace. Přímo z aplikace si můžete vybrat několik rozdílných řešení:\n\n1. Účet zdarma na veřejném serveru matrix.org\n2. Vlastní hosting serveru na vlastním hardwaru\n3. Účet na přizpůsobeném serveru jednodýúchým přihlášením na hosting Element Matrix Services\n\nProč Element?\n\nVLASTNĚTE SVÁ DATA: Vy rozhodujete kde jsou vaše data a zprávy uchovávány. Svá data vlastníte a spravujete Vy, ne nějaká obří korporace, která o vás sbírá osobní data nebo poskytuje přístup dalším stranám.\n\nOTEVŘENÁ KOMUNIKACE A SPOLUPRÁCE: Máte možnost spojit se s kýmkoli v síti Matrix bez ohledu na jeho softwarové řešení, a dokonce se můžete připojit i na jiné komunikační protokoly, jako je Slack, IRC nebo XMPP (Jabber). Komunita podporuje i komunikátory jako Whatsapp, Telegram nebo iMessage.\n\nNEPROLOMITELNÉ ŠIFROVÁNÍ: Skutečné koncové šifrování (pouze přímí účastníci konverzace mají možnost rozšifrovat jejich zprávy) a pokročilé ověřování kontaktů.\n\nVŠESTRANNÉ KOMUNIKAČNÍ MOŽNOSTI: Textové zprávy, hlasové nebo videohovory, přenos souborů, sdílení obrazovky a mnoho dalších funkcí a možností pro implementaci. Vytvářejte místnosti a komunity a zůstaňte v kontaktu.\n\nKDEKOLI SE NACHÁZÍTE: Přístup k plně synchronizované historii konverzací máte kdekoli se nacházíte, ať už z aplikace anebo webového rozhraní na https://element.io/app.";
+"auth_reset_password_success_message" = "Vaše heslo Teleiraq účtu bylo úspěšně resetováno.\n\nByl jste právě odhlášen na všech vašich relací a nebudou vám nadále zasílána oznámení. Pro opětovné zasílání oznámení se znovu přihlaste na každém zařízení.";
+"store_full_description" = "Element je novým typem komunikátoru a propojovací aplikace která:\n\n1. Dává vám kontrolu nad vaším soukromím\n2. Vás nechá komunikovat s kýmkoli v Teleiraq síti a dokonce mimo ni, díky integrace s aplikacemi jako je například Slack\n3. Vás chrání před reklamou, těžbou Vašich dat, nechráněnými přístupy nebo nezdokumentovanými fukncemi\n4. Zabezpečuje Vaši komunikaci pomocí koncového šifrování s distribuovaným ověřením ostatních\n\nElement se liší od ostatních komunikačních řešeních především tím, že je decentralizovaný a open-source\n\nElement vám umožňuje provozovat vlastní server anebo si vybrat nějakyý z veřejných, takže máte controlu nad vašimi konverzacemi a soukromím. Dává vám přístup do otevřené sítě, takže nejste odkázání jen ke komunikaci s ostatními uživateli Elementu. A je vysoce bezpečný.\n\nElement je toho všeho schopen díky svému operačnímu protokolu - Teleiraq, otevřeného standartu pro decentralizovanou komunikaci.\n\nElement vás nechává vybrat, kdo bude hostovat vaše konverzace. Přímo z aplikace si můžete vybrat několik rozdílných řešení:\n\n1. Účet zdarma na veřejném serveru teleiraq.com\n2. Vlastní hosting serveru na vlastním hardwaru\n3. Účet na přizpůsobeném serveru jednodýúchým přihlášením na hosting Element Teleiraq Services\n\nProč Element?\n\nVLASTNĚTE SVÁ DATA: Vy rozhodujete kde jsou vaše data a zprávy uchovávány. Svá data vlastníte a spravujete Vy, ne nějaká obří korporace, která o vás sbírá osobní data nebo poskytuje přístup dalším stranám.\n\nOTEVŘENÁ KOMUNIKACE A SPOLUPRÁCE: Máte možnost spojit se s kýmkoli v síti Teleiraq bez ohledu na jeho softwarové řešení, a dokonce se můžete připojit i na jiné komunikační protokoly, jako je Slack, IRC nebo XMPP (Jabber). Komunita podporuje i komunikátory jako Whatsapp, Telegram nebo iMessage.\n\nNEPROLOMITELNÉ ŠIFROVÁNÍ: Skutečné koncové šifrování (pouze přímí účastníci konverzace mají možnost rozšifrovat jejich zprávy) a pokročilé ověřování kontaktů.\n\nVŠESTRANNÉ KOMUNIKAČNÍ MOŽNOSTI: Textové zprávy, hlasové nebo videohovory, přenos souborů, sdílení obrazovky a mnoho dalších funkcí a možností pro implementaci. Vytvářejte místnosti a komunity a zůstaňte v kontaktu.\n\nKDEKOLI SE NACHÁZÍTE: Přístup k plně synchronizované historii konverzací máte kdekoli se nacházíte, ať už z aplikace anebo webového rozhraní na https://element.io/app.";
 "user_verification_sessions_list_session_untrusted" = "Nedůvěryhodná";
 "user_verification_sessions_list_session_trusted" = "Důvěryhodná";
 "user_verification_sessions_list_table_title" = "Relace";
@@ -272,8 +272,8 @@
 "auth_autodiscover_invalid_response" = "Neplatná odpověď na objevení domovského serveru";
 "auth_accept_policies" = "Přečtěte si a přijměte zásady tohoto domovského serveru:";
 "auth_add_email_and_phone_warning" = "Registrace pomocí e-mailu a telefonního čísla najednou ještě není podporována, dokud neexistuje rozhraní API. Zohledněno bude pouze telefonní číslo. Svůj e-mail můžete přidat do svého profilu v nastavení.";
-"auth_reset_password_error_is_required" = "Není nakonfigurován žádný server identity: pro obnovení hesla Matrix účtu přidejte jeden server z možností.";
-"auth_forgot_password_error_no_configured_identity_server" = "Není nakonfigurován žádný server identity: pro obnovení hesla k Matrix účtu jeden přidejte.";
+"auth_reset_password_error_is_required" = "Není nakonfigurován žádný server identity: pro obnovení hesla Teleiraq účtu přidejte jeden server z možností.";
+"auth_forgot_password_error_no_configured_identity_server" = "Není nakonfigurován žádný server identity: pro obnovení hesla k Teleiraq účtu jeden přidejte.";
 "settings_key_backup_button_delete" = "Smazat zálohu";
 "settings_key_backup_button_restore" = "Obnovit ze zálohy";
 "auth_login_single_sign_on" = "Přihlásit se";
@@ -347,8 +347,8 @@
 "room_recents_unknown_room_error_message" = "Nelze najít místnost. Zkontrolujte, jestli existuje";
 "room_recents_join_room_prompt" = "Napište ID nebo alias místnosti";
 "room_recents_suggested_rooms_section" = "DOPORUČENÉ MÍSTNOSTI";
-"auth_phone_is_required" = "Nelze přidat telefonní číslo pro obnovení hesla k vašemu Matrix účtu, protože není nastaven žádný server identity.";
-"auth_email_is_required" = "Nelze přidat emailovou adresu pro obnovení hesla k vašemu Matrix účtu, protože není nastaven žádný server identity.";
+"auth_phone_is_required" = "Nelze přidat telefonní číslo pro obnovení hesla k vašemu Teleiraq účtu, protože není nastaven žádný server identity.";
+"auth_email_is_required" = "Nelze přidat emailovou adresu pro obnovení hesla k vašemu Teleiraq účtu, protože není nastaven žádný server identity.";
 "onboarding_use_case_existing_server_button" = "Připojit k serveru";
 "onboarding_use_case_existing_server_message" = "Chcete se připojit k již existujícímu serveru?";
 "onboarding_use_case_skip_button" = "přeskočit tuto otázku";
@@ -362,7 +362,7 @@
 "onboarding_splash_page_4_message" = "Element je také skvělý na pracovišti. Důvěřují mu nejbezpečnější světové organizace.";
 "onboarding_splash_page_4_title_no_pun" = "Zasílání zpráv pro váš tým.";
 "onboarding_splash_page_3_message" = "End-to-end šifrování a bez potřeby telefonního čísla. Žádné reklamy nebo zneužívání údajů.";
-"onboarding_splash_page_2_message" = "Volba, kde jsou vaše konverzace uloženy, vám dává kontrolu a nezávislost. Spojeno pomocí Matrix.";
+"onboarding_splash_page_2_message" = "Volba, kde jsou vaše konverzace uloženy, vám dává kontrolu a nezávislost. Spojeno pomocí Teleiraq.";
 "onboarding_splash_page_1_message" = "Bezpečná a nezávislá komunikace, která vám zajistí stejnou úroveň soukromý, jako konverzace z očí do očí ve vašem vlastním domě.";
 "onboarding_splash_page_3_title" = "Zabezpečené zasílání zpráv.";
 "onboarding_splash_page_2_title" = "Vy máte kontrolu.";
@@ -480,7 +480,7 @@
 "settings_three_pids_management_information_part1" = "Zde můžete spravovat, které e-mailové adresy nebo telefonní čísla můžete použít k přihlášení nebo obnovení účtu. Kontrolujte, kdo vás může najít ";
 "settings_fail_to_update_profile" = "Problém s nahráním profilu Fail";
 "settings_night_mode" = "Temný režim";
-"settings_change_password" = "Změňte heslo Matrix account";
+"settings_change_password" = "Změňte heslo Teleiraq account";
 "settings_add_phone_number" = "Přidat telefonní číslo";
 "settings_phone_number" = "Telefon";
 "settings_add_email_address" = "Přidat emailovou adresu";
@@ -544,7 +544,7 @@
 "threads_beta_information" = "Udržujte diskuse organizované pomocí vláken.\n\nVlákna pomáhají udržovat vaše konverzace aktuální a snadno sledovatelné. ";
 "threads_beta_title" = "Vlákna";
 "threads_notice_done" = "Rozumím";
-"threads_notice_information" = "Všechna vlákna vytvořená během experimentálního období budou nyní <b>vykreslena jako běžné odpovědi</b>.<br/><br/>Bude se jednat o jednorázový přechod, protože vlákna jsou nyní součástí specifikace Matrix.";
+"threads_notice_information" = "Všechna vlákna vytvořená během experimentálního období budou nyní <b>vykreslena jako běžné odpovědi</b>.<br/><br/>Bude se jednat o jednorázový přechod, protože vlákna jsou nyní součástí specifikace Teleiraq.";
 "threads_notice_title" = "Vlákna již nejsou nadále experimentální";
 "message_from_a_thread" = "Z vlákna";
 "threads_empty_show_all_threads" = "Zobrazit všechna vlákna";

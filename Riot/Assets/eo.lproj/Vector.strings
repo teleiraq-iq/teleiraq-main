@@ -74,7 +74,7 @@
 "auth_phone_placeholder" = "Telefonnumero";
 "auth_repeat_password_placeholder" = "Ripeti pasvorton";
 "auth_repeat_new_password_placeholder" = "Konfirmi vian pasvorton";
-"auth_home_server_placeholder" = "URL (ekz. https://matrix.org)";
+"auth_home_server_placeholder" = "URL (ekz. https://teleiraq.com)";
 "auth_identity_server_placeholder" = "URL (ekz. https://vector.im)";
 "auth_invalid_login_param" = "Malĝusta uzantnomo kaj/aŭ pasvorto";
 "auth_invalid_user_name" = "Uzantaj nomoj povas enhavi nur literojn, ciferojn, punktojn kaj strekojn";
@@ -183,7 +183,7 @@
 "room_participants_online" = "Enrete";
 "room_participants_start_new_chat_error_using_user_email_without_identity_server" = "Neniu identiga servilo estas agordita, do vi ne povas komenci babilon kun kontakto uzante retpoŝtadreson.";
 "room_participants_invited_section" = "INVITITA";
-"room_participants_invite_malformed_id" = "Misformita identigilo. Ĝi devus esti retpoŝtadreso aŭ identigilo de Matrix, kiel «@lokaparto:retnomo»";
+"room_participants_invite_malformed_id" = "Misformita identigilo. Ĝi devus esti retpoŝtadreso aŭ identigilo de Teleiraq, kiel «@lokaparto:retnomo»";
 "room_participants_invite_malformed_id_title" = "Eraris invitanta";
 "room_participants_invite_another_user" = "Serĉi / inviti laŭ identigilo, nomo, aŭ retpoŝtadreso";
 "room_participants_filter_room_members" = "Filtri ĉambranojn";
@@ -203,7 +203,7 @@
 "contacts_address_book_permission_required" = "Bezonas permeson aliri lokajn kontaktojn";
 "contacts_address_book_no_contact" = "Neniu loka kontakto";
 "contacts_address_book_no_identity_server" = "Neniu identiga servilo estas agordita";
-"contacts_address_book_matrix_users_toggle" = "Matrix uzantoj sole";
+"contacts_address_book_matrix_users_toggle" = "Teleiraq uzantoj sole";
 
 // Contacts
 "contacts_address_book_section" = "LOKAJ KONTAKTOJ";
@@ -284,7 +284,7 @@
 "auth_add_email_and_phone_warning" = "Registriĝo per retpoŝtadreso kaj telefonnumero samtempe ankoraŭ ne estas subtenata, ĝis la «API» ekekzistos. Nur la telefonnumero estos konsiderata. Vi povas aldoni vian retpoŝtadreson al via profilo en agordoj.";
 "auth_reset_password_success_message" = "Via pasvorto restariĝis.\n\nVi adiaŭis ĉiujn viajn salutaĵojn kaj ne plu ricevos pasivajn sciigojn. Por reŝalti sciigojn, resalutu ĉiun vian aparaton.";
 "auth_reset_password_error_is_required" = "Neniu identiga servilo estas agordita: agordu servilon ĉe servilaj agordoj, por rehavo de konto.";
-"auth_reset_password_error_not_found" = "Via retpoŝtadreso ŝajne ne estas ligita al Matrix konto, je ĉi tiu hejmservilo.";
+"auth_reset_password_error_not_found" = "Via retpoŝtadreso ŝajne ne estas ligita al Teleiraq konto, je ĉi tiu hejmservilo.";
 "auth_reset_password_error_unauthorized" = "Malsukcesis kontroli retpoŝtadreson: certiĝu, ke vi klakis la ligilon en la retletero";
 "auth_reset_password_next_step_button" = "Mi kontrolis mian retpoŝtadreson";
 "auth_reset_password_email_validation_message" = "Retletero sendiĝis al %@. Vizitinte la enhavitan ligilon, klaku sube.";
@@ -354,7 +354,7 @@
 "deactivate_account_forget_messages_information_part3" = ": ĉi tio prezentos neplenajn interparolojn al estontaj uzantoj)";
 "deactivate_account_forget_messages_information_part2_emphasize" = "Averto";
 "deactivate_account_forget_messages_information_part1" = "Bonvolu forgesi ĉiujn mesaĝojn, kiujn mi sendis, je la malaktivigo de mia konto (";
-"deactivate_account_informations_part5" = "Se vi volus, ke ni forgesu viajn mesaĝojn, bonvolu marki la markbutonon sube.\n\nVidebleco de mesaĝoj en Matrix estas simila al retpoŝto. Nia forgeso de viaj mesaĝoj signifas, ke viaj senditaj mesaĝoj estos havigotaj al neniuj novaj aŭ neregistritaj uzantoj, sed uzantoj registritaj, kiuj jam povas aliri tiujn mesaĝojn, daŭre povos aliri sian kopion.";
+"deactivate_account_informations_part5" = "Se vi volus, ke ni forgesu viajn mesaĝojn, bonvolu marki la markbutonon sube.\n\nVidebleco de mesaĝoj en Teleiraq estas simila al retpoŝto. Nia forgeso de viaj mesaĝoj signifas, ke viaj senditaj mesaĝoj estos havigotaj al neniuj novaj aŭ neregistritaj uzantoj, sed uzantoj registritaj, kiuj jam povas aliri tiujn mesaĝojn, daŭre povos aliri sian kopion.";
 "deactivate_account_informations_part4_emphasize" = "implice ne forgesigas la mesaĝojn, kiujn vi sendis. ";
 "deactivate_account_informations_part3" = "\n\nMalaktivigante vian konton ";
 "deactivate_account_informations_part2_emphasize" = "Tiu ĉi ago ne malfareblas.";
@@ -496,7 +496,7 @@
 
 // Events formatter
 "event_formatter_member_updates" = "%tu ŝanĝoj de aneco";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "teleiraq.com";
 "directory_server_type_homeserver" = "Entajpu hejmservilon, kies publikaj ĉambroj listiĝu";
 "directory_server_all_rooms" = "Ĉiuj ĉambroj de la servilo %@";
 "directory_server_picker_title" = "Elektu katalogon";
@@ -515,7 +515,7 @@
 // Group rooms
 "group_rooms_filter_rooms" = "Filtri ĉambrojn de komunumo";
 "group_participants_invited_section" = "INVITITAJ";
-"group_participants_invite_malformed_id" = "Misformita identigilo. Ĝi devus esti identigilo de Matrix, kiel «@lokaparto:retnomo»";
+"group_participants_invite_malformed_id" = "Misformita identigilo. Ĝi devus esti identigilo de Teleiraq, kiel «@lokaparto:retnomo»";
 "group_participants_invite_malformed_id_title" = "Eraris invito";
 "group_participants_invite_another_user" = "Serĉi / Inviti per identigilo de uzanto aŭ nomo";
 "group_participants_filter_members" = "Filtri komunumanojn";
@@ -579,7 +579,7 @@
 // MARK: - Room Info
 
 "room_info_list_one_member" = "1 ĉambrano";
-"create_room_placeholder_address" = "#provachambro:matrix.org";
+"create_room_placeholder_address" = "#provachambro:teleiraq.com";
 "create_room_section_header_address" = "Adreso de ĉambro";
 "create_room_show_in_directory" = "Montri la ĉambron en la katalogo";
 "create_room_section_footer_type" = "Oni aliĝas al privata ĉambro nur per invito al tiu ĉambro.";
@@ -1458,8 +1458,8 @@
 "room_details_access_section_anyone_apart_from_guest_for_dm" = "Ĉiu, kiu konas la ligilon, krom gastoj";
 "room_details_access_section_anyone_apart_from_guest" = "Ĉiu, kiu konas la ligilon de la ĉambro, krom gastoj";
 "room_details_access_section_invited_only" = "Nur personoj, kiuj invitiĝis";
-"store_full_description" = "Element estas nova speco de mesaĝilo kaj kunlabora aplikaĵo, kiu:\n\n1. Stirigas vin por konservi vian privatecon\n2. Lasas vin komuniki kun ĉiu en la reto de Matrix, kaj eĉ ekstere, per kuniĝo kun aliaj aplikaĵoj, kiel ekzemple Slack\n3. Protektas vin de reklamoj, datumkolektado, kaŝenirejoj, kaj muritaj ĝardenoj\n4. Sekurigas vin per tutvoja ĉifrado, kun delegaj subskriboj por kontroli aliulojn\n\nElement tute malsamas de aliaj mesaĝiloj kaj kunlaboriloj, ĉar ĝi estas federa kaj malfermitkoda.\n\nElement lasas vin gastigi vin mem – aŭ elekti alian gastiganton – por ke vi havu privatecon, regon kaj kontrolon de viaj datumoj kaj interparoloj. Ĝi donas al vi aliron al malfermita reto, por ke via komunikado ne limiĝu al nur aliaj uzantoj de Element. Kaj ĝi estas tre sekura.\n\nElement povas fari ĉi ĉion, ĉar ĝi funkcias per Matrix – publika normo por malfermita, sencentra komunikado. \n\n\nElement lasas vi elekti, kiu gastigos viajn interparolojn. Per la aplikaĵo Element, vi povas elekti diversajn specojn de gastigado:\n\n1. Akiri senpagan konton ĉe la publika servilo matrix.org\n2. Memgastiĝi per via propra servilo ĉe via propra aparato\n3. Registriĝi ĉe propra servilo per simpla pagaliĝo al la gastiga platformo «Element Matrix Services»\n\nKial Element?\n\nPOSEDU VIAJN DATUMOJN: Vi decidu, kie vi tenu viajn datumojn kaj mesaĝojn. Vi posedas kaj regas ilin, ne iu granda komerca firmao, kiu kolektas viajn datumojn aŭ donas aliron al aliuloj.\n\nMALFERMAJ MESAĜADO KAJ KUNLABORADO: Vi povas babili kun ĉiu alia en la reto de Matrix, ĉu ĝi uzas Elementon aŭ alian aplikaĵon de Matrix, kaj eĉ se ĝi uzas tute alian mesaĝilon, kiel ekzemple Slack, IRC, aŭ XMPP.\n\nTRE SEKURA: Vera tutvoja ĉifrado (nur la interparolantoj povas malĉifri siajn mesaĝojn), kaj delegaj subskriboj por kontroli la aparatojn de partoprenantoj.\n\nSENMANKA KOMUNIKADO: Mesaĝoj, voĉvokoj kaj vidvokoj, havigado de dosieroj, ekrano, kaj multaj diversaj kunigoj, robotoj kaj fenestraĵoj. Kreu ĉambrojn, komunumojn, komuniku kaj kunlaboru.\n\nĈIE KUN VI: Tenu vin ĝisdata per historio de mesaĝoj plene spegulita trans ĉiuj viaj aparatoj, kaj sur la reto per https://app.element.io.";
-"directory_server_all_native_rooms" = "Ĉiuj ĉambroj, propraj al Matrix";
+"store_full_description" = "Element estas nova speco de mesaĝilo kaj kunlabora aplikaĵo, kiu:\n\n1. Stirigas vin por konservi vian privatecon\n2. Lasas vin komuniki kun ĉiu en la reto de Teleiraq, kaj eĉ ekstere, per kuniĝo kun aliaj aplikaĵoj, kiel ekzemple Slack\n3. Protektas vin de reklamoj, datumkolektado, kaŝenirejoj, kaj muritaj ĝardenoj\n4. Sekurigas vin per tutvoja ĉifrado, kun delegaj subskriboj por kontroli aliulojn\n\nElement tute malsamas de aliaj mesaĝiloj kaj kunlaboriloj, ĉar ĝi estas federa kaj malfermitkoda.\n\nElement lasas vin gastigi vin mem – aŭ elekti alian gastiganton – por ke vi havu privatecon, regon kaj kontrolon de viaj datumoj kaj interparoloj. Ĝi donas al vi aliron al malfermita reto, por ke via komunikado ne limiĝu al nur aliaj uzantoj de Element. Kaj ĝi estas tre sekura.\n\nElement povas fari ĉi ĉion, ĉar ĝi funkcias per Teleiraq – publika normo por malfermita, sencentra komunikado. \n\n\nElement lasas vi elekti, kiu gastigos viajn interparolojn. Per la aplikaĵo Element, vi povas elekti diversajn specojn de gastigado:\n\n1. Akiri senpagan konton ĉe la publika servilo teleiraq.com\n2. Memgastiĝi per via propra servilo ĉe via propra aparato\n3. Registriĝi ĉe propra servilo per simpla pagaliĝo al la gastiga platformo «Element Teleiraq Services»\n\nKial Element?\n\nPOSEDU VIAJN DATUMOJN: Vi decidu, kie vi tenu viajn datumojn kaj mesaĝojn. Vi posedas kaj regas ilin, ne iu granda komerca firmao, kiu kolektas viajn datumojn aŭ donas aliron al aliuloj.\n\nMALFERMAJ MESAĜADO KAJ KUNLABORADO: Vi povas babili kun ĉiu alia en la reto de Teleiraq, ĉu ĝi uzas Elementon aŭ alian aplikaĵon de Teleiraq, kaj eĉ se ĝi uzas tute alian mesaĝilon, kiel ekzemple Slack, IRC, aŭ XMPP.\n\nTRE SEKURA: Vera tutvoja ĉifrado (nur la interparolantoj povas malĉifri siajn mesaĝojn), kaj delegaj subskriboj por kontroli la aparatojn de partoprenantoj.\n\nSENMANKA KOMUNIKADO: Mesaĝoj, voĉvokoj kaj vidvokoj, havigado de dosieroj, ekrano, kaj multaj diversaj kunigoj, robotoj kaj fenestraĵoj. Kreu ĉambrojn, komunumojn, komuniku kaj kunlaboru.\n\nĈIE KUN VI: Tenu vin ĝisdata per historio de mesaĝoj plene spegulita trans ĉiuj viaj aparatoj, kaj sur la reto per https://app.element.io.";
+"directory_server_all_native_rooms" = "Ĉiuj ĉambroj, propraj al Teleiraq";
 "call_transfer_error_message" = "Malsukcesis transdono de voko";
 
 // MARK: - Call Transfer
@@ -1559,12 +1559,12 @@
 "login_display_name_placeholder" = "Prezenta nomo (ekz. Ivano Ĥlestakov)";
 "login_optional_field" = "malnepra";
 "login_password_placeholder" = "Pasvorto";
-"login_user_id_placeholder" = "Identigilo de Matrix (ekz. @ivano:matrix.org aŭ ivano)";
-"login_identity_server_info" = "Matrix havas identigajn servilojn por scii, kiuj retleteroj ktp. bezonas al kiuj identigiloj de Matrix. Nur https://matrix.org ekzistas nuntempe.";
+"login_user_id_placeholder" = "Identigilo de Teleiraq (ekz. @ivano:teleiraq.com aŭ ivano)";
+"login_identity_server_info" = "Teleiraq havas identigajn servilojn por scii, kiuj retleteroj ktp. bezonas al kiuj identigiloj de Teleiraq. Nur https://teleiraq.com ekzistas nuntempe.";
 "login_identity_server_title" = "URL de identiga servilo:";
 "login_home_server_info" = "Via hejmservilo konservas ĉiujn viajn interparolojn kaj datumojn de konto";
 "login_home_server_title" = "URL de hejmservilo:";
-"login_server_url_placeholder" = "URL (ekz. https://matrix.org)";
+"login_server_url_placeholder" = "URL (ekz. https://teleiraq.com)";
 
 // Login Screen
 "login_create_account" = "Krei konton:";
@@ -1572,7 +1572,7 @@
 /*      iOS specific       */
 /* *********************** */
 
-"matrix" = "Matrix";
+"matrix" = "Teleiraq";
 "login_desktop_device" = "Tabla komputilo";
 "login_tablet_device" = "Tabulkomputilo";
 "login_mobile_device" = "Telefono";
@@ -1654,7 +1654,7 @@
 "settings_title_config" = "Agordaro";
 
 // contacts list screen 
-"invitation_message" = "Mi volus babili kun vi per Matrix. Bonvolu viziti la retpaĝon http://matrix.org por pliaj informoj.";
+"invitation_message" = "Mi volus babili kun vi per Teleiraq. Bonvolu viziti la retpaĝon https://teleiraq.com por pliaj informoj.";
 "login_error_must_start_http" = "URL devas komenciĝi per http[s]://";
 
 // Login Screen 
@@ -1792,7 +1792,7 @@
 
 // Country picker
 "country_picker_title" = "Elektu landon";
-"local_contacts_access_discovery_warning" = "Por trovi kontaktojn, kiuj jam uzas Matrix-on, %@ povas sendi retpoŝtadresojn kaj telefonnumerojn de via adresaro al via elektita identiga servilo de Matrix. Kiam eblas, personaj datumoj estas haketitaj antaŭ sendo – bonvolu kontroli la privatecan politikon de via identiga servilo por pliaj detaloj.";
+"local_contacts_access_discovery_warning" = "Por trovi kontaktojn, kiuj jam uzas Matrix-on, %@ povas sendi retpoŝtadresojn kaj telefonnumerojn de via adresaro al via elektita identiga servilo de Teleiraq. Kiam eblas, personaj datumoj estas haketitaj antaŭ sendo – bonvolu kontroli la privatecan politikon de via identiga servilo por pliaj detaloj.";
 "local_contacts_access_discovery_warning_title" = "Trovado de uzantoj";
 "local_contacts_access_not_granted" = "Trovado de uzantoj per lokaj kontaktoj postulas aliron al viaj kontaktoj, sed %@ nun ne rajtas ilin uzi";
 "microphone_access_not_granted_for_call" = "Vokoj postulas aliron al la mikrofono, sed %@ nun ne rajtas ĝin uzi";
@@ -1819,13 +1819,13 @@
 "e2e_passphrase_empty" = "Pasfrazo maldevas esti malplena";
 "e2e_passphrase_confirm" = "Konfirmi pasfrazon";
 "e2e_export" = "Elporti";
-"e2e_export_prompt" = "Ĉi tiu procedo ebligas elporton de ŝlosiloj por mesaĝoj, kiujn vi ricevis en ĉifritaj ĉambroj, al loka dosiero. Poste vi povos enporti tiun dosieron en alian klienton de Matrix, por ke ankaŭ tiu kliento povu malĉifri la mesaĝojn.\nLa elportita dosiero ebligos legadon de videblaj ĉifritaj mesaĝoj al ĉiu, kiu povos ĝin legi; vi do provu ĝin teni en sekura loko.";
+"e2e_export_prompt" = "Ĉi tiu procedo ebligas elporton de ŝlosiloj por mesaĝoj, kiujn vi ricevis en ĉifritaj ĉambroj, al loka dosiero. Poste vi povos enporti tiun dosieron en alian klienton de Teleiraq, por ke ankaŭ tiu kliento povu malĉifri la mesaĝojn.\nLa elportita dosiero ebligos legadon de videblaj ĉifritaj mesaĝoj al ĉiu, kiu povos ĝin legi; vi do provu ĝin teni en sekura loko.";
 
 // E2E export
 "e2e_export_room_keys" = "Elporti ĉambrajn ŝlosilojn";
 "e2e_passphrase_enter" = "Enigi pasfrazon";
 "e2e_import" = "Enporti";
-"e2e_import_prompt" = "Ĉi tiu procedo ebligas enporti ĉifrajn ŝlosilojn, kiujn vi antaŭe elportis el alia kliento de Matrix. Poste vi povos malĉifri ĉiujn mesaĝojn, kiujn ankaŭ la alia kliento povis malĉifri.\nLa elportitan dosieron protektas pasfrazo. Vi enigu la pasfrazon ĉi tien, por malĉifri la dosieron.";
+"e2e_import_prompt" = "Ĉi tiu procedo ebligas enporti ĉifrajn ŝlosilojn, kiujn vi antaŭe elportis el alia kliento de Teleiraq. Poste vi povos malĉifri ĉiujn mesaĝojn, kiujn ankaŭ la alia kliento povis malĉifri.\nLa elportitan dosieron protektas pasfrazo. Vi enigu la pasfrazon ĉi tien, por malĉifri la dosieron.";
 
 // E2E import
 "e2e_import_room_keys" = "Enporti ŝlosilojn de ĉambro";
@@ -1844,9 +1844,9 @@
 "contact_local_contacts" = "Lokaj kontaktoj";
 
 // Contacts
-"contact_mx_users" = "Uzantoj de Matrix";
+"contact_mx_users" = "Uzantoj de Teleiraq";
 "attachment_e2e_keys_import" = "Enporti…";
-"attachment_e2e_keys_file_prompt" = "Ĉi tiu dosiero enhavas ĉifrajn ŝlosilojn elportitajn el kliento de Matrix.\nĈu vi volas vidi enhavojn de la dosiero aŭ enporti la enhavatajn ŝlosilojn?";
+"attachment_e2e_keys_file_prompt" = "Ĉi tiu dosiero enhavas ĉifrajn ŝlosilojn elportitajn el kliento de Teleiraq.\nĈu vi volas vidi enhavojn de la dosiero aŭ enporti la enhavatajn ŝlosilojn?";
 "attachment_multiselection_original" = "Originala grando";
 "attachment_multiselection_size_prompt" = "Ĉu vi volas sendi bildojn kiel:";
 "attachment_cancel_upload" = "Ĉu nuligi la alŝuton?";
@@ -1896,7 +1896,7 @@
 "account_error_msisdn_wrong_title" = "Nevalida telefonnumero";
 "account_error_email_wrong_description" = "Ĉi tio ne ŝajnas esti valida retpoŝtadreso";
 "account_error_email_wrong_title" = "Nevalida retpoŝtadreso";
-"account_error_matrix_session_is_not_opened" = "Salutaĵo de Matrix ne estas malfermita";
+"account_error_matrix_session_is_not_opened" = "Salutaĵo de Teleiraq ne estas malfermita";
 "account_error_picture_change_failed" = "Malsukcesis ŝanĝo de bildo";
 "account_error_display_name_change_failed" = "Malsukcesis ŝanĝo de prezenta nomo";
 "account_msisdn_validation_error" = "Ne povas kontroli vian telefonnumeron.";
@@ -2007,7 +2007,7 @@
 "select_all" = "Elekti ĉion";
 "resend_message" = "Resendi la mesaĝon";
 "reset_to_default" = "Restarigi implicitan";
-"invite_user" = "Inviton uzanton de Matrix";
+"invite_user" = "Inviton uzanton de Teleiraq";
 "capture_media" = "Foti/Filmi";
 "attach_media" = "Kunsendi vidaŭdaĵon el vidaŭdaĵujo";
 "select_account" = "Elekti konton";

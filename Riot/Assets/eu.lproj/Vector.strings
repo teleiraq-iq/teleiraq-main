@@ -113,7 +113,7 @@
 "room_participants_action_ignore" = "Ezkutatu erabiltzaile honen mezu guztiak";
 "room_participants_action_unignore" = "Erakutsi erabiltzaile honen mezu guztiak";
 "room_participants_action_mention" = "Aipamena";
-"contacts_address_book_matrix_users_toggle" = "Matrix erabiltzaileak besterik ez";
+"contacts_address_book_matrix_users_toggle" = "Teleiraq erabiltzaileak besterik ez";
 "encrypted_room_message_placeholder" = "Bidali zifratutako mezua…";
 "room_message_placeholder" = "Bidali mezua (zifratu gabe)…";
 "room_offline_notification" = "Zerbitzariarekin konexioa galdu da.";
@@ -125,7 +125,7 @@
 "room_details_title" = "Gelaren xehetasunak";
 "room_details_files" = "Fitxategiak";
 "room_details_settings" = "Ezarpenak";
-"room_participants_invite_malformed_id" = "Gaizki osatutako IDa. e-mail helbide bat edo Matrix ID bat izan behar da, honelakoa '@erabiltzailea:domeinua'";
+"room_participants_invite_malformed_id" = "Gaizki osatutako IDa. e-mail helbide bat edo Teleiraq ID bat izan behar da, honelakoa '@erabiltzailea:domeinua'";
 "room_participants_invited_section" = "GONBIDATUTA";
 "room_event_action_report_prompt_reason" = "Eduki hau salatzeko arrazoia";
 "room_event_action_report_prompt_ignore_user" = "Erabiltzaile honen mezu guztiak  ezkutatu nahi dituzu?";
@@ -222,7 +222,7 @@
 "auth_untrusted_id_server" = "Identitate zerbitzaria ez da fidagarria";
 "auth_msisdn_validation_error" = "Ezin izan da telefono zenbakia egiaztatu.";
 "auth_reset_password_email_validation_message" = "E-mail bat bidali da %@ helbidera. Honek dakarren esteka jarraitu eta gero egin klik azpian.";
-"auth_reset_password_error_not_found" = "Zure e-mail helbidea ez dago antza hasiera-zerbitzari honetako Matrix ID batekin lotuta.";
+"auth_reset_password_error_not_found" = "Zure e-mail helbidea ez dago antza hasiera-zerbitzari honetako Teleiraq ID batekin lotuta.";
 "room_creation_account" = "Kontua";
 "room_creation_appearance" = "Itxura";
 "room_creation_appearance_picture" = "Txateko irudia (aukerakoa)";
@@ -382,8 +382,8 @@
 "media_picker_select" = "Hautatu";
 "directory_server_picker_title" = "Hautatu direktorio bat";
 "directory_server_all_rooms" = "%@ zerbitzariko gela guztiak";
-"directory_server_all_native_rooms" = "Matrix gela natibo guztiak";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_all_native_rooms" = "Teleiraq gela natibo guztiak";
+"directory_server_placeholder" = "teleiraq.com";
 // Events formatter
 "event_formatter_member_updates" = "%tu kidetza aldaketa";
 "you" = "Zu";
@@ -409,7 +409,7 @@
 "bug_report_progress_zipping" = "Egunkariak biltzen";
 "bug_report_progress_uploading" = "Txostena igotzen";
 "room_details_advanced_e2e_encryption_prompt_message" = "Muturretik muturrerako zifratzea esperimentala da eta agian ez dabil behar bezala.\n\nEz zenuke datuak babesteko erabili behar oraindik.\n\nGailuek ezin izango dute gelara elakrtu aurreko historiala deszifratu.\n\nBehin gela batean zifratzea aktibatuta ez dago gero desaktibatzerik (oraingoz).\n\nZifratutako mezuak ezin izango dira ikusi oraindik zifratzea onartzen ez duten bezeroetan.";
-"auth_home_server_placeholder" = "URL (adib. https://matrix.org)";
+"auth_home_server_placeholder" = "URL (adib. https://teleiraq.com)";
 "auth_identity_server_placeholder" = "URL (e.g. https://vector.im)";
 "room_ongoing_conference_call_with_close" = "Konferentzia deia abian. elkartu %@ edo %@ gisa. %@.";
 "room_ongoing_conference_call_close" = "Itxi";
@@ -498,7 +498,7 @@
 "group_participants_filter_members" = "Iragazi komunitateko kideak";
 "group_participants_invite_another_user" = "Bilatu / gonbidatu erabiltzaile ID-a edo izena erabiliz";
 "group_participants_invite_malformed_id_title" = "Gonbidapen errorea";
-"group_participants_invite_malformed_id" = "Gaizki osatutako IDa. Matrix ID bat izan behar da, honelakoa '@erabiltzailea:domeinua'";
+"group_participants_invite_malformed_id" = "Gaizki osatutako IDa. Teleiraq ID bat izan behar da, honelakoa '@erabiltzailea:domeinua'";
 "group_participants_invited_section" = "GONBIDATUTA";
 // Group rooms
 "group_rooms_filter_rooms" = "Iragazi komunitateko gelak";
@@ -652,7 +652,7 @@
 "key_backup_setup_intro_manual_export_action" = "Esportatu gakoak eskuz";
 // String for App Store
 "store_short_description" = "Deszentralizatutako txat/VoIP segurua";
-"store_full_description" = "Komunikatu, zure erara.\n\nTxat aplikazio bat, zure kontrolpean eta erabat malgua. Element-ek zuk nahi eran komunikatzea ahalbidetzen dizu. Komunikaziorako estandar ireki eta deszentralizatua den [matrix] protokolorako egina.\n\nEskuratu matrix.org kontu bat, ezarri zure zerbitzaria  https://ems.element.io erabiliz, edo erabili beste Matrix zerbitzari bat.\n\nZertgatik aukeratu Element?\n\nERABATEKO KOMUNIKAZIOA: Sortu zure taldeentzako gelak, zure lagunentzko, zure komunitatearentzat, zuk nahi eran! Txateatu, partekatu fitxategiak, gehitu trepetak eta egin ahots eta bideo-deiak, dena doan.\n\nINTEGRAZIO AHALTSUAK: Erabili Element jada ezagutu eta maite dituzun tresnekin. Element erabilita beste txat aplikazioak erabiltzen dituzten erabiltzaile eta taldeekin ere aritu zaitezke.\n\nPRIBATUA ETA SEGURUA: Mantendu zure elkarrizketak sekretupean. Gaur egungo muturretik muturrerako zifratzeak pribatua dena pribatu mantentzen laguntzen du.\n\nIREKIA, EZ ITXIA: Kode irekikoa, eta Matrix protokoloan eraikia. Izan zure datuen jabe zure zerbitzaria osatatauz, edo fidagarritzat duzun bat aukeratuz.\n\nZUREKIN NONAHI: Mantendu kontaktua zauden tokian zaudela gailuetan zehar erabat sinkronizatutako mezuen historialarekin, eta web bidez https://app.element.io helbidean.";
+"store_full_description" = "Komunikatu, zure erara.\n\nTxat aplikazio bat, zure kontrolpean eta erabat malgua. Element-ek zuk nahi eran komunikatzea ahalbidetzen dizu. Komunikaziorako estandar ireki eta deszentralizatua den [Teleiraq] protokolorako egina.\n\nEskuratu teleiraq.com kontu bat, ezarri zure zerbitzaria  https://ems.element.io erabiliz, edo erabili beste Teleiraq zerbitzari bat.\n\nZertgatik aukeratu Element?\n\nERABATEKO KOMUNIKAZIOA: Sortu zure taldeentzako gelak, zure lagunentzko, zure komunitatearentzat, zuk nahi eran! Txateatu, partekatu fitxategiak, gehitu trepetak eta egin ahots eta bideo-deiak, dena doan.\n\nINTEGRAZIO AHALTSUAK: Erabili Element jada ezagutu eta maite dituzun tresnekin. Element erabilita beste txat aplikazioak erabiltzen dituzten erabiltzaile eta taldeekin ere aritu zaitezke.\n\nPRIBATUA ETA SEGURUA: Mantendu zure elkarrizketak sekretupean. Gaur egungo muturretik muturrerako zifratzeak pribatua dena pribatu mantentzen laguntzen du.\n\nIREKIA, EZ ITXIA: Kode irekikoa, eta Teleiraq protokoloan eraikia. Izan zure datuen jabe zure zerbitzaria osatatauz, edo fidagarritzat duzun bat aukeratuz.\n\nZUREKIN NONAHI: Mantendu kontaktua zauden tokian zaudela gailuetan zehar erabat sinkronizatutako mezuen historialarekin, eta web bidez https://app.element.io helbidean.";
 "auth_login_single_sign_on" = "Hasi saioa Single sign-on bidez";
 "auth_autodiscover_invalid_response" = "Erantzun baliogabea hasiera-zerbitzarien bilaketari";
 "room_message_unable_open_link_error_message" = "Ezin izan da esteka ireki.";
@@ -1022,7 +1022,7 @@
 "security_settings_crosssigning_complete_security" = "Segurtasun osoa";
 "security_settings_complete_security_alert_title" = "Segurtasun osoa";
 "security_settings_complete_security_alert_message" = "Aurretik segurtasuna osatu beharko zenuke oraingo saioan.";
-"security_settings_coming_soon" = "Sentitzen dugu. Ekintza hau ez dago iOS plataformarako %@ bezeroan eskuragarri oraindik. Erabili beste Matrix bezero bat ezartzeko. %@ iOS-ek erabili egingo du.";
+"security_settings_coming_soon" = "Sentitzen dugu. Ekintza hau ez dago iOS plataformarako %@ bezeroan eskuragarri oraindik. Erabili beste Teleiraq bezero bat ezartzeko. %@ iOS-ek erabili egingo du.";
 "device_verification_self_verify_wait_new_sign_in_title" = "Egiaztatu saio hau";
 // Scanning
 "key_verification_scan_confirmation_scanning_title" = "Ia bukatu duzu! Baieztapenaren zain…";
@@ -1197,17 +1197,17 @@
 "create_room" = "Sortu gela";
 "membership_invite" = "Gonbidatuta";
 "kick" = "Kanporatu";
-"matrix" = "Matrix";
+"matrix" = "Teleiraq";
 // Login Screen
 "login_create_account" = "Sortu kontua:";
-"login_server_url_placeholder" = "URL-a (adib. https://matrix.org)";
+"login_server_url_placeholder" = "URL-a (adib. https://teleiraq.com)";
 "login_home_server_info" = "Zure hasiera-zerbitzariak gordetzen ditu zure elkarrizketa guztiak eta kontuaren datuak";
-"login_identity_server_info" = "Matrixek identitate zerbitzariak hornitzen ditu e-mailak eta abar zein Matrix ID-ri dagokien jakiteko, Orain https://matrix.org da dagoen bakarra.";
-"login_user_id_placeholder" = "Matrix ID-a (adib. @urko:matrix.org edo urko)";
+"login_identity_server_info" = "Matrixek identitate zerbitzariak hornitzen ditu e-mailak eta abar zein Teleiraq ID-ri dagokien jakiteko, Orain https://teleiraq.com da dagoen bakarra.";
+"login_user_id_placeholder" = "Teleiraq ID-a (adib. @urko:teleiraq.com edo urko)";
 "login_optional_field" = "aukerakoa";
 "login_display_name_placeholder" = "Pantaila-izena (adib. Urko Etxeberria)";
 "login_error_title" = "Saio hasierak huts egin du";
-"login_email_info" = "Zehaztu e-mail helbide bat beste Matrix erabiltzaileek zu errazago aurkitzeko, e-mail helbidea izateak ere etorkizunean pasahitza aldatzea ahalbidetuko dizu.";
+"login_email_info" = "Zehaztu e-mail helbide bat beste Teleiraq erabiltzaileek zu errazago aurkitzeko, e-mail helbidea izateak ere etorkizunean pasahitza aldatzea ahalbidetuko dizu.";
 "login_prompt_email_token" = "Sartu zure e-mail egiaztaketa tokena:";
 "login_error_no_login_flow" = "Huts egin du autentifikazio informazioa hasiera zerbitzari honetatik jasotzean";
 "login_leave_fallback" = "Utzi";
@@ -1230,7 +1230,7 @@
 "select_account" = "Hautatu kontu bat";
 "attach_media" = "Erantsi media liburutegitik";
 "capture_media" = "Atera argazkia / bideoa";
-"invite_user" = "Gonbidatu matrix erabiltzailea";
+"invite_user" = "Gonbidatu Teleiraq erabiltzailea";
 "reset_to_default" = "Leheneratu lehenetsitakora";
 "resend_message" = "Birbidali mezua";
 "select_all" = "Hautatu guztia";
@@ -1325,7 +1325,7 @@
 "account_linked_emails" = "Lotutako e-mailak";
 "account_error_display_name_change_failed" = "Huts egin du pantaila-izenaren aldaketak";
 "account_error_picture_change_failed" = "Huts egin du irudiaren aldaketak";
-"account_error_matrix_session_is_not_opened" = "Matrix saioa ez dago irekita";
+"account_error_matrix_session_is_not_opened" = "Teleiraq saioa ez dago irekita";
 "account_error_msisdn_wrong_title" = "Telefono zenbaki baliogabea";
 "account_error_msisdn_wrong_description" = "Honek ez du baliozko telefono zenbaki baten antzik";
 // Room creation
@@ -1357,10 +1357,10 @@
 "attachment_large" = "Handia: %@";
 "attachment_multiselection_size_prompt" = "Irudiak nola bidali nahi dituzu:";
 "attachment_multiselection_original" = "Jatorrizko tamaina";
-"attachment_e2e_keys_file_prompt" = "Fitxategi honek Matrix bezero batetik esportatutako zifratze gakoak ditu.\nFitxategiaren edukia ikusi nahi duzu edo dauzkan gakoak inportatu?";
+"attachment_e2e_keys_file_prompt" = "Fitxategi honek Teleiraq bezero batetik esportatutako zifratze gakoak ditu.\nFitxategiaren edukia ikusi nahi duzu edo dauzkan gakoak inportatu?";
 "attachment_e2e_keys_import" = "Inportatu…";
 // Contacts
-"contact_mx_users" = "Matrix erabiltzaileak";
+"contact_mx_users" = "Teleiraq erabiltzaileak";
 "contact_local_contacts" = "Kontaktu lokalak";
 // Search
 "search_no_results" = "Emaitzarik ez";
@@ -1369,7 +1369,7 @@
 "camera_access_not_granted_for_call" = "Bideo deiek kamera atzitzeko baimena behar dute baina %@ aplikazioak ez du baimenik";
 "microphone_access_not_granted_for_call" = "Deiek mikrofonoa atzitzeko baimena behar dute baina %@ aplikazioak ez du baimenik";
 "local_contacts_access_discovery_warning_title" = "Erabiltzaileak aurkitzea";
-"local_contacts_access_discovery_warning" = "Matrix darabilten kontaktuak aukitzeko, %@ aplikazioak zure helbide-liburuko kontaktuen e-mail eta telefono zenbakiak igo ahal ditu zuk hautatutako Matrix identitate-zerbitzarira. AHal denean, datu pertsonalak hasheatu egingo dira bidali aurretik, egiaztatu zure identitate-zerbitzariaren pribatutasun politika xehetasun gehiagorako.";
+"local_contacts_access_discovery_warning" = "Teleiraq darabilten kontaktuak aukitzeko, %@ aplikazioak zure helbide-liburuko kontaktuen e-mail eta telefono zenbakiak igo ahal ditu zuk hautatutako Teleiraq identitate-zerbitzarira. AHal denean, datu pertsonalak hasheatu egingo dira bidali aurretik, egiaztatu zure identitate-zerbitzariaren pribatutasun politika xehetasun gehiagorako.";
 "notice_room_withdraw" = "%@ erabiltzaileak %@ erabiltzailearen gonbidapena atzera bota du";
 "notice_room_reason" = ".Arrazoia: %@";
 "notice_avatar_url_changed" = "%@ erabiltzaileak abatarra aldatu du";
@@ -1395,7 +1395,7 @@
 // Login Screen 
 "login_error_already_logged_in" = "Saioa hasita zegoen jada";
 // contacts list screen 
-"invitation_message" = "Zurekin hitz egin nahiko nuke matrix erabilita, zoaz http://matrix.org webgunera informazio gehiagorako.";
+"invitation_message" = "Zurekin hitz egin nahiko nuke Teleiraq erabilita, zoaz https://teleiraq.com webgunera informazio gehiagorako.";
 // Settings screen 
 "settings_title_config" = "Konfigurazioa";
 // Notification settings screen 
@@ -1431,8 +1431,8 @@
 "notice_feedback" = "Informazio gertaera (id: %@): %@";
 "room_event_encryption_verify_message" = "Saio hau fidagarria dela egiaztatzeko, jarri kontaktuan jabearekin beste medio batzuk erabilita (adib. aurrez-aurre edo telefonoz deituz) eta galdetu bere erabiltzaile-ezarpenetan ikusten duten gakoa honekin bat datorren:\n\n\tSaioaren izena: %@\n\tSaioaren ID-a: %@\n\tSaioaren gakoa: %@\n\nBat badatoz, sakatu beheko egiaztatu botoia. Ez badatoz bat, beste norbait egon daiteke saioa atzematen eta ziur aski zerrenda beltzaren botoia zapaldu nahiko duzu.\n\nEtorkizunean egiaztaketa prozesu hau sofistikatuagoa izango da.";
 "room_error_timeline_event_not_found" = "Aplikazioa gela honen denbora lerroko puntu zehatz bat kargatzen saiatu da baina ezin izan du aurkitu";
-"e2e_import_prompt" = "Prozesu honek aurretik beste Matrix bezero batetik esportatutako zifratze gakoak inportatzea ahalbidetzen du. Beste bezeroak dezifratu zitekeen mezuak deszifratu ahal izango duzu.\nEsportazio fitxategia pasaesaldi batez babestuta dago. Pasaesaldi hori hemen jarri behar duzu fitxategia deszifratzeko.";
-"e2e_export_prompt" = "Prozesu honek zifratutako geletan jaso dituzun mezuen gakoak fitxategi lokal batera esportatzea ahalbidetzen dizu. Gero beste Matrix bezero batera inportatu ditzakezu, bezero horrek ere mezu hauek dezifratu ahal izateko.\nEsportatutako fitxategiak berau irakurri dezakeen edonori zuk ikusi ditzakezun mezuak deszifratzea ahalbidetuko dio, beraz kontuz non gordetzen duzun.";
+"e2e_import_prompt" = "Prozesu honek aurretik beste Teleiraq bezero batetik esportatutako zifratze gakoak inportatzea ahalbidetzen du. Beste bezeroak dezifratu zitekeen mezuak deszifratu ahal izango duzu.\nEsportazio fitxategia pasaesaldi batez babestuta dago. Pasaesaldi hori hemen jarri behar duzu fitxategia deszifratzeko.";
+"e2e_export_prompt" = "Prozesu honek zifratutako geletan jaso dituzun mezuen gakoak fitxategi lokal batera esportatzea ahalbidetzen dizu. Gero beste Teleiraq bezero batera inportatu ditzakezu, bezero horrek ere mezu hauek dezifratu ahal izateko.\nEsportatutako fitxategiak berau irakurri dezakeen edonori zuk ikusi ditzakezun mezuak deszifratzea ahalbidetuko dio, beraz kontuz non gordetzen duzun.";
 "local_contacts_access_not_granted" = "Kontaktu lokaletatik erabiltzaileak aurkitzeko zure kontaktua atzitzeko baimena behar da baina %@ aplikazioak ez du baimenik";
 "notification_settings_global_info" = "Jakinarazpen ezarpenak zure erabiltzaile kontuan gordetzen dira eta onartutako bezeroen artean partekatzen dira (mahaigaineko jakinarazpenak barne).\n\nArauak ordenan aplikatzen dira;  bat datorren lehen arauak zehazten du zer gertatzen den mezuarekin.\nBeraz: Hitzen jakinarazpenak gelen jakinarazpenak baino garrantzitsuagoak dira, eta hauek igorleen jakinarazpenak baino garrantzitsuagoak.\nMota bereko arauentzat, zerrendan bat datorren lehenak lehentasuna hartzen du.";
 "notification_settings_per_word_info" = "Hitzak ez dituzte bereizten maiuskula eta minuskulak, eta * komodina izan dezakete. Beraz:\nmar bat dator mar katearekin hitz mugatzaileez inguratuta dagoenean (adib. puntuazioa, zuriunea, lerro hasiera edo bukaera).\nmar* bat dator mar-ez hasten den edozein hitzekin.\n*mar* bat dator edozein posiziotan mar duten hitzekin.";

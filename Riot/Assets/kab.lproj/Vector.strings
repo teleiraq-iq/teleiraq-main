@@ -336,7 +336,7 @@
 "room_participants_offline" = "Beṛṛa n tuqqna";
 "room_participants_online" = "Srid";
 "room_participants_invited_section" = "YETTWANCED";
-"room_participants_invite_malformed_id" = "Asulay ur yemsil ara akken iwata. Ilaq ad yili d tansa n yimayl neɣ d asulay n Matrix am '@localpart:domain'";
+"room_participants_invite_malformed_id" = "Asulay ur yemsil ara akken iwata. Ilaq ad yili d tansa n yimayl neɣ d asulay n Teleiraq am '@localpart:domain'";
 "room_participants_filter_room_members" = "Sizdeg iɛeggalen n texxamt";
 "room_participants_invite_prompt_title" = "Asentem";
 "room_participants_remove_prompt_title" = "Asentem";
@@ -346,7 +346,7 @@
 
 // Chat participants
 "room_participants_title" = "Imttekkiyen";
-"contacts_address_book_matrix_users_toggle" = "Iseqdacen kan n Matrix";
+"contacts_address_book_matrix_users_toggle" = "Iseqdacen kan n Teleiraq";
 "directory_searching_title" = "Anadi n ukaram…";
 
 // Directory
@@ -785,7 +785,7 @@
 
 "favourites_empty_view_title" = "Tixxamin d yimdanen yettusmenyafen";
 "room_info_list_several_members" = "%@ imttekkiyen";
-"create_room_placeholder_address" = "#testroom:matrix.org";
+"create_room_placeholder_address" = "#testroom:teleiraq.com";
 "create_room_show_in_directory" = "Sken taxxamt deg ukaram";
 "create_room_section_footer_type" = "Imdanen ara yernun ɣer texxamt tusligt yettili-d kan s usnubget.";
 "create_room_type_public" = "Taxxamt tazayezt";
@@ -953,8 +953,8 @@
 
 // Events formatter
 "event_formatter_member_updates" = "%tu yisnifal deg umulteɣ";
-"directory_server_placeholder" = "matrix.org";
-"directory_server_all_native_rooms" = "Tixxamin meṛṛa tidiganin n Matrix";
+"directory_server_placeholder" = "teleiraq.com";
+"directory_server_all_native_rooms" = "Tixxamin meṛṛa tidiganin n Teleiraq";
 "directory_server_all_rooms" = "Tixxamin meṛṛa ɣef uqeddac %@";
 "directory_server_picker_title" = "Fren akaram";
 "image_picker_action_library" = "Fren seg temkarḍa";
@@ -1183,7 +1183,7 @@
 "auth_softlogout_reason" = "Anedbal n uqeddac-ik·im agejdan (%1$@) isuffeɣ-ik·ikem-id seg umiḍan-ik·im %2$@ (%3$@).";
 "auth_add_email_and_phone_warning" = "Ajerred s yimayl d wuṭṭun n tiliɣri ɣef tikkelt ur yettusefrak ara akka tura alamma yella api. Slid uṭṭun n tilifun ara yettwaṭṭfen deg umiḍan. Ilaq-ak·am ad ternuḍ imayl-ik·im ɣer umaɣun-inek·inem deg yiɣewwaren.";
 "auth_reset_password_error_is_required" = "Ulac aqeddac n timagit yettusewlen: rnu yiwen deg textiṛiyin n uqeddac i wakken ad twennzeḍ awal-ik·im uffir.";
-"auth_reset_password_error_not_found" = "Tansa-ik·im n yimayl ur d-tban ara i wakken ad tettwacudd d usulay Matrix deg usebter-a agejdan.";
+"auth_reset_password_error_not_found" = "Tansa-ik·im n yimayl ur d-tban ara i wakken ad tettwacudd d usulay Teleiraq deg usebter-a agejdan.";
 "auth_reset_password_email_validation_message" = "Yettwazen yimayl ɣer %@. Akken ara tḍefreḍ aseɣwen i yellan deg-s, sit ddaw.";
 "auth_recaptcha_message" = "Aqeddac-a aqejdan yesra ad iẓer ma mačči d aṛubut i telliḍ";
 "auth_msisdn_validation_message" = "Ad naze-n SMS deg-s tangalt n usenqed. Ttxil-k·m sekcem tangalt-a ddaw.";
@@ -1194,7 +1194,7 @@
 "auth_invalid_phone" = "Ur tettban ara d uṭṭun n tiliɣri ameɣtu";
 "auth_invalid_email" = "Ur tettban ara d tansa n yimayl tameɣtut";
 "auth_identity_server_placeholder" = "URL (e.g. https://vector.im)";
-"auth_home_server_placeholder" = "URL (e.g. https://matrix.org)";
+"auth_home_server_placeholder" = "URL (e.g. https://teleiraq.com)";
 
 // Accessibility
 "accessibility_checkbox_label" = "ṛcem tabewwaḍt";
@@ -1202,14 +1202,14 @@
 "send_to" = "Azen ɣer %@";
 "active_call_details" = "Asiwel urmid (%@)";
 "active_call" = "Rmed asiwel";
-"store_full_description" = "Element d anaw amaynut n usnas n tirawt d umɛiwen i:\n\n1. Ad ak·akem-yeǧǧ ad tsedduḍ aḍman n tudert-ik·im tabaḍnit\n2. Ad ak·akem-yeǧǧ ad teqqneḍ d yal win·tin yellan deg uzeṭṭa n Matrix, ula beṛṛa-ines s usleɣ n yisnasen am Slack\n3. Ad ak·akem-iḥrez seg udellel, seg yilɣa, seg tewwura yeffren d telmatin ifergen\n4. Ad tettuɣellseḍ s uwgelhen seg yixef ɣer yixef, s uzmul anmidag swayes ara tesneqdeḍ wiyaḍ\n\nElement yemgarad akk ɣef yisnasen-nniḍen n tirawt d umɛiwen yerna n uɣbalu yeldin.\n\nElement ad ak·akem-yeǧǧ ad tzedɣeḍ s wudem awurman - neɣ ad tferneḍ asenneftaɣ - i wakken ad tesɛuḍ tabaḍnit, ad tesɛuḍ ayla, ad tsedduḍ yisefka-inek·inem d yidewenniyen akken i tebɣiḍ. Ad ak·am-imudd anekcum ɣer uzeṭṭa yeldin; akken mačči kan d ameslay ara temmeslayeḍ d yiseqdacen-nniḍen n Element. Rnu d aɣellsan aṭas.\n\nElement yezmer ad yeg akk aya acku iteddu ɣef Matrix - alugen i teywalt yeldin.\n\nElement ad ak·am-imudd asenqed, ad ak·akem-yeǧǧ ad tferneḍ anwa ara yeɣren idiwenniyen-inek·inem. Seg usnas n Element, tzemreḍ ad tferneḍ iwumi ara tmuddeḍ tanezduɣt s yiberdan yemgaraden:\n\n1. Awi amiḍan baṭel ɣef uqeddac azayaz n matrix.org\n2. Sezdeɣ s timmad-ik·im amiḍan-inek·inem s uselkem n uqeddac ɣef yibenk-inek·inem\n3. Rnu amiḍan ɣef uqeddac udmawan s umulteɣ ɣer tɣerɣert n tnezduɣt n Element Matrix Services\n\nI wacu ara tferneḍ Element?\n\nILI-IK·IKEM D BAB N YISEFKA-INEK·INEM: D kečč·kemm ara ifernen adeg anida ara terreḍ isefka-inek·inem d yiznan-inek·inem. D ayla-inek·inem, ad t-tsedduḍ akken i tebɣiḍ. Mačči d kra n MEGACORP ara d-isuffɣen isefka-inek·inem neɣ ad imudd anekcum i wis kraḍ.\n\nTIRAWT YELDIN D UMƐIWEN: Tzemreḍ ad temmeslayeḍ d umdan-nniḍen akk n uzeṭṭa Matrix, isseqdac Element neɣ asnas-nniḍen n Matrix, ɣas ulamma isseqdac anagraw-nniḍen yemgarraden ɣef Slack, IRC neɣ XMPP.\n\nD AƔELLSAN ALMI DAYEN: d awgelhen n tidet seg yixef ɣer yixef (ala imttekkiyen deg udiwenni i izemren ad kksen awgelhen i yiznan) d uzmul anmidag i usenqed n yibenkan n yimttekkiyen deg udiwenni.\n\nTAYWALT YEMMDEN: Tirawt, isawalen s taɣect d tvidyut, beṭṭu n yifuyla, beṭṭu n ugdil d tegrumma yemmden n yimsidaf, n yibuten d yiwiǧiten. Rnu tixxamin, timɣiwnin, qqim mmeslay rnu seddu lecɣl.\n\nANIDA YEƔU TILIḌ: Ili-k·ikem d wid tettmeslayeḍ anida yebɣu tiliḍ s uzray n yiznan yemtawan akken iwata ɣef meṛṛa ibenkan-inek·inem akked ɣef web deg https://element.io/app.";
+"store_full_description" = "Element d anaw amaynut n usnas n tirawt d umɛiwen i:\n\n1. Ad ak·akem-yeǧǧ ad tsedduḍ aḍman n tudert-ik·im tabaḍnit\n2. Ad ak·akem-yeǧǧ ad teqqneḍ d yal win·tin yellan deg uzeṭṭa n Teleiraq, ula beṛṛa-ines s usleɣ n yisnasen am Slack\n3. Ad ak·akem-iḥrez seg udellel, seg yilɣa, seg tewwura yeffren d telmatin ifergen\n4. Ad tettuɣellseḍ s uwgelhen seg yixef ɣer yixef, s uzmul anmidag swayes ara tesneqdeḍ wiyaḍ\n\nElement yemgarad akk ɣef yisnasen-nniḍen n tirawt d umɛiwen yerna n uɣbalu yeldin.\n\nElement ad ak·akem-yeǧǧ ad tzedɣeḍ s wudem awurman - neɣ ad tferneḍ asenneftaɣ - i wakken ad tesɛuḍ tabaḍnit, ad tesɛuḍ ayla, ad tsedduḍ yisefka-inek·inem d yidewenniyen akken i tebɣiḍ. Ad ak·am-imudd anekcum ɣer uzeṭṭa yeldin; akken mačči kan d ameslay ara temmeslayeḍ d yiseqdacen-nniḍen n Element. Rnu d aɣellsan aṭas.\n\nElement yezmer ad yeg akk aya acku iteddu ɣef Teleiraq - alugen i teywalt yeldin.\n\nElement ad ak·am-imudd asenqed, ad ak·akem-yeǧǧ ad tferneḍ anwa ara yeɣren idiwenniyen-inek·inem. Seg usnas n Element, tzemreḍ ad tferneḍ iwumi ara tmuddeḍ tanezduɣt s yiberdan yemgaraden:\n\n1. Awi amiḍan baṭel ɣef uqeddac azayaz n teleiraq.com\n2. Sezdeɣ s timmad-ik·im amiḍan-inek·inem s uselkem n uqeddac ɣef yibenk-inek·inem\n3. Rnu amiḍan ɣef uqeddac udmawan s umulteɣ ɣer tɣerɣert n tnezduɣt n Element Teleiraq Services\n\nI wacu ara tferneḍ Element?\n\nILI-IK·IKEM D BAB N YISEFKA-INEK·INEM: D kečč·kemm ara ifernen adeg anida ara terreḍ isefka-inek·inem d yiznan-inek·inem. D ayla-inek·inem, ad t-tsedduḍ akken i tebɣiḍ. Mačči d kra n MEGACORP ara d-isuffɣen isefka-inek·inem neɣ ad imudd anekcum i wis kraḍ.\n\nTIRAWT YELDIN D UMƐIWEN: Tzemreḍ ad temmeslayeḍ d umdan-nniḍen akk n uzeṭṭa Teleiraq, isseqdac Element neɣ asnas-nniḍen n Teleiraq, ɣas ulamma isseqdac anagraw-nniḍen yemgarraden ɣef Slack, IRC neɣ XMPP.\n\nD AƔELLSAN ALMI DAYEN: d awgelhen n tidet seg yixef ɣer yixef (ala imttekkiyen deg udiwenni i izemren ad kksen awgelhen i yiznan) d uzmul anmidag i usenqed n yibenkan n yimttekkiyen deg udiwenni.\n\nTAYWALT YEMMDEN: Tirawt, isawalen s taɣect d tvidyut, beṭṭu n yifuyla, beṭṭu n ugdil d tegrumma yemmden n yimsidaf, n yibuten d yiwiǧiten. Rnu tixxamin, timɣiwnin, qqim mmeslay rnu seddu lecɣl.\n\nANIDA YEƔU TILIḌ: Ili-k·ikem d wid tettmeslayeḍ anida yebɣu tiliḍ s uzray n yiznan yemtawan akken iwata ɣef meṛṛa ibenkan-inek·inem akked ɣef web deg https://element.io/app.";
 "store_promotional_text" = "Nermes-d isawalen i d-ikecmen ɣef ugdil-inek·inem isekkṛen. Wali isawalen-inek·inem n Element deg uzray n yisawalen n unagraw. Ma yella iCloud yetturmed, azray-a n yisawalen ad yettwabḍu akked Apple.";
 "major_update_information" = "S tumert ara awen-d-nini nbeddel isem! Asnas-inek·inem yettwaleqqem, aql-ak·akem teqqneḍ ɣer umiḍan-inek·inem.";
 "bug_report_logs_description" = "I wakken ad nessiweḍ ad d-naf uguren, iɣmisen n umsaɣ-a ad ttwaznen s uneqqis-a n wabug. Ma yella tebɣiḍ ad tazneḍ kan aḍris yellan nnig, ttxil-k·m ṛcem tabewwaḍt:";
 
 // Success from passphrase
 "key_backup_setup_success_from_passphrase_info" = "Tisura-inek·inem ad ttwaḥerzent.\n\nTasarut-ik·im n tririt i azeṭṭa aɣellsan - tzemreḍ ad tt-tesqedceḍ i tririt n unekcum ɣer yiznan-inek·inem yettwawgelhen ma yella tettuḍ tafyirt-ik·im tuffirt.\n\nErr tasarut-ik·im n tririt deg wadeg aɣellsan aṭas, am umsefrak n wawalen uffiren (neɣ deg usenduq isekkṛe).";
-"deactivate_account_informations_part5" = "Ma yella tebɣiḍ ad nettu iznan-inek·inem, ttxil-k·m ṛcem tabewwaḍt-a ddaw\n\nIznan deg Matrix ttbann-d am wid n yimayl. Tatut-nneɣ i yiznan-inek·inem anamek-is iznan i tuzneḍ ur ttwabḍun ara akked yiseqdacen imaynuten neɣ wid ur nettusekles, maca iseqdacen i ikecmen yakan mazal zemren ad kecmen ɣer tenɣalt-nsen.";
+"deactivate_account_informations_part5" = "Ma yella tebɣiḍ ad nettu iznan-inek·inem, ttxil-k·m ṛcem tabewwaḍt-a ddaw\n\nIznan deg Teleiraq ttbann-d am wid n yimayl. Tatut-nneɣ i yiznan-inek·inem anamek-is iznan i tuzneḍ ur ttwabḍun ara akked yiseqdacen imaynuten neɣ wid ur nettusekles, maca iseqdacen i ikecmen yakan mazal zemren ad kecmen ɣer tenɣalt-nsen.";
 "user_verification_start_waiting_partner" = "Nettṛaǧu %@…";
 "key_verification_scan_confirmation_scanning_user_waiting_other" = "Araǧu n %@…";
 "key_verification_tile_request_status_data_loading" = "Asali n yisefka…";
@@ -1374,7 +1374,7 @@
 "homeserver_connection_lost" = "Yegguma ad yeqqen ɣer uqeddac agejdan.";
 "network_offline_prompt" = "Tuqqna internet tettban deg uskan aruqqin.";
 "event_formatter_jitsi_widget_removed_by_you" = "Tekkseḍ asarag n VoIP";
-"group_participants_invite_malformed_id" = "Asulay ur yemsil ara akken iwata. Ilaq ad yili d asulay n Matrix am '@localpart:domain'";
+"group_participants_invite_malformed_id" = "Asulay ur yemsil ara akken iwata. Ilaq ad yili d asulay n Teleiraq am '@localpart:domain'";
 "group_participants_invite_malformed_id_title" = "Tuccḍa deg uncd";
 "group_participants_invite_another_user" = "Nadi / snubget s usulay n useqdac, Isem neɣ imayl";
 "group_participants_invite_prompt_msg" = "Tebɣiḍ s tidet ad d-tnecdeḍ %@ ɣer ugraw-a?";
@@ -1599,9 +1599,9 @@
 /*      iOS specific       */
 /* *********************** */
 
-"matrix" = "Matrix";
+"matrix" = "Teleiraq";
 "account_msisdn_validation_message" = "Ad naze-n SMS deg-s tangalt n usenqed. Ttxil-k·m sekcem tangalt-a ddaw.";
-"login_server_url_placeholder" = "URL (e.g. https://matrix.org)";
+"login_server_url_placeholder" = "URL (e.g. https://teleiraq.com)";
 "notification_settings_per_room_notifications" = "Ilɣa s texxamt";
 "notification_settings_per_word_notifications" = "Ilɣa s awal";
 "notice_redaction_by_you" = "Tsemsawiḍ aneḍru (asulay: %@)";
@@ -1676,7 +1676,7 @@
 "contact_local_contacts" = "Inermisen idiganen";
 
 // Contacts
-"contact_mx_users" = "Iseqdacen n Matrix";
+"contact_mx_users" = "Iseqdacen n Teleiraq";
 "attachment_e2e_keys_import" = "Kter...";
 "attachment_large" = "Meqqer: %@";
 "attachment_medium" = "Alemmas: %@";
@@ -1697,7 +1697,7 @@
 "room_creation_name_title" = "Isem n texxamt:";
 "account_error_msisdn_wrong_description" = "Ur yettban ara wagi d uṭṭun n tiliɣri ameɣtu";
 "account_error_msisdn_wrong_title" = "Yir uṭṭun n tiliɣri";
-"account_error_matrix_session_is_not_opened" = "Tiɣimit n Matrix ur teldi ara";
+"account_error_matrix_session_is_not_opened" = "Tiɣimit n Teleiraq ur teldi ara";
 "account_email_validation_error" = "Ulamek akk tettwasenqed tansa n yimayl. Ma ulac aɣilif senqed imayl-inek·inem syen sit ɣef useɣwen yellan deg-s. Akken ara tgeḍ aya, sit ɣef kemmel";
 "room_event_encryption_info_verify" = "Senqed...";
 "room_event_encryption_info_device_not_verified" = "UR yettwasenqed ARA";
@@ -1761,11 +1761,11 @@
 "login_create_account" = "Rnu amiḍan:";
 "notification_settings_per_word_info" = "Awalen i d-yettwafen s war ma nefka azal i umṣada n yisekkilen, i izemren ad yesεu ajukeṛ *. Ihi:\nfoo yufa-d azrir foo zzin-as-d s yijemmaqen n wawalen (am. aisgez, tallunt d tazwara neɣ taggara n yizirig).\nfoo* yufa-d meṛṛa awalen i ibeddun s foo.\n*foo* yufa-d akk awalen ideg llan kraḍ n yisekkilen-a foo.";
 "notification_settings_global_info" = "Iɣewwaren n yilɣa ttuskelsen deg umiḍan-inek·inem n useqdac, ad ttwabḍun gar meṛṛa imsaɣen ara ten-isferken (ula d iɣewwaren n tnarit).\n\nIlugan ttusnasen akken myezwaren; alugan amezwaru i yemṣadan tesbaduy agmuḍ n yizen.\nIhi: Ilɣa s wawal sεan azal ugar n yilɣa s texxamt i yesεan azal ula d nutni ɣef yilɣa s umazan.\nI wugar n yilugan n yiwen wanaw, amezwaru deg tebdart yemṣadan d netta i d tazwart.";
-"local_contacts_access_discovery_warning" = "I usnirem n yinermisen s useqdec yakan n Matrix, %@ yezmer ad yazen tansiwin n yimayl d wuṭṭunen n tiliɣri n udlis-inek·inem n tansiwin ɣer uqeddac-inek·inem n timagit n Matrix i tferneḍ. Ma yella yettusefrak, isefka-inek·inem udmawanen ad ttwagzamen send ad ttwaznen - ttxil-k·m senqed tasertit n tudert tabaḍnit n uqeddac-ik·im n timagit i wugar n telqayt.";
+"local_contacts_access_discovery_warning" = "I usnirem n yinermisen s useqdec yakan n Teleiraq, %@ yezmer ad yazen tansiwin n yimayl d wuṭṭunen n tiliɣri n udlis-inek·inem n tansiwin ɣer uqeddac-inek·inem n timagit n Teleiraq i tferneḍ. Ma yella yettusefrak, isefka-inek·inem udmawanen ad ttwagzamen send ad ttwaznen - ttxil-k·m senqed tasertit n tudert tabaḍnit n uqeddac-ik·im n timagit i wugar n telqayt.";
 "local_contacts_access_not_granted" = "I usnirem n yiseqdacen seg yinermisen idiganen, anekcum ɣer yinermisen yettusra maca %@ ur yesεi ara tisirag ad t-iseqdec";
-"e2e_export_prompt" = "Akala-a ad ak·am-imudd tisirag i usifeḍ n tsura n yiznan i d-tremseḍ deg texxamin yettwawgelhen, ɣer ufaylu adigan. Syen tzemreḍ ad tketreḍ afaylu deg umsaɣ-nniḍen n Matrix, i wakken amsaɣ-a ad yizmir ad yekkes awgelhen i yiznan-a.\nAfaylu i d-yettusifḍen ad imudd tisirag i yal win i izemren ad t-iɣer, ad yekkes awgelhen i yiznan yettwawgelhen i tzemreḍ ad twaliḍ. Γef waya ilaq ad t-tḥerzeḍ deg wadeg aɣellsan.";
-"e2e_import_prompt" = "Akala-a ad ak·am-imudd tisirag i wakken ad tketreḍ tisura i d-tsifḍeḍ yakan seg umsaɣ-nniḍen n Matrix. Tzemreḍ mbeεd ad tekkseḍ awgelhen n yal izen iwumi yezmer umsaɣ-nniḍen ad asen-yekkes awgelhen.\nAfaylu i d-yettisifḍen yettwammesten s tefyirt tuffirt. Ilaq ad teskecmeḍ tafyirt tuffirt dagi, i wakken ad tekkseḍ awgelhen i ufaylu.";
-"attachment_e2e_keys_file_prompt" = "Afaylu-a deg-s tisura n uwgelhen ttusifḍent-d seg umsaɣ Matrix.\nTebɣiḍ ad twaliḍ agbur n ufaylu neɣ ad d-tketreḍ tisura i yellan deg-s?";
+"e2e_export_prompt" = "Akala-a ad ak·am-imudd tisirag i usifeḍ n tsura n yiznan i d-tremseḍ deg texxamin yettwawgelhen, ɣer ufaylu adigan. Syen tzemreḍ ad tketreḍ afaylu deg umsaɣ-nniḍen n Teleiraq, i wakken amsaɣ-a ad yizmir ad yekkes awgelhen i yiznan-a.\nAfaylu i d-yettusifḍen ad imudd tisirag i yal win i izemren ad t-iɣer, ad yekkes awgelhen i yiznan yettwawgelhen i tzemreḍ ad twaliḍ. Γef waya ilaq ad t-tḥerzeḍ deg wadeg aɣellsan.";
+"e2e_import_prompt" = "Akala-a ad ak·am-imudd tisirag i wakken ad tketreḍ tisura i d-tsifḍeḍ yakan seg umsaɣ-nniḍen n Teleiraq. Tzemreḍ mbeεd ad tekkseḍ awgelhen n yal izen iwumi yezmer umsaɣ-nniḍen ad asen-yekkes awgelhen.\nAfaylu i d-yettisifḍen yettwammesten s tefyirt tuffirt. Ilaq ad teskecmeḍ tafyirt tuffirt dagi, i wakken ad tekkseḍ awgelhen i ufaylu.";
+"attachment_e2e_keys_file_prompt" = "Afaylu-a deg-s tisura n uwgelhen ttusifḍent-d seg umsaɣ Teleiraq.\nTebɣiḍ ad twaliḍ agbur n ufaylu neɣ ad d-tketreḍ tisura i yellan deg-s?";
 "room_error_timeline_event_not_found" = "Asnas yettaεraḍ ad d-isali kra n wagazen ufrinen deg tesnakudt n texxamt, maca ur tt-yifi ara";
 "room_event_encryption_verify_message" = "I usenqed n tɣimit-a ma tzemreḍ ad tettekleḍ fell-as, ttxil-k·m nermes bab-is s useqdec s ubrid-nniḍen (am. s timmad-is neɣ s usiwel) syen steqsi-t ma yella tasarut i yettwali deg yiɣewwaren-is n useqdac n tɣimit-a temṣada d tsarut yellan ddaw:\n\n Isem n tɣimit: %@\n Asulay n texxamt: %@\n Tasarut n texxamt: %@\n\nMa yella mṣadant, sit ɣef tqeffalt n usenqed ddaw. Ma yella ur mṣadant ara, ihi yella win i yettεekkiṛen tiɣimit-a, neɣ ahat tebɣiḍ ad tsiteḍ ɣef tqeffalt n tebdart taberkant deg ubdel.\n\nΓer sdat, akala-a n usenqed-a ad yuɣal yemmed ugar.";
 "call_connecting" = "Asiwel iteddu...";
@@ -1788,7 +1788,7 @@
 "notification_settings_disable_all" = "Sens meṛṛa ilɣa";
 
 // contacts list screen 
-"invitation_message" = "Bɣiɣ ad mmeslayeɣ yid-k·m s Matrix. Ttxil-k·m, rzu ɣer usmel web http://matrix.org i wugar n talɣut.";
+"invitation_message" = "Bɣiɣ ad mmeslayeɣ yid-k·m s Teleiraq. Ttxil-k·m, rzu ɣer usmel web https://teleiraq.com i wugar n talɣut.";
 
 // Login Screen 
 "login_error_already_logged_in" = "Yeqqen yakan";
@@ -1914,7 +1914,7 @@
 "notice_room_name_removed" = "%@ yekkes isem n texxamt";
 "notice_room_name_removed_for_dm" = "%@ yekkes isem";
 "end_call" = "Kfu asiwel";
-"invite_user" = "Snubget-d aseqdac n Matrix";
+"invite_user" = "Snubget-d aseqdac n Teleiraq";
 "attach_media" = "Seddu amidyat seg temkarḍit";
 "set_moderator" = "Sbadu imḍebber";
 "set_power_level" = "Sbadu aswir n tezmert";
@@ -1923,8 +1923,8 @@
 "login_error_do_not_support_login_flows" = "Akka tura ur nsefrak ara ula yiwen neɣ meṛṛa aragen yettusbadun s uqeddac-a agejdan";
 "login_error_no_login_flow" = "Tiririt n telɣut n usesteb seg uqeddac-a agejdan ur teddi ara";
 "login_error_title" = "Anekcum yecceḍ";
-"login_email_info" = "Afran n tansa n yiamyl tettaǧǧa iseqdacen-nniḍen ad ak·akem-afen deg Matrix s sshala, rnu ad ak-tmudd abrid ad twennzeḍ awala-ik·im uffir ar sdat.";
+"login_email_info" = "Afran n tansa n yiamyl tettaǧǧa iseqdacen-nniḍen ad ak·akem-afen deg Teleiraq s sshala, rnu ad ak-tmudd abrid ad twennzeḍ awala-ik·im uffir ar sdat.";
 "login_display_name_placeholder" = "Isem yettwaskanen (am. Bob Obson)";
-"login_user_id_placeholder" = "Asulay n Matrix (am. @bob:matrix.org neɣ bob)";
-"login_identity_server_info" = "Matrix yettmuddu-d iqeddacen n timagit i ucuddu n yimaylen, atg. Wuɣur ttuɣalen yisulayen n Matrix. Ala https://matrix.org i yellan akka tura.";
+"login_user_id_placeholder" = "Asulay n Teleiraq (am. @bob:teleiraq.com neɣ bob)";
+"login_identity_server_info" = "Teleiraq yettmuddu-d iqeddacen n timagit i ucuddu n yimaylen, atg. Wuɣur ttuɣalen yisulayen n Teleiraq. Ala https://teleiraq.com i yellan akka tura.";
 "login_home_server_info" = "Aqeddac-ik·im agejdan isseklas meṛṛa idiwenniyen-inek·inem d yisefka n umiḍan-inekịnem";

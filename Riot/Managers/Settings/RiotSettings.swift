@@ -148,12 +148,10 @@ final class RiotSettings: NSObject {
     @UserDefault(key: UserDefaultsKeys.enableUISIAutoReporting, defaultValue: BuildSettings.cryptoUISIAutoReportingEnabled, storage: defaults)
     var enableUISIAutoReporting
     
-    /// Indicates if live location sharing is enabled
-    @UserDefault(key: UserDefaultsKeys.enableLiveLocationSharing, defaultValue: false, storage: defaults)
-    var enableLiveLocationSharing {
-        didSet {
-            NotificationCenter.default.post(name: RiotSettings.didUpdateLiveLocationSharingActivation, object: self)
-        }
+    /// Live location sharing is disabled in this app (static location sharing remains available).
+    var enableLiveLocationSharing: Bool {
+        get { false }
+        set { }
     }
 
     /// Flag indicating if the new session manager is enabled

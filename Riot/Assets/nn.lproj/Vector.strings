@@ -293,8 +293,8 @@
 /*      iOS specific       */
 /* *********************** */
 
-"matrix" = "Matrix";
-"login_server_url_placeholder" = "URL (t.d. https://matrix.org)";
+"matrix" = "Teleiraq";
+"login_server_url_placeholder" = "URL (t.d. https://teleiraq.com)";
 "select_account" = "Vel ein konto";
 "end_call" = "Avslutt samtale";
 "invite_user" = "Inviter Matrix-brukarar";
@@ -330,7 +330,7 @@
 "login_tablet_device" = "Nettbrett";
 "yes" = "Ja";
 "auth_phone_placeholder" = "Telefonnummer";
-"auth_home_server_placeholder" = "URL (t.d. https://matrix.org)";
+"auth_home_server_placeholder" = "URL (t.d. https://teleiraq.com)";
 "auth_identity_server_placeholder" = "URL (t.d. https://vector.im)";
 "room_access_settings_screen_upgrade_alert_upgrade_button" = "Oppgrader";
 "login_leave_fallback" = "Avbryt";

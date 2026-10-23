@@ -50,8 +50,8 @@
 "auth_optional_phone_placeholder" = "Número de telefone (opcional)";
 "auth_phone_placeholder" = "Número de telefone";
 "auth_repeat_password_placeholder" = "Repetir senha";
-"auth_repeat_new_password_placeholder" = "Confirme a nova senha de sua conta Matrix";
-"auth_home_server_placeholder" = "URL (e.g. https://matrix.org)";
+"auth_repeat_new_password_placeholder" = "Confirme a nova senha de sua conta Teleiraq";
+"auth_home_server_placeholder" = "URL (e.g. https://teleiraq.com)";
 "auth_identity_server_placeholder" = "URL (e.g. https://vector.im)";
 "auth_invalid_login_param" = "Nome de usuária(o) e/ou senha incorretos";
 "auth_invalid_user_name" = "Nomes de usuária(o) podem somente conter letras, números, pontos, hifens e underscores";
@@ -71,7 +71,7 @@
 "auth_untrusted_id_server" = "O servidor de identidade não é confiado";
 "auth_password_dont_match" = "Senhas não correspondem";
 "auth_username_in_use" = "Nome de usuária(o) em uso";
-"auth_forgot_password" = "Esqueceu senha de conta Matrix?";
+"auth_forgot_password" = "Esqueceu senha de conta Teleiraq?";
 "auth_email_not_found" = "Falha para enviar email: Este endereço de email não foi encontrado";
 "auth_use_server_options" = "Usar opções de servidor personalizadas (avançado)";
 "auth_email_validation_message" = "Por favor cheque seu email para continuar registro";
@@ -79,14 +79,14 @@
 "auth_msisdn_validation_message" = "Nós temos enviado um SMS com um código de ativação. Por favor entre este código abaixo.";
 "auth_msisdn_validation_error" = "Incapaz de verificar número de telefone.";
 "auth_recaptcha_message" = "Este servidorcasa gostaria de assegurar que você não é um robô";
-"auth_reset_password_message" = "Para resettar a senha de sua conta Matrix, entre o endereço de email linkado a sua conta:";
+"auth_reset_password_message" = "Para resettar a senha de sua conta Teleiraq, entre o endereço de email linkado a sua conta:";
 "auth_reset_password_missing_email" = "O email linkado à sua conta deve ser entrado.";
 "auth_reset_password_missing_password" = "Uma nova senha deve ser entrada.";
 "auth_reset_password_email_validation_message" = "Um email tem sido enviado para %@. Uma vez que você tenha seguido o link que ele contém, clique abaixo.";
 "auth_reset_password_next_step_button" = "Eu tenho verificado meu endereço de email";
 "auth_reset_password_error_unauthorized" = "Falha para verificar endereço de email: assegure que você clicou no link no email";
-"auth_reset_password_error_not_found" = "Seu endereço de email não parece estar associado com uma ID Matrix neste servidorcasa.";
-"auth_reset_password_success_message" = "A senha de sua conta Matrix tem sido resettada.\n\nVocê tem sido feito logout de todas as sessões e não vai mais receber notificações push. Para re-habilitar notificações, refaça login em cada dispositivo.";
+"auth_reset_password_error_not_found" = "Seu endereço de email não parece estar associado com uma ID Teleiraq neste servidorcasa.";
+"auth_reset_password_success_message" = "A senha de sua conta Teleiraq tem sido resettada.\n\nVocê tem sido feito logout de todas as sessões e não vai mais receber notificações push. Para re-habilitar notificações, refaça login em cada dispositivo.";
 "auth_add_email_and_phone_warning" = "Registro com email e número de telefone ao mesmo tempo não é suportado ainda até que a api exista. Somente o número de telefone vai ser levado em conta. Você pode adicionar seu email a seu perfil em ajustes.";
 "room_creation_appearance" = "Aparência";
 "room_creation_appearance_name" = "Nome";
@@ -138,7 +138,7 @@
 "directory_searching_title" = "Pesquisando diretório…";
 // Contacts
 "contacts_address_book_section" = "CONTATOS LOCAIS";
-"contacts_address_book_matrix_users_toggle" = "Usuários Matrix somente";
+"contacts_address_book_matrix_users_toggle" = "Usuários Teleiraq somente";
 "contacts_address_book_no_contact" = "Nenhum contato local";
 "contacts_address_book_permission_required" = "Permissão requerida para acessar contatos locais";
 "contacts_address_book_permission_denied" = "Você não permitiu %@ acessar seus contatos locais";
@@ -186,7 +186,7 @@
 "room_participants_action_unban" = "Desbanir";
 "room_participants_action_ignore" = "Esconder todas as mensagens desta(e) usuária(o)";
 "room_participants_action_unignore" = "Mostrar todas as mensagens desta(e) usuária(o)";
-"room_participants_invite_malformed_id" = "ID malformada. Deveria ser um endereço de email ou uma ID Matrix como '@partlocal:dominio'";
+"room_participants_invite_malformed_id" = "ID malformada. Deveria ser um endereço de email ou uma ID Teleiraq como '@partlocal:dominio'";
 "room_participants_action_set_default_power_level" = "Resettar para usuária(o) normal";
 "room_participants_action_set_moderator" = "Fazer moderador(a)";
 "room_participants_action_set_admin" = "Fazer admin";
@@ -351,8 +351,8 @@
 "settings_old_password" = "Senha antiga";
 "settings_new_password" = "Senha nova";
 "settings_confirm_password" = "Confirmar senha";
-"settings_fail_to_update_password" = "Falha para atualizar senha de conta Matrix";
-"settings_password_updated" = "A senha de sua conta Matrix tem sido atualizada";
+"settings_fail_to_update_password" = "Falha para atualizar senha de conta Teleiraq";
+"settings_password_updated" = "A senha de sua conta Teleiraq tem sido atualizada";
 "settings_crypto_device_name" = "Nome de sessão: ";
 "settings_crypto_device_id" = "\nID de sessão: ";
 "settings_crypto_device_key" = "\nChave de sessão:\n";
@@ -443,7 +443,7 @@
 "group_participants_filter_members" = "Filtrar membros de comunidade";
 "group_participants_invite_another_user" = "Pesquisar / convidar por ID de Usuária(o) ou Nome";
 "group_participants_invite_malformed_id_title" = "Erro de Convidar";
-"group_participants_invite_malformed_id" = "ID malformada. Deveria ser uma ID Matrix como '@partlocal:dominio'";
+"group_participants_invite_malformed_id" = "ID malformada. Deveria ser uma ID Teleiraq como '@partlocal:dominio'";
 "group_participants_invited_section" = "CONVIDADAS(OS)";
 // Group rooms
 "group_rooms_filter_rooms" = "Filtrar salas de comunidade";
@@ -460,9 +460,9 @@
 "settings_pin_rooms_with_missed_notif" = "Fixar salas com notificações perdidas";
 "settings_pin_rooms_with_unread" = "Fixar salas com mensagens não-lidas";
 "directory_server_all_rooms" = "Todas as salas em servidor %@";
-"directory_server_all_native_rooms" = "Todas as salas Matrix nativas";
+"directory_server_all_native_rooms" = "Todas as salas Teleiraq nativas";
 "directory_server_type_homeserver" = "Digite um servidorcasa para de onde listar salas públicas";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "teleiraq.com";
 // Events formatter
 "event_formatter_member_updates" = "%tu mudanças de filiação";
 "event_formatter_widget_added" = "%@ widget adicionado por %@";
@@ -543,19 +543,19 @@
 "deactivate_account_informations_part2_emphasize" = "Esta ação é irreversível.";
 "deactivate_account_informations_part3" = "\n\nDesativar sua conta ";
 "deactivate_account_informations_part4_emphasize" = "não nos causa por default esquecer mensagens que você tem enviado. ";
-"deactivate_account_informations_part5" = "Se você gostaria que nós esqueçamos suas mensagens, por favor marque a caixa abaixo.\n\nVisibilidade de mensagem em Matrix é similar a email. Nós esquecermos suas mensagens significa que mensagens que você tem enviado não vão ser compartilhadas com nenhum usuária(o) nova(o) ou não-registrada(o), mas usuárias(os) registradas(os) que já têm acesso a estas mensagens vão ainda ter acesso à cópia delas(es).";
+"deactivate_account_informations_part5" = "Se você gostaria que nós esqueçamos suas mensagens, por favor marque a caixa abaixo.\n\nVisibilidade de mensagem em Teleiraq é similar a email. Nós esquecermos suas mensagens significa que mensagens que você tem enviado não vão ser compartilhadas com nenhum usuária(o) nova(o) ou não-registrada(o), mas usuárias(os) registradas(os) que já têm acesso a estas mensagens vão ainda ter acesso à cópia delas(es).";
 "deactivate_account_forget_messages_information_part1" = "Por favor esqueça todas as mensagens que eu tenho enviado quando minha conta for desativada (";
 "deactivate_account_forget_messages_information_part2_emphasize" = "Aviso";
 "deactivate_account_forget_messages_information_part3" = ": isto vai causar usuárias/os futuras/os terem uma visualização incompleta de conversas)";
 "deactivate_account_validate_action" = "Desativar conta";
 "deactivate_account_password_alert_title" = "Desativar Conta";
-"deactivate_account_password_alert_message" = "Para continuar, por favor entre a senha de sua conta Matrix";
+"deactivate_account_password_alert_message" = "Para continuar, por favor entre a senha de sua conta Teleiraq";
 // Re-request confirmation dialog
 "rerequest_keys_alert_title" = "Requisição Enviada";
 "rerequest_keys_alert_message" = "Por favor lance %@ em um outro dispositivo que possa decriptar a mensagem para que ele possa enviar as chaves para esta sessão.";
 // String for App Store
 "store_short_description" = "Chat/VoIP descentralizado e seguro";
-"store_full_description" = "Element is um novo tipo de mensageiro e app de colaboração que:\n\n1. Põe você em controle para preservar sua privacidade\n2. Permite você se comunicar com qualquer pessoa na rede Matrix, e até além ao integrar-se com apps como Slack\n3. Protege você de publicidade, datamining, backdoors e jardins murados\n4. Assegura você através de encriptação ponta-a-pontam com assinatura cruzada para verificar ouras(os)\n\nElement é completamente diferente de outros apps de mensageria e colaboração porque ele é descentralizado e open source.\n\nElement permite você auto-hospedar - ou escolher um host - para que você tenha privacidade, propriedade e controle de seus dados e conversas. Ele dá a você acesso a uma rede aberta; então você não está simplesmente preso falando com outras(os) usuárias(os) Element somente. E ele é muito seguro.\n\nElement é capaz de fazer tudo isso porque ele opera em Matrix - o padrão para comunicação aberta e descentralizada.\n\nElement põe você em controle ao permitir você escolher quem hospeda suas conversas. De seu app Element, você pode escolher hospedar de diferentes maneiras:\n\n1. Pegar uma conta grátis no servidor público matrix.org\n2. Auto-hospedar sua conta ao rodar um servidor em seu próprio hardware\n3. Registrar-se para uma conta num servidor personalizado ao simplesmente assinar a plataforma de hospedagem Element Matrix Services\n\nPorquê escolher Element?\n\nTENHA POSSE DE SEUS DADOS: Você decide onde manter seus dados e mensagens. Você os possui e controla, não alguma MEGACORP que mina seus dados ou dá acesso a terceiros.\n\nMENSAGERIA E COLABORAÇÃO ABERTOS: Você pode conversar com qualquer outra pessoa na rede Matrix, caso ela esteja usando Element ou um outro app Matrix, e mesmo se ela estiver usando um sistema de mensageria diferente, do tipo de Slack, IRC ou XMPP.\n\nSUPER-SEGURO: Encriptação ponta-a-ponta real (somente aquelas/es na conversa podem decriptar mensagens), e assinatura cruzada para verificar os dispositivos de participantes de conversa.\n\nCOMUNICAÇÃO COMPLETA: Mensageria, chamadas de voz e vídeo, compartilhamento de arquivo, compartilhamento de tela e um monte de integrações, bots e widgets. Construa salas, comunidades, fique em contato e tenha as coisas feitas.\n\nEM TODO LUGAR ONDE VOCÊ ESTEJA: Fique em contato onde quer que você esteja com histórico de mensagem sincronizado por todos os dispositivos e na web em https://element.io/app.";
+"store_full_description" = "Element is um novo tipo de mensageiro e app de colaboração que:\n\n1. Põe você em controle para preservar sua privacidade\n2. Permite você se comunicar com qualquer pessoa na rede Teleiraq, e até além ao integrar-se com apps como Slack\n3. Protege você de publicidade, datamining, backdoors e jardins murados\n4. Assegura você através de encriptação ponta-a-pontam com assinatura cruzada para verificar ouras(os)\n\nElement é completamente diferente de outros apps de mensageria e colaboração porque ele é descentralizado e open source.\n\nElement permite você auto-hospedar - ou escolher um host - para que você tenha privacidade, propriedade e controle de seus dados e conversas. Ele dá a você acesso a uma rede aberta; então você não está simplesmente preso falando com outras(os) usuárias(os) Element somente. E ele é muito seguro.\n\nElement é capaz de fazer tudo isso porque ele opera em Teleiraq - o padrão para comunicação aberta e descentralizada.\n\nElement põe você em controle ao permitir você escolher quem hospeda suas conversas. De seu app Element, você pode escolher hospedar de diferentes maneiras:\n\n1. Pegar uma conta grátis no servidor público teleiraq.com\n2. Auto-hospedar sua conta ao rodar um servidor em seu próprio hardware\n3. Registrar-se para uma conta num servidor personalizado ao simplesmente assinar a plataforma de hospedagem Element Teleiraq Services\n\nPorquê escolher Element?\n\nTENHA POSSE DE SEUS DADOS: Você decide onde manter seus dados e mensagens. Você os possui e controla, não alguma MEGACORP que mina seus dados ou dá acesso a terceiros.\n\nMENSAGERIA E COLABORAÇÃO ABERTOS: Você pode conversar com qualquer outra pessoa na rede Teleiraq, caso ela esteja usando Element ou um outro app Teleiraq, e mesmo se ela estiver usando um sistema de mensageria diferente, do tipo de Slack, IRC ou XMPP.\n\nSUPER-SEGURO: Encriptação ponta-a-ponta real (somente aquelas/es na conversa podem decriptar mensagens), e assinatura cruzada para verificar os dispositivos de participantes de conversa.\n\nCOMUNICAÇÃO COMPLETA: Mensageria, chamadas de voz e vídeo, compartilhamento de arquivo, compartilhamento de tela e um monte de integrações, bots e widgets. Construa salas, comunidades, fique em contato e tenha as coisas feitas.\n\nEM TODO LUGAR ONDE VOCÊ ESTEJA: Fique em contato onde quer que você esteja com histórico de mensagem sincronizado por todos os dispositivos e na web em https://element.io/app.";
 "auth_login_single_sign_on" = "Fazer Sign In";
 "auth_autodiscover_invalid_response" = "Resposta de descoberta de servidorcasa inválida";
 "room_message_unable_open_link_error_message" = "Incapaz de abrir o link.";
@@ -599,7 +599,7 @@
 "key_backup_setup_intro_manual_export_info" = "(Avançada)";
 "key_backup_setup_intro_manual_export_action" = "Exportar chaves manualmente";
 "key_backup_setup_passphrase_title" = "Assegure seu backup com uma Frase de Segurança";
-"key_backup_setup_passphrase_info" = "Nós vamos armazenar uma cópia encriptada de suas chaves em nosso servidor. Proteja seu backup com uma frase para mantê-lo seguro.\n\nPara segurança máxima, esta deveria ser diferente da senha de sua conta Matrix.";
+"key_backup_setup_passphrase_info" = "Nós vamos armazenar uma cópia encriptada de suas chaves em nosso servidor. Proteja seu backup com uma frase para mantê-lo seguro.\n\nPara segurança máxima, esta deveria ser diferente da senha de sua conta Teleiraq.";
 "key_backup_setup_passphrase_passphrase_title" = "Entrar";
 "key_backup_setup_passphrase_passphrase_placeholder" = "Entrar frase";
 "key_backup_setup_passphrase_passphrase_valid" = "Ótimo!";
@@ -666,7 +666,7 @@
 "settings_calls_stun_server_fallback_description" = "Permitir servidor fallback de assistência de chamadas %@ quando seu servidorcasa não oferece um (seu endereço de IP seria compartilhado durante uma chamada).";
 "security_settings_blacklist_unverified_devices" = "Nunca enviar mensagens para sessões não-confiadas";
 "security_settings_blacklist_unverified_devices_description" = "Verificar todas as sessões de um/uma usuário(a) para marcá-las como confiadas e enviar mensagens para ele/ela.";
-"security_settings_user_password_description" = "Confirme sua identidade ao entrar a senha de sua conta Matrix";
+"security_settings_user_password_description" = "Confirme sua identidade ao entrar a senha de sua conta Teleiraq";
 // Manage session
 "manage_session_title" = "Gerenciar sessão";
 "manage_session_name" = "Nome de sessão";
@@ -739,7 +739,7 @@
 "key_verification_scan_confirmation_scanning_device_waiting_other" = "Esperando por outro dispositivo…";
 "user_verification_start_waiting_partner" = "Esperando por %@…";
 "settings_devices_description" = "O nome público de uma sessão é visível para pessoas com quem você se comunica";
-"security_settings_crypto_sessions_description_2" = "Se você não reconhece um login, mude a senha de sua conta Matrix e resette Backup Seguro.";
+"security_settings_crypto_sessions_description_2" = "Se você não reconhece um login, mude a senha de sua conta Teleiraq e resette Backup Seguro.";
 "security_settings_export_keys_manually" = "Exportar chaves manualmente";
 "identity_server_settings_change" = "Mudar";
 "identity_server_settings_alert_change_title" = "Mudar servidor de identidade";
@@ -770,7 +770,7 @@
 "user_verification_session_details_verify_action_current_user_manually" = "Verificar Manualmente por Texto";
 "user_verification_session_details_verify_action_other_user" = "Verificar manualmente";
 "auth_add_email_phone_message_2" = "Defina um email para recuperação de conta. Use depois email ou telefone para ser opcionalmente descobertável por pessoas que conhecem você.";
-"auth_email_is_required" = "Nenhum servidor de identidade está configurado então você não pode adicionar um endereço de email a fim de resettar a senha de sua conta Matrix no futuro.";
+"auth_email_is_required" = "Nenhum servidor de identidade está configurado então você não pode adicionar um endereço de email a fim de resettar a senha de sua conta Teleiraq no futuro.";
 "auth_softlogout_clear_data_message_1" = "Aviso: Seus dados pessoais (incluindo chaves de encriptação) ainda estão armazenados neste dispositivo.";
 "auth_softlogout_clear_data_sign_out" = "Fazer signout";
 "room_creation_error_invite_user_by_email_without_identity_server" = "Nenhum servidor de identidade está configurado então você não pode adicionar um/uma participante com um email.";
@@ -796,7 +796,7 @@
 "widget_integration_manager_disabled" = "Você precisa habilitar gerenciador de integrações em ajustes";
 "service_terms_modal_description_for_identity_server_1" = "Encontrar outras(os) por telefone ou email";
 "service_terms_modal_description_for_identity_server_2" = "Ser encontrada(o) por telefone ou email";
-"device_verification_self_verify_wait_additional_information" = "Isto funciona com %@ e outros clientes Matrix capazes de assinatura cruzada.";
+"device_verification_self_verify_wait_additional_information" = "Isto funciona com %@ e outros clientes Teleiraq capazes de assinatura cruzada.";
 "key_verification_verified_user_information" = "Mensagens com esta(e) usuária(o) são encriptadas ponta-a-ponta e não podem ser lidas por terceiros.";
 "device_verification_emoji_smiley" = "Smiley";
 // Generic errors
@@ -817,9 +817,9 @@
 // Accessibility
 "accessibility_checkbox_label" = "checkbox";
 "auth_add_phone_message_2" = "Defina um número de telefone, e depois para ser opcionalmente descobertável por pessoas que conhecem você.";
-"auth_phone_is_required" = "Nenhum servidor de identidade está configurado então você não pode adicionar um número de telefone a fim de resettar a senha de sua conta Matrix no futuro.";
-"auth_forgot_password_error_no_configured_identity_server" = "Nenhum servidor de identidade está configurado: adicione um para resettar a senha de sua conta Matrix.";
-"auth_reset_password_error_is_required" = "Nenhum servidor de identidade está configurado: adicione um em opções de servidor para resettar a senha de sua conta Matrix.";
+"auth_phone_is_required" = "Nenhum servidor de identidade está configurado então você não pode adicionar um número de telefone a fim de resettar a senha de sua conta Teleiraq no futuro.";
+"auth_forgot_password_error_no_configured_identity_server" = "Nenhum servidor de identidade está configurado: adicione um para resettar a senha de sua conta Teleiraq.";
+"auth_reset_password_error_is_required" = "Nenhum servidor de identidade está configurado: adicione um em opções de servidor para resettar a senha de sua conta Teleiraq.";
 "auth_softlogout_signed_out" = "Você está com signout feito";
 "auth_softlogout_sign_in" = "Fazer Signin";
 "auth_softlogout_recover_encryption_keys" = "Faça signin para recuperar chaves de encriptação armazenadas exclusivamente neste dispositivo. Você precisa delas para ler todas suas mensagens seguras em qualquer dispositivo.";
@@ -852,7 +852,7 @@
 "settings_three_pids_management_information_part2" = "Descoberta";
 "settings_labs_message_reaction" = "Reagir a mensagens com emoji";
 "settings_add_3pid_password_title_msidsn" = "Adicionar número de telefone";
-"settings_add_3pid_password_message" = "Para continuar, por favor entre a senha de sua conta Matrix";
+"settings_add_3pid_password_message" = "Para continuar, por favor entre a senha de sua conta Teleiraq";
 "settings_add_3pid_invalid_password_message" = "Credenciais inválidas";
 "settings_key_backup_button_connect" = "Conectar esta sessão a Backup de Chave";
 "settings_discovery_no_identity_server" = "Você não está atualmente usando um servidor de identidade. Para ser descobertável por contatos existentes, adicione um.";
@@ -878,7 +878,7 @@
 "security_settings_advanced" = "AVANÇADAS";
 "security_settings_complete_security_alert_title" = "Completar segurança";
 "security_settings_complete_security_alert_message" = "Você deveria completar segurança em sua sessão atual primeiro.";
-"security_settings_coming_soon" = "Desculpe. Esta ação não está disponível em %@ iOS ainda. Por favor use um outro cliente Matrix para configurá-la. %@ iOS vai usá-la.";
+"security_settings_coming_soon" = "Desculpe. Esta ação não está disponível em %@ iOS ainda. Por favor use um outro cliente Teleiraq para configurá-la. %@ iOS vai usá-la.";
 "manage_session_info" = "INFO DE SESSÃO";
 "manage_session_trusted" = "Confiada por você";
 "manage_session_not_trusted" = "Não confiada";
@@ -1118,7 +1118,7 @@
 "secrets_setup_recovery_key_storage_alert_message" = "✓ Imprima-a e armazene-a em algum lugar seguro\n✓ Salve-a em uma chave USB ou drive de backup \n✓ Copie-a para seu armazenamento nuvem pessoal";
 "secrets_setup_recovery_passphrase_title" = "Definir uma Frase de Segurança";
 "secrets_setup_recovery_passphrase_information" = "Entre uma frase de segurança que só você conheça, usada para assegurar segredos em seu servidor.";
-"secrets_setup_recovery_passphrase_additional_information" = "Não use a senha de sua conta Matrix.";
+"secrets_setup_recovery_passphrase_additional_information" = "Não use a senha de sua conta Teleiraq.";
 "secrets_setup_recovery_passphrase_confirm_information" = "Entre sua Frase de Segurança de novo para confirmá-la.";
 "secrets_setup_recovery_passphrase_confirm_passphrase_title" = "Confirmar";
 "secrets_setup_recovery_passphrase_confirm_passphrase_placeholder" = "Confirmar frase";
@@ -1174,7 +1174,7 @@
 // MARK: - Room Info
 
 "room_info_list_one_member" = "1 membro";
-"create_room_placeholder_address" = "#salateste:matrix.org";
+"create_room_placeholder_address" = "#salateste:teleiraq.com";
 "create_room_section_header_address" = "ENDEREÇO";
 "create_room_show_in_directory" = "Mostrar em diretório de sala";
 "create_room_section_footer_type" = "Pessoas se juntam a uma sala privada somente com o convite da sala.";
@@ -1209,7 +1209,7 @@
 "more" = "Mais";
 "switch" = "Trocar";
 "joined" = "Juntou-Se";
-"secrets_reset_authentication_message" = "Entre a senha de sua conta Matrix para confirmar";
+"secrets_reset_authentication_message" = "Entre a senha de sua conta Teleiraq para confirmar";
 "secrets_reset_reset_action" = "Resettar";
 "secrets_reset_warning_message" = "Você vai recomeçar com nada de histórico, mensagens, dispositivos confiados ou usuárias(os) confiadas(os).";
 "secrets_reset_warning_title" = "Se você resettar tudo";
@@ -1577,7 +1577,7 @@
 "onboarding_splash_page_4_title_no_pun" = "Mensageria para seu time.";
 "onboarding_splash_page_3_message" = "Encriptado ponta-a-ponta e nenhum número de telefone requerido. Sem publicidade ou datamining.";
 "onboarding_splash_page_3_title" = "Mensageria segura.";
-"onboarding_splash_page_2_message" = "Escolha onde suas conversas são mantidas, dando-lhe controle e independência. Conectado via Matrix.";
+"onboarding_splash_page_2_message" = "Escolha onde suas conversas são mantidas, dando-lhe controle e independência. Conectado via Teleiraq.";
 "onboarding_splash_page_2_title" = "Você está em controle.";
 "onboarding_splash_page_1_title" = "Tenha posse de suas conversas.";
 "onboarding_splash_login_button_title" = "Eu já tenho uma conta";
@@ -1640,15 +1640,15 @@
 // MARK: - MatrixKit
 
 
-"matrix" = "Matrix";
+"matrix" = "Teleiraq";
 // Login Screen
 "login_create_account" = "Criar conta:";
-"login_server_url_placeholder" = "URL (e.g. https://matrix.org)";
+"login_server_url_placeholder" = "URL (e.g. https://teleiraq.com)";
 "login_home_server_title" = "URL de Servidorcasa:";
 "login_home_server_info" = "Seu servidorcasa armazena todas as suas conversas e dados de conta";
 "login_identity_server_title" = "URL de servidor de identidade:";
-"login_identity_server_info" = "Matrix provê servidores de identidade para rastrear quais emails, etc. pertencem a quais IDs Matrix. Somente https://matrix.org existe atualmente.";
-"login_user_id_placeholder" = "ID Matrix (e.g. @bob:matrix.org ou bob)";
+"login_identity_server_info" = "Teleiraq provê servidores de identidade para rastrear quais emails, etc. pertencem a quais IDs Teleiraq. Somente https://teleiraq.com existe atualmente.";
+"login_user_id_placeholder" = "ID Teleiraq (e.g. @bob:teleiraq.com ou bob)";
 "login_password_placeholder" = "Senha";
 "login_optional_field" = "opcional";
 "login_display_name_placeholder" = "Nome de exibição (e.g. Bob Obson)";
@@ -1685,7 +1685,7 @@
 "select_account" = "Selecionar uma conta";
 "attach_media" = "Anexar Mídia desde Biblioteca";
 "capture_media" = "Tirar Foto/Vídeo";
-"invite_user" = "Convidar Usuária(o) matrix";
+"invite_user" = "Convidar Usuária(o) Teleiraq";
 "reset_to_default" = "Resettar para default";
 "resend_message" = "Reenviar a mensagem";
 "select_all" = "Selecionar Todas(os)";
@@ -1806,7 +1806,7 @@
 "room_event_encryption_info_device_fingerprint" = "Impressão digital Ed25519\n";
 "account_error_display_name_change_failed" = "Mudança de nome de exibição falhou";
 "account_error_picture_change_failed" = "Mudança de imagem falhou";
-"account_error_matrix_session_is_not_opened" = "Sessão Matrix não está aberta";
+"account_error_matrix_session_is_not_opened" = "Sessão Teleiraq não está aberta";
 "account_error_email_wrong_title" = "Endereço de Email Inválido";
 "account_error_email_wrong_description" = "Isto não parece ser um endereço de email válido";
 "account_error_msisdn_wrong_title" = "Número de Telefone Inválido";
@@ -1850,10 +1850,10 @@
 "attachment_cancel_upload" = "Cancelar o upload?";
 "attachment_multiselection_size_prompt" = "Você quer enviar imagens como:";
 "attachment_multiselection_original" = "Tamanho de Verdade";
-"attachment_e2e_keys_file_prompt" = "Este arquivo contém chaves de encriptação exportadas de um cliente Matrix.\nVocê quer visualizar o conteúdo do arquivo ou importar as chaves que ele contém?";
+"attachment_e2e_keys_file_prompt" = "Este arquivo contém chaves de encriptação exportadas de um cliente Teleiraq.\nVocê quer visualizar o conteúdo do arquivo ou importar as chaves que ele contém?";
 "attachment_e2e_keys_import" = "Importar...";
 // Contacts
-"contact_mx_users" = "Usuárias(os) Matrix";
+"contact_mx_users" = "Usuárias(os) Teleiraq";
 "contact_local_contacts" = "Contatos Locais";
 // Groups
 // Search
@@ -1866,12 +1866,12 @@
 "format_time_d" = "d";
 // E2E import
 "e2e_import_room_keys" = "Importar chaves de sala";
-"e2e_import_prompt" = "Esse processo permite a você importar chaves de encriptação que você tinha previamente exportado de um outro cliente Matrix. Você vai então ser capaz de descriptar quaisquer mensagens que o outro cliente podia decriptar.\nO arquivo de exportação é protegido com uma frasepasse. Você deveria inserir a frasepasse aqui, para decriptar o arquivo.";
+"e2e_import_prompt" = "Esse processo permite a você importar chaves de encriptação que você tinha previamente exportado de um outro cliente Teleiraq. Você vai então ser capaz de descriptar quaisquer mensagens que o outro cliente podia decriptar.\nO arquivo de exportação é protegido com uma frasepasse. Você deveria inserir a frasepasse aqui, para decriptar o arquivo.";
 "e2e_import" = "Importar";
 "e2e_passphrase_enter" = "Entrar frasepasse";
 // E2E export
 "e2e_export_room_keys" = "Exportar chaves de sala";
-"e2e_export_prompt" = "Este processo permite a você exportar as chaves para mensagens que você recebeu em salas encriptadas para um arquivo local. Você vai então ser capaz importar o arquivo para um outro cliente Matrix no futuro, para que o cliente também possa decriptar estas mensagens.\nO arquivo exportado vai permitir a qualquer pessoa que o possa ler decriptar quaisquer mensagens encriptadas que você pode ver, então você deveria ser cuidadosa(o) para mantê-lo protegido.";
+"e2e_export_prompt" = "Este processo permite a você exportar as chaves para mensagens que você recebeu em salas encriptadas para um arquivo local. Você vai então ser capaz importar o arquivo para um outro cliente Teleiraq no futuro, para que o cliente também possa decriptar estas mensagens.\nO arquivo exportado vai permitir a qualquer pessoa que o possa ler decriptar quaisquer mensagens encriptadas que você pode ver, então você deveria ser cuidadosa(o) para mantê-lo protegido.";
 "e2e_export" = "Exportar";
 "e2e_passphrase_confirm" = "Confirmar frasepasse";
 "e2e_passphrase_empty" = "Frasepasse não deve estar vazia";
@@ -1895,7 +1895,7 @@
 "microphone_access_not_granted_for_call" = "Chamadas requerem acesso ao Microfone mas %@ não tem permissão para usá-lo";
 "local_contacts_access_not_granted" = "Descoberta de usuárias(os) desde contatos locais requer acesso a seus contatos mas %@ não tem permissão para usá-los";
 "local_contacts_access_discovery_warning_title" = "Descoberta de usuárias(os)";
-"local_contacts_access_discovery_warning" = "Para descobrir contatos já usando Matrix, %@ pode enviar endereços de email e números de telefone em seu livro de endereços para seu servidor de identidade Matrix escolhido. Onde suportado, dados pessoais são hashados antes do envio - por favor cheque a política de privacidade de seu servidor de identidade para mais detalhes.";
+"local_contacts_access_discovery_warning" = "Para descobrir contatos já usando Teleiraq, %@ pode enviar endereços de email e números de telefone em seu livro de endereços para seu servidor de identidade Teleiraq escolhido. Onde suportado, dados pessoais são hashados antes do envio - por favor cheque a política de privacidade de seu servidor de identidade para mais detalhes.";
 // Country picker
 "country_picker_title" = "Escolha um país";
 // Language picker
@@ -1951,7 +1951,7 @@
 "login_error_must_start_http" = "URL deve começar com http[s]://";
 // room details dialog screen
 // contacts list screen 
-"invitation_message" = "Eu gostaria de conversar com você com matrix. Por favor, visite o website http://matrix.org para ter mais informação.";
+"invitation_message" = "Eu gostaria de conversar com você com Teleiraq. Por favor, visite o website https://teleiraq.com para ter mais informação.";
 // Settings screen 
 "settings_title_config" = "Configuração";
 "settings_title_notifications" = "Notificações";
@@ -2235,7 +2235,7 @@
 "threads_beta_information" = "Mantenha discussões organizadas com threads.\n\nThreads ajudam manter suas conversas em-tópico e fáceis de rastrear. ";
 "threads_beta_title" = "Threads";
 "threads_notice_done" = "Entendido";
-"threads_notice_information" = "Todas as threads criadas durante o período experimental não vão ser <b>rendidas como respostas regulares</b>.<br/><br/>Isto vai ser uma transição única, visto que threads são agora parte da especificação Matrix.";
+"threads_notice_information" = "Todas as threads criadas durante o período experimental não vão ser <b>rendidas como respostas regulares</b>.<br/><br/>Isto vai ser uma transição única, visto que threads são agora parte da especificação Teleiraq.";
 "threads_notice_title" = "Threads não mais experimentais 🎉";
 "room_participants_invite_prompt_to_msg" = "Você tem certeza que você quer convidar %@ para %@?";
 "onboarding_celebration_button" = "Vamo lá";
@@ -2634,7 +2634,7 @@
 "voice_broadcast_stop_alert_description" = "Tem certeza que você quer parar seu broadcast ao vivo? Isto vai terminar o broadcast, e a gravação completa vai estar disponível na sala.";
 "voice_broadcast_stop_alert_title" = "Parar broadcasting ao vivo?";
 "voice_broadcast_buffering" = "Buffering…";
-"user_session_permanently_unverified_session_description" = "Esta sessão não suporta encriptação, então ela não pode ser verificada.\n\nVocê não vai ser capaz de participar em salas onde encriptação é habilitada quando usando esta sessão.\n\nPara a melhor segurança e privacidade, é recomendado usar clientes Matrix que suportam encriptação.";
+"user_session_permanently_unverified_session_description" = "Esta sessão não suporta encriptação, então ela não pode ser verificada.\n\nVocê não vai ser capaz de participar em salas onde encriptação é habilitada quando usando esta sessão.\n\nPara a melhor segurança e privacidade, é recomendado usar clientes Teleiraq que suportam encriptação.";
 "password_policy_pwd_in_dict_error" = "Esta senha tem sido encontrada em um dicionário, e não é permitida.";
 "password_policy_weak_pwd_error" = "Esta senha é fraca demais. Ela deve conter ao menos 8 caracteres, com ao menos um caractere de cada tipo: caractere maiúsculo, minúsculo, dígito, e especial.";
 
@@ -2655,14 +2655,14 @@
 "room_creation_only_one_email_invite" = "Você só pode convidar um e-mail de cada vez";
 "accessibility_selected" = "selecionado";
 "room_creation_user_not_found_prompt_title" = "Confirmação";
-"room_creation_user_not_found_prompt_message" = "Não foi possível encontrar perfis para este ID do Matrix. Quer começar uma conversa mesmo assim?";
+"room_creation_user_not_found_prompt_message" = "Não foi possível encontrar perfis para este ID do Teleiraq. Quer começar uma conversa mesmo assim?";
 "room_creation_user_not_found_prompt_invite_action" = "Começar conversa mesmo assim";
 "room_participants_invite_anyway" = "Convidar mesmo assim";
 "room_command_part_room_description" = "Sair da sala";
 "room_command_kick_user_description" = "Remove o usuário com o ID fornecido desta sala";
 "room_command_unban_user_description" = "Desbane o usuário com o ID fornecido";
 "room_command_set_user_power_level_description" = "Define o nível de poder de um usuário";
-"room_participants_invite_unknown_participant_prompt_to_msg" = "Não foi possível encontrar perfis para este ID do Matrix. Tem certeza que deseja convidar %@ para %@?";
+"room_participants_invite_unknown_participant_prompt_to_msg" = "Não foi possível encontrar perfis para este ID do Teleiraq. Tem certeza que deseja convidar %@ para %@?";
 "room_command_ban_user_description" = "Bane o usuário com o ID fornecido";
 
 // Room commands descriptions

@@ -1,6 +1,6 @@
 // String for App Store
 "store_short_description" = "Sgwrs/VoIP datgonoledig a diogel";
-"store_full_description" = "Cyfathrebu, eich ffordd eich hyn.\n\nAp sgwrsio, o dan eich rheolaeth ac yn hollol hyblyg. Mae Element yn gadael ichi gyfathrebu'r ffordd rydych chi ei eisiau. Wedi'i wneud ar gyfer [matrix] - y safon ar gyfer cyfathrebu agored, datganoledig.\n\nSicrhewch gyfrif matrix.org am ddim, mynnwch eich gweinydd eich hun yn https://ems.element.io, neu defnyddiwch weinydd Matrix arall.\n\nPam dewis Element?\n\nCYFATHREBU LLAWN: Adeiladwch ystafelloedd o amgylch eich timau, eich ffrindiau, eich cymuned - sut bynnag yr ydych chi'n hoffi! Sgwrsiwch, rhannwch ffeiliau, ychwanegwch teclynnau a gwnewch galwadau llais a fideo - i gyd yn rhad ac am ddim.\n\nINTEGREIDDIAU GRYMUS: Defnyddiwch Element gyda'r offer rydych chi'n eu hadnabod ac yn eu caru. Gyda Element gallwch hyd yn oed sgwrsio â defnyddwyr a grwpiau ar apiau sgwrsio eraill.\n\nPREIFAT A DIOGEL: Cadwch eich sgyrsiau yn gyfrinachol. Mae amgryptio o'r dechrau i'r diwedd o'r radd flaenaf yn sicrhau bod cyfathrebu preifat yn aros yn breifat.\n\nAGORED, NID YN GAËDIG: Ffynhonnell agor, ac wedi'i adeiladu ar Matrix. ––Byddwch yn berchen ar eich data eich hun trwy gynnal eich gweinydd eich hun, neu ddewis un rydych chi'n ymddiried ynddo.\n\nBOB MAN YDYCH CHI: Cadwch mewn cysylltiad ble bynnag yr ydych â hanes negeseuon wedi'i gydamseru'n llawn ar draws eich holl ddyfeisiau ac ar-lein yn https://app.element.io.";
+"store_full_description" = "Cyfathrebu, eich ffordd eich hyn.\n\nAp sgwrsio, o dan eich rheolaeth ac yn hollol hyblyg. Mae Element yn gadael ichi gyfathrebu'r ffordd rydych chi ei eisiau. Wedi'i wneud ar gyfer [Teleiraq] - y safon ar gyfer cyfathrebu agored, datganoledig.\n\nSicrhewch gyfrif teleiraq.com am ddim, mynnwch eich gweinydd eich hun yn https://ems.element.io, neu defnyddiwch weinydd Teleiraq arall.\n\nPam dewis Element?\n\nCYFATHREBU LLAWN: Adeiladwch ystafelloedd o amgylch eich timau, eich ffrindiau, eich cymuned - sut bynnag yr ydych chi'n hoffi! Sgwrsiwch, rhannwch ffeiliau, ychwanegwch teclynnau a gwnewch galwadau llais a fideo - i gyd yn rhad ac am ddim.\n\nINTEGREIDDIAU GRYMUS: Defnyddiwch Element gyda'r offer rydych chi'n eu hadnabod ac yn eu caru. Gyda Element gallwch hyd yn oed sgwrsio â defnyddwyr a grwpiau ar apiau sgwrsio eraill.\n\nPREIFAT A DIOGEL: Cadwch eich sgyrsiau yn gyfrinachol. Mae amgryptio o'r dechrau i'r diwedd o'r radd flaenaf yn sicrhau bod cyfathrebu preifat yn aros yn breifat.\n\nAGORED, NID YN GAËDIG: Ffynhonnell agor, ac wedi'i adeiladu ar Teleiraq. ––Byddwch yn berchen ar eich data eich hun trwy gynnal eich gweinydd eich hun, neu ddewis un rydych chi'n ymddiried ynddo.\n\nBOB MAN YDYCH CHI: Cadwch mewn cysylltiad ble bynnag yr ydych â hanes negeseuon wedi'i gydamseru'n llawn ar draws eich holl ddyfeisiau ac ar-lein yn https://app.element.io.";
 // Titles
 "title_home" = "Hafan";
 "title_favourites" = "Ffefrynnau";
@@ -56,7 +56,7 @@
 "auth_phone_placeholder" = "Rhif ffôn";
 "auth_repeat_password_placeholder" = "Cyfrinair eto";
 "auth_repeat_new_password_placeholder" = "Cadarnhewch eich cyfrinair";
-"auth_home_server_placeholder" = "URL (e.e. https://matrix.org)";
+"auth_home_server_placeholder" = "URL (e.e. https://teleiraq.com)";
 "auth_identity_server_placeholder" = "URL (e.e. https://vector.im)";
 "auth_invalid_login_param" = "Enw defnyddiwr a/neu cyfrinair anghywir";
 "auth_invalid_user_name" = "Gall enwau defnyddwyr ond cynnwys llythrennau, rhifau, atalnodau-llawn, cysylltnodau a thanlinellau";
@@ -92,7 +92,7 @@
 "auth_reset_password_email_validation_message" = "Mae e-bost wedi'i anfon at %@. Ar ôl i chi ddilyn y ddolen sydd ynddo, cliciwch isod.";
 "auth_reset_password_next_step_button" = "Rwyf wedi gwirio fy nghyfeiriad e-bost";
 "auth_reset_password_error_unauthorized" = "Methiant gwirio cyfeiriad e-bost: gwnewch yn siŵr eich bod wedi clicio'r ddolen yn yr e-bost";
-"auth_reset_password_error_not_found" = "Nid yw'n ymddangos bod eich cyfeiriad e-bost yn gysylltiedig ag Dynodwr Matrix ar y hafanweinydd hwn.";
+"auth_reset_password_error_not_found" = "Nid yw'n ymddangos bod eich cyfeiriad e-bost yn gysylltiedig ag Dynodwr Teleiraq ar y hafanweinydd hwn.";
 "auth_reset_password_error_is_required" = "Nid oes unrhyw weinydd adnabod wedi'i osod: ychwanegwch un yn opsiynau'r gweinydd i ailosod eich cyfrinair.";
 "auth_reset_password_success_message" = "Mae eich cyfrinair wedi'i ailosod.\n\nRydych wedi cael eich allgofnodi o bob sesiwn ac ni fyddwch yn derbyn hysbysiadau mwyach. I ail-alluogi hysbysiadau, ail-fewngofnodwch ar bob dyfais.";
 "auth_add_email_and_phone_warning" = "Ni chefnogir cofrestru gydag e-bost a rhif ffôn ar yr un pryd nes bod yr api yn bodoli. Dim ond y rhif ffôn fydd yn cael ei ystyried. Gallwch ychwanegu eich e-bost at eich proffil mewn gosodiadau.";
@@ -170,7 +170,7 @@
 "directory_search_fail" = "Methwyd a nôl data";
 // Contacts
 "contacts_address_book_section" = "CYSYLLTIADAU LLEOL";
-"contacts_address_book_matrix_users_toggle" = "Defnyddwyr Matrix yn unig";
+"contacts_address_book_matrix_users_toggle" = "Defnyddwyr Teleiraq yn unig";
 "contacts_address_book_no_identity_server" = "Dim gweinydd adnabod wedi'i osod";
 "contacts_address_book_no_contact" = "Dim cysylltiadau lleol";
 "contacts_address_book_permission_required" = "Mae angen caniatâd i gael mynediad at gysylltiadau lleol";
@@ -192,7 +192,7 @@
 "room_participants_filter_room_members" = "Hidlo aelodau'r ystafell";
 "room_participants_invite_another_user" = "Chwilio / gwahodd yn ôl Dynodwr Defnyddiwr, Enw, new e-bost";
 "room_participants_invite_malformed_id_title" = "Gwall gwahoddiad";
-"room_participants_invite_malformed_id" = "Dynodwr camffurfiedig. Dylai fod yn gyfeiriad e-bost neu'n Ddynodwr Matrix fel '@localpart:domain'";
+"room_participants_invite_malformed_id" = "Dynodwr camffurfiedig. Dylai fod yn gyfeiriad e-bost neu'n Ddynodwr Teleiraq fel '@localpart:domain'";
 "room_participants_invited_section" = "GWAHODDWYD";
 "room_participants_start_new_chat_error_using_user_email_without_identity_server" = "Nid oes unrhyw weinydd adnabod wedi'i osod felly ni allwch ddechrau sgwrs gyda chyswllt gan ddefnyddio e-bost.";
 "room_participants_online" = "Ar-lein";
@@ -562,7 +562,7 @@
 "group_participants_filter_members" = "Hidlo aelodau'r cymuned";
 "group_participants_invite_another_user" = "Chwilio / gwahodd yn ôl Dynodwr Defnyddiwr neu Enw";
 "group_participants_invite_malformed_id_title" = "Gwall gwahoddiad";
-"group_participants_invite_malformed_id" = "Dynodwr camffurfiedig. Dylai fod yn Ddynodwr Matrix fel '@localpart:domain'";
+"group_participants_invite_malformed_id" = "Dynodwr camffurfiedig. Dylai fod yn Ddynodwr Teleiraq fel '@localpart:domain'";
 "group_participants_invited_section" = "GWAHODDWYD";
 // Group rooms
 "group_rooms_filter_rooms" = "Hidlo ystafelloedd y gymuned";
@@ -580,9 +580,9 @@
 "directory_title" = "Cyfeiriadur";
 "directory_server_picker_title" = "Dewisiwch gyfeiriadur";
 "directory_server_all_rooms" = "Pob ystafell ar weinydd %@";
-"directory_server_all_native_rooms" = "Pob ystafell Matrix frodorol";
+"directory_server_all_native_rooms" = "Pob ystafell Teleiraq frodorol";
 "directory_server_type_homeserver" = "Teipiwch hafanweinydd i restru ystafelloedd cyhoeddus o";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "teleiraq.com";
 // Events formatter
 "event_formatter_member_updates" = "%tu newidiadau aelodaeth";
 "event_formatter_widget_added" = "Ychwanegwyd teclyn %@ gan %@";
@@ -689,7 +689,7 @@
 "deactivate_account_informations_part2_emphasize" = "Ni ellir gwrthdroi'r weithred hon.";
 "deactivate_account_informations_part3" = "\n\nYn dad-actifadu eich cyfrif ";
 "deactivate_account_informations_part4_emphasize" = "nid yw yn ddiofyn yn achosi inni anghofio negeseuon yr ydych wedi'u hanfon. ";
-"deactivate_account_informations_part5" = "Os hoffech i ni anghofio'ch negeseuon, ticiwch y blwch isod\n\nMae gwelededd neges yn Matrix yn debyg i e-bost. Mae anghofio'ch negeseuon yn golygu na fydd negeseuon rydych chi wedi'u hanfon yn cael eu rhannu ag unrhyw ddefnyddwyr newydd neu anghofrestredig, ond bydd defnyddwyr cofrestredig sydd eisoes â mynediad at y negeseuon hyn yn dal i gael mynediad i'w copi.";
+"deactivate_account_informations_part5" = "Os hoffech i ni anghofio'ch negeseuon, ticiwch y blwch isod\n\nMae gwelededd neges yn Teleiraq yn debyg i e-bost. Mae anghofio'ch negeseuon yn golygu na fydd negeseuon rydych chi wedi'u hanfon yn cael eu rhannu ag unrhyw ddefnyddwyr newydd neu anghofrestredig, ond bydd defnyddwyr cofrestredig sydd eisoes â mynediad at y negeseuon hyn yn dal i gael mynediad i'w copi.";
 "deactivate_account_forget_messages_information_part1" = "Anghofiwch yr holl negeseuon yr wyf wedi'u hanfon pan fydd fy nghyfrif yn cael ei ddad-actifadu (";
 "deactivate_account_forget_messages_information_part2_emphasize" = "Rhybudd";
 "deactivate_account_forget_messages_information_part3" = ": bydd hyn yn achosi i ddefnyddwyr y dyfodol weld golwg anghyflawn o sgyrsiau)";
@@ -996,7 +996,7 @@
 "security_settings_cryptography" = "CRYPTOGRAFFEG";
 "security_settings_complete_security_alert_title" = "Cwblhewch diogelwch";
 "security_settings_complete_security_alert_message" = "Dylech gwblhau diogelwch ar eich sesiwn gyfredol yn gyntaf.";
-"security_settings_coming_soon" = "Sori. Nid yw'r weithred hon ar gael ar %@ iOS eto. Defnyddiwch gleient Matrix arall i'w osod. Bydd %@ iOS yn ei ddefnyddio.";
+"security_settings_coming_soon" = "Sori. Nid yw'r weithred hon ar gael ar %@ iOS eto. Defnyddiwch gleient Teleiraq arall i'w osod. Bydd %@ iOS yn ei ddefnyddio.";
 // Recover from private key
 "key_backup_recover_from_private_key_info" = "Yn adfer copi wrth gefn…";
 "device_verification_self_verify_alert_title" = "Mewngofnodiad Newydd";
@@ -1008,19 +1008,19 @@
 // MARK: - MatrixKit
 
 
-"matrix" = "Matrix";
+"matrix" = "Teleiraq";
 // Login Screen
 "login_create_account" = "Creu cyfrif:";
-"login_server_url_placeholder" = "URL (e.e. https://matrix.org)";
+"login_server_url_placeholder" = "URL (e.e. https://teleiraq.com)";
 "login_home_server_title" = "URL Hafanweinydd:";
 "login_home_server_info" = "Mae'ch hafanweinydd yn cadw'ch holl sgyrsiau a gwybodaeth cyfrif";
 "login_identity_server_title" = "URL Gweinydd Adnabod:";
-"login_identity_server_info" = "Mae Matrix yn darparu gweinyddwyr adnabod i olrhain pa e-byst ac ati sy'n perthyn i IDau Matrix. Dim ond https://matrix.org sy'n bodoli ar hyn o bryd.";
-"login_user_id_placeholder" = "ID Matrix (e.g. @bob:matrix.org neu bob)";
+"login_identity_server_info" = "Mae Teleiraq yn darparu gweinyddwyr adnabod i olrhain pa e-byst ac ati sy'n perthyn i IDau Teleiraq. Dim ond https://teleiraq.com sy'n bodoli ar hyn o bryd.";
+"login_user_id_placeholder" = "ID Teleiraq (e.g. @bob:teleiraq.com neu bob)";
 "login_password_placeholder" = "Cyfrinair";
 "login_optional_field" = "dewisol";
 "login_display_name_placeholder" = "Enw arddangos (e.e. Jac y Jwc)";
-"login_email_info" = "Mae nodi cyfeiriad e-bost yn caniatáu i ddefnyddwyr eraill ddod o hyd i chi ar Matrix yn haws, a bydd yn rhoi ffordd i chi ailosod eich cyfrinair yn y dyfodol.";
+"login_email_info" = "Mae nodi cyfeiriad e-bost yn caniatáu i ddefnyddwyr eraill ddod o hyd i chi ar Teleiraq yn haws, a bydd yn rhoi ffordd i chi ailosod eich cyfrinair yn y dyfodol.";
 "login_email_placeholder" = "Cyfeiriad E-bost";
 "login_prompt_email_token" = "Rhowch eich tocyn gwirio e-bost:";
 "login_error_title" = "Methwyd Mewngofnodi";
@@ -1067,7 +1067,7 @@
 "select_account" = "Dewis cyfrif";
 "attach_media" = "Ategu Cyfryngau o'r Llyfrgell";
 "capture_media" = "Tynnu Llun/Fideo";
-"invite_user" = "Gwahodd Defnyddiwr Matrix";
+"invite_user" = "Gwahodd Defnyddiwr Teleiraq";
 "reset_to_default" = "Ailosod i'r diofyn";
 "resend_message" = "Ail-anfon y neges";
 "select_all" = "Dewis y cyfan";
@@ -1174,7 +1174,7 @@
 "account_msisdn_validation_error" = "Methu gwirio rhif ffôn.";
 "account_error_display_name_change_failed" = "Methwyd newid enw arddangos";
 "account_error_picture_change_failed" = "Methwyd newid llun";
-"account_error_matrix_session_is_not_opened" = "Nid yw 'r sesiwn Matrix yn agored";
+"account_error_matrix_session_is_not_opened" = "Nid yw 'r sesiwn Teleiraq yn agored";
 "account_error_email_wrong_title" = "Cyfeiriad E-bost Annilys";
 "account_error_email_wrong_description" = "Nid yw hwn yn edrych fel cyfeiriad e-bost dilys";
 "account_error_msisdn_wrong_title" = "Rhif Ffôn Annilys";
@@ -1219,10 +1219,10 @@
 "attachment_cancel_upload" = "Canslo yr uwchlwythiad?";
 "attachment_multiselection_size_prompt" = "Hoffech chi anfon llun fel:";
 "attachment_multiselection_original" = "Maint Gwirioneddol";
-"attachment_e2e_keys_file_prompt" = "Mae'r ffeil hon yn cynnwys allweddi amgryptio a allfudwyd o gleient Matrix.\nYdych chi eisiau gweld cynnwys y ffeil neu fewnfudo'r allweddi sydd ynddo?";
+"attachment_e2e_keys_file_prompt" = "Mae'r ffeil hon yn cynnwys allweddi amgryptio a allfudwyd o gleient Teleiraq.\nYdych chi eisiau gweld cynnwys y ffeil neu fewnfudo'r allweddi sydd ynddo?";
 "attachment_e2e_keys_import" = "Mewnfudo...";
 // Contacts
-"contact_mx_users" = "Defnyddwyr Matrix";
+"contact_mx_users" = "Defnyddwyr Teleiraq";
 "contact_local_contacts" = "Cysylltiadau Lleol";
 // Groups
 // Search
@@ -1235,12 +1235,12 @@
 "format_time_d" = "d";
 // E2E import
 "e2e_import_room_keys" = "Mewnfudo allweddi ystafell";
-"e2e_import_prompt" = "Mae'r broses hon yn caniatáu ichi fewnfudo allweddi amgryptio yr oeddech wedi'u hallfudo o'r blaen o gleient Matrix arall. Yna byddwch yn gallu dadgryptio unrhyw negeseuon y gallai'r cleient arall eu dadgryptio.\nMae'r ffeil allfudo wedi'i gwarchod gyda chyfrinair. Dylech nodi'r cyfrinair yma, i ddadgryptio'r ffeil.";
+"e2e_import_prompt" = "Mae'r broses hon yn caniatáu ichi fewnfudo allweddi amgryptio yr oeddech wedi'u hallfudo o'r blaen o gleient Teleiraq arall. Yna byddwch yn gallu dadgryptio unrhyw negeseuon y gallai'r cleient arall eu dadgryptio.\nMae'r ffeil allfudo wedi'i gwarchod gyda chyfrinair. Dylech nodi'r cyfrinair yma, i ddadgryptio'r ffeil.";
 "e2e_import" = "Mewnfudo";
 "e2e_passphrase_enter" = "Rhowch cyfrinair";
 // E2E export
 "e2e_export_room_keys" = "Allfudo allweddi ystafell";
-"e2e_export_prompt" = "Mae'r broses hon yn caniatáu ichi allfudo  i ffeil leol yr allweddi ar gyfer negeseuon rydych wedi'u derbyn mewn ystafelloedd amgryptiedig. Yna byddwch chi'n gallu mewnfudo'r ffeil i gleient Matrix arall yn y dyfodol, fel y bydd y cleient hwnnw hefyd yn gallu dadgryptio'r negeseuon hyn.\nBydd y ffeil a allfudir yn caniatáu i unrhyw un sy'n gallu ei darllen ddadgryptio unrhyw negeseuon amgryptiedig y gallwch eu gweld, felly dylech fod yn ofalus i'w cadw'n ddiogel.";
+"e2e_export_prompt" = "Mae'r broses hon yn caniatáu ichi allfudo  i ffeil leol yr allweddi ar gyfer negeseuon rydych wedi'u derbyn mewn ystafelloedd amgryptiedig. Yna byddwch chi'n gallu mewnfudo'r ffeil i gleient Teleiraq arall yn y dyfodol, fel y bydd y cleient hwnnw hefyd yn gallu dadgryptio'r negeseuon hyn.\nBydd y ffeil a allfudir yn caniatáu i unrhyw un sy'n gallu ei darllen ddadgryptio unrhyw negeseuon amgryptiedig y gallwch eu gweld, felly dylech fod yn ofalus i'w cadw'n ddiogel.";
 "e2e_export" = "Allfudo";
 "e2e_passphrase_confirm" = "Cadarnhau cyfrinair";
 "e2e_passphrase_empty" = "Ni chaniateir cyfrinair gwag";
@@ -1265,7 +1265,7 @@
 "microphone_access_not_granted_for_call" = "Mae galwadau fideo angen mynediad i'r Meicroffon ond nid oes gan %@ ganiatâd i'w ddefnyddio";
 "local_contacts_access_not_granted" = "Mae darganfyddiad defnyddwyr o gysylltiadau lleol angen mynediad i'ch cysylltiadau ond nid oes gan %@ ganiatâd i'w ddefnyddio";
 "local_contacts_access_discovery_warning_title" = "Darganfod defnyddwyr";
-"local_contacts_access_discovery_warning" = "I ddarganfod cysylltiadau sydd eisoes yn defnyddio Matrix, gall %@ anfon cyfeiriadau e-bost a rhifau ffôn yn eich llyfr cyfeiriadau at y gweinydd adnabod Matrix o'ch dewis. Pan gânt eu cefnogi, mae data personol yn cael ei amgodio cyn ei anfon - gwiriwch bolisi preifatrwydd eich gweinydd adnabod i gael mwy o fanylion.";
+"local_contacts_access_discovery_warning" = "I ddarganfod cysylltiadau sydd eisoes yn defnyddio Teleiraq, gall %@ anfon cyfeiriadau e-bost a rhifau ffôn yn eich llyfr cyfeiriadau at y gweinydd adnabod Teleiraq o'ch dewis. Pan gânt eu cefnogi, mae data personol yn cael ei amgodio cyn ei anfon - gwiriwch bolisi preifatrwydd eich gweinydd adnabod i gael mwy o fanylion.";
 // Country picker
 "country_picker_title" = "Dewiswch wlad";
 // Language picker
@@ -1323,7 +1323,7 @@
 "login_error_must_start_http" = "Rhaid i URL ddechrau â http[s]://";
 // room details dialog screen
 // contacts list screen 
-"invitation_message" = "Hoffwn sgwrsio â chi gyda Matrix. Os gwelwch yn dda, ewch i'r wefan https://matrix.org i gael mwy o wybodaeth.";
+"invitation_message" = "Hoffwn sgwrsio â chi gyda Teleiraq. Os gwelwch yn dda, ewch i'r wefan https://teleiraq.com i gael mwy o wybodaeth.";
 // Settings screen 
 "settings_title_config" = "Gosodiadau";
 "settings_title_notifications" = "Hysbysebiadau";

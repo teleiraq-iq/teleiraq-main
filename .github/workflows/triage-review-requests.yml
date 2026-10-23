@@ -5,6 +5,7 @@ on:
 
 jobs:
   add_design_pr_to_project:
+    if: github.repository == 'element-hq/element-ios'
     name: Move PRs asking for design review to the design board
     runs-on: ubuntu-latest
     steps:
@@ -72,6 +73,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ELEMENT_BOT_TOKEN }}
 
   add_product_pr_to_project:
+    if: github.repository == 'element-hq/element-ios'
     name: Move PRs asking for product review to the product board
     runs-on: ubuntu-latest
     steps:

@@ -54,10 +54,10 @@
 
 // MARK: - MatrixKit
 
-"matrix" = "Matrix";
+"matrix" = "Teleiraq";
 // Login Screen
 "login_create_account" = "Luo tili:";
-"login_server_url_placeholder" = "URL (esim. https://matrix.org)";
+"login_server_url_placeholder" = "URL (esim. https://teleiraq.com)";
 "login_home_server_title" = "Kotipalvelin:";
 "login_identity_server_title" = "Identiteettipalvelin:";
 "login_password_placeholder" = "Salasana";
@@ -194,8 +194,8 @@
 "account_error_display_name_change_failed" = "Näyttönimen vaihtaminen epäonnistui";
 "account_error_picture_change_failed" = "Kuvan vaihtaminen epäonnistui";
 "ssl_could_not_verify" = "Etäpalvelimen identiteetin vahvistaminen epäonnistui.";
-"login_user_id_placeholder" = "Matrix ID (esim. @matti:matrix.org tai pelkästään matti)";
-"login_identity_server_info" = "Matrix tarjoaa identiteettipalvelimen joka osaa kertaa mikä sähköpostiosoite tai puhelinnumero vastaa mitäkin Matrix ID:tä. Vain https://matrix.org on tällä hetkellä käytettävissä.";
+"login_user_id_placeholder" = "Teleiraq ID (esim. @matti:teleiraq.com tai pelkästään matti)";
+"login_identity_server_info" = "Teleiraq tarjoaa identiteettipalvelimen joka osaa kertaa mikä sähköpostiosoite tai puhelinnumero vastaa mitäkin Teleiraq ID:tä. Vain https://teleiraq.com on tällä hetkellä käytettävissä.";
 "suggest" = "Ehdota";
 "add" = "Lisää";
 "existing" = "Nykyinen";

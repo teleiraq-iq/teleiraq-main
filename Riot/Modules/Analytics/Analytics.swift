@@ -104,7 +104,8 @@ import AnalyticsEvents
     
     /// Starts the analytics client if the user has opted in, otherwise does nothing.
     func startIfEnabled() {
-        guard RiotSettings.shared.enableAnalytics, !isRunning else { return }
+        guard BuildSettings.analyticsConfiguration.isEnabled,
+              RiotSettings.shared.enableAnalytics, !isRunning else { return }
         
         client.start()
         monitoringClient.start()

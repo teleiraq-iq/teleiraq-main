@@ -69,8 +69,8 @@
 "auth_phone_placeholder" = "شماره تلفن";
 "auth_repeat_password_placeholder" = "تکرار گذرواژه";
 "auth_repeat_new_password_placeholder" = "تایید گذرواژه";
-"auth_home_server_placeholder" = "URL (e.g. https://matrix.org)";
-"auth_identity_server_placeholder" = "URL (e.g. https://matrix.org)";
+"auth_home_server_placeholder" = "URL (e.g. https://teleiraq.com)";
+"auth_identity_server_placeholder" = "URL (e.g. https://teleiraq.com)";
 "auth_invalid_login_param" = "گذرواژه و نام کاربری اشتباه است";
 "auth_invalid_user_name" = "نام کاربری وارد شده فرمت صحیح ندارد";
 "auth_invalid_password" = "گذرواژه عبور کوتاه است(حداقل 6 کارکتر) ";
@@ -103,7 +103,7 @@
 "auth_reset_password_email_validation_message" = "An email has been sent to %@. Once you've followed the link it contains, click below.";
 "auth_reset_password_next_step_button" = "I have verified my email address";
 "auth_reset_password_error_unauthorized" = "Failed to verify email address: make sure you clicked the link in the email";
-"auth_reset_password_error_not_found" = "Your email address does not appear to be associated with a Matrix ID on this homeserver.";
+"auth_reset_password_error_not_found" = "Your email address does not appear to be associated with a Teleiraq ID on this homeserver.";
 "auth_reset_password_success_message" = "Your password has been reset.\n\nYou have been logged out of all devices and will no longer receive push notifications. To re-enable notifications, re-log in on each device.";
 "auth_add_email_and_phone_warning" = "Registration with email and phone number at once is not supported yet until the api exists. Only the phone number will be taken into account. You may add your email to your profile in settings.";
 "auth_accept_policies" = "Please review and accept the policies of this homeserver:";
@@ -521,7 +521,7 @@
 "directory_server_all_rooms" = "تمام گفتگوها  %@ سرور";
 "directory_server_all_native_rooms" = "تمام گفتگوهای ماتریسی";
 "directory_server_type_homeserver" = "نوشتن نام برای لیست کردن گفتگو";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "teleiraq.com";
 
 // Events formatter
 "event_formatter_member_updates" = "%tu عضویت تغییر کرد";

@@ -47,7 +47,7 @@
 "auth_invalid_user_name" = "يُمكِنُ أن تَحتَوِي أسماءُ المُستَخدِمين فَقَط عَلَى أحرُف، أرقَام، نِقَاط، شَرَطَات وَشَرَطَات سُفلِيَّة";
 "auth_invalid_login_param" = "اِسمُ مُستَخدِم وَ/أو كَلِمَةُ مُرُور غَيرُ صَحِيحَة";
 "auth_identity_server_placeholder" = "عُنوان URL (مِثل. https://vector.im)";
-"auth_home_server_placeholder" = "عُنوان URL (مِثل. https://Teleiraq.org)";
+"auth_home_server_placeholder" = "عُنوان URL (مِثل. https://teleiraq.com)";
 "auth_repeat_new_password_placeholder" = "تأكِّيد كَلِمَةَ مُرُورِ حِسابك Teleiraq الجَديدَة";
 "auth_repeat_password_placeholder" = "إعادَةُ كَلِمَةِ المُرُور";
 "auth_phone_placeholder" = "رَقم هَاتِف";
@@ -488,11 +488,11 @@
 "login_display_name_placeholder" = "الاِسم الظّاهِر (مِثل. محمد عبدالله)";
 "login_optional_field" = "اِختياري";
 "login_password_placeholder" = "كَلِمَةُ المُرُور";
-"login_identity_server_info" = "تُوَفِّرُ Teleiraq خَوادِم هُويَّة لتَتَبُع عَناوين البَريد الإلِكتُرونيّ وَما إلى ذَلِكَ مِنَ الَّتي تَنتَمي إلى مُعَرِّفات Matrix. فَقَط https://Teleiraq.org مُتَوَفِّر حاليًا.";
+"login_identity_server_info" = "تُوَفِّرُ Teleiraq خَوادِم هُويَّة لتَتَبُع عَناوين البَريد الإلِكتُرونيّ وَما إلى ذَلِكَ مِنَ الَّتي تَنتَمي إلى مُعَرِّفات Teleiraq. فَقَط https://teleiraq.com مُتَوَفِّر حاليًا.";
 "login_identity_server_title" = "عُنوان URL لِخادِم الهُويَّة:";
 "login_home_server_info" = "الخادِم الرَّئيسي الخاصّ بِك يُخَزِّنُ جَميع مُحادَثاتك وَمَعلُومات حِسابك";
 "login_home_server_title" = "عُنوان URL لِلخادِم الرَّئيسي:";
-"login_server_url_placeholder" = "عُنوان URL (مِثل https://Teleiraq.org)";
+"login_server_url_placeholder" = "عُنوان URL (مِثل https://teleiraq.com)";
 
 // Login Screen
 "login_create_account" = "إنشاءُ حِساب:";
@@ -587,7 +587,7 @@
 "account_error_msisdn_wrong_title" = "رَقمُ هَاتِفٍ غَيرُ صَالِح";
 "account_error_email_wrong_description" = "يَبدو أنَّ هَذَا لَيسَ عُنوان بَريد إلِكتُرونيّ صَالِح";
 "account_error_email_wrong_title" = "عُنوانُ بَريدٍ إلِكتُرونيّ غَيرَ صَالِح";
-"account_error_matrix_session_is_not_opened" = "جَلسَةُ Matrix غَيرَ مَفتُوحَة";
+"account_error_matrix_session_is_not_opened" = "جَلسَةُ Teleiraq غَيرَ مَفتُوحَة";
 "account_error_display_name_change_failed" = "فَشَلَ تَغيِيرُ الاِسم الظّاهِر";
 "account_error_picture_change_failed" = "فَشَلَ تَغيِيرُ الصُّورَة";
 "account_msisdn_validation_error" = "يَتَعَذَّرُ التَّحَقُّق مِن رَقمِ الهَاتِف.";
@@ -693,14 +693,14 @@
 "e2e_passphrase_create" = "إنشاءُ عِبارَةِ مُرُور";
 "e2e_passphrase_empty" = "عِبارَةُ المُرُورِ يَجِبُ ألَا تَكونَ خَالِيَة";
 "e2e_passphrase_confirm" = "تَأكيدُ عِبارَةِ المُرُور";
-"e2e_export_prompt" = "تُتيحُ لَكَ هَذِهِ العَمَلِيَّة تَصدير مَفاتيح الرَّسائِل الَّتي قَد تَلَقَّيتَها فِي الغُرَف المُعَمّاة إلى مَلَفّ مَحَلِّيّ. يُمكِنُكَ بَعدَ ذَلِكَ أن تَستَورِدَ المَلَفّ إلى عَميل Matrix آخر في المُستَقبَل، لِكَي يَتَمَكَّن هَذَا العَميل أيضًا مِن فَكّ تَعمِيَة هَذِهِ الرَّسائِل.\nالمَلَفّ الَّذِي قَد تَمَّ تَصديرُه سَيَسمَحُ لِأيّ شَخص يُمكِنَهُ قِرَاءته أن يَفُكّ تَعمِيَة أيّ رَسائِل مُعمّاة يُمكِنُكَ رُؤيَتها، لِذَلِك يَجِبُ أن تَكُونَ حَريصًا عَلَى إبقائه آمِن.";
+"e2e_export_prompt" = "تُتيحُ لَكَ هَذِهِ العَمَلِيَّة تَصدير مَفاتيح الرَّسائِل الَّتي قَد تَلَقَّيتَها فِي الغُرَف المُعَمّاة إلى مَلَفّ مَحَلِّيّ. يُمكِنُكَ بَعدَ ذَلِكَ أن تَستَورِدَ المَلَفّ إلى عَميل Teleiraq آخر في المُستَقبَل، لِكَي يَتَمَكَّن هَذَا العَميل أيضًا مِن فَكّ تَعمِيَة هَذِهِ الرَّسائِل.\nالمَلَفّ الَّذِي قَد تَمَّ تَصديرُه سَيَسمَحُ لِأيّ شَخص يُمكِنَهُ قِرَاءته أن يَفُكّ تَعمِيَة أيّ رَسائِل مُعمّاة يُمكِنُكَ رُؤيَتها، لِذَلِك يَجِبُ أن تَكُونَ حَريصًا عَلَى إبقائه آمِن.";
 "e2e_export" = "تَصدير";
 
 // E2E export
 "e2e_export_room_keys" = "تَصديرُ مَفاتيحِ الغُرفَة";
 "e2e_passphrase_enter" = "أدخِل عِبارَةَ المُرُور";
 "e2e_import" = "اِستيراد";
-"e2e_import_prompt" = "تُتِيحُ لَكَ هَذِهِ العَمَلِيَّة اِستيراد المَفاتيح الَّتي قَد صَدَّرتَهَا مُسبقًا مِن عَميل Matrix آخر. أنتَ سَتَتَمَكَّن بَعدَ ذَلِك مِن فَكّ تَّعميَة جَميع رَسائِل الَّتي يُمكِن لِلعَميل الآخر فَكّ تَعمِيَتها.\nإنَّ المَلَفّ الْمُصَدَّر مَحميّ بِعِبارَة مُرُور. يَجِبُ إدخال عِبارَة المُرُور هُنا لِفَكّ تَعمِيَة المَلَفّ.";
+"e2e_import_prompt" = "تُتِيحُ لَكَ هَذِهِ العَمَلِيَّة اِستيراد المَفاتيح الَّتي قَد صَدَّرتَهَا مُسبقًا مِن عَميل Teleiraq آخر. أنتَ سَتَتَمَكَّن بَعدَ ذَلِك مِن فَكّ تَّعميَة جَميع رَسائِل الَّتي يُمكِن لِلعَميل الآخر فَكّ تَعمِيَتها.\nإنَّ المَلَفّ الْمُصَدَّر مَحميّ بِعِبارَة مُرُور. يَجِبُ إدخال عِبارَة المُرُور هُنا لِفَكّ تَعمِيَة المَلَفّ.";
 
 // E2E import
 "e2e_import_room_keys" = "اِستيرادُ مَفاتيحِ الغُرفَة";
@@ -719,9 +719,9 @@
 "contact_local_contacts" = "جِهاتُ الاِتِّصالِ المَحَلِّيَّة";
 
 // Contacts
-"contact_mx_users" = "مُستَخدِمُو Matrix";
+"contact_mx_users" = "مُستَخدِمُو Teleiraq";
 "attachment_e2e_keys_import" = "يَجري الاِستيراد...";
-"attachment_e2e_keys_file_prompt" = "يَحتَوي هَذَا المَلَفّ عَلَى مَفاتيح تَعمِيَة قَد تمَّ تَصديرُها مِن عَميلِ Matrix.\nهَل تُريدُ عَرضَ مُحتَوى المَلفّ أمِ اِستيرادُ المَفاتيحِ الَّتي يَحويها؟";
+"attachment_e2e_keys_file_prompt" = "يَحتَوي هَذَا المَلَفّ عَلَى مَفاتيح تَعمِيَة قَد تمَّ تَصديرُها مِن عَميلِ Teleiraq.\nهَل تُريدُ عَرضَ مُحتَوى المَلفّ أمِ اِستيرادُ المَفاتيحِ الَّتي يَحويها؟";
 
 // Settings screen 
 "settings_title_config" = "الإعداد";
@@ -787,7 +787,7 @@
 "settings_title_notifications" = "الإِشعَارات";
 
 // contacts list screen 
-"invitation_message" = "أوَدُّ أن أتَحَدَّثَ مَعكَ بِاستِخدامِ matrix. يرُجَى زيارَةُ المَوقِع https://matrix.org لِلحُصُولِ عَلَى مَزيدٍ مِنَ المَعلُومات.";
+"invitation_message" = "أوَدُّ أن أتَحَدَّثَ مَعكَ بِاستِخدامِ Teleiraq. يرُجَى زيارَةُ المَوقِع https://teleiraq.com لِلحُصُولِ عَلَى مَزيدٍ مِنَ المَعلُومات.";
 
 // members list Screen 
 
@@ -934,7 +934,7 @@
 
 // Country picker
 "country_picker_title" = "اِختَر بَلَدًا";
-"local_contacts_access_discovery_warning" = "لاِكتِشاف جِهات الاِتِّصال الَّتي تَستَخدِمُ Matrix بِالفِعل، يُمكِنُ %@ إرسَال عَناوين البَريد الإلِكتُرونيّ وأرقام الهَواتِف الَّتي في دَفتَرِ العَناوين الخاصِّ بِك إلى خادِمِ هُويَّة Matrix المُختار. يَتِّمُ تَجزِئة البَياناتِ الشَّخصيَّة قَبلَ إرسالِها حَيثُما كانَت مَدعُومَة - يُرجى مُراجَعَة سياسَة الخُصُوصيَّة الخاصَّة بِخادِم الهُويَّة لِلحُصُولِ عَلَى المَزيدِ مِنَ التَّفاصيل.";
+"local_contacts_access_discovery_warning" = "لاِكتِشاف جِهات الاِتِّصال الَّتي تَستَخدِمُ Teleiraq بِالفِعل، يُمكِنُ %@ إرسَال عَناوين البَريد الإلِكتُرونيّ وأرقام الهَواتِف الَّتي في دَفتَرِ العَناوين الخاصِّ بِك إلى خادِمِ هُويَّة Teleiraq المُختار. يَتِّمُ تَجزِئة البَياناتِ الشَّخصيَّة قَبلَ إرسالِها حَيثُما كانَت مَدعُومَة - يُرجى مُراجَعَة سياسَة الخُصُوصيَّة الخاصَّة بِخادِم الهُويَّة لِلحُصُولِ عَلَى المَزيدِ مِنَ التَّفاصيل.";
 "local_contacts_access_discovery_warning_title" = "اِكتِشافُ المُستَخدِمين";
 "local_contacts_access_not_granted" = "اِكتِشافُ المُستَخدِمين مِن جِهاتِ الاِتِّصالِ المَحَلِّيَّة يَتَطَلَّب الوُصُول إلَى جِهاتِ الاِتِّصالِ الخاصّةِ بِك لَكِنّ %@ لَيسَ لَدَيهِ الاِذن لاِستِخدامَها";
 "microphone_access_not_granted_for_call" = "المُكالَمَاتُ المَرئيَّة تَتَطَلَّب الوُصُول إلَى المِيكرُوفُون لَكِنّ %@ لَيسَ لَدَيهِ الاِذن لاِستِخدامه";
@@ -1186,9 +1186,9 @@
 "authentication_qr_login_confirm_subtitle" = "تأكد أن الرمز أدناه متطابق مع جهازك الآخر:";
 "authentication_qr_login_confirm_alert" = "يرجى التأكد من مصدر هذا الرمز. من خلال ربط الأجهزة، ستمنح الشخص الأخر الصلاحية الكاملة على حسابك.";
 "room_creation_user_not_found_prompt_title" = "تَأكيد";
-"room_creation_user_not_found_prompt_message" = "تعذر العثور على الهوية على مُعَرِّف Matrix. هل ترغب في بدء رسالة مباشرة على أي حال؟";
+"room_creation_user_not_found_prompt_message" = "تعذر العثور على الهوية على مُعَرِّف Teleiraq. هل ترغب في بدء رسالة مباشرة على أي حال؟";
 "room_creation_user_not_found_prompt_invite_action" = "ابدأ الرسالة المباشرة على أي حال";
-"room_participants_invite_unknown_participant_prompt_to_msg" = "تعذر العثور على هذه الهوية على مُعَرِّف Matrix. هل أنت متأكد أنك تريد دعوة %@ إلى %@؟";
+"room_participants_invite_unknown_participant_prompt_to_msg" = "تعذر العثور على هذه الهوية على مُعَرِّف Teleiraq. هل أنت متأكد أنك تريد دعوة %@ إلى %@؟";
 "room_participants_invite_anyway" = "ادعُ بأي حال";
 "threads_empty_tip" = "نصيحة: انقر فوق رسالة واستخدم 'موضوع' لبدء رسالة جديدة.";
 
@@ -1236,7 +1236,7 @@
 "settings_labs_enable_live_location_sharing" = "مشاركة الموقع المباشر - مشاركة الموقع الحالي (التطوير النشط، والمواقع التي تظل موجودة مؤقتًا في سجل الغرفة)";
 "settings_version" = "إصدار %@";
 "settings_confirm_password" = "تأكيد كلمة المرور";
-"settings_add_3pid_password_message" = "للمتابعة، الرجاء إدخال كلمة مرور حساب Matrix الخاص بك";
+"settings_add_3pid_password_message" = "للمتابعة، الرجاء إدخال كلمة مرور حساب Teleiraq الخاص بك";
 "settings_key_backup_info_algorithm" = "الخوارزمية: %@";
 "settings_key_backup_info_trust_signature_unknown" = "تحتوي النسخة الاحتياطية على توقيع من الجلسة بالمعرف: %@";
 "settings_advanced" = "متقدم";
@@ -1251,7 +1251,7 @@
 "settings_labs_enable_new_session_manager" = "مدير الجلسة الجديد";
 "settings_third_party_notices" = "إشعارات الطرف الثالث";
 "settings_old_password" = "كلمة المرور القديمة";
-"settings_password_updated" = "لقد تم تحديث كلمة مرور حساب Matrix الخاص بك";
+"settings_password_updated" = "لقد تم تحديث كلمة مرور حساب Teleiraq الخاص بك";
 "settings_add_3pid_password_title_msidsn" = "إضافة رقم الهاتف";
 "settings_crypto_device_name" = "اسم الجلسة: ";
 "settings_key_backup_info_progress_done" = "تم عمل نسخة احتياطية لجميع المفاتيح";
@@ -1271,7 +1271,7 @@
 "settings_remove_phone_prompt_msg" = "هل أنت متأكد أنك تريد إزالة رقم الهاتف %@؟";
 "settings_three_pids_management_information_part3" = ".";
 "settings_messages_by_a_bot" = "الرسائل بواسطة الروبوت";
-"settings_fail_to_update_password" = "فشل في تحديث كلمة مرور حساب Matrix";
+"settings_fail_to_update_password" = "فشل في تحديث كلمة مرور حساب Teleiraq";
 "settings_mark_all_as_read" = "وضع علامة على جميع الرسائل كمقروءة";
 "settings_sign_out_e2e_warn" = "ستفقد مفاتيح التشفير الشاملة. وهذا يعني أنك لن تتمكن بعد الآن من قراءة الرسائل القديمة في الغرف المشفرة على هذا الجهاز.";
 "settings_display_name" = "اسم العرض";
@@ -1382,7 +1382,7 @@
 "identity_server_settings_description" = "أنت تستخدم حاليًا %@ لاكتشاف جهات الاتصال الموجودة التي تعرفها وتمكينها من الاكتشاف.";
 "settings_show_NSFW_public_rooms" = "إظهار الغرف العامة غير الآمنة للعمل";
 "identity_server_settings_disconnect_info" = "إن قطع الاتصال بخادم الهوية الخاص بك يعني أنه لن يتمكن المستخدمون الآخرون من اكتشافك ولن تتمكن من دعوة الآخرين عبر البريد الإلكتروني أو الهاتف.";
-"security_settings_crypto_sessions_description_2" = "إذا لم تتعرف على تسجيل الدخول، فقم بتغيير كلمة مرور حساب Matrix الخاص بك وأعد تعيين النسخ الاحتياطي الآمن.";
+"security_settings_crypto_sessions_description_2" = "إذا لم تتعرف على تسجيل الدخول، فقم بتغيير كلمة مرور حساب Teleiraq الخاص بك وأعد تعيين النسخ الاحتياطي الآمن.";
 "identity_server_settings_alert_disconnect_button" = "قطع الاتصال";
 "security_settings_secure_backup_description" = "انسخ مفاتيح التشفير الخاصة بك باستخدام بيانات حسابك في حالة فقدان الوصول إلى جلساتك. سيتم تأمين مفاتيحك باستخدام مفتاح أمان فريد.";
 "identity_server_settings_alert_error_terms_not_accepted" = "يجب عليك قبول شروط %@ لتعيينه كخادم هوية.";
@@ -1398,7 +1398,7 @@
 "settings_identity_server_description" = "باستخدام خادم الهوية المحدد أعلاه، يمكنك اكتشاف جهات الاتصال الموجودة التي تعرفها وتكون قابلاً للاكتشاف من قبلها.";
 "security_settings_secure_backup_info_valid" = "تقوم هذه الجلسة بعمل نسخة احتياطية لمفاتيحك.";
 "security_settings_blacklist_unverified_devices_description" = "التحقق من جميع جلسات المستخدمين لوضع علامة عليهم كموثوقين وإرسال رسائل إليهم.";
-"security_settings_user_password_description" = "قم بتأكيد هويتك عن طريق إدخال كلمة مرور حساب Matrix الخاص بك";
+"security_settings_user_password_description" = "قم بتأكيد هويتك عن طريق إدخال كلمة مرور حساب Teleiraq الخاص بك";
 "manage_session_name_info_link" = "تعلم أكثر";
 "settings_key_backup_button_connect" = "قم بتوصيل هذه الجلسة بالنسخ الاحتياطي للمفتاح";
 "settings_discovery_error_message" = "حدث خطأ. يرجى المحاولة مرة أخرى.";
@@ -1472,7 +1472,7 @@
 "security_settings_crosssigning_info_ok" = "التوقيع المتبادل جاهز للاستخدام.";
 "security_settings_cryptography" = "التشفير";
 "security_settings_blacklist_unverified_devices" = "لا ترسل رسائل أبدًا إلى جلسات غير موثوقة";
-"security_settings_coming_soon" = "عذراً. هذا الإجراء غير متاح على %@ iOS حتى الآن. يُرجى استخدام عميل Matrix آخر لإعداده. %@ iOS سوف يستخدمه.";
+"security_settings_coming_soon" = "عذراً. هذا الإجراء غير متاح على %@ iOS حتى الآن. يُرجى استخدام عميل Teleiraq آخر لإعداده. %@ iOS سوف يستخدمه.";
 "manage_session_trusted" = "موثوق به من قبلك";
 
 // Identity server settings
@@ -1570,7 +1570,7 @@
 "event_formatter_group_call_incoming" = "%@ في %@";
 "call_already_displayed" = "هناك مكالمة جارية بالفعل.";
 "call_incoming_video_prompt" = "مكالمة فيديو واردة من %@";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "teleiraq.com";
 "event_formatter_call_has_ended_with_time" = "انتهت المكالمة • %@";
 "event_formatter_group_call_join" = "ينضم";
 "bug_report_title" = "تقرير الأخطاء";
@@ -1707,7 +1707,7 @@
 "device_verification_self_verify_start_information" = "استخدم هذه الجلسة للتحقق من الجلسة الجديدة، ومنحها حق الوصول إلى الرسائل المشفرة.";
 "key_verification_self_verify_current_session_alert_validate_action" = "تحقق";
 "key_verification_alert_body" = "قم بالمراجعة للتأكد من أن حسابك آمن.";
-"device_verification_self_verify_wait_additional_information" = "يعمل هذا مع %@ وعملاء Matrix الآخرين القادرين على التوقيع المتبادل.";
+"device_verification_self_verify_wait_additional_information" = "يعمل هذا مع %@ وعملاء Teleiraq الآخرين القادرين على التوقيع المتبادل.";
 "key_verification_manually_verify_device_title" = "التحقق يدويًا عن طريق النص";
 "key_verification_manually_verify_device_instruction" = "قم بالتأكيد عن طريق مقارنة ما يلي بإعدادات المستخدم في الجلسة الأخرى الخاصة بك:";
 "key_verification_manually_verify_device_validate_action" = "تحقق";
@@ -1783,7 +1783,7 @@
 "key_verification_scan_confirmation_scanned_device_information" = "هل يظهر الجهاز الآخر نفس الدرع؟";
 "secrets_setup_recovery_passphrase_summary_information" = "تذكر كلمة المرور الخاصة بك. يمكنك استخدامها لفك تشفير رسائلك وبياناتك.";
 "pin_protection_kick_user_alert_message" = "أخطاء كثيرة، لقد تم تسجيل خروجك";
-"secrets_reset_authentication_message" = "أدخل كلمة مرور حساب Matrix الخاص بك للتأكيد";
+"secrets_reset_authentication_message" = "أدخل كلمة مرور حساب Teleiraq الخاص بك للتأكيد";
 "biometrics_mode_face_id" = "معرف الوجه";
 "room_info_list_section_other" = "آخر";
 "room_intro_cell_add_participants_action" = "إضافة أشخاص";
@@ -1798,7 +1798,7 @@
 "pin_protection_confirm_pin" = "تأكيد رقم التعريف الشخصي الخاص بك";
 "create_room_placeholder_name" = "اسم";
 "create_room_enable_encryption" = "تمكين التشفير";
-"create_room_placeholder_address" = "#testroom:matrix.org";
+"create_room_placeholder_address" = "#testroom:teleiraq.com";
 "call_transfer_error_message" = "فشل تحويل المكالمة";
 "launch_loading_delay_warning" = "قد يستغرق هذا وقتًا أطول.\nشكرًا لصبركم.";
 "home_context_menu_low_priority" = "أولوية منخفضة";
@@ -1856,7 +1856,7 @@
 "home_context_menu_unfavourite" = "إزالة من المفضلة";
 "home_context_menu_normal_priority" = "الأولوية العادية";
 "secrets_recovery_with_passphrase_invalid_passphrase_message" = "يرجى التأكد من أنك أدخلت عبارة الأمان الصحيحة.";
-"secrets_setup_recovery_passphrase_additional_information" = "لا تستخدم كلمة مرور حساب Matrix الخاص بك.";
+"secrets_setup_recovery_passphrase_additional_information" = "لا تستخدم كلمة مرور حساب Teleiraq الخاص بك.";
 "pin_protection_enter_pin" = "أدخل رقم التعريف الشخصي الخاص بك";
 "biometrics_settings_enable_x" = "يُمكَِن %@";
 "favourites_empty_view_information" = "يمكنك إضافة المفضلة بعدة طرق - أسرعها هو الضغط باستمرار. انقر على النجمة وستظهر تلقائيًا هنا للحفظ.";
@@ -2161,7 +2161,7 @@
 "widget_integration_no_permission_in_room" = "ليس لديك الإذن للقيام بذلك في هذه الغرفة.";
 "deactivate_account_informations_part2_emphasize" = "هذا الإجراء لا رجعة فيه.";
 "deactivate_account_validate_action" = "إلغاء تنشيط الحساب";
-"deactivate_account_password_alert_message" = "للمتابعة، الرجاء إدخال كلمة مرور حساب Matrix الخاص بك";
+"deactivate_account_password_alert_message" = "للمتابعة، الرجاء إدخال كلمة مرور حساب Teleiraq الخاص بك";
 "secure_key_backup_setup_existing_backup_error_unlock_it" = "افتحه";
 "room_notifs_settings_cancel_action" = "إلغاء";
 "share_extension_send_now" = "أرسل الآن";
@@ -2210,7 +2210,7 @@
 "gdpr_consent_not_given_alert_message" = "لمواصلة استخدام %@ homeserver، يجب عليك مراجعة الشروط والأحكام والموافقة عليها.";
 "service_terms_modal_table_header_identity_server" = "شروط خادم الهوية";
 "deactivate_account_informations_part1" = "سيؤدي هذا إلى تعطيل حسابك نهائيًا. لن تتمكن من تسجيل الدخول، ولن يتمكن أي شخص من إعادة تسجيل اسم المستخدم نفسه. سيؤدي هذا إلى مغادرة حسابك جميع الغرف التي يشارك فيها، وإزالة تفاصيل حسابك من خادم الهوية الخاص بك. ";
-"deactivate_account_informations_part5" = "إذا كنت ترغب في حذف رسائلك، يُرجى وضع علامة في المربع أدناه.\n\nتشبه ميزة رؤية الرسائل في Matrix ميزة البريد الإلكتروني. تعني ميزة \"حذف رسائلك\" أن الرسائل التي أرسلتها لن تُشارك مع أي مستخدمين جدد أو غير مسجلين، بينما سيظل بإمكان المستخدمين المسجلين الذين لديهم حق الوصول إلى هذه الرسائل الوصول إلى نسخهم.";
+"deactivate_account_informations_part5" = "إذا كنت ترغب في حذف رسائلك، يُرجى وضع علامة في المربع أدناه.\n\nتشبه ميزة رؤية الرسائل في Teleiraq ميزة البريد الإلكتروني. تعني ميزة \"حذف رسائلك\" أن الرسائل التي أرسلتها لن تُشارك مع أي مستخدمين جدد أو غير مسجلين، بينما سيظل بإمكان المستخدمين المسجلين الذين لديهم حق الوصول إلى هذه الرسائل الوصول إلى نسخهم.";
 "deactivate_account_password_alert_title" = "إلغاء تنشيط الحساب";
 "secure_key_backup_setup_intro_title" = "النسخ الاحتياطي الآمن";
 "secure_key_backup_setup_existing_backup_error_title" = "توجد نسخة احتياطية للرسائل بالفعل";
@@ -2225,7 +2225,7 @@
 "room_widget_permission_information_title" = "قد يؤدي استخدامه إلى مشاركة البيانات مع %@:\n";
 "service_terms_modal_information_description_identity_server" = "يساعدك خادم الهوية في العثور على جهات الاتصال الخاصة بك، من خلال البحث عن رقم الهاتف أو عنوان البريد الإلكتروني، لمعرفة ما إذا كان لديهم حساب بالفعل.";
 "rerequest_keys_alert_message" = "يرجى تشغيل %@ على جهاز آخر يمكنه فك تشفير الرسالة حتى يتمكن من إرسال المفاتيح إلى هذه الجلسة.";
-"key_backup_setup_passphrase_info" = "سنخزن نسخة مشفرة من مفاتيحك على خادمنا. احمِ نسختك الاحتياطية بعبارة للحفاظ عليها آمنة.\n\nلأقصى درجات الأمان، يجب أن تكون كلمة المرور مختلفة عن كلمة مرور حساب Matrix الخاص بك.";
+"key_backup_setup_passphrase_info" = "سنخزن نسخة مشفرة من مفاتيحك على خادمنا. احمِ نسختك الاحتياطية بعبارة للحفاظ عليها آمنة.\n\nلأقصى درجات الأمان، يجب أن تكون كلمة المرور مختلفة عن كلمة مرور حساب Teleiraq الخاص بك.";
 "device_verification_emoji_trophy" = "غنيمة";
 "key_backup_recover_invalid_passphrase_title" = "عبارة أمنية غير صحيحة";
 "key_backup_recover_invalid_recovery_key_title" = "عدم تطابق مفتاح الأمان";
@@ -2463,7 +2463,7 @@
 "user_session_unverified_session_description" = "الجلسات غير المُتحققة هي الجلسات التي تم تسجيل الدخول إليها باستخدام بيانات اعتمادك ولكن لم يتم التحقق منها.\n\nيجب عليك التأكد بشكل خاص من التعرف على هذه الجلسات، فقد تُمثل استخدامًا غير مُصرّح به لحسابك.";
 "user_other_session_menu_select_sessions" = "اختيار الجلسات";
 "poll_timeline_total_votes_not_voted" = "تم الإدلاء بـ %lu من الأصوات. صوّت لرؤية النتائج";
-"user_session_permanently_unverified_session_description" = "هذه الجلسة لا تدعم التشفير، لذا لا يمكن التحقق منها.\n\nلن تتمكن من المشاركة في الغرف التي يُفعّل فيها التشفير عند استخدام هذه الجلسة.\n\nلأعلى مستوى من الأمان والخصوصية، يُنصح باستخدام عملاء Matrix الذين يدعمون التشفير.";
+"user_session_permanently_unverified_session_description" = "هذه الجلسة لا تدعم التشفير، لذا لا يمكن التحقق منها.\n\nلن تتمكن من المشاركة في الغرف التي يُفعّل فيها التشفير عند استخدام هذه الجلسة.\n\nلأعلى مستوى من الأمان والخصوصية، يُنصح باستخدام عملاء Teleiraq الذين يدعمون التشفير.";
 "user_session_verified_session_description" = "الجلسات المُتحققة موجودة في أي مكان تستخدم فيه Element بعد إدخال كلمة المرور أو تأكيد هويتك بجلسة مُتحققة أخرى.\n\nهذا يعني أن لديك جميع المفاتيح اللازمة لفتح رسائلك المُشفرة وتأكيد ثقتك بهذه الجلسة للمستخدمين الآخرين.";
 "device_name_desktop" = "%@ سطح المكتب";
 "user_sessions_overview_current_session_section_title" = "الجلسة الحالية";

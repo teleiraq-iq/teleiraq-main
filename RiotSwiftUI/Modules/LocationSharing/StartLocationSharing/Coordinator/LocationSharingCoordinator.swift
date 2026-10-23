@@ -72,7 +72,7 @@ final class LocationSharingCoordinator: Coordinator, Presentable {
         let viewModel = LocationSharingViewModel(
             mapStyleURL: parameters.session.vc_homeserverConfiguration().tileServer.mapStyleURL,
             avatarData: parameters.avatarData,
-            isLiveLocationSharingEnabled: true,
+            isLiveLocationSharingEnabled: false,
             service: locationSharingService
         )
         

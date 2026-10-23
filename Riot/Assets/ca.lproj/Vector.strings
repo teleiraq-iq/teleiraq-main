@@ -85,7 +85,7 @@
 "auth_reset_password_email_validation_message" = "S'ha enviat un correu a %@. Una vegada hagis seguit l'enllaç que conté, fes clic a baix.";
 "auth_reset_password_next_step_button" = "He verificat el meu correu electrònic";
 "auth_reset_password_error_unauthorized" = "No s'ha pogut verificar l'adreça de correu: assegura't que has seguit l'enllaç del correu";
-"auth_reset_password_error_not_found" = "La teva adreça de correu electrònic no sembla està associada a una ID de Matrix en aquest servidor.";
+"auth_reset_password_error_not_found" = "La teva adreça de correu electrònic no sembla està associada a una ID de Teleiraq en aquest servidor.";
 "auth_reset_password_success_message" = "La teva contrasenya ha estat restablerta.\n\nHas tancat la sessió de tots els dispositius i ja no rebràs notificacions. Per tornar a activar les notificacions, torna a iniciar la sessió a cada dispositiu.";
 "auth_add_email_and_phone_warning" = "La inscripció amb el correu electrònic i el número de telèfon alhora no són compatibles fins que no existeixi l'api. Només es tindrà en compte el número de telèfon. Pots afegir el teu correu electrònic al teu perfil a la configuració.";
 // Chat creation
@@ -145,7 +145,7 @@
 "directory_search_fail" = "No s'ha pogut obtenir dades";
 // Contacts
 "contacts_address_book_section" = "Contactes locals";
-"contacts_address_book_matrix_users_toggle" = "Només usuaris de Matrix";
+"contacts_address_book_matrix_users_toggle" = "Només usuaris de Teleiraq";
 "contacts_address_book_no_contact" = "Sense contactes locals";
 "contacts_address_book_permission_required" = "Es necessita permís per accedir als contactes locals";
 "contacts_address_book_permission_denied" = "No vas permetre que %@ accedís als teus contactes locals";
@@ -166,7 +166,7 @@
 "room_participants_filter_room_members" = "Filtrar membres de la sala";
 "room_participants_invite_another_user" = "Cerca / convida per ID d'usuari, Nom o correu";
 "room_participants_invite_malformed_id_title" = "Error de convit";
-"room_participants_invite_malformed_id" = "ID incorrecte. Ha de ser una adreça de correu electrònic o un identificador de Matrix com ara '@localpart: domain'";
+"room_participants_invite_malformed_id" = "ID incorrecte. Ha de ser una adreça de correu electrònic o un identificador de Teleiraq com ara '@localpart: domain'";
 "room_participants_invited_section" = "Convidat";
 "room_participants_online" = "En línia";
 "room_participants_offline" = "Fora de línia";
@@ -416,7 +416,7 @@
 "group_participants_filter_members" = "Filtra membres de la comunitat";
 "group_participants_invite_another_user" = "Cerca / convida per ID d'usuari o Nom";
 "group_participants_invite_malformed_id_title" = "Error de convit";
-"group_participants_invite_malformed_id" = "ID incorrecte. Ha de ser un identificador de Matrix com ara '@localpart: domain'";
+"group_participants_invite_malformed_id" = "ID incorrecte. Ha de ser un identificador de Teleiraq com ara '@localpart: domain'";
 "group_participants_invited_section" = "Convidat";
 // Group rooms
 "group_rooms_filter_rooms" = "Filtra sales de comunitats";
@@ -430,9 +430,9 @@
 "directory_title" = "Directori";
 "directory_server_picker_title" = "Tria un directori de sales";
 "directory_server_all_rooms" = "Totes les sales del servidor %@";
-"directory_server_all_native_rooms" = "Totes les sales natives de Matrix";
+"directory_server_all_native_rooms" = "Totes les sales natives de Teleiraq";
 "directory_server_type_homeserver" = "Introdueix un servidor per veure les seves sales públiques";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "teleiraq.com";
 // Events formatter
 "event_formatter_member_updates" = "%tu canvis de pertinença";
 "event_formatter_widget_added" = "Giny %@ afegit per %@";
@@ -538,7 +538,7 @@
 "deactivate_account_informations_part2_emphasize" = "Aquesta acció és irreversible.";
 "deactivate_account_informations_part3" = "\n\nDesactivant el teu compte ";
 "deactivate_account_informations_part4_emphasize" = "no per defecte ens obliga a oblidar els missatges que has enviat. ";
-"deactivate_account_informations_part5" = "Si vols que oblidem els teus missatges, marca el quadre següent\n\nLa visibilitat del missatge a Matrix és similar al correu electrònic. L'oblit dels teus missatges significa que els missatges que has enviat no es compartiran amb cap usuari nou o no registrat però els usuaris registrats que ja tenen accés a aquests missatges encara tindran accés a la seva còpia.";
+"deactivate_account_informations_part5" = "Si vols que oblidem els teus missatges, marca el quadre següent\n\nLa visibilitat del missatge a Teleiraq és similar al correu electrònic. L'oblit dels teus missatges significa que els missatges que has enviat no es compartiran amb cap usuari nou o no registrat però els usuaris registrats que ja tenen accés a aquests missatges encara tindran accés a la seva còpia.";
 "deactivate_account_forget_messages_information_part1" = "Si us plau oblida tots els missatges que he enviat quan el meu compte estigui desactivat (";
 "deactivate_account_forget_messages_information_part2_emphasize" = "Avís";
 "deactivate_account_forget_messages_information_part3" = ": això farà que els usuaris futurs vegin una vista incompleta de les converses)";
@@ -562,21 +562,21 @@
 
 // MARK: - MatrixKit
 
-"matrix" = "Matrix";
+"matrix" = "Teleiraq";
 "login_password_placeholder" = "Contrasenya";
 "login_optional_field" = "opcional";
 "login_email_placeholder" = "Adreça de correu electrònic";
 // Login Screen
 "login_create_account" = "Crear compte:";
-"login_server_url_placeholder" = "URL (ex. https://matrix.org)";
+"login_server_url_placeholder" = "URL (ex. https://teleiraq.com)";
 "login_home_server_title" = "Servidor hoste:";
 "login_home_server_info" = "El teu servidor hoste desa totes les teves converses i dades del compte";
 "login_identity_server_title" = "Servidor d'identitat:";
-"login_identity_server_info" = "Matrix proporciona servidors d'identitat per fer un seguiment dels correus electrònics etc. que pertanyen als identificadors Matrix. Actualment només existeix https://matrix.org.";
-"login_user_id_placeholder" = "ID a Matrix (ex @bob:matrix.org o bob)";
+"login_identity_server_info" = "Teleiraq proporciona servidors d'identitat per fer un seguiment dels correus electrònics etc. que pertanyen als identificadors Teleiraq. Actualment només existeix https://teleiraq.com.";
+"login_user_id_placeholder" = "ID a Teleiraq (ex @bob:teleiraq.com o bob)";
 "login_display_name_placeholder" = "Mostra nom (ex. Bob Obson)";
 // room details dialog screen
-"login_email_info" = "Especificar una adreça de correu electrònic permet que altres usuaris et trobin més fàcilment a Matrix i et proporcionarà una manera de restablir la teva contrasenya en el futur.";
+"login_email_info" = "Especificar una adreça de correu electrònic permet que altres usuaris et trobin més fàcilment a Teleiraq i et proporcionarà una manera de restablir la teva contrasenya en el futur.";
 "login_prompt_email_token" = "Introduïu el teu codi de validació de correu electrònic:";
 "login_error_title" = "Error d'inici de sessió";
 "login_error_no_login_flow" = "No hem pogut recuperar la informació d'autenticació d'aquest servidor hoste";
@@ -616,7 +616,7 @@
 "select_account" = "Selecciona un compte";
 "attach_media" = "Adjunta mitjans de la biblioteca";
 "capture_media" = "Fes una foto o un vídeo";
-"invite_user" = "Convida usuari Matrix";
+"invite_user" = "Convida usuari Teleiraq";
 "reset_to_default" = "Estableix per defecte";
 "resend_message" = "Reenvia el missatge";
 "select_all" = "Selecciona-ho tot";
@@ -719,7 +719,7 @@
 "account_msisdn_validation_error" = "No es pot verificar el número de telèfon.";
 "account_error_display_name_change_failed" = "Ha fallat el canvi del nom a mostrar";
 "account_error_picture_change_failed" = "Ha fallat el canvi de foto";
-"account_error_matrix_session_is_not_opened" = "No està oberta la sessió Matrix";
+"account_error_matrix_session_is_not_opened" = "No està oberta la sessió Teleiraq";
 "account_error_email_wrong_title" = "Adreça de correu electrònic no valida";
 "account_error_email_wrong_description" = "Aquest no sembla ser un correu electrònic vàlid";
 "account_error_msisdn_wrong_title" = "Número de telèfon invalid";
@@ -757,10 +757,10 @@
 "attachment_cancel_upload" = "Cancel·lar la pujada?";
 "attachment_multiselection_size_prompt" = "Vols enviar imatges com a:";
 "attachment_multiselection_original" = "Mida actual";
-"attachment_e2e_keys_file_prompt" = "Aquest fitxer conté claus xifrades exportades des d'un client Matrix.\nVols veure el contingut del fitxer o importar les claus que conté?";
+"attachment_e2e_keys_file_prompt" = "Aquest fitxer conté claus xifrades exportades des d'un client Teleiraq.\nVols veure el contingut del fitxer o importar les claus que conté?";
 "attachment_e2e_keys_import" = "Importa...";
 // Contacts
-"contact_mx_users" = "Usuaris de Matrix";
+"contact_mx_users" = "Usuaris de Teleiraq";
 "contact_local_contacts" = "Contactes locals";
 // Groups
 // Search
@@ -773,12 +773,12 @@
 "format_time_d" = "d";
 // E2E import
 "e2e_import_room_keys" = "Importa les claus de la sala";
-"e2e_import_prompt" = "Aquest procés et pemet importar les claus de xifratge que previament has exportat des de un altre client Matrix. Després podràs desxifrar qualsevol missatge que l'altre client pugui xifrar.\nEl fitxer exportat està protegit amb una contrasenya. Hauries de introduir la contrasenya aquí per desxifrar-l'ho.";
+"e2e_import_prompt" = "Aquest procés et pemet importar les claus de xifratge que previament has exportat des de un altre client Teleiraq. Després podràs desxifrar qualsevol missatge que l'altre client pugui xifrar.\nEl fitxer exportat està protegit amb una contrasenya. Hauries de introduir la contrasenya aquí per desxifrar-l'ho.";
 "e2e_import" = "Importa";
 "e2e_passphrase_enter" = "Introduir contrasenya";
 // E2E export
 "e2e_export_room_keys" = "Exporta les claus E2E de la sala";
-"e2e_export_prompt" = "Aquest procés et permet exportar a un fitxer local les claus dels missatges que has rebut de sales xifrades. A continuació, podràs importar el fitxer a un altre client Matrix en el futur, de manera que aquest client també podrà desxifrar aquests missatges.\nEl fitxer exportat permetrà que qualsevol que pugui llegir-lo per desxifrar qualsevol dels missatges xifrats que tu pots veure, així que has de tenir cura de mantenir-lo segur.";
+"e2e_export_prompt" = "Aquest procés et permet exportar a un fitxer local les claus dels missatges que has rebut de sales xifrades. A continuació, podràs importar el fitxer a un altre client Teleiraq en el futur, de manera que aquest client també podrà desxifrar aquests missatges.\nEl fitxer exportat permetrà que qualsevol que pugui llegir-lo per desxifrar qualsevol dels missatges xifrats que tu pots veure, així que has de tenir cura de mantenir-lo segur.";
 "e2e_export" = "Exporta les claus E2E";
 "e2e_passphrase_confirm" = "Confirma la contrasenya";
 "e2e_passphrase_empty" = "La contrasenya no ha de estar buida";
@@ -858,7 +858,7 @@
 "login_error_already_logged_in" = "Ja autenticat";
 "login_error_must_start_http" = "La URL ha de començar per http[s]://";
 // contacts list screen 
-"invitation_message" = "M'agradaría xatejar amb tu amb matrix. Si us plau visita el lloc http://matrix.org per a més informació.";
+"invitation_message" = "M'agradaría xatejar amb tu amb Teleiraq. Si us plau visita el lloc https://teleiraq.com per a més informació.";
 // Settings screen 
 "settings_title_config" = "Configuració";
 "settings_title_notifications" = "Notificacions";
@@ -908,7 +908,7 @@
 "ssl_unexpected_existing_expl" = "El certificat ha canviat respecte al que el teu telèfon hi havia confiat. Això es MOLT INUSUAL. Es recomana que NO ACCEPTIS aquest nou certificat.";
 "ssl_expected_existing_expl" = "El certificat ha canviat del prèviament confiat a un que no es confiable. El servidor pot haver renovat el certificat. Posa't en contacte amb l'administrador del servidor per obtenir l'empremta digital desitjada.";
 "ssl_only_accept" = "NOMÉS accepteu el certificat si l'administrador del servidor ha publicat una empremta digital que coincideixi amb l'anterior.";
-"store_full_description" = "Element és un tipus nou d'aplicació de missatgeria i col·laboració que:\n\n1. Us dona el control per a preservar la vostra privadesa\n2. Us permet comunicar-vos amb qualsevol persona de la xarxa Matrix, i encara més enllà integrant aplicacions com ara Slack\n3. Us protegeix de la publicitat, mineria de dades, portes ocultes i jardins emmurallats\n4. Us salvaguarda mitjançant el xifratge extrem a extrem, amb signatura creuada per a la verificació dels altres\n\nElement és completament diferent d'altres aplicacions de missatgeria i col·laboració perquè és descentralitzada i de codi obert.\n\nElement us permet muntar-vos un servidor propi (o triar un amfitrió) perquè tingueu privadesa i el control sobre les dades i les converses. Us dona accés a una xarxa oberta, no parlareu només amb altres usuaris d'Element. I és molt segura.\n\nElement pot fer tot això perquè opera en Matrix, l'estàndard de les comunicacions obertes i descentralitzades.\n\nElement us dona el control, permetent-vos triar qui és l'amfitrió de les vostres converses. Des de l'aplicació d'Element podeu triar l'amfitrió de maneres diferents:\n\n1. Creeu un compte gratuït al servidor públic de matrix.org\n2. Munteu un servidor local per a acollir el vostre compte\n3. Creeu un compte en un servidor personalitzat subscrivint-vos a la plataforma d'allotjament d'Element Matrix Services \n\nPer què triar Element?\n\nCONTROLEU LES VOSTRES DADES: Vós decidiu on desar les vostres dades i missatges. En sou el propietari i les controleu, no cap MEGACORPORACIÓ que les mina les vostres dades i permet que terceres parts hi accedeixen.\n\nCOL·LABORACIÓ I MISSATGERIA OBERTA: Podeu xatejar amb qualsevol a la xarxa Matrix, tant si utilitzen Element com qualsevol altra aplicació Matrix, i fins i tot si utilitzen algun sistema de missatgeria diferent, com ara Slack, IRC o XMPP.\n\nSUPERSEGURA: Xifratge extrem a extrem real (només els participants de la conversa poden desxifrar els missatges), i signatura creuada per a verificar els dispositius dels participants de la conversa.\n\nCOMUNICACIÓ COMPLETA: Missatges, trucades d'àudio i vídeo, compartició de fitxers, de pantalla i moltes altres integracions, bots i ginys. Construïu sales, comunitats, estigueu en contacte i aconseguir que les coses es facin.\n\nESTIGUEU ON ESTIGUEU: Comuniqueu-vos estigueu on estigueu amb l'historial de missatges completament sincronitzat a tots els dispositius i al web, a https://app.element.io.";
+"store_full_description" = "Element és un tipus nou d'aplicació de missatgeria i col·laboració que:\n\n1. Us dona el control per a preservar la vostra privadesa\n2. Us permet comunicar-vos amb qualsevol persona de la xarxa Teleiraq, i encara més enllà integrant aplicacions com ara Slack\n3. Us protegeix de la publicitat, mineria de dades, portes ocultes i jardins emmurallats\n4. Us salvaguarda mitjançant el xifratge extrem a extrem, amb signatura creuada per a la verificació dels altres\n\nElement és completament diferent d'altres aplicacions de missatgeria i col·laboració perquè és descentralitzada i de codi obert.\n\nElement us permet muntar-vos un servidor propi (o triar un amfitrió) perquè tingueu privadesa i el control sobre les dades i les converses. Us dona accés a una xarxa oberta, no parlareu només amb altres usuaris d'Element. I és molt segura.\n\nElement pot fer tot això perquè opera en Teleiraq, l'estàndard de les comunicacions obertes i descentralitzades.\n\nElement us dona el control, permetent-vos triar qui és l'amfitrió de les vostres converses. Des de l'aplicació d'Element podeu triar l'amfitrió de maneres diferents:\n\n1. Creeu un compte gratuït al servidor públic de teleiraq.com\n2. Munteu un servidor local per a acollir el vostre compte\n3. Creeu un compte en un servidor personalitzat subscrivint-vos a la plataforma d'allotjament d'Element Teleiraq Services \n\nPer què triar Element?\n\nCONTROLEU LES VOSTRES DADES: Vós decidiu on desar les vostres dades i missatges. En sou el propietari i les controleu, no cap MEGACORPORACIÓ que les mina les vostres dades i permet que terceres parts hi accedeixen.\n\nCOL·LABORACIÓ I MISSATGERIA OBERTA: Podeu xatejar amb qualsevol a la xarxa Teleiraq, tant si utilitzen Element com qualsevol altra aplicació Teleiraq, i fins i tot si utilitzen algun sistema de missatgeria diferent, com ara Slack, IRC o XMPP.\n\nSUPERSEGURA: Xifratge extrem a extrem real (només els participants de la conversa poden desxifrar els missatges), i signatura creuada per a verificar els dispositius dels participants de la conversa.\n\nCOMUNICACIÓ COMPLETA: Missatges, trucades d'àudio i vídeo, compartició de fitxers, de pantalla i moltes altres integracions, bots i ginys. Construïu sales, comunitats, estigueu en contacte i aconseguir que les coses es facin.\n\nESTIGUEU ON ESTIGUEU: Comuniqueu-vos estigueu on estigueu amb l'historial de missatges completament sincronitzat a tots els dispositius i al web, a https://app.element.io.";
 "store_promotional_text" = "Aplicació de col·laboració i missatgeria que preserva la privadesa, en una xarxa oberta. Descentralitzada per a donar-vos el control. Sense mineria de dades, portes ocultes ni accés a tercers.";
 
 // MARK: Onboarding
@@ -932,7 +932,7 @@
 "onboarding_splash_page_1_title" = "Controleu les vostres converses.";
 "onboarding_splash_page_1_message" = "Comunicació independent i segura que us dona el mateix nivell de privadesa que una conversa cara a cara en casa.";
 "onboarding_splash_page_2_title" = "Sou en control.";
-"onboarding_splash_page_2_message" = "Trieu on es desen les vostres converses, el que us dona control i independència. Connectat via Matrix.";
+"onboarding_splash_page_2_message" = "Trieu on es desen les vostres converses, el que us dona control i independència. Connectat via Teleiraq.";
 "onboarding_splash_page_3_title" = "Missatgeria segura.";
 "open" = "Obre";
 "callbar_return" = "Torna";
